@@ -1,0 +1,335 @@
+{
+  "schema": 
+  {
+    "category": "music|arts|theater|dance",
+    "title": "",
+    "presenter": "",
+    "description": "",
+    "note": "",
+    "price": "",
+    "time":{
+      "start": "hh:mm",
+      "end": "hh:mm"
+    },
+    "date":{
+      "start": "yyyy-mm-dd",
+      "end": "yyyy-mm-dd"
+    }
+  },
+  "classes": {
+    "weekly": {
+      "sunday": [
+       ],
+      "monday": [
+        {
+          "category": "music",
+          "title": "Kids Choir K-6",
+          "presenter": "Wendy James",
+          "description": "Singers of all levels are welcome to join our Kids Choir. Kindergarten thru 6th grade. Reading ability is preffered but not mandatory.",
+          "price": "",
+          "time":{
+            "start": "14:30",
+            "end": "15:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "music",
+          "title": "Rhythm Kids 7-12",
+          "presenter": "Wendy James",
+          "description": "This fun filled class mixes jazz and world music, body percussion and song to learn different rhythms and musicality. Ages 7-12.",
+          "price": "",
+          "time":{
+            "start": "15:30",
+            "end": "16:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Lyrical 1",
+          "presenter": "Wendy James",
+          "description": "This contemporary dance form mixes jazz, ballet and creative dance… often telling a story through movement. No experience necessary.",
+          "price": "",
+          "time":{
+            "start": "16:30",
+            "end": "17:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Lyrical 2",
+          "presenter": "Wendy James",
+          "description": "Lyrical dance for students with 1 or more years of dance experience… instructor must approve admission for new students. Ages 8+.",
+          "price": "",
+          "time":{
+            "start": "17:30",
+            "end": "18:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Lyrical 3",
+          "presenter": "Wendy James",
+          "description": "This int/advanced lyrical class is by audition only for new students. Ages 12+.",
+          "price": "",
+          "time":{
+            "start": "18:30",
+            "end": "20:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        }
+      ],
+      "tuesday": [
+        {
+          "category": "music",
+          "title": "Intro 2 Music",
+          "presenter": "Kale & Cory Coppin",
+          "description": "This class is primarily for Mt Shasta Children's Theatre students. However, it is open to all who would like to learn more about music… reading, writing and performing.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "14:45",
+            "end": "15:15"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "theater",
+          "title": "Mt Shasta Children's Theatre Class",
+          "presenter": "Kale & Cory Coppin",
+          "description": "Students in MSCT class will rehearse, perfect and perform two plays/musicals each season. All students will have a part in each play and will learn all aspects of putting on a show.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "15:15",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Ballet 1.5",
+          "presenter": "Sherri Degraffenreid",
+          "description": "A level up from Ballet 1. New students must be approved by the instructor before registering for this class.",
+          "price": "",
+          "time":{
+            "start": "17:00",
+            "end": "18:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Ballet 2",
+          "presenter": "Sherri Degraffenreid",
+          "description": "Tuesday class meets at the home studio. Thursday class meets at Studio 2. An intermediate Ballet Class by instructors approval only.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "$100 per month",
+          "time":{
+            "start": "18:00",
+            "end": "19:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Ballet 3",
+          "presenter": "Sherri Degraffenreid",
+          "description": "By invitation only… this ballet class meets twice a week. Tuesdays with Sherri at the Home Studio, Thursdays with Amy at Studio 2 at Shasta Yoga.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "19:00",
+            "end": "20:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        }
+      ],
+      "wednesday": [
+        {
+          "category": "dance",
+          "title": "Irish Dance 6-9",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "Students must have soft soled Ghillies for this class. They can be purchased through our online dancewear store. Ages 6-9.",
+          "price": "",
+          "time":{
+            "start": "15:00",
+            "end": "16:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Irish Dance 10+",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "Students in this class must purchase soft soled Ghillies. These traditional shoes are available on our online dancewear store. Ages 10+.",
+          "price": "",
+          "time":{
+            "start": "16:00",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Adult Ballet",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "A technique based class for adults of all levels.",
+          "price": "",
+          "time":{
+            "start": "18:00",
+            "end": "19:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Zumba",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "(drop in)",
+          "price": "",
+          "time":{
+            "start": "19:00",
+            "end": "20:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        }
+      ],
+      "thursday": [
+        {
+          "category": "music",
+          "title": "Intro 2 Music",
+          "presenter": "Kale & Cory Coppin",
+          "description": "This class is primarily for Mt Shasta Children's Theatre students. However, it is open to all who would like to learn more about music… reading, writing and performing.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "14:45",
+            "end": "15:15"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "theater",
+          "title": "Mt Shasta Children's Theatre Class",
+          "presenter": "Kale & Cory Coppin",
+          "description": "Students in MSCT class will rehearse, perfect and perform two plays/musicals each season. All students will have a part in each play and will learn all aspects of putting on a show.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "15:15",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "music",
+          "title": "Community Choir",
+          "presenter": "Kale & Cory Coppin",
+          "description": "Community Choir is a family-friendly musical celebration every week. Families will join together in song learning all types of music. No experience necessary. Special family rate $40 for the whole family. You need only register one family member then bring the rest!",
+          "price": "$40 per family",
+          "time":{
+            "start": "17:00",
+            "end": "18:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Ballet 2",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "Tuesday class meets at the home studio. Thursday class meets at Studio 2 at Shasta Yoga. An intermediate Ballet Class by instructors approval only.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "$100 per month",
+          "time":{
+            "start": "18:00",
+            "end": "19:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        },
+        {
+          "category": "dance",
+          "title": "Ballet 3",
+          "presenter": "Bridget Shaw-Murphy",
+          "description": "By invitation only… this ballet class meets twice a week. Tuesdays with Sherri at the Home Studio, Thursdays with Amy at Studio 2 at Shasta Yoga.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "19:00",
+            "end": "20:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2020-06-21"
+          }
+        }
+      ],
+      "friday": [
+      ],
+      "saturday": [
+      ]
+    },
+    "noClassesDates": [
+    ]
+  }
+}
+
+
+
