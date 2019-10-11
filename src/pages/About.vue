@@ -40,6 +40,12 @@ export default {
 //    PrivacyStatement,
     LinkOutbound,
   },
+  metaInfo: {
+    title: "About JCA",
+    meta: [
+      { name: "description", content: "Jefferson Center for the Arts is Mount Shasta's Premier Educational Center for Music and the Performing Arts." }
+    ]
+  },
   data() {
     return {
     }

@@ -97,6 +97,12 @@ export default {
     IconBackward,
     IconForward,
   },
+  metaInfo: {
+    title: "JCA",
+    meta: [
+      { name: "description", content: "Jefferson Center for the Arts is Mount Shasta's Premier Educational Center for Music and the Performing Arts." }
+    ]
+  },
   data() {
     return {
       featuredEventImageSrc: "/img/event/grand-opening-banner-w900.png",
