@@ -1,0 +1,152 @@
+@img_bg: '/img/bg.jpg';
+@img_bg_sm: '/img/bg-sm.jpg';
+@min_width: 300px;
+@max_width: 900px;
+@font_size: 18px;
+
+@font_family_body: 'Asul';
+@font_family_header: 'Poiret One';
+@font_family_emph: 'Montserrat';
+@font_family_cursive: 'Merienda';
+@font_family_mono: monospace;
+
+@color-primary-0: #040A28;	/* Main Primary color */
+@color-primary-1: #ddeff7;
+@color-primary-2: #A5B0EA;
+@color-primary-3: #030E46;
+@color-primary-4: #8adafd;
+
+@color-secondary-1-0: #3A2200;	/* Main Secondary color (1) */
+@color-secondary-1-1: #FFF0DC;
+@color-secondary-1-2: #FFDBA9;
+@color-secondary-1-3: #663B00;
+@color-secondary-1-4: #FFC677;
+
+@color-secondary-2-0: #3A3000;	/* Main Secondary color (2) */
+@color-secondary-2-1: #FFF9DC;
+@color-secondary-2-2: #ffde7c;
+@color-secondary-2-3: #665400;
+@color-secondary-2-4: #FFE877;
+
+@color_bg: @color-primary-0;
+@color_text_body: @color-primary-1;
+@color_text_header: @color-secondary-2-2;
+@color_text_action: @color-primary-4;
+@color_text_action_selected: @color-secondary-1-4;
+@color_formfield_border: rgba(@color_text_action, 0.5);
+
+
+@gradient-fade: 80%;
+
+.gradient-jewel-1 {
+  @color: hsl(336, 49%, 10%);
+  border-color: @color;
+  background: fade(lighten(@color,20%),@gradient-fade);
+  background: linear-gradient(to bottom, 
+    @color 0%, 
+    fade(lighten(@color,15%),@gradient-fade) 20%, 
+    fade(lighten(@color,20%),@gradient-fade) 45%, 
+    fade(lighten(@color,20%),@gradient-fade) 55%, 
+    fade(lighten(@color,10%),@gradient-fade) 80%, 
+    @color 100%);
+ }
+ .gradient-jewel-2 {
+  @color: hsl(201, 49%, 10%);
+  border-color: @color;
+  background: fade(lighten(@color,20%),@gradient-fade);
+  background: linear-gradient(to bottom, 
+    @color 0%, 
+    fade(lighten(@color,15%),@gradient-fade) 20%, 
+    fade(lighten(@color,20%),@gradient-fade) 45%, 
+    fade(lighten(@color,20%),@gradient-fade) 55%, 
+    fade(lighten(@color,10%),@gradient-fade) 80%, 
+    @color 100%);
+}
+.gradient-jewel-3 {
+  @color: hsl(269, 49%, 10%);
+  border-color: @color;
+  background: lighten(@color,40%);
+  background: linear-gradient(to bottom, 
+    @color 0%, 
+    fade(lighten(@color,15%),@gradient-fade) 20%, 
+    fade(lighten(@color,20%),@gradient-fade) 45%, 
+    fade(lighten(@color,20%),@gradient-fade) 55%, 
+    fade(lighten(@color,10%),@gradient-fade) 80%, 
+    @color 100%);
+}
+.gradient-jewel-4 {
+  @color: hsl(162, 49%, 10%);
+  border-color: @color;
+  background: fade(lighten(@color,20%),@gradient-fade);
+  background: linear-gradient(to bottom, 
+    @color 0%, 
+    fade(lighten(@color,15%),@gradient-fade) 20%, 
+    fade(lighten(@color,20%),@gradient-fade) 45%, 
+    fade(lighten(@color,20%),@gradient-fade) 55%, 
+    fade(lighten(@color,10%),@gradient-fade) 80%, 
+    @color 100%);
+}
+.gradient-jewel-5 {
+  @color: hsl(23, 48%, 10%);
+  border-color: @color;
+  background: fade(lighten(@color,20%),@gradient-fade);
+  background: linear-gradient(to bottom, 
+    @color 0%, 
+    fade(lighten(@color,15%),@gradient-fade) 20%, 
+    fade(lighten(@color,20%),@gradient-fade) 45%, 
+    fade(lighten(@color,20%),@gradient-fade) 55%, 
+    fade(lighten(@color,10%),@gradient-fade) 80%, 
+    @color 100%);
+}
+
+
+.gradient-jewel-1-1 {
+  .gradient-jewel-1();
+  background: linear-gradient(to right, 
+    @color 0%, 
+    lighten(@color,15%) 20%, 
+    lighten(@color,20%) 45%, 
+    lighten(@color,20%) 55%, 
+    lighten(@color,10%) 80%, 
+    @color 100%);
+ }
+ .gradient-jewel-2-1 {
+  .gradient-jewel-2();
+  background: linear-gradient(to right, 
+    @color 0%, 
+    lighten(@color,15%) 20%, 
+    lighten(@color,20%) 45%, 
+    lighten(@color,20%) 55%, 
+    lighten(@color,10%) 80%, 
+    @color 100%);
+}
+.gradient-jewel-3-1 {
+  .gradient-jewel-3();
+  background: linear-gradient(to right, 
+    @color 0%, 
+    lighten(@color,15%) 20%, 
+    lighten(@color,20%) 45%, 
+    lighten(@color,20%) 55%, 
+    lighten(@color,10%) 80%, 
+    @color 100%);
+}
+.gradient-jewel-4-1 {
+  .gradient-jewel-4();
+  background: linear-gradient(to right, 
+    @color 0%, 
+    lighten(@color,15%) 20%, 
+    lighten(@color,20%) 45%, 
+    lighten(@color,20%) 55%, 
+    lighten(@color,10%) 80%, 
+    @color 100%);
+}
+.gradient-jewel-5-1 {
+  .gradient-jewel-5();
+  background: linear-gradient(to right, 
+    @color 0%, 
+    lighten(@color,15%) 20%, 
+    lighten(@color,20%) 45%, 
+    lighten(@color,20%) 55%, 
+    lighten(@color,10%) 80%, 
+    @color 100%);
+}
