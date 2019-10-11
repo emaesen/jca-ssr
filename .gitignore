@@ -59,3 +59,17 @@ typings/
 
 # next.js build output
 .next
+
+# gridsome
+.cache
+**/.temp/*
+dist
+.env.*
+
+# jca-related
+**/temp/*
+**/img/event/*
+**/ics/*
+**/video/*
+
+**/google*
