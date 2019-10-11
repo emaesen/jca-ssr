@@ -45,5 +45,11 @@ export default {
     SubmissionSection,
     LinkOutbound,
   },
+  metaInfo: {
+    title: "Get Involved",
+    meta: [
+      { name: "description", content: "Get involved with Jefferson Center for the Arts. Send your event submissions. Volunteer at events. Donate." }
+    ]
+  },
 };
 </script>
