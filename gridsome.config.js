@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'JCA-SSR',
+  siteName: 'Jefferson Center for the Arts',
   metadata: {
     version: 'V1.1.0',
   },
