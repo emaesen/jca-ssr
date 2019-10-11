@@ -1,12 +1,32 @@
 {
-  "name": "gridsome-starter-project",
+  "name": "jca-ssr",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "dev": "gridsome develop -p 9001",
+    "explore": "gridsome explore",
+    "prod": "gridsome build && gridsome serve -p 9002"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "register-service-worker": "^1.6.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-pwa": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
