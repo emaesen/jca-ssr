@@ -5,6 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'JCA-SSR',
+  metadata: {
+    version: 'V1.1.0',
+  },
   plugins: []
 }
