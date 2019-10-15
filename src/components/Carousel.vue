@@ -5,7 +5,7 @@
  * with custom modifications
  */
  <template>
-  <div class="carousel" :class="{'carousel--auto-play': settings.autoplay, 'carousel--disabled': settings.uncarousel, 'carousel--fade': settings.fade && !settings.uncarousel, 'carousel--rtl': settings.rtl}">
+  <div class="carousel" :class="{'carousel--auto-play': settings.autoplay, 'carousel--disabled': settings.uncarousel, 'carousel--fade': settings.fade && !settings.uncarousel, 'carousel--rtl': settings.rtl}" aria-label="carousel">
     <div ref="list" class="carousel__list">
       <div ref="track" class="carousel__track" :style="{transform: `translate(${translateX + marginX}px)`, transition: `transform ${settings.timing} ${transitionDelay}ms`}" @mouseover="handleMouseOver('track')" @mouseout="handleMouseOut('track')">
         <div class="carousel__slides carousel__slides--cloned" ref="slidesClonedBefore" v-if="clonedSlides">
@@ -23,17 +23,17 @@
     </div>
 
     <div class="carousel__actions" v-if="!settings.uncarousel && (settings.navButtons || settings.dots)">
-      <button v-if="settings.navButtons && !settings.uncarousel" class="carousel__nav-button carousel__nav-button--prev" :disabled="!canGoToPrev" @click="goToPrev(), restartAutoPlay()" type="button" ref="prevButton">
+      <button v-if="settings.navButtons && !settings.uncarousel" class="carousel__nav-button carousel__nav-button--prev" :disabled="!canGoToPrev" @click="goToPrev(), restartAutoPlay()" type="button" ref="prevButton" aria-label="previous item">
         <slot name="prevButton">←</slot>
       </button>
 
       <ul ref="dots" v-if="settings.dots && !settings.uncarousel" class="carousel__dots">
         <li v-for="n in slidesCount" :key="n" class="carousel__dot" :class="{'carousel__dot--current': n - 1 === currentSlide}" @mouseover="handleMouseOver('dot')" @mouseout="handleMouseOut('dot')">
-          <button @click="goTo(n - 1), restartAutoPlay()" type="button">{{n}}</button>
+          <button @click="goTo(n - 1), restartAutoPlay()" type="button" :aria-label="'go to item ' + n">{{n}}</button>
         </li>
       </ul>
 
-      <button v-if="settings.navButtons && !settings.uncarousel" class="carousel__nav-button carousel__nav-button--next" :disabled="!canGoToNext" @click="goToNext(), restartAutoPlay()" type="button" ref="nextButton">
+      <button v-if="settings.navButtons && !settings.uncarousel" class="carousel__nav-button carousel__nav-button--next" :disabled="!canGoToNext" @click="goToNext(), restartAutoPlay()" type="button" ref="nextButton" aria-label="next item">
         <slot name="nextButton">→</slot>
       </button>
     </div>
