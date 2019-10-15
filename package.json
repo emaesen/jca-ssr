@@ -9,6 +9,7 @@
     "prod": "gridsome build && gridsome serve -p 9002"
   },
   "dependencies": {
+    "@gridsome/plugin-sitemap": "^0.2.2",
     "gridsome": "^0.7.0",
     "register-service-worker": "^1.6.2",
     "vuex": "^3.0.1"

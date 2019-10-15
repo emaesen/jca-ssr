@@ -9,5 +9,11 @@ module.exports = {
   metadata: {
     version: 'V1.1.0',
   },
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+      }
+    }
+  ]
 }
