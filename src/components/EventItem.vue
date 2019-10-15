@@ -142,7 +142,7 @@ export default {
       return this.event.slug ? "/events/" + (this.event.category || "g") + "/" + this.event.slug : "";
     },
     containerClasses() {
-      return this.atPageLevel ? "event-page" : "event event_cat event_cat-" + this.event.category;
+      return this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category;
     },
     isWeeklyRecurring() {
       return this.recurrence==="weekly" || (this.event.weekdays && this.event.weekdays.length > 0);
