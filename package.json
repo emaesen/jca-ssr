@@ -6,7 +6,7 @@
     "build": "gridsome build",
     "dev": "gridsome develop -p 9001",
     "explore": "gridsome explore",
-    "prod": "gridsome build && gridsome serve -p 9002"
+    "prod": "gridsome build && serve -s dist -p 9002"
   },
   "dependencies": {
     "@gridsome/plugin-sitemap": "^0.2.2",
