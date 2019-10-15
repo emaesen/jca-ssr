@@ -13,7 +13,7 @@
     </p>
     <h4>…Volunteers for events</h4>
     <p>
-      We also ask for <span class="emph">volunteers for each event</span>, folks to run the door, concessions etc..<br class="spacer">
+      We also ask for <span class="emph">volunteers for each event</span>, folks to run the door, concessions etc.<br class="spacer">
       Volunteers get free admission to the event, food, drink and lots of love!<br class="spacer">
       Click on the "I'd like to volunteer!" button in any of the <g-link to="/events/">event listings</g-link> to send an email to Wendy if you are interested in volunteering for that particular event.
     </p>

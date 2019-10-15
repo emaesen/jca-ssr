@@ -2,7 +2,9 @@
   <div class="event-list">
     <div v-if="noEvents && type!=='class'" class="spacious emph">
       <p>
-      At the moment we don't have any {{ category || type }} events planned. Please check back soon or –better yet– subscribe to our newsletter below!
+      At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
+      
+      Please check back soon or –better yet– subscribe to our newsletter below!
       </p>
       <email-subscribe-section/>
     </div>
