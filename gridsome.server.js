@@ -12,7 +12,7 @@ module.exports = function (api) {
     const eventsJson = await require('./src/data/events.json');
     for(const item of eventsJson.events){
       eventsCollection.addNode(item)
-      console.log(">>> collected event: " + item.url);
+      console.log(">>> event loaded: " + item.slug);
     }
   })
 
