@@ -139,7 +139,7 @@ export default {
   },
   computed: {
     eventPageUrl() {
-      return this.event.url ? "/events/" + (this.event.category || "g") + "/" + this.event.url : "";
+      return this.event.slug ? "/events/" + (this.event.category || "g") + "/" + this.event.slug : "";
     },
     containerClasses() {
       return this.atPageLevel ? "event-page" : "event event_cat event_cat-" + this.event.category;

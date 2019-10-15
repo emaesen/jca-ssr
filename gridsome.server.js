@@ -24,7 +24,7 @@ module.exports = function (api) {
           node {
             category
             type
-            url
+            slug
             title
             performer
             description
@@ -48,7 +48,7 @@ module.exports = function (api) {
     data.allEvent.edges.forEach(({ node }) => {
       const cat = node.category || "g";
       createPage({
-        path: `/events/${cat}/${node.url}`,
+        path: `/events/${cat}/${node.slug}`,
         component: './src/templates/Event.vue',
         // Use context to be able to pass event data to the template
         // (I could not figure out how to get access to the data through graphql)

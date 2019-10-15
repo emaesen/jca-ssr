@@ -3,7 +3,7 @@
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
-    "url": "url-fragment-with-title-and-date",
+    "slug": "url-fragment-with-title-and-date",
     "title": "",
     "performer": "",
     "description": "",
@@ -24,7 +24,7 @@
     {
       "category": "",
       "type": "gala",
-      "url": "grand-opening-gala-oct-13-2019",
+      "slug": "grand-opening-gala-oct-13-2019",
       "title": "GRAND OPENING GALA!",
       "performer": "",
       "description": "Come celebrate Jefferson Center for the Arts' Grand Opening of the JCA Studio Theatre!\n\nSpecial Musical Guests: [Beaucoup Chapeaux](http://www.beaucoupchapeaux.net).\n\n![Beaucoup Chapeaux](beaucoup-chapeaux.jpg)\n\nChampagne & Hors D’oeuvres at 6:30pm.\nConcert begins at 7pm.\nDesserts to follow.",
@@ -44,7 +44,7 @@
     {
       "category": "",
       "type": "benefit",
-      "url": "mt-shasta-oktoberfest-oct-19-2019",
+      "slug": "mt-shasta-oktoberfest-oct-19-2019",
       "title": "Mount Shasta Oktoberfest",
       "performer": "",
       "description": "A benefit for Jefferson Center for the Arts.\n* German Beer\n* Traditional Food\n* Dancing\n* Kids Activities\n* Raffle, Games & Live Music\n* Craft Vendors & More!",
