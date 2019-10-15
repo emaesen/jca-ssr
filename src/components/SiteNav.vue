@@ -189,8 +189,7 @@ nav {
     background-color: @color_bg;
     font-family: @font_family_header;
     font-weight: 700;
-    &.active,
-    &.router-link-active {
+    &.active {
       color: @color_text_action_selected;
       box-shadow: 0 0 30px #a7dcff;
     }
@@ -207,18 +206,15 @@ nav {
     border: none;
   }
 }
-a.active--exact,
-a.router-link-exact-active {
+a.active--exact {
   cursor: default;
   color: @color_text_action_selected;
   text-decoration: none;
 }
-a:not(.active--exact):hover,
-a:not(.router-link-exact-active):hover {
+a:not(.active--exact):hover {
   text-decoration: underline;
 }
-a.active,
-a.router-link-active {
+a.active {
   border-top: 2px solid #80afe4;
   border-bottom: 2px solid #80afe4;
 }
