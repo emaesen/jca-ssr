@@ -38,9 +38,9 @@ export default {
       version: "",
     }
   },
-  created() {
+  beforeMount() {
     const version = this.$static.metadata.version;
-    if (this.isInStandaloneMode) {
+    if (this.isInStandaloneMode()) {
       // Site is running stand-alone as installed web App
       this.version = version + ".A";
     } else {
@@ -49,7 +49,7 @@ export default {
     }
 
   },
-  computed: {
+  methods: {
     isInStandaloneMode() {
       return (window.matchMedia('(display-mode: standalone)').matches) || (window.navigator.standalone);
     }

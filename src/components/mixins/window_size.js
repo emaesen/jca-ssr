@@ -36,7 +36,7 @@ export default {
       windowMaxDim: 0,
     }
   },
-  created () {
+  beforeMount () {
     this.addResizeListener(this.getWindowDimensions)
     this.getWindowDimensions()
   },
@@ -76,7 +76,7 @@ export default {
       this.windowMaxDim = m;
     },
     addResizeListener(cb) {
-      if (window.addEventListener) {
+      if (window && window.addEventListener) {
         window.addEventListener(
           'resize', 
           debounce(cb, 200),
@@ -85,7 +85,7 @@ export default {
       }
     },
     removeResizeListener(cb) {
-      if (window.removeEventListener) {
+      if (window && window.removeEventListener) {
         window.removeEventListener('resize', cb);
       }
     }
