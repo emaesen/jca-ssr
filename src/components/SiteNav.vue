@@ -132,7 +132,9 @@ export default {
         this.isNavEventsExpanded = !this.isNavEventsExpanded;
       }
       if (target==="menu" && this.isNavEventsExpanded) {
-        let isEventSub = evt.target.offsetParent.className.indexOf('event-sub') !== -1;
+        let isEventSub = 
+          evt.target.offsetParent 
+          && evt.target.offsetParent.className.indexOf('event-sub') !== -1;
         if(!this.showBarMenu || !isEventSub) {
           this.isNavEventsExpanded = false;
         }
