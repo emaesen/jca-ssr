@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Classes at JCA</h1>
 
     <event-list type="class"/>
@@ -8,7 +8,7 @@
 
     <class-calendar/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

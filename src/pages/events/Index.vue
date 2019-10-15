@@ -1,10 +1,10 @@
 <template>
-  <Layout>
+  <div>
     <h1>Events at JCA</h1>
 
     <event-list/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,10 +1,10 @@
 <template>
-  <Layout>
+  <div>
     <h1>Calendar of classes at JCA</h1>
 
     <class-calendar/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

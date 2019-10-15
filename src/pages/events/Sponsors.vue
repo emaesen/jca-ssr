@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>JCA Sponsors</h1>
 
     <sponsor 
@@ -10,7 +10,7 @@
       :style="'animation-delay:' + index/5 + 's;animation-fill-mode: backwards;'"
     />
 
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,12 +1,12 @@
 <template>
-  <Layout>
+  <div>
     <h1>Venue Info &amp; Booking</h1>
 
     <location-section/>
 
     <submission-section/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

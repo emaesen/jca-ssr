@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Jefferson Center for the Arts (JCA)</h1>
 
     <h3>Mount Shasta's Premier Educational Center for Music and the Performing Arts!</h3>
@@ -27,7 +27,7 @@
 
 
     <!--<privacy-statement/>-->
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Music at JCA</h1>
 
     <p>
@@ -21,7 +21,7 @@
 
     <event-list category="music"/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

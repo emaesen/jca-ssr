@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Contact Us</h1>
 
     <div>
@@ -36,7 +36,7 @@
       For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://kagalakan.com/">kagalakan.com</link-outbound>).
     </p>
     </div>
-  </Layout>
+  </div>
 </template>
 
 <script>

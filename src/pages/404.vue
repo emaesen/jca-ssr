@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <div class="center anima__zoom pnf">
       <p class="anima__flicker">P A G E &nbsp; &nbsp; N O T &nbsp; &nbsp; F O U N D</p>
       <p> - - - - - </p>
@@ -10,7 +10,7 @@
         Please click any of the links in the navigation bar above to continue.<br>
       </p>
     </div>
-  </Layout>
+  </div>
 </template>
 
 

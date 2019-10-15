@@ -1,9 +1,9 @@
 <template>
-  <Layout>
+  <div>
     <h1>Calendar of events at JCA</h1>
 
     <event-calendar/>
-  </Layout>
+  </div>
 </template>
 
 <script>

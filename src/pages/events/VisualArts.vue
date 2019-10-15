@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Visual Arts at JCA</h1>
 
     <p>
@@ -14,7 +14,7 @@
 
     <event-list category="visual-arts"/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

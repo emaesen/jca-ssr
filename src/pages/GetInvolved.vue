@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Get Involved!</h1>
 
     <submission-section/>
@@ -31,7 +31,7 @@
     </p>
 
 
-  </Layout>
+  </div>
 </template>
 
 <script>

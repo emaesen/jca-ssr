@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <h1>Theater at JCA</h1>
 
     <p>
@@ -19,7 +19,7 @@
 
     <event-list category="theater"/>
 
-  </Layout>
+  </div>
 </template>
 
 <script>

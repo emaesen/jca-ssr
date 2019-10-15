@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
 
 <h1>Jefferson Center for the Arts (JCA)</h1>
 
@@ -77,7 +77,7 @@
     <email-subscribe-section/>
 
 
-  </Layout>
+  </div>
 </template>
 
 <script>
