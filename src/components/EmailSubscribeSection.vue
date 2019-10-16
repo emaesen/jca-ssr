@@ -9,7 +9,7 @@
     <div class="ls-outer group" key="form">
       <div class="ls-inner ls-inner-desc group">
         <p class="ls-inner ls-inner-img">
-          <img src="/img/jca-logo-lg.png" alt="JCA logo" class="logo_lg anima__flicker-subtle anima__-pause-on-hover"/>
+          <g-image src="/img/jca-logo-lg.png" alt="JCA logo" class="logo_lg anima__flicker-subtle anima__-pause-on-hover"/>
         </p>
         <p class="ls-inner ls-inner-text">
           Subscribe to our mailing list to receive the latest events and updates from our team.<br class="spacer">

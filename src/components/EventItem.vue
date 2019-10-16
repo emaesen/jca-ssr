@@ -45,7 +45,7 @@
       <!-- main event image -->
       <div class="details_column details_column1">
         <div class="event_image" v-if="event.image">
-          <img :src="'/img/event/'+event.image" :alt="event.title" class="anima__zoom"/>
+          <g-image :src="'/img/event/'+event.image" :alt="event.title" class="anima__zoom"/>
         </div>
       </div>
 

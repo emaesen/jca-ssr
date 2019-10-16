@@ -17,7 +17,7 @@
     <p>
       Musicians… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
     </p>
-    <img class="img-hero anima__zoom" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
+    <g-image class="img-hero anima__zoom" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
 
     <event-list category="music"/>
 

@@ -4,7 +4,7 @@
     <div class="sponsor">
       <div class="column left">
         <link-outbound :to="sponsor.url" :showOutboundIcon="false">
-          <img class="sponsor_logo_img" :src="'/img/sponsor/' + sponsor.logo" :alt="sponsor.name + ' logo'"/>
+          <g-image class="sponsor_logo_img" :src="'/img/sponsor/' + sponsor.logo" :alt="sponsor.name + ' logo'"/>
         </link-outbound>
       </div>
       <div class="column right">

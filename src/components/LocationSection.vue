@@ -7,7 +7,7 @@
       <postal-address/>
 
       <a href="/img/capture-openstreetmap-jca.png" target="_blank" title="click to open map in new tab">
-        <img class="streetmap anima__zoom" src="/img/capture-openstreetmap-jca.png" alt="street map Mount Shasta and JCA"/>
+        <g-image class="streetmap anima__zoom" src="/img/capture-openstreetmap-jca.png" alt="street map Mount Shasta and JCA"/>
       </a>
     </p>
     <h4>Directions:</h4>

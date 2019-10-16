@@ -28,20 +28,20 @@
       v-if="!showFeaturedEvent"
     >
       <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
-        <img class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
+        <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
         <div>
           <g-link to="/events/theater" title="click to view theater events">
-            <img class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
+            <g-image class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
           </g-link>
         </div>
         <div>
           <g-link to="/events/music" title="click to view music events">
-            <img class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
+            <g-image class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
           </g-link>
         </div>
         <div>
           <g-link to="/events/visual-arts" title="click to visual arts events">
-            <img class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
+            <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
           </g-link>
         </div>
         <template slot="prevButton"><icon-backward class="action"/></template>

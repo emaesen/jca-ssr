@@ -15,7 +15,7 @@
       Performers… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
     </p>
 
-    <img class="img-hero anima__zoom" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
+    <g-image class="img-hero anima__zoom" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
 
     <event-list category="theater"/>
 

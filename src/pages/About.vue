@@ -8,12 +8,12 @@
       Jefferson Center for the Arts (JCA) is Mount Shasta’s premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets. The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.
     </p>
 
-    <img class="img-hero anima__zoom" src="/img/jca-banner.png" alt="JCA banner"/>
+    <g-image class="img-hero anima__zoom" src="/img/jca-banner.png" alt="JCA banner"/>
 
     <h3>Founder of JCA: Wendy James</h3>
 
     <p>
-      <img class="photo" src="/img/wendy-james.jpg" alt="Wendy James photo"/>
+      <g-image class="photo" src="/img/wendy-james.jpg" alt="Wendy James photo"/>
       Wendy James is the founder of Jefferson Center for the Arts, and is also the owner and director of <link-outbound to="//shastastudios.net/">Shasta Studios School of Theatrical Dance</link-outbound> in Mount Shasta. She has been involved in dance, music and theatre all of her life. Wendy comes from four generations of theatrical performers who have led her to happily do the same. She was raised in the family school, Schumacher’s School of Dance, just outside of San Francisco. It was the largest dance academy in Northern California for 41 years with five classrooms and 750 students each year.
     </p>
 

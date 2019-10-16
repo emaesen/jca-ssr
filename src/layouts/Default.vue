@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="/img/jca-logo-sm.png" alt="JCA logo" class="logo_sm anima__flicker-subtle"/>
+    <g-image src="/img/jca-logo-sm.png" alt="JCA logo" class="logo_sm anima__flicker-subtle"/>
 
     <site-nav/>
 

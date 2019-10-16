@@ -10,7 +10,7 @@
       Visual artists… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
     </p>
 
-    <img class="img-hero anima__zoom" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
+    <g-image class="img-hero anima__zoom" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
 
     <event-list category="visual-arts"/>
 
