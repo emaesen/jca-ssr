@@ -7,7 +7,7 @@
       Artists chosen for our gallery space will be encouraged to share their methods and inspirations during gallery openings and workshops.
     </p>
     <p>
-      Visual artists… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
+      Visual artists… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
 
     <g-image class="img-hero anima__zoom" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>

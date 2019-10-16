@@ -15,7 +15,7 @@
       <a href="mailto:info@jeffersoncenterforthearts.com">info@jeffersoncenterforthearts.com</a>
     </p>
     <p>
-      Musicians… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
+      Musicians… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
     <g-image class="img-hero anima__zoom" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
 

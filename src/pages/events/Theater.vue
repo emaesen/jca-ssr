@@ -12,7 +12,7 @@
       Jefferson Center for the Arts is the home for original works as well as traveling productions, plays, musicals, melodramas, children’s theatre and more. 
     </p>
     <p>
-      Performers… get involved and <g-link to="/get-involved">send us your submissions</g-link>!
+      Performers… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
 
     <g-image class="img-hero anima__zoom" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>

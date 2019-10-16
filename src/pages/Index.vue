@@ -12,7 +12,7 @@
       Jefferson Center for the Arts is Mt Shasta's own community arts and culture center.
     </p>
 
-    <g-link to="/events/g/grand-opening-gala-oct-13-2019" title="click to view details of our grand opening gala event">
+    <g-link to="/events/g/grand-opening-gala-oct-13-2019/" title="click to view details of our grand opening gala event">
       <video 
         class="hero-video anima__zoom" 
         v-if="showFeaturedEvent" 
@@ -30,17 +30,17 @@
       <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
         <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
         <div>
-          <g-link to="/events/theater" title="click to view theater events">
+          <g-link to="/events/theater/" title="click to view theater events">
             <g-image class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
           </g-link>
         </div>
         <div>
-          <g-link to="/events/music" title="click to view music events">
+          <g-link to="/events/music/" title="click to view music events">
             <g-image class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
           </g-link>
         </div>
         <div>
-          <g-link to="/events/visual-arts" title="click to visual arts events">
+          <g-link to="/events/visual-arts/" title="click to visual arts events">
             <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
           </g-link>
         </div>
@@ -65,10 +65,10 @@
     </p>
 
     <p>
-      <g-link to="/get-involved">Get Involved</g-link>
+      <g-link to="/get-involved/">Get Involved</g-link>
     </p>
     <p>
-      <g-link to="/contact">Contact Us</g-link>
+      <g-link to="/contact/">Contact Us</g-link>
     </p>
 
 
