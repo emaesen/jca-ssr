@@ -25,7 +25,7 @@
         class="nav item"
         role="menuitem"
       >
-        <g-link to="/events/">
+        <g-link to="/events">
           Events
           <span @click.stop.prevent="onNavClick('events', $event)" class="actionicon">
             <icon-arrow-down
@@ -35,51 +35,51 @@
         </g-link>
         <ul :class="['nav submenu', {collapsed:!isNavEventsExpanded}]" role="menu">
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/music/">
+            <g-link to="/events/music">
               <category-icon category="music"/>
               Music
             </g-link>
           </li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/theater/">
+            <g-link to="/events/theater">
               <category-icon category="theater"/>
               Theater
             </g-link>
           </li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/visual-arts/">
+            <g-link to="/events/visual-arts">
               <category-icon category="visual-arts"/>
               Visual Arts
             </g-link>
           </li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/calendar/">Events Calendar</g-link>
+            <g-link to="/events/calendar">Events Calendar</g-link>
           </li>
           <li class="nav divider"></li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/classes/">Classes</g-link>
+            <g-link to="/events/classes">Classes</g-link>
           </li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/classes-calendar/">Classes Calendar</g-link>
+            <g-link to="/events/classes-calendar">Classes Calendar</g-link>
           </li>
           <li class="nav divider"></li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/venue-info-booking/">Venue Info &amp; Booking</g-link>
+            <g-link to="/events/venue-info-booking">Venue Info &amp; Booking</g-link>
           </li>
           <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/sponsors/">Sponsors</g-link>
+            <g-link to="/events/sponsors">Sponsors</g-link>
           </li>
           <li class="nav divider"></li>
         </ul>
       </li>
       <li class="nav item" role="menuitem">
-        <g-link to="/about/">About</g-link>
+        <g-link to="/about">About</g-link>
       </li>
       <li class="nav item" role="menuitem">
-        <g-link to="/get-involved/">Get Involved</g-link>
+        <g-link to="/get-involved">Get Involved</g-link>
       </li>
       <li class="nav item" role="menuitem">
-        <g-link to="/contact/">Contact Us</g-link>
+        <g-link to="/contact">Contact Us</g-link>
       </li>
     </ul>
   </nav>
