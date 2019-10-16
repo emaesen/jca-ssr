@@ -48,39 +48,38 @@ export default {
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)' );
     },
     jsonld() {
-      return   {
-    "@context": "http://schema.org",
-    "@type": this.eventType + "Event",
-    "name": this.event.title,
-    "startDate": this.startDateTimeLocal,
-    "endDate": this.endDateTimeLocal,
-    "url": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
-    "location": {
-      "@type": "Place",
-      "name": "Jefferson Center for the Arts",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "United States",
-        "addressRegion": "CA",
-        "addressLocality": "Mount Shasta",
-        "streetAddress": "1124 Pine Grove Dr",
-        "postalCode": "96067"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 41.31,
-        "longitude": -122.3094444
+      return {
+        "@context": "http://schema.org",
+        "@type": this.eventType + "Event",
+        "name": this.event.title,
+        "startDate": this.startDateTimeLocal,
+        "endDate": this.endDateTimeLocal,
+        "url": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
+        "location": {
+          "@type": "Place",
+          "name": "Jefferson Center for the Arts",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "United States",
+            "addressRegion": "CA",
+            "addressLocality": "Mount Shasta",
+            "streetAddress": "1124 Pine Grove Dr",
+            "postalCode": "96067"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.31,
+            "longitude": -122.3094444
+          }
+        },
+        "performer": {
+          "@context": "http://schema.org",
+          "@type": "PerformingGroup",
+          "name": this.event.performer || "various"
+        },
+        "description": this.eventDescription,
+        "image": "https://jeffersoncenterforthearts.com/img/event/" + this.event.image
       }
-    },
-    "performer": {
-      "@context": "http://schema.org",
-      "@type": "PerformingGroup",
-      "name": this.event.performer || "various"
-    },
-    "description": this.eventDescription,
-    "image": "https://jeffersoncenterforthearts.com/img/event/" + this.event.image
-  }
-
     }
   },
   methods: {
