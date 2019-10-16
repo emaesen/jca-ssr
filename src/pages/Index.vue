@@ -12,6 +12,9 @@
       Jefferson Center for the Arts is Mt Shasta's own community arts and culture center.
     </p>
 
+    <organization-schema-script/>
+
+    
     <g-link to="/events/g/grand-opening-gala-oct-13-2019/" title="click to view details of our grand opening gala event">
       <video 
         class="hero-video anima__zoom" 
@@ -84,6 +87,7 @@
 import Carousel from '@/components/Carousel';
 import FacebookSection from '@/components/FacebookSection';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
+import OrganizationSchemaScript from '@/components/OrganizationSchemaScript';
 
 import IconBackward from '@/components/icons/IconBackward';
 import IconForward from '@/components/icons/IconForward';
@@ -94,6 +98,7 @@ export default {
     Carousel,
     FacebookSection,
     EmailSubscribeSection,
+    OrganizationSchemaScript,
     IconBackward,
     IconForward,
   },

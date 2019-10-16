@@ -32,15 +32,24 @@ export default {
   components: {
     EventList,
   },
-  metaInfo: {
-    title: "Music Events",
-    meta: [
-      { name: "description", content: "An overview of upcoming music events at Jefferson Center for the Arts in Mount Shasta, CA, USA." }
-    ]
-  },  
-  data() {
+  metaInfo () {
     return {
+      title: this.meta_title,
+      meta: [
+        { key: 'og:type', property: 'og:type', content: 'article'},
+        { key: 'og:title', property: 'og:title', content: this.meta_title },
+        { key: 'description', name: 'description', content: this.meta_description },
+        { key: 'og:description', property: 'og:description', content: this.meta_description }
+      ],
     }
+  },
+  computed: {
+    meta_title() {
+      return "Music events at Jefferson Center for the Arts in Mount Shasta, California, USA";
+    },
+    meta_description() {
+      return "An overview of upcoming music events at Jefferson Center for the Arts in Mount Shasta, California, USA.";
+    },
   }
 };
 </script>

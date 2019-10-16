@@ -17,11 +17,24 @@
 <script>
 export default {
   name: '404',
-  metaInfo: {
-    title: "Page Not Found",
-    meta: [
-      { name: "description", content: "Page Not Found" }
-    ]
+  metaInfo () {
+    return {
+      title: this.meta_title,
+      meta: [
+        { key: 'og:type', property: 'og:type', content: 'article'},
+        { key: 'og:title', property: 'og:title', content: this.meta_title },
+        { key: 'description', name: 'description', content: this.meta_description },
+        { key: 'og:description', property: 'og:description', content: this.meta_description }
+      ],
+    }
+  },
+  computed: {
+    meta_title() {
+      return "Page Not Found";
+    },
+    meta_description() {
+      return "Page Not Found";
+    },
   }
 }
 </script>

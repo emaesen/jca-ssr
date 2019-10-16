@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Jefferson Center for the Arts',
   siteUrl: 'https://jeffersoncenterforthearts.com/',
+  titleTemplate: '%s',
   metadata: {
     version: 'V1.1.0',
   },
