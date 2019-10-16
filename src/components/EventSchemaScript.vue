@@ -1,37 +1,5 @@
 <template>
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "{{ eventType }}Event",
-    "name": "{{ event.title }}",
-    "startDate": "{{ startDateTimeLocal }}",
-    "endDate": "{{ endDateTimeLocal }}",
-    "url": "https://jeffersoncenterforthearts.com{{ eventUrlPath }}",
-    "location": {
-      "@type": "Place",
-      "name": "Jefferson Center for the Arts",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "United States",
-        "addressRegion": "CA",
-        "addressLocality": "Mount Shasta",
-        "streetAddress": "1124 Pine Grove Dr",
-        "postalCode": "96067"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 41.31,
-        "longitude": -122.3094444
-      }
-    },
-    "performer": {
-      "@context": "http://schema.org",
-      "@type": "PerformingGroup",
-      "name": "{{ event.performer }}"
-    },
-    "description": "{{ eventDescription }}",
-    "image": "https://jeffersoncenterforthearts.com/img/event/{{ event.image }}"
-  }
+  <script v-html="jsonld" type="application/ld+json">
   </script>
 </template>
 
@@ -79,6 +47,41 @@ export default {
         .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '' )
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)' );
     },
+    jsonld() {
+      return   {
+    "@context": "http://schema.org",
+    "@type": this.eventType + "Event",
+    "name": this.event.title,
+    "startDate": this.startDateTimeLocal,
+    "endDate": this.endDateTimeLocal,
+    "url": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
+    "location": {
+      "@type": "Place",
+      "name": "Jefferson Center for the Arts",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "addressRegion": "CA",
+        "addressLocality": "Mount Shasta",
+        "streetAddress": "1124 Pine Grove Dr",
+        "postalCode": "96067"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.31,
+        "longitude": -122.3094444
+      }
+    },
+    "performer": {
+      "@context": "http://schema.org",
+      "@type": "PerformingGroup",
+      "name": this.event.performer || "various"
+    },
+    "description": this.eventDescription,
+    "image": "https://jeffersoncenterforthearts.com/img/event/" + this.event.image
+  }
+
+    }
   },
   methods: {
     dateTimeLocal(date, time) {
