@@ -151,7 +151,7 @@ export default {
       return this.event.weekdays && this.dateNames.days[this.event.weekdays[0]];
     },
     date() {
-      let opts = {shortForm:false, showYear:false};
+      let opts = {shortForm:false, showYear:true};
       let text = this.formattedDate(this.event.date.start, opts);
       if (this.event.date.end && this.event.date.end !== this.event.date.start) {
         text += " - " + this.formattedDate(this.event.date.end, opts);
