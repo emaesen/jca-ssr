@@ -46,4 +46,24 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     actions: {
     }  
   });
+
+  router.options.scrollBehavior = function(to, from, savedPosition) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        if (to.hash) {
+          resolve( {
+            selector: to.hash
+          } );
+        } else if (savedPosition) {
+          resolve( savedPosition );
+        } else if (from.path.startsWith("/on-facebook")) {
+          resolve( {
+            selector: null
+          } );
+        } else {
+          resolve( { x: 0, y: 0 } );
+        }
+      }, 500)
+    })
+  }
 }
