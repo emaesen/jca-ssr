@@ -10,11 +10,11 @@
       <div class="column right">
         "{{ sponsor.byline }}"<br/>
         <br/>
-        {{ sponsor.addressline1 }}<br/>
-        {{ sponsor.addressline2 }}<br/>
+        {{ sponsor.addressline1 }}<br v-if="sponsor.addressline1"/>
+        {{ sponsor.addressline2 }}<br v-if="sponsor.addressline2"/>
         <br/>
         <link-outbound :to="sponsor.url">
-          {{ sponsor.name }} website
+          {{ linkText }}
         </link-outbound>
       </div>
     </div>
@@ -41,6 +41,9 @@ export default {
   mounted () {
   },
   computed: {
+    linkText() {
+      return this.sponsor.linkText ? this.sponsor.linkText : this.sponsor.name + " website";
+    }
   }
 };
 </script>
