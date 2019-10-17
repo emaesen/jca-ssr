@@ -23,6 +23,15 @@
       "byline": "A micro brew pub offering a variety of hand crafted ales and fine food",
       "url": "https://dunsmuirbreweryworks.com/",
       "logo": "dunsmuir-brewery-works-logo2.png"
+    },
+    {
+      "name": "Website Design by Edward Maesen",
+      "addressline1": "",
+      "addressline2": "Mount Shasta, California 96067",
+      "byline": "Custom website design, development and maintenance by seasoned ex-eBay developer",
+      "url": "https://kagalakan.com/",
+      "linkText": "Edward's website",
+      "logo": "edward-maesen-logo.jpg"
     }
   ]
 }
