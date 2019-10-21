@@ -28,7 +28,7 @@
 <script>
 import Modal from '@/components/Modal.vue';
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 export default {
   name: 'ButtonVolunteer',

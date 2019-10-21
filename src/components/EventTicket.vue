@@ -24,7 +24,7 @@ import LinkOutbound from '@/components/LinkOutbound.vue';
 import IconTicket from '@/components/icons/IconTicket.vue';
 import Modal from '@/components/Modal.vue';
 
-import windowSize from './mixins/window_size.js'
+import windowSize from '@/mixins/window_size.js'
 
 
 export default {

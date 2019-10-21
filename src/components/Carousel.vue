@@ -45,11 +45,11 @@
    * carousel Carousel
   * https://github.com/lukaszflorczak/vue-carousel/blob/master/src/carousel.vue
   */
-  import handlers from './mixins-carousel/handlers'
-  import helpers from './mixins-carousel/helpers'
-  import preparations from './mixins-carousel/preparations'
-  import props from './mixins-carousel/props'
-  import watchers from './mixins-carousel/watchers'
+  import handlers from '@/mixins/carousel/handlers'
+  import helpers from '@/mixins/carousel/helpers'
+  import preparations from '@/mixins/carousel/preparations'
+  import props from '@/mixins/carousel/props'
+  import watchers from '@/mixins/carousel/watchers'
 
   export default {
     name: 'carousel',

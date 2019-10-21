@@ -26,7 +26,7 @@ import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 
 import eventsJson from '@/data/events.json';
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 export default {
   name: 'EventList',

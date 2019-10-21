@@ -52,7 +52,7 @@ import CategoryIcon from '@/components/CategoryIcon.vue';
 import IconX from '@/components/icons/IconX.vue';
 import IconRepeat from '@/components/icons/IconRepeat.vue';
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 import { mapMutations } from "vuex";
 

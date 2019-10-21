@@ -20,7 +20,7 @@ import Calendar from "./Calendar";
 
 import eventsJson from '@/data/events.json';
 
-import event from './mixins/event.js';
+import event from '@/mixins/event.js';
 
 export default {
   name: "EventCalendar",

@@ -130,7 +130,7 @@ import Modal from '@/components/Modal.vue';
 import IconCheckboxOff from '@/components/icons/IconCheckboxOff.vue';
 import IconCheckboxOn from '@/components/icons/IconCheckboxOn.vue';
 
-import windowSize from './mixins/window_size.js'
+import windowSize from '@/mixins/window_size.js'
 
 export default {
   name: 'FormEmailList',

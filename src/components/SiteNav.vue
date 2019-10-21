@@ -92,7 +92,7 @@ import IconThreeBars from '@/components/icons/IconThreeBars.vue';
 import IconX from '@/components/icons/IconX.vue';
 import CategoryIcon from '@/components/CategoryIcon.vue';
 
-import windowSize from './mixins/window_size.js'
+import windowSize from '@/mixins/window_size.js'
 
 
 export default {

@@ -24,8 +24,8 @@ import WeekSchedule from "@/components/WeekSchedule.vue";
 
 import classesJson from '@/data/classes.json';
 
-import event from './mixins/event.js'
-import date from './mixins/date.js'
+import event from '@/mixins/event.js'
+import date from '@/mixins/date.js'
 
 export default {
   name: 'ClassSchedule',

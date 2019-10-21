@@ -103,7 +103,7 @@ import EventTicket from '@/components/EventTicket.vue';
 import ButtonVolunteer from '@/components/ButtonVolunteer.vue';
 import EventSchemaScript from '@/components/EventSchemaScript.vue';
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 export default {
   name: 'EventItem',

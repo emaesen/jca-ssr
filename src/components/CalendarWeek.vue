@@ -35,7 +35,7 @@
 <script>
 import CalendarDay from "./CalendarDay";
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 export default {
   name: "CalendarWeek",

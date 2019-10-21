@@ -34,7 +34,7 @@
 import IconBackward from '@/components/icons/IconBackward';
 import IconForward from '@/components/icons/IconForward';
 
-import date from './mixins/date.js'
+import date from '@/mixins/date.js'
 
 import { mapGetters, mapMutations } from "vuex";
 

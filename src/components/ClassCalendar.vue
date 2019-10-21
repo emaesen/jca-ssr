@@ -13,8 +13,8 @@ import CalendarWeek from "./CalendarWeek";
 
 import classesJson from '@/data/classes.json';
 
-import event from './mixins/event.js'
-import windowSize from './mixins/window_size.js'
+import event from '@/mixins/event.js'
+import windowSize from '@/mixins/window_size.js'
 
 export default {
   name: "ClassCalendar",
