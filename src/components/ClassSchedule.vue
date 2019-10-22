@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3>JCA's weekly class schedule:</h3>
+    <h3>JCA's weekly classes:</h3>
 
     <p>
       Studio tuition is $55 per month. Multiple class and family discounts too!
