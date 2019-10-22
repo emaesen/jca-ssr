@@ -24,18 +24,19 @@
       </ul>
     </div>
 
-    <contact-us-section>
+    <contact-us-section v-animate-on-intersection>
       <h2>We would love to hear from you!</h2>
     </contact-us-section>
 
-    <location-section/>
+    <location-section v-animate-on-intersection/>
 
-    <div class="sitedesign">
-    <h4>Website design</h4>
-    <p>
-      For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://kagalakan.com/">kagalakan.com</link-outbound>).
-    </p>
+    <div class="sitedesign" v-animate-on-intersection>
+      <h4>Website design</h4>
+      <p>
+        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://kagalakan.com/">kagalakan.com</link-outbound>).
+      </p>
     </div>
+
   </div>
 </template>
 
@@ -45,8 +46,11 @@ import PostalAddress from '@/components/PostalAddress.vue';
 import ContactUsSection from '@/components/ContactUsSection.vue';
 import LocationSection from '@/components/LocationSection.vue';
 
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
 export default {
   name: 'Contact',
+  mixins: [animateOnIntersection],
   components: {
     LinkOutbound,
     PostalAddress,
