@@ -1,11 +1,12 @@
 <template>
-  <div class="spacious">
+  <section>
 
+    <h2>Weekly classes schedule</h2>
     <calendar-week 
       :events="events" 
     />
 
-  </div>
+  </section>
 </template>
 
 <script>
