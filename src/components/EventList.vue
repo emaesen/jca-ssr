@@ -14,7 +14,8 @@
       :key="evt._id" 
       :event="evt"
       class="anima__zoom"
-      :style="'animation-delay:' + index/5 + 's;animation-fill-mode: backwards;'"
+      v-animate-on-intersection
+      :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
     />
 
   </div>
@@ -24,13 +25,14 @@
 import EventItem from '@/components/EventItem';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 
-import eventsJson from '@/data/events.json';
-
 import date from '@/mixins/date.js'
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
+import eventsJson from '@/data/events.json';
 
 export default {
   name: 'EventList',
-  mixins: [date],
+  mixins: [date, animateOnIntersection],
   components: {
     EventItem,
     EmailSubscribeSection,
