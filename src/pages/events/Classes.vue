@@ -4,9 +4,9 @@
 
     <event-list type="class"/>
 
-    <class-schedule/>
+    <class-schedule v-animate-on-intersection/>
 
-    <class-calendar/>
+    <class-calendar v-animate-on-intersection/>
 
   </div>
 </template>
@@ -16,8 +16,11 @@ import EventList from "@/components/EventList.vue";
 import ClassSchedule from "@/components/ClassSchedule.vue";
 import ClassCalendar from "@/components/ClassCalendar.vue";
 
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
 export default {
   name: 'Classes',
+  mixins: [animateOnIntersection],
   components: {
     EventList,
     ClassSchedule,
