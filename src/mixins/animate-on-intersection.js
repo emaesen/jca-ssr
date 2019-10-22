@@ -25,7 +25,10 @@ export default {
   methods: {
     intsecHandler(target, opts) {
       if (opts && opts.init) {
-        target.classList.add("anima__slide-in-from-below");
+        console.log({target})
+        if (!target.className.includes("anima__")) {
+          target.classList.add("anima__slide-in-from-below");
+        }
         target.classList.add("anima__-paused");
       } else {
         target.classList.remove("anima__-paused");
