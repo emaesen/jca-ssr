@@ -4,7 +4,7 @@
 
     <location-section/>
 
-    <submission-section/>
+    <submission-section v-animate-on-intersection/>
 
   </div>
 </template>
@@ -13,8 +13,11 @@
 import LocationSection from '@/components/LocationSection.vue';
 import SubmissionSection from '@/components/SubmissionSection.vue';
 
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
 export default {
   name: 'VenueInfoBooking',
+  mixins: [animateOnIntersection],
   components: {
     LocationSection,
     SubmissionSection,
