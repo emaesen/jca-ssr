@@ -4,7 +4,7 @@
 
     <submission-section/>
 
-    <div v-animate-on-intersection>
+    <section v-animate-on-intersection>
       <h2>Volunteers:</h2>
       <p>
         <span class="emph">Please <g-link to="/contact">contact Wendy</g-link> if you are interested in volunteering at the JCA.</span>
@@ -18,10 +18,10 @@
         Volunteers get free admission to the event, food, drink and lots of love!<br class="spacer">
         Click on the "I'd like to volunteer!" button in any of the <g-link to="/events">event listings</g-link> to send an email to Wendy if you are interested in volunteering for that particular event.
       </p>
-    </div>
+    </section>
 
 
-    <div v-animate-on-intersection>
+    <section v-animate-on-intersection>
       <h2>Donate:</h2>
       <p>
         TAX-DEDUCTIBLE DONATIONS can be made on behalf of JCA through the Siskiyou County Arts Council, at <link-outbound to="http://siskiyouarts.org/get-involved/donation-form/">siskiyouarts.org</link-outbound>. 
@@ -32,7 +32,7 @@
         Or 
         <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">donate via PayPal</link-outbound>
       </p>
-    </div>
+    </section>
 
 
   </div>
