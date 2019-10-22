@@ -4,13 +4,14 @@
       {{ day }} has no weekly classes.
     </p>
     <event-item 
-      v-for="(cl, index) in classes" 
-      :key="cl.title + cl.time.start" 
-      :event="cl" 
-      type="class" 
-      recurrence="weekly" 
-      class="anima__zoom"
-      :style="'animation-delay:' + index/5 + 's;animation-fill-mode: backwards;'"
+      v-for="(cl, index) in classes"
+      :key="cl.title + cl.time.start"
+      :event="cl"
+      type="class"
+      recurrence="weekly"
+      v-animate-on-intersection
+      :class="[{'anima__slide-in-from-left': index%2===0, 'anima__slide-in-from-right': index%2!==0}]"
+      :style="'animation-delay:' + index/25 + 's;animation-fill-mode: backwards;'"
     />
   </div>
 </template>
@@ -18,8 +19,11 @@
 <script>
 import EventItem from '@/components/EventItem'
 
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
 export default {
   name: 'ClassesForWeekday',
+  mixins: [animateOnIntersection],
   components: {
     EventItem
   },
