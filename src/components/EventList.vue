@@ -1,12 +1,14 @@
 <template>
   <div class="event-list">
-    <div v-if="noEvents && type!=='class'" class="spacious emph">
-      <p>
-      At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
-      
-      Please check back soon or –better yet– subscribe to our newsletter below!
+    <div 
+      v-if="noEvents && type!=='class'" 
+    >
+      <p v-animate-on-intersection class="script center anima__fade-in-bounce">
+        At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
+        
+        Please check back soon or –better yet– subscribe to our newsletter below!
       </p>
-      <email-subscribe-section/>
+      <email-subscribe-section v-animate-on-intersection/>
     </div>
 
     <event-item 

@@ -34,8 +34,8 @@
 
     <location-section v-animate-on-intersection/>
 
-    <section class="sitedesign" v-animate-on-intersection>
-      <h4>Website design</h4>
+    <section v-animate-on-intersection>
+      <h2>Website design and performance</h2>
       <p>
         For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://kagalakan.com/">kagalakan.com</link-outbound>).
       </p>

@@ -5,6 +5,7 @@
     <sponsor 
       v-for="(sponsor, index) in sponsors" 
       :key="sponsor.name" 
+      :id="'sponsor' + (index + 1)"
       :sponsor="sponsor"
       class="anima__zoom"
       v-animate-on-intersection

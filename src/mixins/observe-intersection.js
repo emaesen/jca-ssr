@@ -25,8 +25,8 @@ export default {
     return {
       intsecObserver: undefined,
       intsecObserverOptions: {
-        rootMargin: '-50px',
-        threshold: 0,
+        rootMargin: '-20px',
+        threshold: [0,0.01],
       },
       intsecObserverBehavior: {
         observeOnlyOnce: true,
@@ -47,7 +47,7 @@ export default {
     this.intsecObserver.disconnect();
   },
   methods: {
-    handleIntersection({intersectionRatio, target}, observer) {
+    handleIntersection({intersectionRatio, isIntersecting, target}, observer) {
       if (intersectionRatio > 0) {
         if (target.dataset[dataIntsecObservable] === YES) {
           this.intsecHandler(target);

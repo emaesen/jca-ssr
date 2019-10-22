@@ -94,6 +94,7 @@ main {
   min-height: 600px;
 }
 #app {
+  overflow: hidden;
   margin: 0 auto;
   min-width: @min_width;
   max-width: @max_width;
@@ -229,6 +230,7 @@ img.logo_sm {
 }
 img.img-hero {
   width: 100%;
+  margin: 1em 0;
 }
 img.secondary {
   max-width: 50%;
