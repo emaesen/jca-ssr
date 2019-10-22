@@ -55,7 +55,6 @@ export default {
   },
 
   update(el, binding, vnode, oldVnode) {
-console.log(">>>>> v-observe update()", {el, vnode, oldVnode});
     let observer = vnode.context[intsecObsKey];
     let oldObserver = oldVnode.context[intsecObsKey];
     let isSameObserver = observer === oldObserver;
@@ -69,7 +68,6 @@ console.log(">>>>> v-observe update()", {el, vnode, oldVnode});
   },
 
   unbind(el) {
-console.log(">>>>> v-observe unbind()", {el});
     unobserve(el, el[intsecObsCacheKey]);
   }
 };

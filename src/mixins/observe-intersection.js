@@ -42,15 +42,12 @@ export default {
       }, 
       this.intsecObserverOptions
     );
-console.log(">> mixin beforeMount()", {intsecObserver: this.intsecObserver} )
   },
   beforeDestroy() {
-console.log(">> mixin beforeDestroy()", {intsecObserver: this.intsecObserver} )
     this.intsecObserver.disconnect();
   },
   methods: {
     handleIntersection({intersectionRatio, target}, observer) {
-console.log(">> mixin handleIntersection()", {intersectionRatio, target, observer});
       if (intersectionRatio > 0) {
         if (target.dataset[dataIntsecObservable] === YES) {
           this.intsecHandler(target);

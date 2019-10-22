@@ -25,7 +25,6 @@ export default {
   methods: {
     intsecHandler(target, opts) {
       if (opts && opts.init) {
-        console.log({target})
         if (!target.className.includes("anima__")) {
           target.classList.add("anima__slide-in-from-below");
         }
