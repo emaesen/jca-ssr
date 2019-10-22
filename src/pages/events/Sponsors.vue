@@ -7,7 +7,8 @@
       :key="sponsor.name" 
       :sponsor="sponsor"
       class="anima__zoom"
-      :style="'animation-delay:' + index/5 + 's;animation-fill-mode: backwards;'"
+      v-animate-on-intersection
+      :style="'animation-delay:' + index/10 + 's;animation-fill-mode: backwards;'"
     />
 
   </div>
@@ -16,10 +17,13 @@
 <script>
 import Sponsor from '@/components/Sponsor.vue';
 
+import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
 import sponsorsJson from '@/data/sponsors.json';
 
 export default {
   name: 'Sponsors',
+  mixins: [animateOnIntersection],
   components: {
     Sponsor,
   },
