@@ -25,7 +25,7 @@
 import EventItem from '@/components/EventItem';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 
-import date from '@/mixins/date.js'
+import date from '@/mixins/date.js';
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
 import eventsJson from '@/data/events.json';
