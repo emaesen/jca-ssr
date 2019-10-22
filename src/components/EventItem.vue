@@ -43,14 +43,14 @@
     <div class="details_container">
 
       <!-- main event image -->
-      <div class="details_column details_column1">
-        <div class="event_image" v-if="event.image">
+      <div class="details_column details_column1" v-if="event.image">
+        <div class="event_image">
           <g-image :src="'/img/event/'+event.image" :alt="event.title" class="anima__zoom"/>
         </div>
       </div>
 
       <!-- event details -->
-      <div class="details_column details_column2">
+      <div :class="['details_column', {'details_column2':!!event.image}]">
         <div v-if="!isWeeklyRecurring" class="event_date">
           {{ date }}
         </div>
@@ -75,7 +75,7 @@
 
     </div>
 
-    <hr>
+    <hr v-if="event.ics || !isWeeklyRecurring">
 
     <!-- Add to calendar links -->
     <div v-if="event.ics" class="ics">
