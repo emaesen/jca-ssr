@@ -52,7 +52,7 @@
       </carousel>
     </div>
 
-    <div v-animate-on-intersection>
+    <section v-animate-on-intersection>
       <h2>Get Involved!</h2>
 
       <p>
@@ -74,7 +74,7 @@
       <p>
         <g-link to="/contact/">Contact Us</g-link>
       </p>
-    </div>
+    </section>
 
     <facebook-section v-animate-on-intersection/>
 
