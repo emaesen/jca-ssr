@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2>{{ sponsor.name }}</h2>
     <div class="sponsor">
       <div class="column left">
@@ -18,7 +18,7 @@
         </link-outbound>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

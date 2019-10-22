@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h3>JCA's weekly class schedule:</h3>
 
     <p>
@@ -15,7 +15,7 @@
 
     <week-schedule :classes="classes"/>
 
-  </div>
+  </section>
 </template>
 
 <script>

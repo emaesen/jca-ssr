@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2>Location</h2>
 
     <p>
@@ -24,7 +24,7 @@
       …or get directions on <link-outbound to="https://www.google.com/maps/dir//1124+Pine+Grove+Dr,+Mt+Shasta,+CA+96067/@41.3204503,-122.3419519,15z">Google Maps</link-outbound>
     </div>
 
-  </div>
+  </section>
 </template>
 
 <script>

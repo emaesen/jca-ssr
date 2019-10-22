@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2>Our Facebook ‘vision’ page.</h2>
     <p>
       We're so incredibly excited to have the opportunity to provide this most amazing community in Mount Shasta with a venue to celebrate the Arts!!!
@@ -14,7 +14,7 @@
       <icon-facebook/>
       We invite you to visit and ‘like’ our <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">Facebook ‘vision’ page</link-outbound>!
     </p>
-  </div>
+  </section>
 </template>
 
 <script>

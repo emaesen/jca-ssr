@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2>Musicians, Visual Artists, Performers:</h2>
     <p class="emph">
       We welcome your submissions year round.
@@ -15,7 +15,7 @@
       <postal-address/>
 
     </p>
-  </div>
+  </section>
 </template>
 
 <script>

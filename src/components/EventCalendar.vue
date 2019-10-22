@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <section>
 
-    <p> 
+    <h2> 
       An overview of upcoming events at the JCA:
-    </p>
+    </h2>
 
     <calendar 
       :nrWeeksToShow="nrWeeksToShow"
@@ -12,7 +12,7 @@
       :eventTypes="eventTypes"
     />
 
-  </div>
+  </section>
 </template>
 
 <script>

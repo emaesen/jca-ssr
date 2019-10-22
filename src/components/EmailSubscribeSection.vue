@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2>Join our email list!</h2>
 
     <p class="script center anima__flicker-subtle">
@@ -121,7 +121,7 @@
         <div class="restriction-note">Please note: some privacy-focused browsers (like Brave) might block or restrict the access to MailChimp. If you are not able to subscribe to our newletter, please try a different browser.</div>
       </template>
     </modal>
-  </div>
+  </section>
 </template>
 
 <script>
