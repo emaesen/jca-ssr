@@ -5,19 +5,19 @@
     <div>
       You may contact Wendy James at JCA:<br class="spacer">
       <ul>
-        <li class="anima__fade-in-right del1">
+        <li class="anima__slide-in-from-left del1">
           by phone at <a href="tel:+15309188383">(530) 918-8383</a>
         </li>
-        <li class="anima__fade-in-right del2">
+        <li class="anima__slide-in-from-left del2">
           by email at <a href="mailto:TheJCA@yahoo.com">TheJCA@yahoo.com</a>
         </li>
-        <li class="anima__fade-in-right del3">
+        <li class="anima__slide-in-from-left del3">
           via facebook at the 
           <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">JCA page</link-outbound> 
           or at 
           <link-outbound to="https://www.facebook.com/wendybirdfly">Wendy's page</link-outbound>
         </li>
-        <li class="anima__fade-in-right del4">
+        <li class="anima__slide-in-from-left del4">
           by postal mail at:
           <postal-address/>
         </li>
