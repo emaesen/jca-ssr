@@ -2,7 +2,8 @@
   <div>
     <h1>Contact Us</h1>
 
-    <div>
+    <section>
+      <h2>Different ways to reach us</h2>
       You may contact Wendy James at JCA:<br class="spacer">
       <ul>
         <li class="anima__slide-in-from-left del1">
@@ -21,8 +22,11 @@
           by postal mail at:
           <postal-address/>
         </li>
+        <li class="anima__slide-in-from-left del4">
+          by using the form below:
+        </li>
       </ul>
-    </div>
+    </section>
 
     <contact-us-section v-animate-on-intersection>
       <h2>We would love to hear from you!</h2>
@@ -30,12 +34,12 @@
 
     <location-section v-animate-on-intersection/>
 
-    <div class="sitedesign" v-animate-on-intersection>
+    <section class="sitedesign" v-animate-on-intersection>
       <h4>Website design</h4>
       <p>
         For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://kagalakan.com/">kagalakan.com</link-outbound>).
       </p>
-    </div>
+    </section>
 
   </div>
 </template>
