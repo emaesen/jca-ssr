@@ -35,8 +35,10 @@ function observe(el, observer) {
   }
 }
 function unobserve(el, observer) {
-  if (observer instanceof IntersectionObserver) {
+  if (el && observer instanceof IntersectionObserver) {
     observer.unobserve(el);
+  }
+  if (el) {
     markUnobservable(el);
     uncacheObserver(el);
   }
