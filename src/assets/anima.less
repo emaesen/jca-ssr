@@ -42,6 +42,7 @@
 	animation-direction: reverse;
 }
 
+.anima__slide-in-from-right,
 .anima__fade-in-right {
   animation-name: fade-in-right;
 	animation-duration: 1s;
@@ -52,18 +53,20 @@
 @keyframes fade-in-right { 
   0% { 
     opacity: 0; 
-    transform: translateX(-50px); 
+    transform: translateX(50px); 
   } 
   100% { 
     opacity: 1; 
     transform: translateX(0); 
   } 
 }
+.anima__slide-out-to-right,
 .anima__fade-out-right {
   .anima__fade-in-right();
 	animation-direction: reverse;
 }
 
+.anima__slide-in-from-left,
 .anima__fade-in-left {
   animation-name: fade-in-left;
 	animation-duration: 1s;
@@ -74,18 +77,20 @@
 @keyframes fade-in-left { 
   0% { 
     opacity: 0; 
-    transform: translateX(50px); 
+    transform: translateX(-50px); 
   } 
   100% { 
     opacity: 1; 
     transform: translateX(0); 
   } 
 }
+.anima__slide-out-to-left,
 .anima__fade-out-left {
   .anima__fade-in-left();
 	animation-direction: reverse;
 }
 
+.anima__slide-in-from-below,
 .anima__fade-in-bottom {
   animation-name: fade-in-bottom;
 	animation-duration: .5s;
@@ -96,18 +101,20 @@
 @keyframes fade-in-bottom { 
   0% { 
     opacity: 0; 
-    transform: translateY(-20px); 
+    transform: translateY(50px); 
   }
   100% { 
     opacity: 1; 
     transform: translateY(0); 
   } 
 }
+.anima__slide-out-to-below,
 .anima__fade-out-bottom {
   .anima__fade-in-bottom();
 	animation-direction: reverse;
 }
 
+.anima__slide-in-from-above,
 .anima__fade-in-top {
   animation-name: fade-in-top;
 	animation-duration: .5s;
@@ -118,13 +125,14 @@
 @keyframes fade-in-top { 
   0% { 
     opacity: 0; 
-    transform: translateY(20px); 
+    transform: translateY(-50px); 
   } 
   100% { 
     opacity: 1; 
     transform: translateY(0); 
   } 
 }
+.anima__slide-out-to-below,
 .anima__fade-out-top {
   .anima__fade-in-top();
   animation-direction: reverse;
