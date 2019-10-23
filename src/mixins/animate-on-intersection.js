@@ -30,8 +30,17 @@ export default {
         }
         target.classList.add("anima__-paused");
       } else {
+        target.addEventListener("animationend", this.onAnimationEnd, false);
         target.classList.remove("anima__-paused");
       }
+    },
+    onAnimationEnd(evt) {
+      // bugfix: 
+      // remove animation class to prevent positioning issues for child modals
+      let target = evt.target;
+      let classes = target.className;
+      target.removeEventListener("animationend", this.onAnimationEn)
+      target.className = classes.replace(/anima__[^ ]+/g, "");
     }
   }
 }
