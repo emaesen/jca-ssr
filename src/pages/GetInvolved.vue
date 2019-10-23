@@ -64,10 +64,10 @@ export default {
   },
   computed: {
     meta_title() {
-      return "Get involved with Jefferson Center for the Arts in Mount Shasta, California, USA";
+      return "Get involved with Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
-      return "Get involved with Jefferson Center for the Arts. Send your event submissions. Volunteer at events. Donate.";
+      return "Send your event submissions. Volunteer at events. Donate.";
     }
   },
 };

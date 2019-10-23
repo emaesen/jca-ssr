@@ -74,10 +74,10 @@ export default {
   },
   computed: {
     meta_title() {
-      return "Contact Jefferson Center for the Arts in Mount Shasta, California, USA";
+      return "Contact Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
-      return "Contact Jefferson Center for the Arts. Find our location in Mount Shasta, California, USA.";
+      return "Contact JCA by mail, phone or facebook. Find JCA's location in Mount Shasta, California, USA.";
     },
     mailtoWebmaster() {
       const emailSubject = "Message about JeffersonCenterForTheArts.com";

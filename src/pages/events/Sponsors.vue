@@ -46,7 +46,7 @@ export default {
   },
   computed: {
     meta_title() {
-      return "Sponsors for Jefferson Center for the Arts in Mount Shasta, California, USA";
+      return "Sponsors for Jefferson Center for the Arts";
     },
     meta_description() {
       return "Sponsors for Jefferson Center for the Arts in Mount Shasta, California, USA.";

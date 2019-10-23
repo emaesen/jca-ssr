@@ -59,10 +59,10 @@ export default {
   },
   computed: {
     meta_title() {
-      return "About Jefferson Center for the Arts in Mount Shasta, California, USA";
+      return "About Jefferson Center for the Arts";
     },
     meta_description() {
-      return "Jefferson Center for the Arts is the premier educational center for music and the performing arts in Mount Shasta, California, USA.";
+      return "JCA is the premier educational center for music and the performing arts in Mount Shasta, California, USA.";
     },
   }
 };

@@ -43,10 +43,10 @@ export default {
   },
   computed: {
     meta_title() {
-      return "Theater events at Jefferson Center for the Arts in Mount Shasta, California, USA";
+      return "Theater events at Jefferson Center for the Arts";
     },
     meta_description() {
-      return "An overview of upcoming theater events at Jefferson Center for the Arts in Mount Shasta, California, USA.";
+      return "View upcoming theater events at Jefferson Center for the Arts in Mount Shasta, California, USA.";
     },
   }
 };

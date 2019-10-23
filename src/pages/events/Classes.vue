@@ -39,10 +39,10 @@ export default {
   },
   computed: {
     meta_title() {
-      return "Weekly classes at Jefferson Center for the Arts in  Mount Shasta, California, USA";
+      return "Weekly classes at Jefferson Center for the Arts";
     },
     meta_description() {
-      return "Weekly classes at Jefferson Center for the Arts in  Mount Shasta, California, USA.";
+      return "Weekly classes at Jefferson Center for the Arts in Mount Shasta, California, USA.";
     },
   }
 };
