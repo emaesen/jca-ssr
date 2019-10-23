@@ -11,6 +11,10 @@ module.exports = {
   metadata: {
     version: 'V1.1.0',
   },
+  icon: {
+    favicon: './static/img/icons/favicon.png',
+    touchicon: './static/img/icons/touch-icon.png'
+  },
   plugins: [
     {
       use: '@gridsome/plugin-sitemap',
