@@ -2,8 +2,8 @@
   <div class="modal-base anima__zoom" :class="{'anima__fade-out':doClose}">
     <div class="modal">
       <div class="container">
-        <div class="close" @click="close">
-          <icon-x class="close-icon action"/>
+        <div class="close action" @click="close">
+          Close <icon-x class="close-icon"/>
         </div>
         <div class="header">
           <slot name="header"></slot>
@@ -110,11 +110,12 @@ export default {
   }
 
   .close {
+    color: #333;
     float: right;
     .close-icon {
-      width: 30px;
-      height: 30px;
-      color: #333;
+      width: 25px;
+      height: 25px;
+      vertical-align: text-bottom;
     }
   }
 }
