@@ -96,6 +96,51 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     })
   }
 
+  // some icon-related meta settings
+  head.link.push({
+    key: 'manifest',
+    rel: 'manifest',
+    href: '/manifest.json',
+  })
+  head.link.push({
+    key: 'mask-icon',
+    rel: 'mask-icon',
+    href: '/img/icons/safari-pinned-tab.svg',
+    color: '#5bbad5',
+  })
+  head.link.push({
+    key: 'shortcut icon',
+    rel: 'shortcut icon',
+    href: '/favicon.ico',
+    color: '#5bbad5',
+  })
+  const icon_metas = {
+    "msapplication-TileImage": "/img/icons/mstile-150x150.png",
+    "msapplication-TileColor": "#2b5797",
+    "theme-color": "#ffffff"
+  };
+  for (var meta in icon_metas) {
+    head.meta.push({
+      key: meta,
+      name: meta,
+      content: icon_metas[meta],
+    })
+  }
+
+  
+  const apple_metas = {
+    "apple-mobile-web-app-capable": "no",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": "Jefferson Center for the Arts"
+  };
+  for (var meta in apple_metas) {
+    head.meta.push({
+      key: meta,
+      name: meta,
+      content: apple_metas[meta],
+    })
+  }
+
   /***********************************
    * route-specific vue-meta settings
    ***********************************/
@@ -103,7 +148,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   router.beforeEach((to, from, next) => {
     head.meta.push({
       key: 'og:url',
-      name: 'og:url',
+      property: 'og:url',
       content: BASE_PATH + to.path,
     })
     head.link.push({
@@ -135,9 +180,11 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     locale: "en_US",
     type: "website",
     site_name: "Jefferson Center for the Arts",
-    title: "Jefferson Center for the Arts, Mount Shasta, California, USA",
-    description: "Jefferson Center for the Arts: Mount Shasta's Premier Educational Center for Music and the Performing Arts",
-    image: BASE_PATH + "/img/jca-logo-lg.png"
+    title: "Jefferson Center for the Arts",
+    description: "Mount Shasta's Premier Educational Center for Music and the Performing Arts",
+    image: BASE_PATH + "/img/icons/icon-279x279.png",
+    "image:width": "279",
+    "image:height": "279"
   };
   for (var meta in og_metas) {
     head.meta.push({
