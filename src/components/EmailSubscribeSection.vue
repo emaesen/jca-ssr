@@ -159,6 +159,15 @@ export default {
       showBirthDay: false,
     }
   },
+  mounted() {
+    let appMeta = this.$root._vueMeta;
+    if (appMeta.appId==="ssr" && !appMeta.initialized) {
+      // this is a pre-rendered page which has been freshly loaded
+      // It has a hardcoded default setting for the frameheight, so let's
+      // trigger an update by slightly modifying the windowHeight
+      this.windowHeight = this.windowHeight - 1;
+    }
+  },
   computed: {
     emailFormatIsValid() {
       // eslint-disable-next-line no-control-regex
@@ -172,7 +181,7 @@ export default {
       return !(this.requiredFieldsHaveValue && this.emailFormatIsValid);
     },
     frameHeight() {
-      return (this.windowHeight - 150) + "px";
+      return this.windowHeight ? (this.windowHeight - 150) + "px" : "600px";
     },
   },
   methods: {
@@ -190,7 +199,7 @@ export default {
       this.lastname = "";
       this.permission = "";
     },
-  }
+  },
 };
 </script>
 
