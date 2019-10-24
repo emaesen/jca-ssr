@@ -119,4 +119,12 @@ export default {
     }
   }
 }
+@media all and (max-width: 650px) {
+  .modal {
+    width: 99%;
+    .body {
+      padding: .75rem .3rem;
+    }
+  }
+}
 </style>
