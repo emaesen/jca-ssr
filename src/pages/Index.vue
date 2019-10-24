@@ -107,9 +107,9 @@ export default {
     IconForward,
   },
   metaInfo: {
-    title: "JCA",
+    title: "Jefferson Center for the Arts",
     meta: [
-      { name: "description", content: "Jefferson Center for the Arts is Mount Shasta's Premier Educational Center for Music and the Performing Arts." }
+      { name: "description", content: "JCA is Mount Shasta's Premier Educational Center for Music and the Performing Arts." }
     ]
   },
   data() {
