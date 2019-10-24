@@ -2,7 +2,7 @@
   <div class="day-content" :class="classes">
     <div :class="{'day-compact':onCalendar, 'day-full':!onCalendar}">
       <span v-if="!onCalendar" class="action button close" @click="deFocus">
-        <icon-x/>
+        Close <icon-x class="close-icon"/>
       </span>
       <h4 v-if="!onCalendar">{{ day }}</h4>
       <div class="events">
@@ -160,13 +160,13 @@ h4 {
 }
 .button.close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
 }
 .icon-x {
-  padding: 5px;
   width: 25px;
   height: 25px;
+  vertical-align: text-bottom;
 }
 .day-full {
   min-height: 300px;
