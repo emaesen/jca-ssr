@@ -26,12 +26,12 @@
         role="menuitem"
       >
         <g-link to="/events">
-          Events
           <span @click.stop.prevent="onNavClick('events', $event)" class="actionicon">
             <icon-arrow-down
               :class="['svg-icon icon_transition', {flip:isNavEventsExpanded}]"
             />
           </span>
+          Events
         </g-link>
         <ul :class="['nav submenu', {collapsed:!isNavEventsExpanded}]" role="menu">
           <li class="nav item event-sub" role="menuitem">
@@ -69,7 +69,6 @@
           <li class="nav item event-sub" role="menuitem">
             <g-link to="/events/sponsors">Sponsors</g-link>
           </li>
-          <li class="nav divider"></li>
         </ul>
       </li>
       <li class="nav item" role="menuitem">
@@ -223,10 +222,10 @@ a.active {
   transition: transform 0.3s linear;
 }
 .actionicon {
+  float: right;
   height: 1em;
   width: 2em;
   text-align: right;
-  display: inline-block;
   cursor: pointer;
 }
 .actionicon .icon {
@@ -330,21 +329,15 @@ li li {
       float: none;
       display: grid;
       a {
-        padding: 10px;
+        padding: 5px 10px;
       }
     }
     .nav.submenu:not(.collapsed) {
       position: relative;
-      padding-left: 1em;
+      margin-left: 1em;
     }
     .toggle-icons {
       visibility: visible;
-    }
-    .actionicon {
-      display: block;
-      text-align: center;
-      float: right;
-      width: 2em;
     }
   }
 };
