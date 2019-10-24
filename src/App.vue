@@ -92,9 +92,9 @@ button {
 main {
   padding-top: 1em;
   min-height: 600px;
+  overflow: hidden;
 }
 #app {
-  overflow: hidden;
   margin: 0 auto;
   min-width: @min_width;
   max-width: @max_width;
