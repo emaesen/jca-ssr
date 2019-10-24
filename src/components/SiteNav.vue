@@ -329,7 +329,7 @@ li li {
       float: none;
       display: grid;
       a {
-        padding: 5px 10px;
+        padding: 10px;
       }
     }
     .nav.submenu:not(.collapsed) {
