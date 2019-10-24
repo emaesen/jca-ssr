@@ -13,6 +13,8 @@ const intsecObsCacheKey = 'intsecObserverCache';
 const intsecObsKey = 'intsecObserver';
 const dataIntsecObservable = 'intsecObservable';
 
+let enableIntsecObs = true;
+
 function markObservable(el) {
   el.dataset[dataIntsecObservable] = YES;
 }
@@ -28,46 +30,54 @@ function uncacheObserver(el) {
 }
 
 function observe(el, observer) {
-  if (observer instanceof IntersectionObserver) {
+  if (enableIntsecObs && observer instanceof IntersectionObserver) {
     observer.observe(el);
     markObservable(el);
     cacheObserver(el, observer);
   }
 }
 function unobserve(el, observer) {
-  if (el && observer instanceof IntersectionObserver) {
-    observer.unobserve(el);
-  }
-  if (el) {
-    markUnobservable(el);
-    uncacheObserver(el);
+  if (enableIntsecObs) {
+    if (el && observer instanceof IntersectionObserver) {
+      observer.unobserve(el);
+    }
+    if (el) {
+      markUnobservable(el);
+      uncacheObserver(el);
+    }
   }
 }
 
 export default {
   inserted(el, binding, vnode) {
-    let observer = vnode.context[intsecObsKey];
-    if (observer instanceof IntersectionObserver) {
-      observe(el, observer);
-    } else {
-      console.error("Provide Intersection Observer through `" + intsecObsKey + "` property")
+    if (enableIntsecObs) {
+      let observer = vnode.context[intsecObsKey];
+      if (observer instanceof IntersectionObserver) {
+        observe(el, observer);
+      } else {
+        console.error("Provide Intersection Observer through `" + intsecObsKey + "` property")
+      }
     }
   },
 
   update(el, binding, vnode, oldVnode) {
-    let observer = vnode.context[intsecObsKey];
-    let oldObserver = oldVnode.context[intsecObsKey];
-    let isSameObserver = observer === oldObserver;
+    if (enableIntsecObs) {
+      let observer = vnode.context[intsecObsKey];
+      let oldObserver = oldVnode.context[intsecObsKey];
+      let isSameObserver = observer === oldObserver;
 
-    if (isSameObserver) {
-      return;
-    } else {
-      unobserve(el, oldObserver);
-      observe(el, observer);
+      if (isSameObserver) {
+        return;
+      } else {
+        unobserve(el, oldObserver);
+        observe(el, observer);
+      }
     }
   },
 
   unbind(el) {
-    unobserve(el, el[intsecObsCacheKey]);
+    if (enableIntsecObs) {
+      unobserve(el, el[intsecObsCacheKey]);
+    }
   }
 };
