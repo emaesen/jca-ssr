@@ -82,7 +82,7 @@ export default {
 .days-header {
   line-height: 2em;
   display: grid;
-  grid-auto-columns: 8% 19% 19% 19% 19% 8% 8%;
+  grid-template-columns: 8% 19% 19% 19% 19% 8% 8%;
   grid-template-areas: "a b c d e f g";
   background-color: #0a080e;
   border-top: 1px solid #383247;
@@ -105,7 +105,7 @@ export default {
 .week-row {
   display: grid;
   grid-template-areas: "k l m n o p q";
-  grid-auto-columns: 8% 19% 19% 19% 19% 8% 8%;
+  grid-template-columns: 8% 19% 19% 19% 19% 8% 8%;
 }
 .week-row {
   border-left: 1px solid #383247;
@@ -173,11 +173,11 @@ export default {
     display: none;
   }
   .days-header {
-    grid-auto-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: "b c d e";
   }
   .week-row {
-    grid-auto-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: "l m n o";
   }
 }
