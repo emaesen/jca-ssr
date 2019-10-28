@@ -204,7 +204,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
   // meta tags specifically for twitter:
   const tw_metas = {
-    card: "summary_large_image",
+    card: "summary",
     // add following if/when JCA gets a twitter account:
     /*site: "@...",
     creator: "@...",*/
