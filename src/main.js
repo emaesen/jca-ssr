@@ -145,19 +145,27 @@ export default function (Vue, { router, head, isClient, appOptions }) {
    * route-specific vue-meta settings
    ***********************************/
 
-  router.beforeEach((to, from, next) => {
-    head.meta.push({
-      key: 'og:url',
-      property: 'og:url',
-      content: BASE_PATH + to.path,
-    })
-    head.link.push({
-      key: 'canonical',
-      rel: 'canonical',
-      href: BASE_PATH + to.path,
-    })
-    next()
-  })
+  /* 
+   * The code below works as expected in dev mode, but...
+   * during pre-rendering, there appears to be a bug somewhere 
+   * in the tools used that causes multiple canonical tags to
+   * be output per page, yet only one og:url, but that one url is
+   * always the first route from the router.
+   * So this logic is moved to each individual page :(
+   */
+  // router.beforeEach((to, from, next) => {
+  //   head.meta.push({
+  //     key: 'og:url',
+  //     name: 'og:url',
+  //     content: BASE_PATH + to.path,
+  //   })
+  //   head.link.push({
+  //     key: 'canonical',
+  //     rel: 'canonical',
+  //     href: BASE_PATH + to.path,
+  //   })
+  //   next()
+  // })
 
 
   /********************

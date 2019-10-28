@@ -106,11 +106,17 @@ export default {
     IconBackward,
     IconForward,
   },
-  metaInfo: {
-    title: "Jefferson Center for the Arts",
-    meta: [
-      { name: "description", content: "JCA is Mount Shasta's Premier Educational Center for Music and the Performing Arts." }
-    ]
+  metaInfo () {
+    return {
+      title: "Jefferson Center for the Arts",
+      meta: [
+        { name: "description", content: "JCA is Mount Shasta's Premier Educational Center for Music and the Performing Arts." },
+        { key: 'og:url', property: 'og:url', content: this.meta_url}
+      ],
+      link: [
+        { key: 'canonical', rel: 'canonical', href: this.meta_url}
+      ]
+    }
   },
   data() {
     return {
@@ -118,6 +124,9 @@ export default {
     }
   },
   computed: {
+    meta_url() {
+      return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
+    },
     showFeaturedEvent() {
       const today = new Date().setHours(0,0,0,0);
       const eventDate = new Date("2019-10-13").setHours(24,0,0,0);

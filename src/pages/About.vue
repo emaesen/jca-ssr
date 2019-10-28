@@ -53,11 +53,18 @@ export default {
         { key: 'og:type', property: 'og:type', content: 'article'},
         { key: 'og:title', property: 'og:title', content: this.meta_title },
         { key: 'description', name: 'description', content: this.meta_description },
-        { key: 'og:description', property: 'og:description', content: this.meta_description }
+        { key: 'og:description', property: 'og:description', content: this.meta_description },
+        { key: 'og:url', property: 'og:url', content: this.meta_url}
       ],
+      link: [
+        { key: 'canonical', rel: 'canonical', href: this.meta_url}
+      ]
     }
   },
   computed: {
+    meta_url() {
+      return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
+    },
     meta_title() {
       return "About Jefferson Center for the Arts";
     },
