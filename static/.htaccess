@@ -44,7 +44,7 @@
 
 # BEGIN Caching Headers
 <IfModule mod_headers.c>
-  <FilesMatch "\.(flv|gif|jpg|jpeg|png|svg|ico|woff2|mp4)$">
+  <FilesMatch "\.(flv|gif|jpg|jpeg|png|svg|ico|woff|woff2|ttf|eot|mp4)$">
     Header set Cache-Control "max-age=2592000"
   </FilesMatch>
   <FilesMatch "\.(js|css|pdf|swf)$">
