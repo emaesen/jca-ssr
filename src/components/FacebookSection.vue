@@ -11,14 +11,13 @@
       We're a community-based operation and we simply couldn't create the magic unless you were involved!
     </p>
     <p v-animate-on-intersection class="spacious center emph anima__fade-in-bounce">
-      <icon-facebook/>
+      <i class="icon-Facebook"></i>
       We invite you to visit and ‘like’ our <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">Facebook ‘vision’ page</link-outbound>!
     </p>
   </section>
 </template>
 
 <script>
-import IconFacebook from '@/components/icons/IconFacebook';
 import LinkOutbound from '@/components/LinkOutbound.vue';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
@@ -28,7 +27,6 @@ export default {
   mixins: [animateOnIntersection],
   components: {
     LinkOutbound,
-    IconFacebook,
   },
 };
 </script>

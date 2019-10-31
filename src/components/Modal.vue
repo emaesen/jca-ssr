@@ -3,7 +3,7 @@
     <div class="modal">
       <div class="container">
         <div class="close action" @click="close">
-          Close <icon-x class="close-icon"/>
+          Close <i class="icon-X close-icon"></i>
         </div>
         <div class="header">
           <slot name="header"></slot>
@@ -23,12 +23,9 @@
 
 
 <script>
-import IconX from '@/components/icons/IconX.vue';
-
 export default {
   name: 'Modal',
   components: {
-    IconX,
   },
   data() {
     return {

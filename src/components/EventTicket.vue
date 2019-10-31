@@ -2,7 +2,7 @@
   <div>
     
     <button @click="openModal" class="action">
-      Buy ticket <icon-ticket class="action"/>
+      Buy ticket <i class="icon-Ticket action"></i>
     </button>
 
     <modal
@@ -21,7 +21,6 @@
 
 <script>
 import LinkOutbound from '@/components/LinkOutbound.vue';
-import IconTicket from '@/components/icons/IconTicket.vue';
 import Modal from '@/components/Modal.vue';
 
 import windowSize from '@/mixins/window_size.js'
@@ -32,7 +31,6 @@ export default {
   mixins: [windowSize],
   components: {
     LinkOutbound,
-    IconTicket,
     Modal,
   },
   props: {

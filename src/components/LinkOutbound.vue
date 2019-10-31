@@ -1,9 +1,8 @@
 <template>
-  <a :href="to" target="_blank" rel="noopener noreferrer"><slot></slot><icon-outbound v-if="showOutboundIcon" class="deemph"/></a>
+  <a :href="to" target="_blank" rel="noopener noreferrer"><slot></slot><i class="icon-Outbound deemph" v-if="showOutboundIcon"></i></a>
 </template>
 
 <script>
-import IconOutbound from '@/components/icons/IconOutbound.vue';
 
 export default {
   name: 'LinkOutbound',
@@ -17,7 +16,6 @@ export default {
     }
   },
   components: {
-    IconOutbound
   }
 }
 </script>

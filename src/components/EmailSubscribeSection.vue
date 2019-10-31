@@ -86,8 +86,8 @@
               type="checkbox" id="gdpr_45069" name="gdpr[45069]"
               v-model="permission" value="Y"
             /><label for="gdpr_45069" class="checkbox_container">
-              <icon-checkbox-off v-if="!permission" class="checkbox_icon"/>
-              <icon-checkbox-on v-if="permission" class="checkbox_icon"/>
+              <i class="icon-CheckboxOff checkbox_icon" v-if="!permission"></i>
+              <i class="icon-CheckboxOn checkbox_icon" v-if="permission"></i>
               <span class="checkbox_label">I give permission to JCA to send me email newsletters about events at JCA.</span>
             </label>
           </div>
@@ -127,8 +127,6 @@
 <script>
 import LinkOutbound from '@/components/LinkOutbound.vue';
 import Modal from '@/components/Modal.vue';
-import IconCheckboxOff from '@/components/icons/IconCheckboxOff.vue';
-import IconCheckboxOn from '@/components/icons/IconCheckboxOn.vue';
 
 import windowSize from '@/mixins/window_size.js'
 
@@ -138,8 +136,6 @@ export default {
   components: {
     LinkOutbound,
     Modal,
-    IconCheckboxOff,
-    IconCheckboxOn,
   },
   data() {
     return {
@@ -242,7 +238,7 @@ button.action {
 }
 .checkbox_icon {
   flex: none;
-  fill: lighten(@color_text_action,10%);
+  color: lighten(@color_text_action,10%);
 }
 .checkbox_label {
   font-weight: 400;

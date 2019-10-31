@@ -47,8 +47,8 @@
             <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
           </g-link>
         </div>
-        <template slot="prevButton"><icon-backward class="action"/></template>
-        <template slot="nextButton"><icon-forward class="action"/></template>
+        <template slot="prevButton"><i class="icon-Backward action"></i></template>
+        <template slot="nextButton"><i class="icon-Forward action"></i></template>
       </carousel>
     </div>
 
@@ -90,9 +90,6 @@ import FacebookSection from '@/components/FacebookSection';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import OrganizationSchemaScript from '@/components/OrganizationSchemaScript';
 
-import IconBackward from '@/components/icons/IconBackward';
-import IconForward from '@/components/icons/IconForward';
-
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
 export default {
@@ -103,8 +100,6 @@ export default {
     FacebookSection,
     EmailSubscribeSection,
     OrganizationSchemaScript,
-    IconBackward,
-    IconForward,
   },
   metaInfo () {
     return {

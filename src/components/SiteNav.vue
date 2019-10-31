@@ -3,21 +3,21 @@
 
     <span @click.stop.prevent="toggleMenu" class="toggle-icons">
       <transition name="fade" mode="out-in">
-        <icon-three-bars 
+        <i 
           v-if="!isBarMenuOpen" 
-          class="action toggle-icon"
-        />
-        <icon-x 
+          class="icon-ThreeBars action toggle-icon"
+        ></i>
+        <i
           v-if="isBarMenuOpen" 
-          class="action toggle-icon"
-        />
+          class="iconX action toggle-icon"
+        ></i>
       </transition>
     </span>
 
     <ul :class="['nav menu', {'bar-open':isBarMenuOpen, 'bar-closed':!isBarMenuOpen}]" role="menu"
       @click="onNavClick('menu', $event)">
       <li class="nav item" role="menuitem">
-        <g-link to="/" exact><icon-home/> Welcome</g-link>
+        <g-link to="/" exact><i class="icon-Home"></i> Welcome</g-link>
       </li>
       <li
         @mouseover.passive="onNavMouseOver('events', $event)"
@@ -27,9 +27,9 @@
       >
         <g-link to="/events">
           <span @click.stop.prevent="onNavClick('events', $event)" class="actionicon">
-            <icon-arrow-down
-              :class="['svg-icon icon_transition', {flip:isNavEventsExpanded}]"
-            />
+            <i
+              :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavEventsExpanded}]"
+            ></i>
           </span>
           Events
         </g-link>
@@ -85,10 +85,6 @@
 </template>
 
 <script>
-import IconArrowDown from '@/components/icons/IconArrowDown.vue';
-import IconHome from '@/components/icons/IconHome.vue';
-import IconThreeBars from '@/components/icons/IconThreeBars.vue';
-import IconX from '@/components/icons/IconX.vue';
 import CategoryIcon from '@/components/CategoryIcon.vue';
 
 import windowSize from '@/mixins/window_size.js'
@@ -98,10 +94,6 @@ export default {
   name: 'SiteNav',
   mixins: [windowSize],
   components: {
-    IconArrowDown,
-    IconHome,
-    IconThreeBars,
-    IconX,
     CategoryIcon,
   },
   data() {

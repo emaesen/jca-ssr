@@ -2,7 +2,7 @@
   <div class="day-content" :class="classes">
     <div :class="{'day-compact':onCalendar, 'day-full':!onCalendar}">
       <span v-if="!onCalendar" class="action button close" @click="deFocus">
-        Close <icon-x class="close-icon"/>
+        Close <i class="icon-X close-icon"></i>
       </span>
       <h4 v-if="!onCalendar">{{ day }}</h4>
       <div class="events">
@@ -15,7 +15,7 @@
             :key="event._id"
           >
             <span class="time" v-if="event.time.start">
-              <icon-repeat v-if="isRecurring(event)"/>
+              <i class="icon-Repeat" v-if="isRecurring(event)"></i>
               {{ timeRange(event) }}
             </span>
             <span class="type deemph">
@@ -49,9 +49,6 @@
 import EventItem from "./EventItem";
 import CategoryIcon from '@/components/CategoryIcon.vue';
 
-import IconX from '@/components/icons/IconX.vue';
-import IconRepeat from '@/components/icons/IconRepeat.vue';
-
 import date from '@/mixins/date.js'
 
 import { mapMutations } from "vuex";
@@ -60,8 +57,6 @@ export default {
   name: "CalendarDay",
   mixins: [date],
   components: {
-    IconX,
-    IconRepeat,
     EventItem,
     CategoryIcon,
   },

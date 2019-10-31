@@ -13,7 +13,7 @@
         @click="goPrev" 
         class="action button prev-month"
       >
-        <icon-backward class="action"/>
+        <i class="icon-Backward action"></i>
       </button>
       <transition :name="'slide-' + transitionDirection" mode="out-in">
         <span :key="year+'-'+month" class="title">{{ title }}</span>
@@ -23,7 +23,7 @@
         @click="goNext" 
         class="action button next-month"
       >
-        <icon-forward class="action flush-right"/>
+        <i class="icon-Forward action flush-right"></i>
       </button>
     </div>
     <div class="head-right"></div>
@@ -31,9 +31,6 @@
 </template>
 
 <script>
-import IconBackward from '@/components/icons/IconBackward';
-import IconForward from '@/components/icons/IconForward';
-
 import date from '@/mixins/date.js'
 
 import { mapGetters, mapMutations } from "vuex";
@@ -42,8 +39,6 @@ export default {
   name: "CalendarHead",
   mixins: [date],
   components: {
-    IconBackward,
-    IconForward,
   },
   props: {
     hideControls: {
