@@ -3,7 +3,6 @@
     <event-item 
       :event="event"
       :atPageLevel="true"
-      class="anima__zoom"
     />
 
   </div>
