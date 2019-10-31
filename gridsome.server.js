@@ -10,9 +10,20 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
     const eventsCollection = addCollection('Event');
     const eventsJson = await require('./src/data/events.json');
+    const today = (new Date()).setHours(0, 0, 0, 0);
     for(const item of eventsJson.events){
-      eventsCollection.addNode(item)
-      console.log(">>> event loaded: " + item.slug);
+      const dateArr = (item.date && item.date.start) ? item.date.start.split("-") : [2000,1,1];
+      const eventDate = (new Date(dateArr[0], dateArr[1]-1, dateArr[2]))
+                        .setHours(0, 0, 0, 0);
+      const dayDiff = (eventDate - today) / (24*60*60*1000);
+      // We're only interested in future and recent events:
+      // Skip events that happened more than 30 days ago.
+      if (dayDiff > -30) {
+        eventsCollection.addNode(item)
+        console.log(">>> " + (dayDiff < 0 ? "past" : "future") + " event loaded: " + item.slug);
+      } else {
+        console.log(">>> past event skipped: " + item.slug);
+      }
     }
   })
 
@@ -45,7 +56,7 @@ module.exports = function (api) {
       }
     }`)
 
-    data.allEvent.edges.forEach(({ node }) => {
+    data && data.allEvent && data.allEvent.edges.forEach(({ node }) => {
       const cat = node.category || "g";
       createPage({
         path: `/events/${cat}/${node.slug}`,
