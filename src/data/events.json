@@ -3,7 +3,7 @@
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
-    "slug": "url-fragment-with-title-and-date",
+    "slug": "dashed-title-mmm-dd-yyy",
     "title": "",
     "performer": "",
     "description": "",
