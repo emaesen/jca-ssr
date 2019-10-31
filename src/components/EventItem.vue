@@ -2,7 +2,7 @@
   <div :class="containerClasses">
 
     <!-- date and time -->
-    <div class="event_date_emph" v-if="!(isWeeklyRecurring || highlightTime)">
+    <div class="event_date_emph" v-if="!(isWeeklyRecurring || highlightTime || atPageLevel)">
         <div class="month">{{ month }}</div>
         <div class="dayNr">{{ dayNr }}</div>
     </div>
@@ -11,7 +11,7 @@
         <div class="time">{{ time }}</div>
     </div>
 
-    <!-- category and type -->
+    <!-- !atPageLevel category and type -->
     <div v-if="!atPageLevel" class="event_type_cat">
       ~ {{ event.category }}  {{ event.type || type }} ~
     </div>
@@ -28,9 +28,13 @@
       {{ event.title }}
     </h4>
     <h1 v-if="atPageLevel" class="event_title">
-      <category-icon :category="event.category"/> 
       {{ event.title }}
     </h1>
+
+    <!-- atPageLevel category and type -->
+    <div v-if="atPageLevel" class="event_type_cat_pagelevel">
+      <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
+    </div>
 
     <!-- performer or presenter -->
     <div v-if="event.performer" class="event_performer">
@@ -74,8 +78,6 @@
       </div>
 
     </div>
-
-    <hr v-if="event.ics || !isWeeklyRecurring">
 
     <!-- Add to calendar links -->
     <div v-if="event.ics" class="ics">
@@ -234,6 +236,13 @@ h4 {
 .event_presenter {
   position: relative;
   top: -1em;
+}
+.event_type_cat_pagelevel {
+  text-align: center;
+  position: relative;
+  top: -1.5em;
+  opacity: 0.7;
+  color: @color-secondary-1-1;
 }
 .event {
   position: relative;
