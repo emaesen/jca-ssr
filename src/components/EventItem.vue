@@ -34,6 +34,7 @@
     <!-- atPageLevel category and type -->
     <div v-if="atPageLevel" class="event_type_cat_pagelevel">
       <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
+      <span v-if="isPastEvent"> ~ PAST EVENT</span>
     </div>
 
     <!-- performer or presenter -->
@@ -64,7 +65,7 @@
         <div class="event_note">
           {{ event.note }}
         </div>
-        <div class="event_price">
+        <div v-if="!isPastEvent" class="event_price">
           {{ event.price }}
           <event-ticket 
             v-if="event.ticket" 
@@ -80,13 +81,13 @@
     </div>
 
     <!-- Add to calendar links -->
-    <div v-if="event.ics" class="ics">
+    <div v-if="event.ics && !isPastEvent" class="ics">
       <a :href="'/ics/' + event.ics">Add to calendar</a>
     </div>
 
     <!-- volunteer button -->
     <button-volunteer
-      v-if="!isWeeklyRecurring"
+      v-if="!isWeeklyRecurring && !isPastEvent"
       :event="event" 
       class="button_volunteer"
     ></button-volunteer>
@@ -145,6 +146,9 @@ export default {
     },
     containerClasses() {
       return this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category;
+    },
+    isPastEvent() {
+      return this.isPastDate(this.event.date.start);
     },
     isWeeklyRecurring() {
       return this.recurrence==="weekly" || (this.event.weekdays && this.event.weekdays.length > 0);
