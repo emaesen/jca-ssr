@@ -84,10 +84,10 @@
           <div>
             <input 
               type="checkbox" id="gdpr_45069" name="gdpr[45069]"
-              v-model="permission" value="Y"
+              v-model="permission" value="Y" tabindex="-1"
             /><label for="gdpr_45069" class="checkbox_container">
-              <i class="icon-CheckboxOff checkbox_icon" v-if="!permission"></i>
-              <i class="icon-CheckboxOn checkbox_icon" v-if="permission"></i>
+              <i class="icon-CheckboxOff checkbox_icon" v-if="!permission" tabindex="0"></i>
+              <i class="icon-CheckboxOn checkbox_icon" v-if="permission" tabindex="0"></i>
               <span class="checkbox_label">I give permission to JCA to send me email newsletters about events at JCA.</span>
             </label>
           </div>
@@ -210,14 +210,14 @@ iframe {
   object-fit: contain;
 }
 iframe  body {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
 label, input, textarea {
   display: block;
 }
 input[type=checkbox] {
-  display: none;
+  opacity: 0;
 }
 input.nr2 {
   display: inline-block;
