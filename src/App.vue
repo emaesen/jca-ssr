@@ -133,7 +133,7 @@ button {
   border: 1px solid #6ab5ea;
   border-radius: 9px;
   box-shadow: 0 0 5px #d9f0ff;
-  line-height: 1.7em;
+  padding: 7px 9px;
   font-family: @font_family_header;
   font-weight: 700;
 }
