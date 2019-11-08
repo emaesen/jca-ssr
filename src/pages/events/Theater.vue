@@ -3,6 +3,7 @@
     <h1>Theater at JCA</h1>
 
     <p>
+      <g-image class="img-category" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
       <cite>
         "A stage play ought to be the point of intersection between the visible and invisible worlds”
       </cite>
@@ -14,8 +15,6 @@
     <p>
       Performers… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
-
-    <g-image class="img-hero anima__zoom" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
 
     <event-list category="theater"/>
 
@@ -62,5 +61,9 @@ export default {
 <style lang="less" scoped>
 .quote {
   display: block;
+}
+.img-category {
+  float: right;
+  width: 30%;
 }
 </style>

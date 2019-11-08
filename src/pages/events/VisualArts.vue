@@ -3,14 +3,13 @@
     <h1>Visual Arts at JCA</h1>
 
     <p>
+      <g-image class="img-category" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
       Jefferson Center for the Arts presents a wide-variety of rotating exhibitions featuring works by international and regional artists.
       Artists chosen for our gallery space will be encouraged to share their methods and inspirations during gallery openings and workshops.
     </p>
     <p>
       Visual artists… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
-
-    <g-image class="img-hero anima__zoom" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
 
     <event-list category="visual-arts"/>
 
@@ -55,5 +54,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+.img-category {
+  float: right;
+  width: 30%;
+}
 </style>

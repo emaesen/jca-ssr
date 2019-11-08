@@ -3,6 +3,7 @@
     <h1>Music at JCA</h1>
 
     <p>
+     <g-image class="img-category" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
       Jefferson Center for the Arts hosts an eclectic mix of musical genres including…
       Classical, Jazz, Americana, Blues, Folk and other acoustic musical styles.<br class="spacer">
 
@@ -17,7 +18,6 @@
     <p>
       Musicians… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
     </p>
-    <g-image class="img-hero anima__zoom" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
 
     <event-list category="music"/>
 
@@ -62,5 +62,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+.img-category {
+  float: right;
+  width: 30%;
+}
 </style>
