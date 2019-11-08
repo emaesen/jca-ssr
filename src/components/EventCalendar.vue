@@ -7,7 +7,7 @@
 
     <calendar 
       :nrWeeksToShow="nrWeeksToShow"
-      :events="events"
+      :events="filteredEvents"
       :eventCategories="eventCategories"
       :eventTypes="eventTypes"
     />
@@ -15,10 +15,43 @@
   </section>
 </template>
 
+
+<static-query>
+query {
+  events: allEvent {
+    edges {
+      node {
+        category
+        type
+        slug
+        title
+        performer
+        description
+        details
+        series
+        price
+        time {
+          start
+          end
+        }
+        date {
+          start
+          end
+        }
+        image
+        og_image
+        ticket
+        stream
+        youtube
+        ics
+      }
+    }
+  }
+}
+</static-query>
+
 <script>
 import Calendar from "./Calendar";
-
-import eventsJson from '@/data/events.json';
 
 import event from '@/mixins/event.js';
 
@@ -38,12 +71,17 @@ export default {
     };
   },
   mounted() {
-    this.eventCategories = this.evt__eventCategories(this.events);
-    this.eventTypes = this.evt__eventTypes(this.events);
+    this.eventCategories = this.evt__eventCategories(this.filteredEvents);
+    this.eventTypes = this.evt__eventTypes(this.filteredEvents);
   },
   computed: {
     events() {
-      return this.evt__filteredEvents(eventsJson.events);
+      return this.$static.events.edges.map(e => {
+        return e.node;
+      });
+    },
+    filteredEvents() {
+      return this.evt__filteredEvents(this.events);
     },
   },
   methods: {
