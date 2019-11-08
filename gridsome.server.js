@@ -11,7 +11,16 @@ module.exports = function (api) {
     const eventsCollection = addCollection('Event');
     const eventsJson = await require('./src/data/events.json');
     const today = (new Date()).setHours(0, 0, 0, 0);
-    for(const item of eventsJson.events){
+    for(let item of eventsJson.events){
+      // An event may reference one other reference event to share data.
+      // The reference event is identified by `reference_slug`
+      const useReferenceItem = item.reference_slug && item.reference_slug !== "";
+      const refItem = useReferenceItem ? eventsJson.events.filter(i => {return i.slug === item.reference_slug})[0] : {};
+      if (useReferenceItem) {
+        // merge event with reference event
+        item = {...refItem, ...item}
+      }
+
       const dateArr = (item.date && item.date.start) ? item.date.start.split("-") : [2000,1,1];
       const eventDate = (new Date(dateArr[0], dateArr[1]-1, dateArr[2]))
                         .setHours(0, 0, 0, 0);
@@ -39,6 +48,8 @@ module.exports = function (api) {
             title
             performer
             description
+            details
+            series
             price
             time {
               start
@@ -49,7 +60,10 @@ module.exports = function (api) {
               end
             }
             image
+            og_image
             ticket
+            stream
+            youtube
             ics
           }
         }
@@ -61,8 +75,7 @@ module.exports = function (api) {
       createPage({
         path: `/events/${cat}/${node.slug}`,
         component: './src/templates/Event.vue',
-        // Use context to be able to pass event data to the template
-        // (I could not figure out how to get access to the data through graphql)
+        // Use context to pass event data to the template
         context: node
       })
     })
