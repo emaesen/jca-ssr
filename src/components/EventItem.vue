@@ -69,7 +69,7 @@
           {{ event.price }}
           <event-ticket 
             v-if="event.ticket" 
-            :id="event.ticket"
+            :ticketUrl="event.ticket"
             class="event_ticket" 
           />
         </div>
@@ -78,6 +78,61 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- atPageLevel event description details -->
+    <div v-if="atPageLevel">
+      <div 
+          v-if="descriptionDetails"
+          class="event_desc event_desc_details">
+        <span v-html="descriptionDetails"/>
+      </div>
+
+      <!-- atPageLevel event music stream -->
+      <div 
+        v-if="event.stream"
+        class="event_stream"
+      >
+        <transition name="fade" mode="out-in">
+          <span 
+            v-if="showStreamContent" 
+            v-html="event.stream"
+          />
+          <span 
+            v-else 
+            @click="showStreamContent=true" 
+            class="event_stream_button action"
+          >Click to enable music player</span>
+        </transition>
+      </div>
+
+      <!-- atPageLevel event youtube video -->
+      <div 
+        v-if="event.youtube"
+        class="event_youtube"
+      >
+        <transition name="fade" mode="out-in">
+          <iframe 
+            v-if="showYoutubeContent" 
+            :src="videoSrc" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
+          <span
+            v-else 
+            @click="showYoutubeContent=true" 
+            class="event_youtube_button action"
+          >Click to view YouTube video</span>
+        </transition>
+      </div>
+
+    </div>
+
+    <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)">
+      <router-link :to="eventPageUrl">
+        View more...
+      </router-link>
     </div>
 
     <!-- Add to calendar links -->
@@ -91,6 +146,13 @@
       :event="event" 
       class="button_volunteer"
     ></button-volunteer>
+
+    <!-- event series -->
+    <div 
+        v-if="event.series"
+        class="event_series">
+      {{event.series}}
+    </div>
 
     <!-- structured data script element -->
     <event-schema-script
@@ -107,6 +169,14 @@ import ButtonVolunteer from '@/components/ButtonVolunteer.vue';
 import EventSchemaScript from '@/components/EventSchemaScript.vue';
 
 import date from '@/mixins/date.js'
+
+const videoEmbedPath = "https://www.youtube-nocookie.com/embed/";
+// https://developers.google.com/youtube/player_parameters
+const videoEmbedQS = "?autoplay=1" 
+      + "&fs=0"
+      + "&playsinline=1"
+      + "&rel=0"
+      + "&origin=" + window.location.protocol + "//" + window.location.hostname;
 
 export default {
   name: 'EventItem',
@@ -136,6 +206,8 @@ export default {
   },
   data() {
     return {
+      showStreamContent: false,
+      showYoutubeContent: false,
     }
   },
   mounted () {
@@ -195,12 +267,23 @@ export default {
       return text;
     },
     description() {
-      return this.event.description
+      return this.parseAsHtml(this.event.description)
+    },
+    descriptionDetails() {
+      return this.parseAsHtml(this.event.details)
+    },
+    videoSrc() {
+      return videoEmbedPath + this.event.youtube + videoEmbedQS
+    }
+  },
+  methods: {
+    parseAsHtml(txt) {
+      return (txt && txt
         .replace(/</g, "&lt;")
         .replace(/\n/g, "<br>")
         .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="max-width:100%;"/>' )
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>' );
-    },
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>' )) || "";
+    }
   }
 };
 </script>
@@ -241,12 +324,16 @@ h4 {
   position: relative;
   top: -1em;
 }
+.event_series,
 .event_type_cat_pagelevel {
   text-align: center;
   position: relative;
   top: -1.5em;
   opacity: 0.7;
   color: @color-secondary-1-1;
+}
+.event_series {
+  position: inherit;
 }
 .event {
   position: relative;
@@ -284,6 +371,33 @@ h4 {
   margin-top: .3em;
   color: @color-secondary-1-1;
 }
+.event_desc_details,
+.event_series,
+.event_stream,
+.event_youtube {
+  margin-top: 2em;
+  font-size: 90%;
+}
+.event_stream,
+.event_youtube,
+.button_volunteer {
+  text-align: center;
+}
+.button_volunteer {
+  margin: 2em 0;
+}
+.event_stream_button,
+.event_youtube_button {
+  border: 1px solid #575757;
+  background-color: #333;
+  line-height: 42px;
+  display: inline-block;
+  padding: 0 1em;
+  color: #e99708;
+  min-width: 170px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 13px;
+}
 .event_price {
   margin: .5em 0;
 }
@@ -308,12 +422,12 @@ h4 {
 .ics {
   margin-top: 2em;
 }
-.button_volunteer {
-  float: right;
-}
 @media all and (max-width: 650px) {
   .event {
     font-size: 90%;
+  }
+  .details_container {
+    display: block;
   }
 }
 </style>
