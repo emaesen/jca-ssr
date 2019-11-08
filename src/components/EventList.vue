@@ -1,5 +1,9 @@
 <template>
-  <div class="event-list">
+  <section>
+    <h2 v-if="!noEvents">
+      All currently scheduled events
+    </h2>
+
     <div 
       v-if="noEvents && type!=='class'" 
     >
@@ -11,17 +15,54 @@
       <email-subscribe-section v-animate-on-intersection/>
     </div>
 
-    <event-item 
-      v-for="(evt, index) in filteredEvents" 
-      :key="evt._id" 
-      :event="evt"
-      class="anima__zoom"
-      v-animate-on-intersection
-      :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
-    />
+    <div class="event-list">
+      <event-item 
+        v-for="(evt, index) in filteredEvents" 
+        :key="evt._id" 
+        :event="evt"
+        class="anima__zoom"
+        v-animate-on-intersection
+        :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
+      />
+    </div>
 
-  </div>
+  </section>
 </template>
+
+<static-query>
+query {
+  events: allEvent {
+    edges {
+      node {
+        category
+        type
+        slug
+        title
+        performer
+        description
+        details
+        series
+        price
+        time {
+          start
+          end
+        }
+        date {
+          start
+          end
+        }
+        image
+        og_image
+        ticket
+        stream
+        youtube
+        ics
+      }
+    }
+  }
+}
+</static-query>
+
 
 <script>
 import EventItem from '@/components/EventItem';
@@ -29,8 +70,6 @@ import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 
 import date from '@/mixins/date.js';
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
-
-import eventsJson from '@/data/events.json';
 
 export default {
   name: 'EventList',
@@ -49,12 +88,16 @@ export default {
   },
   data() {
     return {
-      events: eventsJson.events,
     }
   },
   mounted () {
   },
   computed: {
+    events() {
+      return this.$static.events.edges.map(e => {
+        return e.node;
+      });
+    },
     filteredEvents() {
       return this.events
         .filter(e => this.type? e.type === this.type: true)
