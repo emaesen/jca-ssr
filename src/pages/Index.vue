@@ -12,6 +12,8 @@
       Jefferson Center for the Arts is Mt Shasta's own community arts and culture center.
     </p>
 
+    <event-list :showSummaryOnly="true"/>
+
     <organization-schema-script/>
 
     
@@ -85,6 +87,7 @@
 </template>
 
 <script>
+import EventList from '@/components/EventList';
 import Carousel from '@/components/Carousel';
 import FacebookSection from '@/components/FacebookSection';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
@@ -96,6 +99,7 @@ export default {
   name: 'Home',
   mixins: [animateOnIntersection],
   components: {
+    EventList,
     Carousel,
     FacebookSection,
     EmailSubscribeSection,
