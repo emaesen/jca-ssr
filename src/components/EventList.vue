@@ -1,31 +1,45 @@
 <template>
   <section>
-    <h2 v-if="!noEvents">
-      All currently scheduled events
-    </h2>
+    <template v-if="showSummaryOnly">
+      <div class="event-summary">
+        <event-item 
+          v-for="(evt, index) in filteredEvents" 
+          :key="evt._id" 
+          :event="evt"
+          :showSummary="true"
+          class="anima__slide-in-from-left event-summary-item"
+          v-animate-on-intersection
+          :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
+        />
+      </div>
+    </template>
+    <template v-else>
+      <h2 v-if="!noEvents">
+        All currently scheduled {{ category }} events
+      </h2>
 
-    <div 
-      v-if="noEvents && type!=='class'" 
-    >
-      <p v-animate-on-intersection class="script center anima__fade-in-bounce">
-        At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
-        
-        Please check back soon or –better yet– subscribe to our newsletter below!
-      </p>
-      <email-subscribe-section v-animate-on-intersection/>
-    </div>
+      <div 
+        v-if="noEvents && type!=='class'" 
+      >
+        <p v-animate-on-intersection class="script center anima__fade-in-bounce">
+          At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
+          
+          Please check back soon or –better yet– subscribe to our newsletter below!
+        </p>
+        <email-subscribe-section v-animate-on-intersection/>
+      </div>
 
-    <div class="event-list">
-      <event-item 
-        v-for="(evt, index) in filteredEvents" 
-        :key="evt._id" 
-        :event="evt"
-        class="anima__zoom"
-        v-animate-on-intersection
-        :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
-      />
-    </div>
-
+      <div class="event-list">
+        <event-item 
+          v-for="(evt, index) in filteredEvents" 
+          :key="evt._id" 
+          :event="evt"
+          class="anima__zoom"
+          v-animate-on-intersection
+          :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
+        />
+      </div>
+    </template>
   </section>
 </template>
 
@@ -86,6 +100,9 @@ export default {
     type: {
       type: String,
     },
+    showSummaryOnly: {
+      type: Boolean
+    }
   },
   data() {
     return {
