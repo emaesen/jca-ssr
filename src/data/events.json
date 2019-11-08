@@ -3,10 +3,12 @@
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
-    "slug": "dashed-title-mmm-dd-yyy",
+    "slug": "dashed-title--mmm-dd-yyy",
     "title": "",
     "performer": "",
     "description": "",
+    "details": "",
+    "series": "",
     "price": "",
     "time":{
       "start": "hh:mm",
@@ -17,28 +19,84 @@
       "end": "yyyy-mm-dd"
     },
     "image": "",
+    "og_image": "",
     "ticket": "",
-    "ics": ""
+    "stream": "",
+    "youtube": "",
+    "ics": "",
+    "reference_slug": ""
   },
   "events":[
     {
-      "category": "",
-      "type": "gala",
-      "slug": "grand-opening-gala-oct-13-2019",
-      "title": "GRAND OPENING GALA!",
-      "performer": "",
-      "description": "Come celebrate Jefferson Center for the Arts' Grand Opening of the JCA Studio Theatre!\n\nSpecial Musical Guests: [Beaucoup Chapeaux](http://www.beaucoupchapeaux.net).\n\n![Beaucoup Chapeaux](beaucoup-chapeaux.jpg)\n\nChampagne & Hors D’oeuvres at 6:30pm.\nConcert begins at 7pm.\nDesserts to follow.",
-      "price": "$35 adv, $40 at the door",
+      "slug": "christmas-is-canceled--dec-15-2019",
+      "date":{
+        "start": "2019-12-15",
+        "end": "2019-12-15"
+      },
       "time":{
-        "start": "18:30",
-        "end": ""
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "ticket": "80553799583",
+      "reference_slug": "christmas-is-canceled--dec-13-2019"
+    },
+    {
+      "slug": "christmas-is-canceled--dec-14-2019",
+      "date":{
+        "start": "2019-12-14",
+        "end": "2019-12-14"
+      },
+      "ticket": "80552608019",
+      "reference_slug": "christmas-is-canceled--dec-13-2019"
+    },
+    {
+      "category": "theater",
+      "type": "musical",
+      "slug": "christmas-is-canceled--dec-13-2019",
+      "title": "Christmas is Cancelled",
+      "performer": "Mount Shasta Children’s Theatre",
+      "description": "Christmas is Cancelled is an original musical written for the Mount Shasta Children’s Theatre by Kale and Cory Coppin.",
+      "details": "This world premiere features talented young actors and singers from all over Siskiyou county. It’s a fun, silly, spirited, musical comedy that is sure to bring out the holiday spirit in everyone.\n\nChildren eight and under are free at all performances 😀",
+      "series": "",
+      "price": "$15",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
       },
       "date":{
-        "start": "2019-10-13",
-        "end": "2019-10-13"
+        "start": "2019-12-13",
+        "end": "2019-12-13"
       },
-      "image": "grand-opening-gala-w450.png",
-      "ticket": "158781",
+      "image": "christmas-is-canceled.jpg",
+      "og_image": "",
+      "ticket": "80553091465",
+      "stream": "",
+      "youtube": "",
+      "ics": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "ben-larsen-unplugged--jan-4-2020",
+      "title": "Ben Larsen - Unplugged",
+      "performer": "Ben Larsen",
+      "description": "The JCA is proud to host [Ben Larsen](http://benlarsenmusic.com/) on his solo tour!\n\nBen Larsen plays song centered folky psychedelic americana chamber pop.",
+      "details": "Ben Larsen is a long time resident of Portland, OR where he began his music career thirteen years ago. A singer-songwriter, and multi instrumentalist, Larsen has been busy developing and producing his solo project and the Ben Larsen Band.\nHis new, self produced album Turn, was developed with the support of many mainstays of the Portland music scene. With roots in acoustic music, Turn grew into a multi genre project creating both an honest and humbling space for Larsen to expand his musical palette.\nSounds on the project range from a full string quartet and horn section, to Larsen alone in front of one mic with a guitar.\nAlways on the search for a deeper and more genuine understanding and connection to music and listeners, Larsen is constantly expanding and examining his role as an musician, artist and creator.",
+      "series": "JCA Unplugged Concert Series",
+      "price": "$15",
+      "time":{
+        "start": "19:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2020-01-04",
+        "end": "2020-01-04"
+      },
+      "image": "ben-larsen.jpg",
+      "og_image": "",
+      "ticket": "80332012211",
+      "stream": "<iframe style='border: 0; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=629965775/size=small/bgcol=333333/linkcol=e99708/transparent=true/' seamless><a href='http://benlarsen3.bandcamp.com/album/turn'>Turn by Ben Larsen</a></iframe>",
+      "youtube": "g8P_YABhTTI",
       "ics": ""
     },
     {
@@ -58,6 +116,26 @@
         "end": "2019-10-19"
       },
       "image": "oktoberfest2019-w450.jpg",
+      "ics": ""
+    },
+    {
+      "category": "",
+      "type": "gala",
+      "slug": "grand-opening-gala-oct-13-2019",
+      "title": "GRAND OPENING GALA!",
+      "performer": "",
+      "description": "Come celebrate Jefferson Center for the Arts' Grand Opening of the JCA Studio Theatre!\n\nSpecial Musical Guests: [Beaucoup Chapeaux](http://www.beaucoupchapeaux.net).\n\n![Beaucoup Chapeaux](beaucoup-chapeaux.jpg)\n\nChampagne & Hors D’oeuvres at 6:30pm.\nConcert begins at 7pm.\nDesserts to follow.",
+      "price": "$35 adv, $40 at the door",
+      "time":{
+        "start": "18:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2019-10-13",
+        "end": "2019-10-13"
+      },
+      "image": "grand-opening-gala-w450.png",
+      "ticket": "158781",
       "ics": ""
     }
   ]
