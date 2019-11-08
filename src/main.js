@@ -190,9 +190,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     site_name: "Jefferson Center for the Arts",
     title: "Jefferson Center for the Arts",
     description: "Mount Shasta's Premier Educational Center for Music and the Performing Arts",
-    image: BASE_PATH + "/img/icons/icon-279x279.png",
-    "image:width": "279",
-    "image:height": "279"
+    image: BASE_PATH + "/img/jca-banner-card.png",
+    "image:width": "1600",
+    "image:height": "800"
   };
   for (var meta in og_metas) {
     head.meta.push({
@@ -201,10 +201,27 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       content: og_metas[meta],
     })
   }
+  // meta tags for additional square image:
+  // (need to be handled separately to ensure unique key)
+  const og_metas2 = {
+    image: BASE_PATH + "/img/icons/icon-279x279.png",
+    "image:width": "279",
+    "image:height": "279"
+  };
+  for (var meta in og_metas2) {
+    head.meta.push({
+      key: 'og:' + meta + '2',
+      property: 'og:' + meta,
+      content: og_metas2[meta],
+    })
+  }
+
 
   // meta tags specifically for twitter:
   const tw_metas = {
-    card: "summary",
+    card: "summary_large_image",
+    title: "Jefferson Center for the Arts",
+    image: BASE_PATH + "/img/jca-banner-card.png"
     // add following if/when JCA gets a twitter account:
     /*site: "@...",
     creator: "@...",*/
