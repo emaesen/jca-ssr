@@ -21,7 +21,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.event.title + ' at JCA Mount Shasta',
+      title: this.event.title + ' at Jefferson Center for the Arts, Mount Shasta, California, USA',
       meta: [
         { key: 'og:type', property: 'og:type', content: 'event'},
         { key: 'og:title', property: 'og:title', content: this.event.title },
@@ -31,7 +31,8 @@ export default {
         { key: 'og:image:width', property: 'og:image:width', content: this.event.image_width},
         { key: 'og:image:height', property: 'og:image:height', content: this.event.image_height},
         { key: 'description', name: 'description', content: this.meta_description },
-        { key: 'twitter:image', name: 'twitter:image', content: this.meta_image},
+        { key: 'twitter:title', name: 'twitter:title', content: this.event.title},
+        { key: 'twitter:image', name: 'twitter:image', content: this.meta_image}
       ],
       link: [
         { key: 'canonical', rel: 'canonical', href: this.meta_url}
