@@ -19,7 +19,8 @@
       "end": "yyyy-mm-dd"
     },
     "image": "",
-    "og_image": "",
+    "image_width": "",
+    "image_height": "",
     "ticket": "",
     "stream": "",
     "youtube": "",
@@ -68,7 +69,8 @@
         "end": "2019-12-13"
       },
       "image": "christmas-is-canceled.jpg",
-      "og_image": "",
+      "image_width": "800",
+      "image_height": "400",
       "ticket": "80553091465",
       "stream": "",
       "youtube": "",
@@ -93,7 +95,8 @@
         "end": "2020-01-04"
       },
       "image": "ben-larsen.jpg",
-      "og_image": "",
+      "image_width": "800",
+      "image_height": "400",
       "ticket": "80332012211",
       "stream": "<iframe style='border: 0; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=629965775/size=small/bgcol=333333/linkcol=e99708/transparent=true/' seamless><a href='http://benlarsen3.bandcamp.com/album/turn'>Turn by Ben Larsen</a></iframe>",
       "youtube": "g8P_YABhTTI",

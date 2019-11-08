@@ -39,7 +39,8 @@ query {
           end
         }
         image
-        og_image
+        image_width
+        image_height
         ticket
         stream
         youtube
