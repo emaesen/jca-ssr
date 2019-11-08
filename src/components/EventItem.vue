@@ -1,164 +1,173 @@
 <template>
   <div :class="containerClasses">
+    <router-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
+      <category-icon :category="event.category" class="summary_icon"/>
+      <span class="summary-column summary_date">{{ dateShort }}</span>
+      <span class="summary-column summary_time">{{ time }}</span>
+      <span class="summary-column summary_title">{{ event.title }}</span>
+    </router-link>
 
-    <!-- date and time -->
-    <div class="event_date_emph" v-if="!(isWeeklyRecurring || highlightTime || atPageLevel)">
-        <div class="month">{{ month }}</div>
-        <div class="dayNr">{{ dayNr }}</div>
-    </div>
-    <div class="event_date_emph" v-if="isWeeklyRecurring || highlightTime">
-        <div class="weekday">{{ weekday }}</div>
-        <div class="time">{{ time }}</div>
-    </div>
+    <template v-else>
 
-    <!-- !atPageLevel category and type -->
-    <div v-if="!atPageLevel" class="event_type_cat">
-      ~ {{ event.category }}  {{ event.type || type }} ~
-    </div>
+      <!-- date and time -->
+      <div class="event_date_emph" v-if="!(isWeeklyRecurring || highlightTime || atPageLevel)">
+          <div class="month">{{ month }}</div>
+          <div class="dayNr">{{ dayNr }}</div>
+      </div>
+      <div class="event_date_emph" v-if="isWeeklyRecurring || highlightTime">
+          <div class="weekday">{{ weekday }}</div>
+          <div class="time">{{ time }}</div>
+      </div>
 
-    <!-- title -->
-    <router-link v-if="!atPageLevel && eventPageUrl" :to="eventPageUrl">
-      <h4 class="event_title">
+      <!-- !atPageLevel category and type -->
+      <div v-if="!atPageLevel" class="event_type_cat">
+        ~ {{ event.category }}  {{ event.type || type }} ~
+      </div>
+
+      <!-- title -->
+      <router-link v-if="!atPageLevel && eventPageUrl" :to="eventPageUrl">
+        <h4 class="event_title">
+          <category-icon :category="event.category"/> 
+          {{ event.title }}
+        </h4>
+      </router-link>
+      <h4 v-if="!atPageLevel && !eventPageUrl" class="event_title">
         <category-icon :category="event.category"/> 
         {{ event.title }}
       </h4>
-    </router-link>
-    <h4 v-if="!atPageLevel && !eventPageUrl" class="event_title">
-      <category-icon :category="event.category"/> 
-      {{ event.title }}
-    </h4>
-    <h1 v-if="atPageLevel" class="event_title">
-      {{ event.title }}
-    </h1>
+      <h1 v-if="atPageLevel" class="event_title">
+        {{ event.title }}
+      </h1>
 
-    <!-- atPageLevel category and type -->
-    <div v-if="atPageLevel" class="event_type_cat_pagelevel">
-      <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
-      <span v-if="isPastEvent"> ~ PAST EVENT</span>
-    </div>
-
-    <!-- performer or presenter -->
-    <div v-if="event.performer" class="event_performer">
-      {{ event.performer }}
-    </div>
-    <div v-if="event.presenter" class="event_presenter">
-      {{ event.presenter }}
-    </div>
-
-    <div class="details_container">
-
-      <!-- main event image -->
-      <div class="details_column details_column1" v-if="event.image">
-        <div class="event_image">
-          <g-image :src="'/img/event/'+event.image" :alt="event.title" class="anima__zoom"/>
-        </div>
+      <!-- atPageLevel category and type -->
+      <div v-if="atPageLevel" class="event_type_cat_pagelevel">
+        <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
+        <span v-if="isPastEvent"> ~ PAST EVENT</span>
       </div>
 
-      <!-- event details -->
-      <div :class="['details_column', {'details_column2':!!event.image}]">
-        <div v-if="!isWeeklyRecurring" class="event_date">
-          {{ date }}
-        </div>
-        <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
-          {{ time }}
-        </div>
-        <div class="event_note">
-          {{ event.note }}
-        </div>
-        <div v-if="!isPastEvent" class="event_price">
-          {{ event.price }}
-          <event-ticket 
-            v-if="event.ticket" 
-            :ticketUrl="event.ticket"
-            class="event_ticket" 
-          />
-        </div>
-        <div class="event_desc">
-          <span v-html="description"/>
-        </div>
+      <!-- performer or presenter -->
+      <div v-if="event.performer" class="event_performer">
+        {{ event.performer }}
+      </div>
+      <div v-if="event.presenter" class="event_presenter">
+        {{ event.presenter }}
       </div>
 
-    </div>
+      <div class="details_container">
 
-    <!-- atPageLevel event description details -->
-    <div v-if="atPageLevel">
+        <!-- main event image -->
+        <div class="details_column details_column1" v-if="event.image">
+          <div class="event_image">
+            <g-image :src="'/img/event/'+event.image" :alt="event.title" class="anima__zoom"/>
+          </div>
+        </div>
+
+        <!-- event details -->
+        <div :class="['details_column', {'details_column2':!!event.image}]">
+          <div v-if="!isWeeklyRecurring" class="event_date">
+            {{ date }}
+          </div>
+          <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
+            {{ time }}
+          </div>
+          <div class="event_note">
+            {{ event.note }}
+          </div>
+          <div v-if="!isPastEvent" class="event_price">
+            {{ event.price }}
+            <event-ticket 
+              v-if="event.ticket" 
+              :ticketUrl="event.ticket"
+              class="event_ticket" 
+            />
+          </div>
+          <div class="event_desc">
+            <span v-html="description"/>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- atPageLevel event description details -->
+      <div v-if="atPageLevel">
+        <div 
+            v-if="descriptionDetails"
+            class="event_desc event_desc_details">
+          <span v-html="descriptionDetails"/>
+        </div>
+
+        <!-- atPageLevel event music stream -->
+        <div 
+          v-if="event.stream"
+          class="event_stream"
+        >
+          <transition name="fade" mode="out-in">
+            <span 
+              v-if="showStreamContent" 
+              v-html="event.stream"
+            />
+            <span 
+              v-else 
+              @click="showStreamContent=true" 
+              class="event_stream_button action"
+            >Click to enable music player</span>
+          </transition>
+        </div>
+
+        <!-- atPageLevel event youtube video -->
+        <div 
+          v-if="event.youtube"
+          class="event_youtube"
+        >
+          <transition name="fade" mode="out-in">
+            <iframe 
+              v-if="showYoutubeContent" 
+              :src="videoSrc" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+            ></iframe>
+            <span
+              v-else 
+              @click="showYoutubeContent=true" 
+              class="event_youtube_button action"
+            >Click to view YouTube video</span>
+          </transition>
+        </div>
+
+      </div>
+
+      <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)">
+        <router-link :to="eventPageUrl">
+          View more...
+        </router-link>
+      </div>
+
+      <!-- Add to calendar links -->
+      <div v-if="event.ics && !isPastEvent" class="ics">
+        <a :href="'/ics/' + event.ics">Add to calendar</a>
+      </div>
+
+      <!-- volunteer button -->
+      <button-volunteer
+        v-if="!isWeeklyRecurring && !isPastEvent"
+        :event="event" 
+        class="button_volunteer"
+      ></button-volunteer>
+
+      <!-- event series -->
       <div 
-          v-if="descriptionDetails"
-          class="event_desc event_desc_details">
-        <span v-html="descriptionDetails"/>
+          v-if="event.series"
+          class="event_series">
+        {{event.series}}
       </div>
 
-      <!-- atPageLevel event music stream -->
-      <div 
-        v-if="event.stream"
-        class="event_stream"
-      >
-        <transition name="fade" mode="out-in">
-          <span 
-            v-if="showStreamContent" 
-            v-html="event.stream"
-          />
-          <span 
-            v-else 
-            @click="showStreamContent=true" 
-            class="event_stream_button action"
-          >Click to enable music player</span>
-        </transition>
-      </div>
-
-      <!-- atPageLevel event youtube video -->
-      <div 
-        v-if="event.youtube"
-        class="event_youtube"
-      >
-        <transition name="fade" mode="out-in">
-          <iframe 
-            v-if="showYoutubeContent" 
-            :src="videoSrc" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen
-          ></iframe>
-          <span
-            v-else 
-            @click="showYoutubeContent=true" 
-            class="event_youtube_button action"
-          >Click to view YouTube video</span>
-        </transition>
-      </div>
-
-    </div>
-
-    <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)">
-      <router-link :to="eventPageUrl">
-        View more...
-      </router-link>
-    </div>
-
-    <!-- Add to calendar links -->
-    <div v-if="event.ics && !isPastEvent" class="ics">
-      <a :href="'/ics/' + event.ics">Add to calendar</a>
-    </div>
-
-    <!-- volunteer button -->
-    <button-volunteer
-      v-if="!isWeeklyRecurring && !isPastEvent"
-      :event="event" 
-      class="button_volunteer"
-    ></button-volunteer>
-
-    <!-- event series -->
-    <div 
-        v-if="event.series"
-        class="event_series">
-      {{event.series}}
-    </div>
-
-    <!-- structured data script element -->
-    <event-schema-script
-      v-if="atPageLevel"
-      :event="event"
-    />
+      <!-- structured data script element -->
+      <event-schema-script
+        v-if="atPageLevel"
+        :event="event"
+      />
+    </template>
   </div>
 </template>
 
@@ -176,7 +185,7 @@ const videoEmbedQS = "?autoplay=1"
       + "&fs=0"
       + "&playsinline=1"
       + "&rel=0"
-      + "&origin=" + window.location.protocol + "//" + window.location.hostname;
+      + (typeof window !== 'undefined' ? "&origin=" + window.location.protocol + "//" + window.location.hostname : "");
 
 export default {
   name: 'EventItem',
@@ -202,6 +211,9 @@ export default {
     },
     atPageLevel: {
       type: Boolean
+    },
+    showSummary: {
+      type: Boolean
     }
   },
   data() {
@@ -217,7 +229,7 @@ export default {
       return this.event.slug ? "/events/" + (this.event.category || "g") + "/" + this.event.slug : "";
     },
     containerClasses() {
-      return this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category;
+      return this.showSummary ? "" : (this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category);
     },
     isPastEvent() {
       return this.isPastDate(this.event.date.start);
@@ -230,6 +242,14 @@ export default {
     },
     date() {
       let opts = {shortForm:false, showYear:true};
+      let text = this.formattedDate(this.event.date.start, opts);
+      if (this.event.date.end && this.event.date.end !== this.event.date.start) {
+        text += " - " + this.formattedDate(this.event.date.end, opts);
+      }
+      return text;
+    },
+    dateShort() {
+      let opts = {shortForm:true, showYear:false};
       let text = this.formattedDate(this.event.date.start, opts);
       if (this.event.date.end && this.event.date.end !== this.event.date.start) {
         text += " - " + this.formattedDate(this.event.date.end, opts);
@@ -290,6 +310,30 @@ export default {
 
 <style lang="less" scoped>
 @import '../assets/variab.less';
+
+.summary-container {
+  margin: .5em auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid #575757;
+  background-color: #333333aa;
+  padding: 0.2em 0.5em;
+  color: #e9b761ee;
+}
+.summary-column {
+  margin-right: 1em;
+  flex: 1;
+  display: inline-block;
+  font-size: 90%;
+  min-width: 100px;
+}
+.summary_title {
+  flex: 3;
+}
+.summary_icon {
+  margin-right: 1em;
+}
 
 .details_container {
   display: flex;
