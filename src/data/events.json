@@ -3,7 +3,7 @@
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
-    "slug": "dashed-title--mmm-dd-yyy",
+    "slug": "dashed-title--mmm-dd-yyyy",
     "title": "",
     "performer": "",
     "description": "",
@@ -52,9 +52,9 @@
     },
     {
       "category": "theater",
-      "type": "musical",
+      "type": "performance",
       "slug": "christmas-is-canceled--dec-13-2019",
-      "title": "Christmas is Cancelled",
+      "title": "Christmas is Cancelled - the musical",
       "performer": "Mount Shasta Children’s Theatre",
       "description": "Christmas is Cancelled is an original musical written for the Mount Shasta Children’s Theatre by Kale and Cory Coppin.",
       "details": "This world premiere features talented young actors and singers from all over Siskiyou county. It’s a fun, silly, spirited, musical comedy that is sure to bring out the holiday spirit in everyone.\n\nChildren eight and under are free at all performances 😀",
@@ -75,6 +75,33 @@
       "stream": "",
       "youtube": "",
       "ics": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "mad-halleluiah--dec-27-2019",
+      "title": "Mad Halleluiah - Live in Shasta",
+      "performer": "Mad Halleluiah",
+      "description": "Doors open at 7:30 PM\n\n[Mad Hallelujah](//madhallelujah.com) is excited to return to Mount Shasta for a post-Christmas celebration at the JCA.",
+      "details": "Mad Hallelujah delivers a righteous and raucous audience-inclusive live experience driven by their dynamic signature sound, which incorporates classic rock, americana-folk, psychedelic jam, funk, and bluegrass influences. Igniting dance floors and lifting up spirits, Mad Hallelujah sets are a playful invitation to get “down & dirty… high & holy.”\n\nMad Hallelujah’s active lineup fuses the diverse musical backgrounds of Makete Roesch on vox & guitar, Daniel Wander on vox & lead guitar, mandolin & trombone, Ari Melinger-Cohen on bass, and Forrest Kelly on drums & percussion.\n\nMad Hallelujah was originally formed in New Zealand in 2015 as a multi-national collective of troubadours called “Mad Hallelujah Tribe.” They have since embarked on multiple independent world tours, released four self-produced albums, and headlined festival main stages on 3 continents.\n\nIn 2019 the band established a home base in Northern California, solidified their current lineup, and completed their first major tour of the western States, growing their dedicated following along the way.",
+      "series": "",
+      "price": "$15",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2019-12-27",
+        "end": "2019-12-27"
+      },
+      "image": "mad-hallelujah.jpg",
+      "image_width": "800",
+      "image_height": "533",
+      "ticket": "",
+      "stream": "<iframe style='border: 0; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=1297593779/size=small/bgcol=333333/linkcol=e99708/transparent=true/' seamless><a href='http://madhallelujah.bandcamp.com/album/over-the-moon'>Over the Moon by Mad Hallelujah</a></iframe>",
+      "youtube": "xDY9lEzJnr0",
+      "ics": "",
+      "reference_slug": ""
     },
     {
       "category": "music",
