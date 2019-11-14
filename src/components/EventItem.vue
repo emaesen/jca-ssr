@@ -1,11 +1,11 @@
 <template>
   <div :class="containerClasses">
-    <router-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
+    <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
       <category-icon :category="event.category" class="summary_icon"/>
       <span class="summary-column summary_date">{{ dateShort }}</span>
       <span class="summary-column summary_time">{{ time }}</span>
       <span class="summary-column summary_title">{{ event.title }}</span>
-    </router-link>
+    </g-link>
 
     <template v-else>
 
@@ -25,12 +25,12 @@
       </div>
 
       <!-- title -->
-      <router-link v-if="!atPageLevel && eventPageUrl" :to="eventPageUrl">
+      <g-link v-if="!atPageLevel && eventPageUrl" :to="eventPageUrl">
         <h4 class="event_title">
           <category-icon :category="event.category"/> 
           {{ event.title }}
         </h4>
-      </router-link>
+      </g-link>
       <h4 v-if="!atPageLevel && !eventPageUrl" class="event_title">
         <category-icon :category="event.category"/> 
         {{ event.title }}
@@ -138,9 +138,9 @@
       </div>
 
       <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)">
-        <router-link :to="eventPageUrl">
+        <g-link :to="eventPageUrl">
           View more...
-        </router-link>
+        </g-link>
       </div>
 
       <!-- Add to calendar links -->
