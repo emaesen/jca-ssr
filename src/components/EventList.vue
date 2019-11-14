@@ -149,6 +149,7 @@ export default {
   align-items: stretch;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: 0 5px;
   .event {
     box-sizing: border-box;
     margin: 2em 0;
