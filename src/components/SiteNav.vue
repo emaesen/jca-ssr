@@ -27,7 +27,7 @@
       >
         <g-link to="/events">
           <span @click.stop.prevent="onNavClick('events', $event)" class="actionicon">
-            <i
+            <i @click.stop.prevent="onNavClick('eventsMenuToggle', $event)" 
               :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavEventsExpanded}]"
             ></i>
           </span>
@@ -103,22 +103,31 @@ export default {
       showBarMenu: true,
       isBarMenuOpen: false,
       windowBreakPoint: 650,
+      isTouch: false,
+      ua: ""
     }
+  },
+  mounted() {
+    this.setUA();
+    this.setTouchProp();
   },
   methods: {
     onNavMouseOver(target) {
-      if (target==="events" && !this.showBarMenu) {
+      if (target==="events" && !this.showBarMenu && !this.isTouch) {
         this.isNavEventsExpanded = true;
         this.isMouseOverNavEvents = true;
       }
     },
     onNavMouseLeave(target) {
-      if (target==="events" && !this.showBarMenu) {
+      if (target==="events" && !this.showBarMenu && !this.isTouch) {
         this.isNavEventsExpanded = false;
         this.isMouseOverNavEvents = false;
       }
     },
     onNavClick(target, evt) {
+      if (target==="eventsMenuToggle") {
+        this.isNavEventsExpanded = !this.isNavEventsExpanded;
+      }
       if (target==="events" && !this.isMouseOverNavEvents) {
         this.isNavEventsExpanded = !this.isNavEventsExpanded;
       }
@@ -136,12 +145,27 @@ export default {
     },
     toggleMenu() {
       this.isBarMenuOpen = !this.isBarMenuOpen;
+    },
+    setTouchProp() {
+      this.isTouch = (window.DocumentTouch && document instanceof DocumentTouch) || 'ontouchstart' in window;
+    },
+    setUA() {
+      this.ua = navigator.userAgent;
+    },
+    checkDeviceSwitch() {
+      const ua = navigator.userAgent;
+      if (this.ua !== "" && ua !== this.ua && process && process.env && process.env.NODE_ENV==="development") {
+        location.reload(false)
+      }
+      this.setUA();
     }
   },
   watch: {
     windowWidth(newWidth) {
       // windowWidth is set/updated by the windowSize mixin on window resize
       this.showBarMenu = newWidth < this.windowBreakPoint;
+      // for dev case, check if (virtual) device was switched
+      this.checkDeviceSwitch();
     },
     showBarMenu(newVal) {
       if (newVal === false) {
@@ -253,6 +277,10 @@ ul.nav {
 .nav.submenu.collapsed {
   height: 0;
   visibility: hidden;
+  top:-200px;
+}
+.nav.submenu.collapsed a {
+  display: none;
 }
 .divider {
   border-top: 1px solid rgba(@color-secondary-2-4, 0.5);
