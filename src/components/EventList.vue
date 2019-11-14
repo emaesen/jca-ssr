@@ -14,14 +14,17 @@
       </div>
     </template>
     <template v-else>
-      <h2 v-if="!noEvents">
-        All currently scheduled {{ category }} events
+      <h2 v-if="!noEvents && category">
+        Upcoming {{ category }} events
+      </h2>
+      <h2 v-if="!noEvents && !category">
+        All currently scheduled events
       </h2>
 
       <div 
         v-if="noEvents && type!=='class'" 
       >
-        <p v-animate-on-intersection class="script center anima__fade-in-bounce">
+        <p v-animate-on-intersection class="script spacious center anima__fade-in-bounce">
           At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
           
           Please check back soon or –better yet– subscribe to our newsletter below!
