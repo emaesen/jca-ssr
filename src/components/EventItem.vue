@@ -162,12 +162,13 @@
         {{event.series}}
       </div>
 
-      <!-- structured data script element -->
-      <event-schema-script
-        v-if="atPageLevel"
-        :event="event"
-      />
     </template>
+
+    <!-- structured data script element -->
+    <event-schema-script
+      v-if="atPageLevel || showSummary"
+      :event="event"
+    />
   </div>
 </template>
 
