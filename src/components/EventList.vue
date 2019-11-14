@@ -1,6 +1,6 @@
 <template>
   <section>
-    <template v-if="showSummaryOnly">
+    <template v-if="showSummary">
       <div class="event-summary">
         <event-item 
           v-for="(evt, index) in filteredEvents" 
@@ -103,7 +103,7 @@ export default {
     type: {
       type: String,
     },
-    showSummaryOnly: {
+    showSummary: {
       type: Boolean
     }
   },

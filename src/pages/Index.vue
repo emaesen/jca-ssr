@@ -12,7 +12,7 @@
       Jefferson Center for the Arts is Mt Shasta's own community arts and culture center.
     </p>
 
-    <event-list :showSummaryOnly="true"/>
+    <event-list :showSummary="true"/>
 
     <organization-schema-script/>
 
