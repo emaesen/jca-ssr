@@ -55,6 +55,11 @@ export default {
         "startDate": this.startDateTimeLocal,
         "endDate": this.endDateTimeLocal,
         "url": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
+        "organizer": {
+          "url": "https://jeffersoncenterforthearts.com",
+          "@type": "Organization",
+          "name": "Jefferson Center for the Arts"
+        },
         "location": {
           "@type": "Place",
           "name": "Jefferson Center for the Arts",
@@ -78,7 +83,15 @@ export default {
           "name": this.event.performer || "various"
         },
         "description": this.eventDescription,
-        "image": "https://jeffersoncenterforthearts.com/img/event/" + this.event.image
+        "image": "https://jeffersoncenterforthearts.com/img/event/" + this.event.image,
+        "offers": {
+          "url": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
+          "price": this.event.price ? this.event.price.replace("$", "") : 0,
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "In stock",
+          "validFrom": (new Date()).toISOString()
+        }
       }
     }
   },
