@@ -19,6 +19,32 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
+        config: {
+          '/': {
+            changefreq: 'daily',
+            priority: 1
+          },
+          '/events/': {
+            changefreq: 'weekly',
+            priority: 0.7
+          },
+          '/events/classes*': {
+            changefreq: 'monthly',
+            priority: 0.4
+          },
+          '/events/*': {
+            changefreq: 'weekly',
+            priority: 0.6
+          },
+          '/events/*/*': {
+            changefreq: 'monthly',
+            priority: 0.6
+          },
+          '/*': {
+            changefreq: 'monthly',
+            priority: 0.3
+          }
+        }
       }
     }
   ]
