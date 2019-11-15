@@ -90,7 +90,7 @@ export default {
           "@type": "Offer",
           "priceCurrency": "USD",
           "availability": "In stock",
-          "validFrom": (new Date()).toISOString()
+          "validFrom": "2019-11-11T11:11:11+00:00"
         }
       }
     }

@@ -72,7 +72,7 @@ export default {
               "@id": "https://jeffersoncenterforthearts.com/#primaryimage"
             },
             "datePublished": "2019-10-19T08:00:00+00:00",
-            "dateModified": (new Date()).toISOString()
+            "dateModified": "2019-10-19T08:00:00+00:00"
           }
         ]
       }
