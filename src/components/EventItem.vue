@@ -137,7 +137,7 @@
 
       </div>
 
-      <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)">
+      <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)" class="viewmore">
         <g-link :to="eventPageUrl">
           View more...
         </g-link>
@@ -473,6 +473,9 @@ h4 {
   }
   .details_container {
     display: block;
+  }
+  .viewmore {
+    margin-top: 1em;
   }
 }
 </style>
