@@ -39,7 +39,7 @@ export default {
       );      
     },
     eventUrlPath() {
-      return this.$route.path;
+      return "/events/" + (this.event.category || "g") + "/" + this.event.slug;
     },
     eventDescription() {
       return this.event.description
@@ -51,6 +51,7 @@ export default {
       return {
         "@context": "http://schema.org",
         "@type": this.eventType + "Event",
+        "@id": "https://jeffersoncenterforthearts.com" + this.eventUrlPath,
         "name": this.event.title,
         "startDate": this.startDateTimeLocal,
         "endDate": this.endDateTimeLocal,
