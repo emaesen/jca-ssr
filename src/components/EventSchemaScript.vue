@@ -90,7 +90,7 @@ export default {
           "price": this.event.price ? this.event.price.replace("$", "") : 0,
           "@type": "Offer",
           "priceCurrency": "USD",
-          "availability": "In stock",
+          "availability": "http://schema.org/InStock",
           "validFrom": "2019-11-11T11:11:11+00:00"
         }
       }
