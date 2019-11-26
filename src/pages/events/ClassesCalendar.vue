@@ -23,7 +23,8 @@ export default {
         { key: 'og:title', property: 'og:title', content: this.meta_title },
         { key: 'description', name: 'description', content: this.meta_description },
         { key: 'og:description', property: 'og:description', content: this.meta_description },
-        { key: 'og:url', property: 'og:url', content: this.meta_url}
+        { key: 'og:url', property: 'og:url', content: this.meta_url},
+        { key: 'robots', name: 'robots', content: 'noindex, follow'}
       ],
       link: [
         { key: 'canonical', rel: 'canonical', href: this.meta_url}
