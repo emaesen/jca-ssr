@@ -19,6 +19,7 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
+        exclude: ['/events/classes-calendar/', '/events/calendar/', '/get-involved/','/contact/'],
         config: {
           '/': {
             changefreq: 'daily',
@@ -26,23 +27,23 @@ module.exports = {
           },
           '/events/': {
             changefreq: 'weekly',
-            priority: 0.7
+            priority: 0.3
           },
           '/events/classes*': {
             changefreq: 'monthly',
-            priority: 0.4
+            priority: 0.1
           },
           '/events/*': {
             changefreq: 'weekly',
-            priority: 0.6
+            priority: 0.3
           },
           '/events/*/*': {
             changefreq: 'monthly',
-            priority: 0.6
+            priority: 0.2
           },
           '/*': {
             changefreq: 'monthly',
-            priority: 0.3
+            priority: 0
           }
         }
       }
