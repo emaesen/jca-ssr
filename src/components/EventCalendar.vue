@@ -2,7 +2,7 @@
   <section>
 
     <h2> 
-      An overview of upcoming events at the JCA:
+      Upcoming events at the JCA:
     </h2>
 
     <calendar 
