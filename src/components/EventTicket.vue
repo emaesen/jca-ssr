@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <button @click="openModal" class="action">
+    <button @click="openModal" class="action buy anima__flicker-subtle anima__-pause-on-hover">
       Buy ticket <i class="icon-Ticket action"></i>
     </button>
 
@@ -66,6 +66,12 @@ export default {
 <style lang="less" scoped>
 button {
   margin:.5em;
+  border-color: #76fb6d;
+  box-shadow: 0 0 5px #76fb6d;
+}
+.icon-Ticket,
+.buy {
+  color: #76fb6d;
 }
 .icon-ticket {
   vertical-align: bottom;
