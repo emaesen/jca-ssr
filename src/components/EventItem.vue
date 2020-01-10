@@ -1,10 +1,16 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
-      <category-icon :category="event.category" class="summary_icon"/>
-      <span class="summary-column summary_date">{{ dateShort }}</span>
-      <span class="summary-column summary_time">{{ time }}</span>
-      <span class="summary-column summary_title">{{ event.title }}</span>
+      <div>
+        <category-icon :category="event.category" class="summary_icon"/>
+        <span class="summary-column summary_date">{{ dateShort }}</span>
+        <span class="summary-column summary_time">{{ time }}</span>
+        <span class="summary-column summary_title">{{ event.title }}</span>
+      </div>
+      <div class="summary-subcontainer">
+        <span class="summary-column summary_description">{{ event.description }}</span>
+        <span class="summary-column summary_image"><g-image class="summary_image" :src="'/img/event/'+event.image" :alt="event.title"/></span>
+      </div>
     </g-link>
 
     <template v-else>
@@ -321,6 +327,13 @@ export default {
   background-color: #333333aa;
   padding: 0.2em 0.5em;
   color: #e9b761ee;
+  position: relative;
+  min-height: 75px;
+}
+.summary-subcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .summary-column {
   margin-right: 1em;
@@ -329,8 +342,29 @@ export default {
   font-size: 90%;
   min-width: 100px;
 }
+.summary_date {
+  font-size: 100%;
+  color: #f8d394;
+}
 .summary_title {
+  font-family: @font_family_header, serif;
+  color: #fae3bd;
+  font-size: 110%;
   flex: 3;
+  margin-right: 100px;
+}
+img.summary_image {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 70px;
+  border: 1px solid #575757;
+  border-radius: 5px;
+}
+.summary_description {
+  font-size: 70%;
+  color: #e9b761b7;
+  flex: 6;
 }
 .summary_icon {
   margin-right: 1em;
