@@ -5,6 +5,10 @@
       Upcoming events at the JCA:
     </h2>
 
+    <div class="calendar">
+      <g-image v-if="showCalendarImage" class="calendar anima__zoom" src="/img/event/calendar-feb-2020.jpg" alt="Event calendar for February 2020"/>
+    </div>
+
     <calendar 
       :nrWeeksToShow="nrWeeksToShow"
       :events="filteredEvents"
@@ -84,6 +88,13 @@ export default {
     filteredEvents() {
       return this.evt__filteredEvents(this.events);
     },
+    showCalendarImage() {
+      const today = new Date().setHours(0,0,0,0);
+      const endDate = new Date("2020-02-23").setHours(24,0,0,0);
+      return (
+        (today - endDate) <= 0
+      );
+    }
   },
   methods: {
   }
@@ -93,6 +104,13 @@ export default {
 <style lang="less">
 @import '../assets/variab.less';
 
+div.calendar {
+  text-align: center;
+}
+img.calendar {
+  width: 100%;
+  max-width: 427px;
+}
 .event_cat-,
 .btn_cat- {
   .gradient-jewel-5-1();
