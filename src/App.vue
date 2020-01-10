@@ -10,7 +10,7 @@
       </transition>
     </main>
     <footer>
-      © 2019, Jefferson Center for the Arts. All rights reserved. 
+      © 2019 - {{ year }}, <span class="nowrap">Jefferson Center for the Arts.</span>&nbsp; &nbsp;<span class="nowrap">All rights reserved.</span>
       <span class="version">{{ version }}</span>
     </footer>
   </div>
@@ -52,6 +52,11 @@ export default {
   methods: {
     isInStandaloneMode() {
       return (window.matchMedia('(display-mode: standalone)').matches) || (window.navigator.standalone);
+    }
+  },
+  computed: {
+    year() {
+      return (new Date()).getFullYear();
     }
   }
 }
