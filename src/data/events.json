@@ -25,6 +25,7 @@
     "stream": "",
     "youtube": "",
     "ics": "",
+    "show_registration_form": false,
     "reference_slug": ""
   },
   "events":[
@@ -173,6 +174,7 @@
       "stream": "",
       "youtube": "TuqDmwLxFjw",
       "ics": "",
+      "show_registration_form": true,
       "reference_slug": ""
     },
     {

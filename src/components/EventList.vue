@@ -75,6 +75,7 @@ query {
         stream
         youtube
         ics
+        show_registration_form
       }
     }
   }

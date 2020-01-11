@@ -66,6 +66,7 @@ module.exports = function (api) {
             stream
             youtube
             ics
+            show_registration_form
           }
         }
       }
@@ -76,7 +77,7 @@ module.exports = function (api) {
       createPage({
         path: `/events/${cat}/${node.slug}`,
         component: './src/templates/Event.vue',
-        // Use context to pass event data to the template
+        // Use context to pass event data to the Event template
         context: node
       })
     })
