@@ -164,7 +164,7 @@
       <!-- event series -->
       <div 
           v-if="event.series"
-          class="event_series">
+          class="event_series script">
         {{event.series}}
       </div>
 
