@@ -29,6 +29,180 @@
   },
   "events":[
     {
+      "slug": "patrick-galvin-plays-bach--apr-04-2020",
+      "title": "Patrick Galvin plays Bach (evening show)",
+      "description": "Violinist Patrick Galvin plays Bach. Evening show.",
+      "price": "$25 at venue / $20 online →",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "ticket": "",
+      "reference_slug": "patrick-galvin-plays-bach-matinee--apr-04-2020"
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "patrick-galvin-plays-bach-matinee--apr-04-2020",
+      "title": "Patrick Galvin plays Bach (family matinee)",
+      "performer": "Patrick Galvin",
+      "description": "Violinist Patrick Galvin plays Bach. Family matinee.",
+      "details": "[Patrick Galvin](//patrickjmgalvin.com) was born in San Francisco, CA, and made his solo debut at age 11 with the Oakland East Bay Symphony. Patrick studied at the Peabody Conservatory in Baltimore; the Prayner Konservatorium in Vienna, Austria; and at the San Francisco Conservatory of Music. Patrick performs regularly throughout the United States and abroad, most often in solo appearances and with the pianist Jung-eun Kim.",
+      "series": "",
+      "price": "$15 adults, kids $5",
+      "time":{
+        "start": "14:00",
+        "end": "15:15"
+      },
+      "date":{
+        "start": "2020-04-04",
+        "end": "2020-04-04"
+      },
+      "image": "patrick-galvin.jpg",
+      "image_width": "600",
+      "image_height": "400",
+      "ticket": "",
+      "stream": "",
+      "youtube": "hUOyQK3JfS0",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "special-consensus--feb-23-2020",
+      "title": "The Special Consensus",
+      "performer": "The Special Consensus",
+      "description": "2019 Grammy Award Nominee The Special Consensus promises a fun-filled evening of exceptional bluegrass music. Bring the family! The Special Consensus has been thrilling their bluegrass loving audiences for decades.",
+      "details": "[The Special Consensus](//www.specialc.com) is a bluegrass band that has achieved a contemporary sound in their four decades of performing, making their music a modern classic. Band leader and founder Greg Cahill is a recipient of the prestigious Distinguished Achievement Award from the International Bluegrass Music Association (IBMA) and Special Consensus has received five awards from the IBMA and two Grammy nominations.\n\nSpecial Consensus’ sound is grounded in a deep appreciation and understanding of bluegrass music; the infectious band sound reminds people of the past while utilizing the innovations of today. With the foundation of Greg’s unique banjo playing style, Rick Faris (guitar), Nate Burie (mandolin), and Dan Eubanks (bass) effortlessly support each other and consistently maintain their bluegrass center whether they’re playing a jazz-tinged instrumental or a song from their award-winning John Denver tribute album while consistently maintaining their bluegrass center. These four talented vocalists and instrumentalists follow their creative desires without straying too far from their roots.​\n\n‘Rivers and Roads’, the band’s 19th recording, was nominated for a 2019 Grammy, received five 2018 IBMA nominations, and was awarded Album of the Year. The tune “Squirrel Hunters” from that recording received the Instrumental Recorded Performance of the Year award.\n\nThe energetic Special C show features Rick’s high, emotional singing and inspirational guitar playing and Nate’s powerful voice and creative mandolin playing which provide the formidable counter to Greg’s driving banjo and Dan’s impressive bass playing that holds everything together and reflects his bluegrass, country and jazz performance experience. Their voices blend seamlessly.\n\nInternational tours have brought the band to Canada, Europe, South America, Ireland and the United Kingdom. The band has appeared on National Public Radio, The Nashville Network, the Grand Ole Opry at the historic Ryman Auditorium in Nashville, Tennessee, and in concert with symphony orchestras nationwide.\n\nDedicated to preserving their craft as well as keeping it fresh, in 1984 Special Consensus initiated the Traditional American Music (TAM) Program, to introduce bluegrass music to students in schools across the country and in several foreign lands.\n\nSpecial C’s continued success is a testament to their adaptability and contemporary appeal. The band records for Compass Records and proudly celebrates its 45th anniversary in 2020.",
+      "series": "",
+      "price": "$20 at venue / $15 online →",
+      "time":{
+        "start": "19:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2020-02-23",
+        "end": "2020-02-23"
+      },
+      "image": "special-consensus.jpg",
+      "image_width": "800",
+      "image_height": "640",
+      "ticket": "88975001625",
+      "stream": "",
+      "youtube": "UjV_C1Ycu9s",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "lorin-sklamberg--feb-21-2020",
+      "title": "Lorin Sklamberg (Klezmatics) with Sasha Lurje and Craig Judelman",
+      "performer": "Lorin Sklamberg, Sasha Lurje & Craig Judelman",
+      "description": "Klezmatics’ lead singer and accordianist Lorin Sklamberg brings an unforgettable night of Yiddish music with Latvian singer Sasha Lurje and violinist Craig Judelman.",
+      "details": "Featuring the voice of the Klezmer revival, co-founder of the Klezmatics, [Lorin Sklamberg](https://klezmatics.com/about/members/lorin-sklamberg/) (NYC) and established darling of the international Yiddish scene, Sasha Lurje (Latvia/DE), this new transatlantic collaboration presents an enchanting evening of Yiddish songs and dance music.\n\nFrom old folk ballads to rousing Yiddish theater and the golden age of the Lower East Side, these two pillars of the contemporary scene give an insiders tour of your favorite songs you've never heard. They're joined by fiddler Craig Judelman (USA/DE), whose deep background and natural familiarity with old time American music (Jewish and non) provides the perfect counterpoint, along with Mr. Sklamberg accordion, for these two voices. This small all star band packs a big punch, charming audiences with the stories of the Ashkenazic experience that range from intimate to revelatory.\n\nThis concert is much more than a collection of songs - the performers are also skilled storytellers, using the songs to give the audience a greater understanding of the culture and context that created them.",
+      "series": "",
+      "price": "$25 at venue / $20 online →",
+      "time":{
+        "start": "19:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2020-02-21",
+        "end": "2020-02-21"
+      },
+      "image": "lorin-sklamberg-with-lurje-and-judelman.jpg",
+      "image_width": "800",
+      "image_height": "526",
+      "ticket": "88973250387",
+      "stream": "",
+      "youtube": "SBby_P9nkYs",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "hattie-and-joe-craven--feb-16-2020",
+      "title": "Hattie and Joe Craven",
+      "performer": "Hattie and Joe Craven",
+      "description": "This father & daughter duo has performed together all over the world to standing ovations. With crazy instruments and a great musical prowess.",
+      "details": "Enjoy a performance of rearranged pop songs for the folk tradition spanning the last 100 years with stunning young vocalist Hattie Craven supported by her father, award winning multi-instrumentalist [Joe Craven](https://joecraven.com). Their father/daughter team has created a celebration of music making by finding common ground between different generations with differing musical tastes and sensibilities. This show curated by a father and his daughter, awakening each other to new possibilities as they each bring their influences to a multi-generational table.\n\nThey have presented to school and library programs, house concerts, clubs, theaters and nationally known music festivals.\n\nHattie, in addition to being a seasoned actor in community theater, has built a reputation as one of the finest young, if not youngest, performers on the stages of the Strawberry Music Festival, California Worldfest, Kate Wolf Memorial Festival, Live Oak Music Festival and the Millpond Music Festival – all to standing ovations.\n\nJoe is a creativity educator, former museum curator, camp director, poet/storyteller, fashion insultant, coast to coast music festival emcee (Millpond, Telluride Bluegrass & Delfest, to name a few) and recipient of the 2009 Folk Alliance Far-West Performer of the Year. He’s made music with many folks –from Grateful Dead guitarist Jerry Garcia, David Lindley & harmonica wizard Howard Levy, to 7 years with banjo fusionist Alison Brown and 17 years with the mandolinist David Grisman.\n\nHattie’s singing and sparkling presence to young hearted people of all ages on and off the stage, along with her father’s good humor and instrumental prowess on a variety of conventional and odd ball instruments make for a captivating and memorable show.",
+      "series": "",
+      "price": "$20 at venue / $15 online / kids 12 & under $5",
+      "time":{
+        "start": "18:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2020-02-16",
+        "end": "2020-02-16"
+      },
+      "image": "hattie-and-joe-craven.jpg",
+      "image_width": "640",
+      "image_height": "588",
+      "ticket": "88972624515",
+      "stream": "",
+      "youtube": "QwyjP-2Uinw",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "workshop",
+      "slug": "songetry-workshop-w-joe-craven--feb-16-2020",
+      "title": "“Songetry” songwriting workshop with Joe Craven",
+      "performer": "Joe Craven",
+      "description": "This fun and engaging workshop will give you tools to be the songwriter you always wanted to be. Ages teen & adult.\n“Songetry” connects something most of us have already done (writing a poem) to something different (writing a song). Poems can tell a story in an accessible form of metered rhythm.\nEVERYONE has the ability to write such stories and that is the grist for the mill of songwriting.\n\nLeave with a song... Your 1st or 50th!\n\nBuy a ticket for the workshop online and you’ll be able to add 2 tickets for the price of 1 for the evening concert!",
+      "details": "[Joe Craven](//joecraven.com/) is a multi-instrumental, award-winning creativity educator, former museum curator, actor, music festival emcee, Director of RiverTunes and Vocáli Voice Camps, a Co-Director for the Wintergrass Youth Academy and a fashion insultant. Joe Craven’s love of performing music has put him in many musical genres and alongside many musicians, from Jerry Garcia, David Lindley, Howard Levy, to Jason Marsalis and banjoist Alison Brown. For 17 years, he was percussionist / violinist for mandolinist David Grisman.\nUnder his own label, Blender Logic Arts, he has recorded and performed his wide variety of roots music projects. Joe also enjoys a fine reputation for his unique emcee work at music festivals and other art events for 20 years.\nAs an educator, Joe’s unique outreach programs have inspired communities in Costa Rica, corporate heads in Contra Costa, a dozen different music camps, thousands of school kids from Stockton to Scotland and college students from Alaska to Alabama. From Morocco to Mendocino – and performing solo, or in one of his many projects – whether he’s in Carnegie Hall or busking on Cannery Row – Joe’s at home and loving every minute!",
+      "series": "",
+      "price": "$35",
+      "time":{
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "date":{
+        "start": "2020-02-16",
+        "end": "2020-02-16"
+      },
+      "image": "songetry-workshop-with-joe-craven.jpg",
+      "image_width": "800",
+      "image_height": "538",
+      "ticket": "88917349185",
+      "stream": "",
+      "youtube": "TuqDmwLxFjw",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "phoebe-hunt--feb-14-2020",
+      "title": "Phoebe Hunt",
+      "performer": "Phoebe Hunt",
+      "description": "Award-winning fiddler and vocalist Phoebe Hunt mixes Appalachian-style fiddle with Texas twang, Indian ragas & gypsy jazz. Rare solo performance!",
+      "details": "Within critically acclaimed 2017 release, Shanti’s Shadow, [Phoebe Hunt](https://phoebehuntmusic.com) intimately revealed her inner journey through meditation and musical exploration. Her upcoming release, ‘Neither One Of Us Is Wrong’ (out April 10, 2020), takes flight from this personal introspection and casts reflection on our society that Hunt deems the duality of the ‘outer world’.\n\n“I see music, and art in general, as an opportunity to interpret and transmute the experiences we collectively encounter as we journey through life on this planet at this time.”\n\n[Watch music videos on Phoebe’s website](https://phoebehuntmusic.com/media)",
+      "series": "JCA Unplugged",
+      "price": "$20 at venue / $15 online →",
+      "time":{
+        "start": "19:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2020-02-14",
+        "end": "2020-02-14"
+      },
+      "image": "phoebe-hunt.jpg",
+      "image_width": "359",
+      "image_height": "346",
+      "ticket": "88970702767",
+      "stream": "<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651673013&auto_play=true'></iframe>",
+      "youtube": "4gnNsxRNQnc",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
       "slug": "christmas-is-canceled--dec-15-2019",
       "date":{
         "start": "2019-12-15",
