@@ -176,6 +176,14 @@ cite, .script {
   font-style: normal;
   color: lighten(@color_text_header, 20%);
 }
+.message {
+  font-family: @font_family_body, sans-serif;
+  font-size: 80%;
+  border: 1px solid #555;
+  border-radius: 10px;
+  background-color: #d0d6e0;
+  padding: 1em;
+}
 sup {
   font-size: 75%;
   vertical-align: text-top;
