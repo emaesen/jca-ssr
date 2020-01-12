@@ -59,9 +59,16 @@
           <li>you have the option to add attachments,</li>
           <li>and… it adds a hurdle for those pesky spam bots.</li>
         </ol>
-        <p>
-          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a>
+        
+        <hr/>
+
+         <p>
+          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
         </p>
+        <cite>
+          <div class="message" v-html="emailSubject"/>
+          <div class="message" v-html="formattedEmailMessage"/>
+        </cite>
       </div>
     </modal>
   </div>
@@ -89,13 +96,22 @@ export default {
       return !(this.name && this.message) || this.isSubmitDone;
     },
     emailSubject() {
-      return "JCA Contact Request - from " + this.name;
+      return "☛JCA Contact Request☚ from " + this.name;
+    },
+    emailMessage() {
+      return "Hi Wendy,\n\n"
+        + "This is a contact request send from the JCA website.\n\n"
+        + "☛My message:\n" + this.message + "\n\n☛My name:\n" + this.name + "\n\n\n";
+    },
+    formattedEmailMessage() {
+      return this.emailMessage.replace(/</g, "&lt;")
+        .replace(/\n/g, "<br>");
     },
     mailAction() {
       //console.log({subject:this.emailSubject, body:this.message})
       return "mailto:" + this.emailTo 
         + "?subject=" + encodeURIComponent(this.emailSubject) 
-        + "&body=" + encodeURIComponent("**Message:**\n" + this.message + "\n\n\n\n**From:**\n" + this.name + "\n\n\n");
+        + "&body=" + encodeURIComponent(this.emailMessage);
     },
   },
   methods: {
