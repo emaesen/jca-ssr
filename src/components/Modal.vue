@@ -109,6 +109,7 @@ export default {
   .close {
     color: #333;
     float: right;
+    margin: 5px;
     .close-icon {
       width: 25px;
       height: 25px;

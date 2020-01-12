@@ -158,6 +158,17 @@ select {
   max-width: 15em;
   width: 90%;
   padding: 0 5px;
+  margin: 1px 0;
+}
+input.compact {
+  max-width: 7.1em;
+  width: 40%;
+  margin-right: 1px;
+}
+input[type="radio"],
+label.radio {
+  max-width: 1em;
+  display: inline;
 }
 cite, .script {
   font-family: @font_family_cursive, cursive;
