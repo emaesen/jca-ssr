@@ -81,11 +81,19 @@
           </div>
           <div v-if="!isPastEvent" class="event_price">
             {{ event.price }}
+            <!-- buy event ticket -->
             <event-ticket 
               v-if="event.ticket" 
               :ticketUrl="event.ticket"
               class="event_ticket" 
             />
+
+            <!-- registration button -->
+            <button-register
+              v-if="event.show_registration_form"
+              :event="event" 
+              class="button_register"
+            ></button-register>
           </div>
           <div class="event_desc">
             <span v-html="description"/>
@@ -182,6 +190,7 @@
 import CategoryIcon from '@/components/CategoryIcon.vue';
 import EventTicket from '@/components/EventTicket.vue';
 import ButtonVolunteer from '@/components/ButtonVolunteer.vue';
+import ButtonRegister from '@/components/ButtonRegister.vue';
 import EventSchemaScript from '@/components/EventSchemaScript.vue';
 
 import date from '@/mixins/date.js'
@@ -201,6 +210,7 @@ export default {
     CategoryIcon,
     EventTicket,
     ButtonVolunteer,
+    ButtonRegister,
     EventSchemaScript,
   },
   props: {
@@ -464,6 +474,9 @@ h4 {
 }
 .button_volunteer {
   margin: 2em 0;
+}
+.button_register {
+  display: inline;
 }
 .event_stream_button,
 .event_youtube_button {
