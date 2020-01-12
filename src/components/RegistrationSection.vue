@@ -140,62 +140,67 @@
           </div>
         </div>
         <div class="inputs">
-          <label>Are you under 18 years old?</label>
-          <input 
-            type="radio" 
-            id="consent_no" 
-            name="consent_no"
-            v-model="requires_consent"
-            value="no"
-            required
-          />
-          <label class="radio" for="consent_no">no</label>
-          <br/>
-          <input 
-            type="radio" 
-            id="consent_yes" 
-            name="consent_yes"
-            v-model="requires_consent"
-            value="yes"
-            required
-          />
-          <label class="radio" for="consent_yes">yes</label>
-        </div>
-        <div class="dependency" v-if="requires_consent=='yes'">
-          <div class="inputs">
-            <label for="parent_name">Your Parent's Name</label>
-            <input 
-              type="text" 
-              id="parent_name" 
-              name="parent_name"
-              v-model.trim="parent_name" 
-              autocomplete="off"
-              autocorrect="off"
-              autocapitalize="off"
-              placeholder="Parent Name"
-              required
-              minlength="3"
-              maxlength="50"
-            />
-          </div>
-          <div class="inputs">
-            <label for="phone">Your Parent's Phone Nr</label>
-            <input 
-              type="text" 
-              id="parent_phone" 
-              name="parent_phone"
-              v-model.trim="parent_phone" 
-              autocomplete="off"
-              autocorrect="off"
-              autocapitalize="off"
-              placeholder="(###) ###-####"
-              required
-              minlength="7"
-              maxlength="17"
-            />
-          </div>
-        </div>
+          <fieldset>
+            <legend>Are you under 18 years old?</legend>
+            <div>
+              <input 
+                type="radio" 
+                id="consent_no" 
+                name="consent"
+                v-model="requires_consent"
+                value="no"
+                required
+              />
+              <label class="radio" for="consent_no">no</label>
+            </div>
+            <div>
+              <input 
+                type="radio" 
+                id="consent_yes" 
+                name="consent"
+                v-model="requires_consent"
+                value="yes"
+                required
+              />
+              <label class="radio" for="consent_yes">yes</label>
+            </div>
+            <div class="dependency anima__zoom" v-if="requires_consent=='yes'">
+              <div class="inputs">
+                <label for="parent_name">Your Parent's Name</label>
+                <input 
+                  type="text" 
+                  id="parent_name" 
+                  name="parent_name"
+                  v-model.trim="parent_name" 
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  placeholder="Parent Name"
+                  required
+                  minlength="3"
+                  maxlength="50"
+                />
+              </div>
+              <div class="inputs">
+                <label for="phone">Your Parent's Phone Nr</label>
+                <input 
+                  type="text" 
+                  id="parent_phone" 
+                  name="parent_phone"
+                  v-model.trim="parent_phone" 
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  placeholder="(###) ###-####"
+                  required
+                  minlength="7"
+                  maxlength="17"
+                />
+              </div>
+            </div>
 
+          </fieldset>
+        </div>
 
         <p class="legal">
           After clicking "REGISTER via email" below you will be redirected to your standard email program to send the above information.
@@ -426,7 +431,7 @@ label.radio {
 .dependency {
   margin: 0;
   margin-left: 1em;
-  padding: 0.5em 1em;
+  padding: 0.1em 1em;
   border: 1px solid #ddd;
   display: inline-block;
   .inputs {
