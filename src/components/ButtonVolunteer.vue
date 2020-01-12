@@ -13,11 +13,15 @@
         <p>
           Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)
         </p>
+
+        <hr/>
+        
         <p>
-          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following message:
+          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
         </p>
         <cite>
-          {{ emailMessage }}
+          <div class="message" v-html="emailSubject"/>
+          <div class="message" v-html="formattedEmailMessage"/>
         </cite>
       </div>
     </modal>
@@ -57,10 +61,14 @@ export default {
       return text.replace(/,/g, "");
     },
     emailSubject() {
-      return "JCA Volunteer for " + this.event.title + " on " + this.date;
+      return "☛JCA Volunteer☚ for " + this.event.title + " on " + this.date;
     },
     emailMessage() {
       return "Hi Wendy,\n\nI'd like to volunteer at Jefferson Center for the Arts for event '" + this.event.title + "' on " + this.date + ".\n\n\n" ;
+    },
+    formattedEmailMessage() {
+      return this.emailMessage.replace(/</g, "&lt;")
+        .replace(/\n/g, "<br>");
     },
     mailAction() {
       //console.log({subject:this.emailSubject, body:this.message})
@@ -84,5 +92,8 @@ export default {
 <style lang="less" scoped>
 button {
   margin: 1em 0;
+}
+.thanks {
+  text-align: left;
 }
 </style>
