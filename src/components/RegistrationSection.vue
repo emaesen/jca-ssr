@@ -5,7 +5,7 @@
       <slot>Registration for<br/>‘{{event.title}}’<br/>on {{date}}</slot>
     </h3>
 
-    <div>
+    <div v-if="!isSubmitDone">
       <form>
         <div class="inputs">
           <label for="first_name">Your Name</label>
@@ -19,6 +19,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="First Name"
+              required
+              minlength="2"
+              maxlength="40"
             />
             <span class="label" v-if="first_name">First Name</span>
           </div>
@@ -32,6 +35,8 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="Last Name"
+              minlength="2"
+              maxlength="50"
             />
             <span class="label" v-if="last_name">Last Name</span>
           </div>
@@ -46,7 +51,11 @@
             autocomplete="off"
             autocorrect="off"
             autocapitalize="off"
-            placeholder="(###) ###-####"/>
+            placeholder="(###) ###-####"
+            required
+            minlength="7"
+            maxlength="17"
+          />
         </div>
         <div class="inputs">
           <label for="street">Your Address</label>
@@ -60,6 +69,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="Street"
+              required
+              minlength="5"
+              maxlength="50"
             />
             <span class="label" v-if="street">Street</span>
           </div>
@@ -73,6 +85,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="City"
+              required
+              minlength="3"
+              maxlength="50"
             />
             <span class="label" v-if="city">City</span>
           </div>
@@ -87,6 +102,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="State"
+              required
+              minlength="2"
+              maxlength="20"
             />
             <input
               type="text"
@@ -98,6 +116,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="Zip Code"
+              required
+              minlength="5"
+              maxlength="8"
             />
             <span class="label" v-if="state || zip">State &amp; Zip</span>
           </div>
@@ -111,6 +132,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="Country"
+              required
+              minlength="2"
+              maxlength="50"
             />
             <span class="label" v-if="country">Country</span>
           </div>
@@ -123,6 +147,7 @@
             name="consent_no"
             v-model="requires_consent"
             value="no"
+            required
           />
           <label class="radio" for="consent_no">no</label>
           <br/>
@@ -132,6 +157,7 @@
             name="consent_yes"
             v-model="requires_consent"
             value="yes"
+            required
           />
           <label class="radio" for="consent_yes">yes</label>
         </div>
@@ -147,6 +173,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="Parent Name"
+              required
+              minlength="3"
+              maxlength="50"
             />
           </div>
           <div class="inputs">
@@ -160,6 +189,9 @@
               autocorrect="off"
               autocapitalize="off"
               placeholder="(###) ###-####"
+              required
+              minlength="7"
+              maxlength="17"
             />
           </div>
         </div>
@@ -175,34 +207,38 @@
         <a style="display:none" ref="formAction" :href="mailAction"></a>
       </form>
 
-      {{ emailMessage }}
+      <cite v-if="showMessagePreview">
+        <div class="message" v-html="emailSubject"/>
+        <div class="message" v-html="formattedEmailMessage"/>
+      </cite>
     </div>
 
-    <modal
-      v-if="showModal"
-      @close="closeModal"
-    >
-      <div class="thanks">
-        <h2>Thank you!!</h2>
-        <p>
-          Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)
-        </p>
-        <p>
-          Re-directing to your email program ensures:
-        </p>
-        <ol>
-          <li>JCA gets a valid email address to reply to,</li>
-          <li>you get to keep a copy of your registration message,</li>
-          <li>and… it adds a hurdle for those pesky spam bots.</li>
-        </ol>
-         <p>
-          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following message:
-        </p>
-        <cite>
-          {{ emailMessage }}
-        </cite>
-      </div>
-    </modal>
+
+    <div v-if="isSubmitDone" class="thanks">
+      <h4>Thank you!!</h4>
+      <p>
+        Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)
+      </p>
+      <p>
+        Re-directing to your email program ensures:
+      </p>
+      <ol>
+        <li>JCA gets a valid email address to reply to,</li>
+        <li>you get to keep a copy of your registration message,</li>
+        <li>and… it adds a hurdle for those pesky spam bots.</li>
+      </ol>
+
+      <hr/>
+      
+      <p>
+        If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
+      </p>
+      <cite>
+        <div class="message" v-html="emailSubject"/>
+        <div class="message" v-html="formattedEmailMessage"/>
+      </cite>
+    </div>
+
   </div>
 </template>
 
@@ -224,6 +260,7 @@ export default {
   },
   data() {
     return {
+      showMessagePreview: false,
       isSubmitDone: false,
       showModal: false,
       emailTo: "info@jeffersoncenterforthearts.com",
@@ -253,7 +290,7 @@ export default {
     },
     consent() {
       let hasParentInfo = this.parent_name && this.parent_phone;
-      return this.requires_consent === "no" ? "" : (hasParentInfo && this.parent_name + "\n" + this.formattedPhoneNr(this.parent_phone))
+      return this.requires_consent === "no" ? "" : (hasParentInfo? (this.parent_name + "\n" + this.formattedPhoneNr(this.parent_phone)) : null)
     },
     date() {
       let opts = {shortForm:false, showYear:true};
@@ -264,28 +301,33 @@ export default {
       return text.replace(/,/g, "");
     },
     disableSubmit() {
-      return !(this.name && this.address && this.phone && this.consent) || this.isSubmitDone;
+      return !(this.name && this.address && this.phone && this.consent!==null) || this.isSubmitDone;
     },
     emailSubject() {
-      return "JCA Registration for '" + this.event.title + "' on " + this.date;
+      return "☛JCA Registration☚ for '" + this.event.title + "' on " + this.date;
     },
     emailMessage() {
       return "Hi Wendy,\n\n"
-        + "I'd like to register for event '" + this.event.title 
+        + "☛I'd like to register for\n'" + this.event.title 
         + "' on " + this.date 
-        + " at Jefferson Center for the Arts.\n\n" 
-        + " My name: \n" + this.name + "\n\n"
-        + " My phone nr:\n" + this.formattedPhoneNr(this.phone) + "\n\n"
-        + " My address:\n" + this.address + "\n\n" 
-        + (this.requires_consent === "yes" ? " I'm under 18." : "")
-        + (this.consent ? " My parents' info:\n" + this.consent : "")
+        + "\nat Jefferson Center for the Arts.\n\n" 
+        + "☛My name: \n" + this.name + "\n\n"
+        + "☛My phone nr:\n" + this.formattedPhoneNr(this.phone) + "\n\n"
+        + "☛My address:\n" + this.address + "\n\n" 
+        + (this.requires_consent === "yes" ? "☛I'm under 18.\n" : this.requires_consent === "no" ? "☛I'm over 18.\n" : "☛Age unknown.\n")
+        + (this.consent ? "☛My parents' info:\n" + this.consent : "")
+        + "\n\n"
       ;
     },
+    formattedEmailMessage() {
+      return this.emailMessage.replace(/</g, "&lt;")
+        .replace(/\n/g, "<br>");
+    },
     mailAction() {
-      console.log({subject:this.emailSubject, body:this.emailMessage})
+      //console.log({subject:this.emailSubject, body:this.emailMessage})
       return "mailto:" + this.emailTo 
         + "?subject=" + encodeURIComponent(this.emailSubject) 
-        + "&body=" +  + encodeURIComponent(this.emailMessage);
+        + "&body=" + encodeURIComponent(this.emailMessage);
     },
   },
   methods: {
@@ -299,25 +341,8 @@ export default {
       setTimeout(() => {
         this.isSubmitDone = true;
       }, 100);
-      this.openModal();
-    },
-    openModal() {
-      this.showModal = true;
-    },
-    closeModal() {
-      this.showModal = false;
-      this.name = null;
-      this.message = null;
     },
   },
-  watch: {
-    name() {
-      this.isSubmitDone = false;
-    },
-    message() {
-      this.isSubmitDone = false;
-    },
-  }
 };
 </script>
 
@@ -355,7 +380,6 @@ export default {
 .thanks {
   margin: 0;
 }
-
 button.action {
   margin-left: 0;
 }
@@ -369,6 +393,16 @@ select {
   text-shadow: none;
   color: #111;
   border: 1px solid #208dbd;
+}
+input:invalid {
+  border-color: #900;
+}
+input:valid {
+  border-color: #090;
+}
+input:focus {
+  outline: none;
+  background-color: #b0ceff;
 }
 input::placeholder,
 .label {
