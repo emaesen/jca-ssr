@@ -170,6 +170,10 @@ label.radio {
   max-width: 1em;
   display: inline;
 }
+fieldset {
+  border-width: 1px;
+  border-color: #d9f0ff;
+}
 cite, .script {
   font-family: @font_family_cursive, cursive;
   display: block;
