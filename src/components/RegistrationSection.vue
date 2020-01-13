@@ -229,6 +229,7 @@
       </p>
       <ol>
         <li>JCA gets a valid email address to reply to,</li>
+        <li>you have the option to add a personal note,</li>
         <li>you get to keep a copy of your registration message,</li>
         <li>and… it adds a hurdle for those pesky spam bots.</li>
       </ol>
