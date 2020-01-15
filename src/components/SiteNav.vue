@@ -9,7 +9,7 @@
         ></i>
         <i
           v-if="isBarMenuOpen" 
-          class="iconX action toggle-icon"
+          class="icon-X action toggle-icon"
         ></i>
       </transition>
     </span>
