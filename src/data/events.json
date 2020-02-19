@@ -30,6 +30,33 @@
   },
   "events":[
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "twisted-pine--mar-20-2020",
+      "title": "Twisted Pine",
+      "performer": "Twisted Pine",
+      "description": "Praised by NPR for their “upbeat, poppy vibe; energetic, driving rhythms; and virtuosic solos,” Twisted Pine is sneak previewing their July 2020 release and a sound they call Americana funk. Steeped in traditional music, the players [Kathleen Parks on fiddle, Dan Bui on mandolin, Chris Sartori on bass, and Anh Phung on flute] are fearless, tuneful improvisers and passionate lovers of pop.",
+      "details": "[Twisted Pine](https://www.twistedpineband.com/) has quickly become one of the most acclaimed young string bands in the Northeast. Audiences across the US and UK have been drawn to their forthright songwriting, lush harmonies, musical daring, and charismatic appeal.\n\nSteeped in traditional music, these musicians are also fearless, tuneful improvisers and passionate lovers of pop. Fiddler Kathleen Parks' command of the vocal mic is as charming as it is gutsy. On her instrument, Parks is an insatiable risk-taker, seeking out exciting new musical territories. Mandolinist Dan Bui is a master of melody and drive, celebrated widely for his dexterous, tasteful picking. And bassist Chris Sartori holds down the low end and a lot more, introducing creative, funk-inflected cadences that never overwhelm the beat.\n\nBut while it’s easy to celebrate each of the band members individually, Twisted Pine is more than a collection of talented musicians - it’s a unit that grooves together. Their intricate arrangements of swelling, syncopated rhythm and precise instrumental interplay bring the enveloping sound and hooks of indie pop to an acoustic instrumental setting.\n\nYou’ll find Twisted Pine on stages large and small, entertaining festivals of thousands and intimate rooms alike. Winners of the 2018 Boston Music Award's Americana Artist of the Year and selected as one of Improper Bostonian's 2018 “Top 10 Local Acts on the Rise”, Twisted Pine has played major events from Grey Fox to DelFest to Glasgow’s Celtic Connections and beyond. “They absolutely rule their musical world with humor and relish,” says legendary fiddler Darol Anger.\n\nTwisted Pine released its debut, self-titled album of original music in 2017, followed in 2018 by Dreams, an EP of “wildly innovative covers… full of spark, light, and irresistible force” according to PopMatters. Check out Twisted Pine on tour and see why the Boston Globe calls them “a wider version of stringband, boundary jumpers akin to outfits like Punch Brothers, Nickel Creek, and Crooked Still.”",
+      "series": "",
+      "price": "$15 at venue / $12 (kids $5) online →",
+      "time":{
+        "start": "19:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2020-03-20",
+        "end": "2020-03-20"
+      },
+      "image": "twisted-pine.jpg",
+      "image_width": "500",
+      "image_height": "500",
+      "ticket": "95688483831",
+      "stream": "<iframe src='https://open.spotify.com/embed/album/2DtM05v3YHRxHdKf2WHsOi' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>",
+      "youtube": "o2QVN1Tt-3Y",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
       "slug": "patrick-galvin-plays-bach--apr-04-2020",
       "title": "Patrick Galvin plays Bach (evening show)",
       "description": "Violinist Patrick Galvin plays Bach. Evening show.",
