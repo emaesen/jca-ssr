@@ -359,7 +359,7 @@ export default {
 }
 .summary_title {
   font-family: @font_family_header, serif;
-  color: #fae3bd;
+  color: #fffee8;
   font-size: 110%;
   flex: 3;
   margin-right: 100px;
@@ -368,9 +368,10 @@ img.summary_image {
   position: absolute;
   top: 5px;
   right: 5px;
-  height: 70px;
   border: 1px solid #575757;
   border-radius: 5px;
+  max-height: 80px;
+  max-width: 100px;
 }
 .summary_description {
   font-size: 70%;
@@ -531,6 +532,10 @@ h4 {
   }
   .viewmore {
     margin-top: 1em;
+  }
+  .summary_date,
+  .summary_time {
+    margin-right: .2em;
   }
 }
 </style>
