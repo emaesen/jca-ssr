@@ -415,7 +415,7 @@ h4 {
   top: -1em;
 }
 .event_note {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .event_series,
 .event_type_cat_pagelevel {
