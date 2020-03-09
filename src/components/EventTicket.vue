@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <button @click="openModal" class="action buy anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
+    <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
       Buy ticket <i class="icon-Ticket action"></i>
     </button>
 
