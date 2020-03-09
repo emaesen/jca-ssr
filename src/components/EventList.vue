@@ -58,6 +58,7 @@ query {
         performer
         description
         details
+        note
         series
         price
         time {

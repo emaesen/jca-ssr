@@ -49,6 +49,7 @@ module.exports = function (api) {
             performer
             description
             details
+            note
             series
             price
             time {
