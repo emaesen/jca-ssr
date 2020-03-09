@@ -9,7 +9,7 @@
       v-if="showModal"
       @close="closeModal"
     >
-      <iframe class="iframe-class" width="100%" :height="frameHeight" :src="href" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" allowtransparency="true" ></iframe>
+      <iframe id="iframe-ticket" width="100%" :height="frameHeight" :src="href" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" allowtransparency="true" onload="document.getElementById('iframe-ticket').style.backgroundImage = 'none'"></iframe>
 
       <template v-slot:header>
         <div class="legal">JCA uses Eventbrite as their online ticket sales platform. By clicking below to purchase, you acknowledge that your information will be transferred to Eventbrite for processing.<br/>
@@ -82,6 +82,9 @@ button {
   a {
     color: #3b5998;
   }
+}
+#iframe-ticket { 
+  background: url(/img/loading.gif) center center no-repeat; 
 }
 @media all and (max-width: 650px) {
   .legal {
