@@ -76,8 +76,10 @@
           <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
             {{ time }}
           </div>
-          <div v-if="!isPastEvent" class="event_price">
-            {{ event.price }}
+          <div v-if="!isPastEvent" class="event_price_wrapper">
+            <div class="event_price">
+              {{ event.price }}
+            </div>
             <!-- buy event ticket -->
             <event-ticket 
               v-if="event.ticket" 
@@ -416,7 +418,7 @@ h4 {
   top: -1em;
 }
 .event_note {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .event_series,
 .event_type_cat_pagelevel {
@@ -499,11 +501,14 @@ h4 {
   font-family: "Helvetica Neue",Arial,sans-serif;
   font-size: 13px;
 }
-.event_price {
+.event_price_wrapper {
   margin: .5em 0;
 }
+.event_price {
+  display: inline-block;
+}
 .event_ticket {
-  display: inline;
+  display: inline-block;
 }
 .event_cat {
   .gradient-jewel-5();
