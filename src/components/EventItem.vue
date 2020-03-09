@@ -76,9 +76,6 @@
           <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
             {{ time }}
           </div>
-          <div class="event_note">
-            {{ event.note }}
-          </div>
           <div v-if="!isPastEvent" class="event_price">
             {{ event.price }}
             <!-- buy event ticket -->
@@ -98,6 +95,10 @@
           <div class="event_desc">
             <span v-html="description"/>
           </div>
+          <div class="event_note">
+            {{ event.note }}
+          </div>
+
         </div>
 
       </div>
@@ -413,6 +414,9 @@ h4 {
   position: relative;
   top: -1em;
 }
+.event_note {
+  opacity: 0.7;
+}
 .event_series,
 .event_type_cat_pagelevel {
   text-align: center;
@@ -466,6 +470,10 @@ h4 {
 .event_youtube {
   margin-top: 2em;
   font-size: 90%;
+}
+.event_note {
+  margin-top: 1em;
+  font-size: 80%;
 }
 .event_stream,
 .event_youtube,
