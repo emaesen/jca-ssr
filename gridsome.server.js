@@ -66,6 +66,7 @@ module.exports = function (api) {
             ticket
             stream
             youtube
+            youtube2
             ics
             show_registration_form
           }

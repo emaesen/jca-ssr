@@ -152,6 +152,28 @@
           </transition>
         </div>
 
+
+        <!-- atPageLevel second event youtube video -->
+        <div 
+          v-if="event.youtube2"
+          class="event_youtube"
+        >
+          <transition name="fade" mode="out-in">
+            <iframe 
+              v-if="showYoutubeContent" 
+              :src="videoSrc2" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+            ></iframe>
+            <span
+              v-else 
+              @click="showYoutubeContent=true" 
+              class="event_youtube_button action"
+            >Click to view YouTube video</span>
+          </transition>
+        </div>
+
       </div>
 
       <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)" class="viewmore">
@@ -200,11 +222,14 @@ import date from '@/mixins/date.js'
 
 const videoEmbedPath = "https://www.youtube-nocookie.com/embed/";
 // https://developers.google.com/youtube/player_parameters
-const videoEmbedQS = "?autoplay=1" 
-      + "&fs=0"
+const videoEmbedOptions = "&fs=0"
       + "&playsinline=1"
       + "&rel=0"
       + (typeof window !== 'undefined' ? "&origin=" + window.location.protocol + "//" + window.location.hostname : "");
+const videoEmbedQS = "?autoplay=1" 
+      + videoEmbedOptions
+const video2EmbedQS = "?autoplay=0" 
+      + videoEmbedOptions
 
 export default {
   name: 'EventItem',
@@ -314,6 +339,9 @@ export default {
     },
     videoSrc() {
       return videoEmbedPath + this.event.youtube + videoEmbedQS
+    },
+    videoSrc2() {
+      return videoEmbedPath + this.event.youtube2 + video2EmbedQS
     }
   },
   methods: {
