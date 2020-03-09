@@ -8,6 +8,7 @@
     "performer": "",
     "description": "",
     "details": "",
+    "note": "",
     "series": "",
     "price": "",
     "time":{
@@ -29,6 +30,33 @@
     "reference_slug": ""
   },
   "events":[
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "dusty-green-bones-band--apr-26-2020",
+      "title": "Dusty Green Bones Band",
+      "performer": "Dusty Green Bones Band",
+      "description": "This band of misfits from San Francisco embody a playful approach to music which is all about having fun. They light up the dance floor with an electrifying blend of psychedelic jam-grass, bouncy Americana and uplifting rock.",
+      "details": "Formed in January 2014, [Dusty Green Bones Band](https://dustygreenbonesband.com/) is a five piece electric newgrass group based out of California's Bay Area. Looking to form a “jamgrass” style band, this rowdy bunch of musicians met in the heart of San Francisco. The group consists of: Toby Sanchez-Mahan (acoustic guitar, vocals), Isaac Cantor (banjo), Scotty Brown (electric bass, upright bass, vocals), Forrest Allen (Mandolin), and Jon Ryan (drums). By taking musical styles from a wide variety of genres and mixing them with the high energy of hard-driving bluegrass, they have created a purely organic sound. Their music aims to expand the authentic complexity of traditional bluegrass by layering ancient tones with improvisation and rock n' roll. These ambitious musicians live to ramble across the country playing hand-crafted shows while creating an undeniably magical experience for their fans. Their music is progressive with an indisputable raw aesthetic as the band dares to push the musical envelope, tenaciously defining their own individual style. DGBB continues to build a following by maintaining a consistent tour schedule. Come enjoy a nightcap and boogie down with the Dusty Green Bones Band at any one of their upcoming shows.",
+      "series": "",
+      "price": "$15 at venue / $10 online →",
+      "time":{
+        "start": "18:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2020-04-26",
+        "end": "2020-04-26"
+      },
+      "image": "dusty-green-bones-band.jpg",
+      "image_width": "800",
+      "image_height": "545",
+      "ticket": "95947209687",
+      "stream": "<iframe src='https://open.spotify.com/embed/album/4Zf9VQDS2WivyYPlYDEceu' allowtransparency='true' allow='encrypted-media' width='300' frameborder='0' height='380'></iframe>",
+      "youtube": "xMoPV1sf0sg",
+      "ics": "",
+      "reference_slug": ""
+    },
     {
       "category": "music",
       "type": "performance",
@@ -59,37 +87,38 @@
     {
       "slug": "patrick-galvin-plays-bach--apr-04-2020",
       "title": "Patrick Galvin plays Bach (evening show)",
-      "description": "Violinist Patrick Galvin plays Bach. Evening show.",
+      "description": "Violinist Patrick Galvin plays Bach. This evening show features the beautiful Bach violin concertos Patrick Galvin recently recorded on his last album. The evening concert will be 90-120 minutes long with an intermission.",
       "price": "$25 at venue / $20 online →",
       "time":{
-        "start": "19:00",
-        "end": "21:00"
+        "start": "20:00",
+        "end": "22:00"
       },
       "ticket": "",
-      "reference_slug": "patrick-galvin-plays-bach-matinee--apr-04-2020"
+      "reference_slug": "patrick-galvin-plays-bach-matinee--apr-05-2020"
     },
     {
       "category": "music",
       "type": "performance",
-      "slug": "patrick-galvin-plays-bach-matinee--apr-04-2020",
+      "slug": "patrick-galvin-plays-bach-matinee--apr-05-2020",
       "title": "Patrick Galvin plays Bach (family matinee)",
       "performer": "Patrick Galvin",
-      "description": "Violinist Patrick Galvin plays Bach. Family matinee.",
-      "details": "[Patrick Galvin](//patrickjmgalvin.com) was born in San Francisco, CA, and made his solo debut at age 11 with the Oakland East Bay Symphony. Patrick studied at the Peabody Conservatory in Baltimore; the Prayner Konservatorium in Vienna, Austria; and at the San Francisco Conservatory of Music. Patrick performs regularly throughout the United States and abroad, most often in solo appearances and with the pianist Jung-eun Kim.",
+      "description": "Violinist Patrick Galvin plays Bach. Family matinee. Children are encouraged to come experience a one hour immersion into the violin and its magic.",
+      "details": "[Patrick Galvin](//patrickjmgalvin.com) was born in San Francisco, CA, and made his solo debut at age 11 with the Oakland East Bay Symphony. Patrick studied at the Peabody Conservatory in Baltimore; the Prayner Konservatorium in Vienna, Austria; and at the San Francisco Conservatory of Music. Patrick performs regularly throughout the United States and abroad, most often in solo appearances and with the pianist Jung-eun Kim. It's a rare treat to have him in Mt Shasta.",
+      "note": "All ticket proceeds go directly to the artist. Wine, beer, champagne, sparkling water & sodas available at the JCA concession bar.",
       "series": "",
-      "price": "$15 adults, kids $5",
+      "price": "$12 adults, kids $5 (these special tix only available at the door beginning at 1:15 the day of the performance)",
       "time":{
         "start": "14:00",
         "end": "15:15"
       },
       "date":{
-        "start": "2020-04-04",
-        "end": "2020-04-04"
+        "start": "2020-04-05",
+        "end": "2020-04-05"
       },
       "image": "patrick-galvin.jpg",
       "image_width": "600",
       "image_height": "400",
-      "ticket": "",
+      "ticket": "97390346147",
       "stream": "",
       "youtube": "hUOyQK3JfS0",
       "ics": "",
