@@ -32,6 +32,89 @@
   "events":[
     {
       "category": "music",
+      "type": "workshop",
+      "slug": "mt-shasta-songwriters-circle--mar-25-2020",
+      "title": "Mt. Shasta Songwriters Circle",
+      "performer": "Merle Anderson",
+      "description": "The Jefferson Center for the Arts hosts a workshop for songwriters. Writers are invited to present their own original songs in the singer-songwriter genre. Beginners, amateurs and professionals are encouraged to bring an instrument and debut a song or two. This is not a public performance event. Attendance limited to writers who will share original songs in a supportive circle of writers.\n\nFor information contact Merle at (530)-925-6795 or merleanderson808@gmail.com.",
+      "details": "The Mt. Shasta Songwriters Circle at the Jefferson Center for the Arts is an opportunity for local singer songwriters, especially amateurs, to share their songs with other songwriters in an informal, supportive environment.\n\nThe format of the circle encourages participants to present one or two songs per evening, or an original song plus singing a cover of somebody else’s song or reading lyrics or a poem that inspires their songwriting passion. The writer may invite critique and discussion of their songs from other participants, but they can choose not to. Emphasis is on encouragement and sharing.\n\nWriters may also invite other participants to accompany their songs, such as playing backup or joining in on choruses, but this is not a jam session.\n\nMerle Anderson is the host and facilitator of the songwriters circle. One of the primary themes for the circle is, “If we don’t introduce and play our songs, who will?”\n\nWhile this is not a class about songwriting, there will be group discussion about related topics such as songwriting craft, inspiration, and favorite songwriters and songs.",
+      "note": "",
+      "series": "Mt. Shasta Songwriters Circle",
+      "price": "",
+      "time":{
+        "start": "19:30",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2020-03-25",
+        "end": "2020-03-25"
+      },
+      "image": "mt-shasta-songwriters-circle.jpg",
+      "image_width": "575",
+      "image_height": "350",
+      "ticket": "",
+      "stream": "",
+      "youtube": "",
+      "ics": "",
+      "show_registration_form": false,
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "george-jackson-cameron-dewhitt--may-22-2020",
+      "title": "George Jackson & Cameron DeWhitt",
+      "performer": "George Jackson & Cameron DeWhitt",
+      "description": "George Jackson & Cameron DeWhitt... a Nashville-based old-time, bluegrass fiddler joins one of the finest clawhammer banjo players alive.",
+      "details": "[George Jackson](https://www.georgejacksonmusic.com/) is a Nashville-based old-time and bluegrass fiddler. Born in New Zealand, George grew up in a musical family and first heard bluegrass music around the age of 14, immediately falling in love with the style he started trying to work out how to play it from recordings and from the few mentors he could find in New Zealand. As a resident of Nashville and the USA from 2016, George released an album of original old-time style fiddle tunes, “Time and Place” in 2019 to acclaim. He was awarded the 2019 Mike Auldridge composition award by the DC bluegrass union for his tune “Chapel Hill Deer Stalk” and sparked a viral fiddle tune with his composition “Dorrigo”, with hundreds of musicians learning the tune and posting videos of themselves playing it online, becoming known as the “#dorrigochallenge”. Each track on “Time and Place” is written by George and named for its time and place of composition, tracing his journey from New Zealand to his new life in the United States, exploring ideas of authenticity and identity through fiddle music.\n\n[Cameron DeWhitt](https://www.camerondewhitt.com/) is a banjoist and Old Time musician living in Portland, Oregon. He hosts the weekly podcast Get Up in the Cool: Old Time Music with Cameron DeWhitt and Friends, which features conversations and musical collaborations with today’s most influential traditional musicians. As the host of Get Up in the Cool, Cameron has applied his idiosyncratic clawhammer banjo technique to many traditional musics, from old time Appalachian and bluegrass to Métis, Scandinavian, Acadian, Irish, and New Mexican, to name a few. As a performer, he curates a unique musical experience featuring his favorite findings (and creations) uncovered during his interminable bouts of curiosity. “Cameron DeWhitt, at the age of 28 [is] already among the finest clawhammer banjo players alive.” — R.D. Eno, Banjo Newsletter",
+      "series": "",
+      "price": "$15 at venue / $15 online →",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2020-05-22",
+        "end": "2020-05-22"
+      },
+      "image": "george-jackson-cameron-dewhitt.jpg",
+      "image_width": "800",
+      "image_height": "474",
+      "ticket": "98576895147",
+      "stream": "",
+      "youtube": "K2taK9Zp3W0",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "kevin-patrick-radley--may-1-2020",
+      "title": "Kevin Patrick Radley",
+      "performer": "Kevin Patrick Radley",
+      "description": "KPR is a singer songwriter from the San Francisco Bay. Radley draws his musical influences from the American musical landscape of blues, country, soul and the occasional country holler. His songs explore the time honored themes of love, loss and redemption, with touch of social commentary.",
+      "details": "[Kevin Patrick Radley](https://www.facebook.com/KPRtheHollar) plays a number of instruments including guitar, harp and an occasional “unruly” cigar box guitar. Radley’s songs explore a variety of time honored themes of love, loss and redemption; all performed in the spirit of the juke joint jam. He has played at number of venues throughout northern California including * For Folk's Sake Music Festival in Vallejo, CA * The Lost Church, SF Bay Area Blues Festival in 2015 * Down Home Music in El Cerrito, CA * Armondo’s in Martinez CA * Silos’s in Napa Ca * Pops Cultural Center in Dunsmuir, CA as well as the 12 Bar Club in London, England. On his first CD, Kevin Patrick Radley includes a variety of musical guests. He is currently working on his second CD “City/Country” which is to be released in Spring 2020.\n\n“If it ain’t a damn it ain’t worth a holler”.",
+      "series": "",
+      "price": "$15 at venue / $12 online →",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2020-05-01",
+        "end": "2020-05-01"
+      },
+      "image": "kevin-patrick-radley.jpg",
+      "image_width": "800",
+      "image_height": "480",
+      "ticket": "98574706601",
+      "stream": "<iframe width='300' height='450' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/519399408&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>",
+      "youtube": "",
+      "ics": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
       "type": "performance",
       "slug": "dusty-green-bones-band--apr-26-2020",
       "title": "Dusty Green Bones Band",
@@ -92,6 +175,10 @@
       "time":{
         "start": "20:00",
         "end": "22:00"
+      },
+      "date":{
+        "start": "2020-04-04",
+        "end": "2020-04-04"
       },
       "ticket": "",
       "reference_slug": "patrick-galvin-plays-bach-matinee--apr-05-2020"
