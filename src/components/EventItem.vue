@@ -137,13 +137,15 @@
           class="event_youtube"
         >
           <transition name="fade" mode="out-in">
-            <iframe 
-              v-if="showYoutubeContent" 
-              :src="videoSrc" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-            ></iframe>
+            <div v-if="showYoutubeContent" class="video_container">
+              <iframe
+                :src="videoSrc" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="video"
+              ></iframe>
+            </div>
             <span
               v-else 
               @click="showYoutubeContent=true" 
@@ -159,13 +161,15 @@
           class="event_youtube"
         >
           <transition name="fade" mode="out-in">
-            <iframe 
-              v-if="showYoutubeContent" 
-              :src="videoSrc2" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-            ></iframe>
+            <div v-if="showYoutubeContent" class="video_container">
+              <iframe
+                :src="videoSrc2" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="video"
+              ></iframe>
+            </div>
             <span
               v-else 
               @click="showYoutubeContent=true" 
@@ -538,6 +542,21 @@ h4 {
 .event_ticket {
   display: inline-block;
 }
+.video_container {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  height: 0;
+  /* padding = 0.8 (width percentage) x 9/16 (aspect ratio) */
+  padding-bottom: 45%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .event_cat {
   .gradient-jewel-5();
 }
@@ -562,6 +581,10 @@ h4 {
   }
   .details_container {
     display: block;
+  }
+  .video_container {
+    width: 100%;
+    padding-bottom: 56.25%;
   }
   .viewmore {
     margin-top: 1em;
