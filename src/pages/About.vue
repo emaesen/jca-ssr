@@ -66,7 +66,7 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     meta_title() {
-      return "About Jefferson Center for the Arts";
+      return "About Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
       return "JCA is the premier educational center for music and the performing arts in Mount Shasta, California, USA.";

@@ -53,7 +53,7 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     meta_title() {
-      return "Sponsors for Jefferson Center for the Arts";
+      return "Sponsors for Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
       return "Sponsors for Jefferson Center for the Arts in Mount Shasta, California, USA.";

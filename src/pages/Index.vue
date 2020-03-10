@@ -107,7 +107,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: "Jefferson Center for the Arts",
+      title: "Jefferson Center for the Arts in Mount Shasta, California, USA",
       meta: [
         { name: "description", content: "JCA is Mount Shasta's Premier Educational Center for Music and the Performing Arts." },
         { key: 'og:url', property: 'og:url', content: this.meta_url}

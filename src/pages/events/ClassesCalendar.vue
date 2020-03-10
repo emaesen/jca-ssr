@@ -36,7 +36,7 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     meta_title() {
-      return "Calendar of weekly classes at Jefferson Center for the Arts";
+      return "Calendar of weekly classes at Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
       return "Calendar of weekly classes at Jefferson Center for the Arts in  Mount Shasta, California, USA.";

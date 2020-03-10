@@ -42,7 +42,7 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     meta_title() {
-      return "Venue Info & Booking for Jefferson Center for the Arts";
+      return "Venue Info & Booking for Jefferson Center for the Arts in Mount Shasta";
     },
     meta_description() {
       return "Get venue info for Jefferson Center for the Arts in Mount Shasta, California, USA. Send your event submissions.";
