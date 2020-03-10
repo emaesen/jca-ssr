@@ -8,7 +8,7 @@
         <span class="summary-column summary_title">{{ event.title }}</span>
       </div>
       <div class="summary-subcontainer">
-        <span class="summary-column summary_description">{{ event.description }}</span>
+        <span class="summary-column summary_description">{{ summaryDescription }}</span>
         <span class="summary-column summary_image"><g-image class="summary_image" :src="'/img/event/'+event.image" :alt="event.title"/></span>
       </div>
     </g-link>
@@ -341,6 +341,9 @@ export default {
     descriptionDetails() {
       return this.parseAsHtml(this.event.details)
     },
+    summaryDescription() {
+      return this.parseAsText(this.event.description)
+    },
     videoSrc() {
       return videoEmbedPath + this.event.youtube + videoEmbedQS
     },
@@ -355,6 +358,12 @@ export default {
         .replace(/\n/g, "<br>")
         .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="max-width:100%;"/>' )
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
+    },
+    parseAsText(txt) {
+      // strip image and link formatting
+      return (txt && txt
+        .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '' )
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1' )) || "";
     }
   }
 };
