@@ -1,6 +1,9 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
+      <div v-if="event.is_postponed" class="alert-stamp mini-stamp anima__zoom">
+        POSTPONED
+      </div>
       <div>
         <category-icon :category="event.category" class="summary_icon"/>
         <span class="summary-column summary_date">{{ dateShort }}</span>
@@ -14,7 +17,6 @@
     </g-link>
 
     <template v-else>
-
       <!-- date and time -->
       <div class="event_date_emph" v-if="!(isWeeklyRecurring || highlightTime || atPageLevel)">
           <div class="month">{{ month }}</div>
@@ -69,14 +71,21 @@
         </div>
 
         <!-- event details -->
-        <div :class="['details_column', {'details_column2':!!event.image}]">
+        <div :class="['details_column details_text', {'details_column2':!!event.image}]">
+          <div v-if="event.is_postponed" class="alert-stamp anima__zoom">
+            POSTPONED
+          </div>
+
+
           <div v-if="!isWeeklyRecurring" class="event_date">
             {{ date }}
           </div>
           <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
             {{ time }}
           </div>
-          <div v-if="!isPastEvent" class="event_price_wrapper">
+          <div 
+            v-if="!isPastEvent && !event.is_postponed" class="event_price_wrapper"
+          >
             <div class="event_price">
               {{ event.price }}
             </div>
@@ -396,6 +405,23 @@ export default {
   font-size: 90%;
   min-width: 100px;
 }
+.alert-stamp {
+  color: #f00;
+  position: absolute;
+  left: 30px;
+  font-size: 200%;
+  background-color: #700;
+  border: 2px solid #f00;
+  border-radius: 10px;
+  opacity: .85;
+  padding: .1em .5em;
+  transform: rotate(-0.02turn);
+  transform-origin: top right;
+  animation-delay: 1.5s;
+}
+.mini-stamp {
+  font-size: 150%;
+}
 .summary_date {
   font-size: 100%;
   color: #f8d394;
@@ -433,6 +459,9 @@ img.summary_image {
 }
 .details_column2 {
   flex: 3;
+}
+.details_text {
+  position: relative;
 }
 hr {
   margin: 2em 0;
