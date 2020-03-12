@@ -45,6 +45,7 @@ module.exports = function (api) {
             category
             type
             slug
+            is_postponed
             title
             performer
             description
