@@ -1,7 +1,7 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
-      <div v-if="event.is_postponed" class="alert-stamp mini-stamp anima__zoom">
+      <div v-if="event.is_postponed" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
       </div>
       <div>
@@ -71,11 +71,12 @@
         </div>
 
         <!-- event details -->
-        <div :class="['details_column details_text', {'details_column2':!!event.image}]">
-          <div v-if="event.is_postponed" class="alert-stamp anima__zoom">
-            POSTPONED
+        <div :class="['details_column', {'details_column2':!!event.image}]">
+          <div class="stamp_container">
+            <div v-if="event.is_postponed" class="postponed_stamp anima__zoom">
+              POSTPONED
+            </div>
           </div>
-
 
           <div v-if="!isWeeklyRecurring" class="event_date">
             {{ date }}
@@ -405,7 +406,10 @@ export default {
   font-size: 90%;
   min-width: 100px;
 }
-.alert-stamp {
+.stamp_container {
+  position: relative;
+}
+.postponed_stamp {
   color: #f00;
   position: absolute;
   left: 30px;
@@ -419,7 +423,7 @@ export default {
   transform-origin: top right;
   animation-delay: 1.5s;
 }
-.mini-stamp {
+.mini_stamp {
   font-size: 150%;
 }
 .summary_date {
@@ -459,9 +463,6 @@ img.summary_image {
 }
 .details_column2 {
   flex: 3;
-}
-.details_text {
-  position: relative;
 }
 hr {
   margin: 2em 0;
@@ -617,8 +618,8 @@ h4 {
   .event {
     font-size: 90%;
   }
-  .details_container {
-    display: block;
+  .postponed_stamp {
+    font-size: 150%;
   }
   .video_container {
     width: 100%;
