@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script>
+      /* <![CDATA[ */
+
+      var transitionType = (function (){
+        var t;
+        var el = document.createElement('testelement');
+        var transitions = {
+          'transition':['transitionStart','transitionEnd'],
+          'OTransition':['oTransitionStart','oTransitionEnd'],
+          'MSTransition':['msTransitionStart','msTransitionEnd'],
+          'MozTransition':['transitionstart','transitionend'],
+          'WebkitTransition':['webkitTransitionStart','webkitTransitionEnd']
+        }
+
+        for(t in transitions){
+          if(typeof el.style[t] !== 'undefined' ){
+            return transitions[t];
+          }
+        }
+      })();
+
+
+      var online = function () {
+        document.getElementById("status").innerHTML = "page is online";
+      }
+      var offline = function () {
+        document.getElementById("status").innerHTML = "page is offline";
+      }
+      var load = function () {
+        document.getElementById("status").innerHTML = "page has loaded";
+
+        var canvas = document.getElementById("canvas1");
+        if (typeof canvas.getContext !== "undefined") {
+          var ctx = canvas.getContext('2d');
+          ctx.fillStyle="rgb(200,0,0)";
+          ctx.fillRect(10,10,55,50);
+          ctx.fillStyle="rgba(0,0,200,0.5)";
+          ctx.fillRect(30,30,55,50);
+        }
+
+        document.getElementById("screenWidth").innerHTML = screen.width;
+        document.getElementById("screenHeight").innerHTML = screen.height;
+        if (document.documentElement) {
+          document.getElementById("clientWidth").innerHTML = document.documentElement.clientWidth;
+          document.getElementById("clientHeight").innerHTML = document.documentElement.clientHeight;
+        }
+        document.getElementById("innerWidth").innerHTML = window.innerWidth;
+        document.getElementById("innerHeight").innerHTML = window.innerHeight;
+        document.getElementById("pageYOffset").innerHTML = window.pageYOffset
+
+        window.setInterval(function(){
+          document.getElementById("pageYOffsetPolled").innerHTML = window.pageYOffset;
+        },1000);
+
+        document.getElementById("userAgent").innerHTML = navigator.userAgent;
+
+        if (typeof Device !== "undefined") {
+          document.getElementById("isMobile").innerHTML = Device.isMobile;
+          document.getElementById("isTouch").innerHTML = Device.isTouch;
+          document.getElementById("type").innerHTML = Device.type;
+          document.getElementById("browserType").innerHTML = Device.browserType;
+          document.getElementById("isWebkit").innerHTML = Device.isWebkit;
+          document.getElementById("osType").innerHTML = Device.osType;
+        }
+        if (typeof window.devicePixelRatio !== "undefined"){
+          document.getElementById("pixelRatio").innerHTML = window.devicePixelRatio;
+        }
+
+        if (typeof localStorage !== "undefined") {
+          if (typeof localStorage.setItem !== "undefined") {
+            localStorage.setItem("testDevice",1);
+            if (localStorage.getItem("testDevice")==1) {
+              document.getElementById("localStorage").innerHTML = "supported (including property .setItem)";
+            } else {
+              document.getElementById("localStorage").innerHTML = "seemingly supported (including property .setItem) but write/read is unsuccesful";
+            }
+          } else {
+            localStorage["testDevice"] = 1;
+            if (localStorage["testDevice"]===1) {
+              document.getElementById("localStorage").innerHTML = "supported (but not property .setItem)";
+            } else {
+              document.getElementById("localStorage").innerHTML = "seemingly supported but write/read is unsuccesful";
+            }
+          }
+        } else {
+          document.getElementById("localStorage").innerHTML = "NOT supported";
+        }
+
+        var inp = document.createElement("input");
+        inp.setAttribute("type", "date");
+        if (inp.type === "date") {
+            document.getElementById("inputDate").innerHTML = 'supported <i>(please verify input box <a href="#inputDateTest">below</a>)</i>';
+        } else {
+            document.getElementById("inputDate").innerHTML = "NOT supported";
+        }
+
+        var supportedEvents=[];
+        for (var propI in window) {
+          if ( /^on/.test(propI)) { supportedEvents[supportedEvents.length] = propI.replace(/^on/,""); }
+        }
+        document.getElementById("supportedEvents").innerHTML = supportedEvents.sort().join(", ");
+
+        if (document.querySelector){
+          var ball = document.querySelector('.ball'),
+            offset = ball.offsetWidth,
+            log = document.getElementById("ballLog");
+          if (document.addEventListener) {
+            document.addEventListener('click', function(e) {
+              ball.style.left = (e.pageX - offset) + 'px';
+            }, false);
+            ball.addEventListener(transitionType[1], function(e) {
+              log.innerHTML = 'Property "' + e.propertyName + '" was transitioned in ' + e.elapsedTime + 's ';
+            }, false);
+          } else {
+            log.innerHTML = '<i>addEventListener is NOT supported!</i>';
+          }
+        } else {
+          log.innerHTML = '<i>querySelector is NOT supported!</i>';
+        }
+      }
+      var resize = function() {
+        if (document.documentElement) {
+          document.getElementById("clientWidth").innerHTML = document.documentElement.clientWidth;
+          document.getElementById("clientHeight").innerHTML = document.documentElement.clientHeight;
+        }
+        document.getElementById("innerWidth").innerHTML = window.innerWidth;
+        document.getElementById("innerHeight").innerHTML = window.innerHeight;
+      }
+      var scroll = function() {
+        document.getElementById("pageYOffset").innerHTML = window.pageYOffset
+      }
+
+      var geoloc = function () {
+        displayPosition = function(position) {
+          var latitude = position.coords.latitude;
+          var longitude = position.coords.longitude;
+          var accuracy = position.coords.accuracy;
+          document.getElementById("geoloc").innerHTML = "geolocation latitude / longitude / accuracy = " + latitude + " / " + longitude + " / " + accuracy;
+        }
+        displayError = function(positionError) {
+          document.getElementById("geoloc").innerHTML = "geolocation positionError = " + positionError.message + "(" + positionError.code +")";
+          // couldn't get geolocation, potentially because user didn't give permission;
+        }
+        timeout = function() {
+          document.getElementById("geoloc").innerHTML = "geolocation timeout";
+        }
+
+        if (typeof(navigator.geolocation) !== 'undefined') {
+          try {
+            navigator.geolocation.getCurrentPosition(displayPosition, displayError,{timeout:10000,maximumAge:3600000});
+          } catch(e){
+            document.getElementById("geoloc").innerHTML = "geolocation caught exception: " + e;
+          };
+        } else {
+          document.getElementById("geoloc").innerHTML = "geolocation is NOT supported";
+        };
+      }
+      var display_confirm = function () {
+        var dt = new Date().toString();
+        if (confirm("The date and time is now\n" + dt + "\n\nPlease Press a button")===true){
+          alert("You pressed OK")
+        } else {
+          alert("You pressed Cancel")
+        }
+      }
+      /* ]]> */
+    </script>
+    <script>
+      /* <![CDATA[ */
+/*mobile device detection*/
+(function(){
+  //initialize global device object;
+  Device = {
+    isMobile:false,
+    isTouch:false,
+    type:"<i>no known mobile device</i>",
+    browserType:"<i>no known mobile browser</i>",
+    isWebkit:false,
+    osType:"<i>unknown</i>"
+  };
+  (function detectDevice(){
+    var ua=navigator.userAgent;
+
+    Device.isTouch = (window.DocumentTouch && document instanceof DocumentTouch) || 'ontouchstart' in window;
+
+    // some selected tests for OS and browser type;
+    if (ua.match(/Opera Mini/i)){
+      Device.browserType = "Opera Mini";
+    };
+    if (ua.match(/Chrome/i)){
+      Device.browserType = "Chrome";
+    };
+    if (ua.match(/Mac OS/i)){
+      Device.osType = "Mac OS";
+    };
+    if (ua.match(/iPhone OS 3/i)){
+      Device.osType = "iOS3";
+    };
+    if (ua.match(/webkit/i)){
+      Device.isWebkit = true;
+    };
+
+    // mobile device tests - return on positive match;
+    if (ua.match(/android/i)){
+      Device.type = "Android";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/iphone/i)){
+      Device.type = "iPhone";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/ipad/i)){
+      Device.type = "iPad";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/ipod/i)){
+      Device.type = "iPod";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/blackberry/i)){
+      Device.type = "Blackberry";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/pre\/|palm|hiptop|avantgo|plucker|xiino|blazer|elaine/i)){
+      Device.type = "Palm";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/iris|3g_t|windows ce|windows phone|opera mobi/i)){
+      Device.type = "Windows";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/LG\/U|LG-B|LG-C|LG-G|LG-K|LG-L|LGE-M|LGE-V|LG-T/)){
+      Device.type = "LG Electronics";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/MOT-|MOTOROKR|motorazr|motorola/)){
+      Device.type = "Motorola";
+      Device.isMobile = true;
+      return;
+    };
+    if (ua.match(/htc_smart_f|alcatel-ot|sie-s|sie-e|mini 9.5|vx1000|lge |m800|e860|u940|ux840|compal|wireless| mobi|ahong|lg380|lgku|lgu900|lg210|lg47|lg920|lg840|lg370|sam-r|mg50|s55|g83|t66|vx400|mk99|d615|d763|el370|sl900|mp500|samu3|samu4|vx10|xda_|samu5|samu6|samu7|samu9|a615|b832|m881|s920|n210|s700|c-810|_h797|mob-x|sk16d|848b|mowser|s580|r800|471x|v120|rim8|c500foma:|160x|x160|480x|x640|t503|w839|i250|sprint|w398samr810|m5252|c7100|mt126|x225|s5330|s820|htil-g1|fly v71|s302|-x113|novarra|k610i|-three|8325rc|8352rc|sanyo|vx54|c888|nx250|n120|mtk |c5588|s710|t880|c5005|i;458x|p404i|s210|c5100|teleca|s940|c500|s590|foma|samsu|vx8|vx9|a1000|_mms|myx|a700|gu1100|bc831|e300|ems100|me701|me702m-three|sd588|s800|8325rc|ac831|mw200|brew |d88|htc\/|htc_touch|355x|m50|km100|d736|p-9521|telco|sl74|ktouch|m4u\/|me702|8325rc|kddi|phone|lg |sonyericsson|samsung|240x|x320|vx10|nokia|sony cmd|up.browser|up.link|mmp|symbian|smartphone|midp|wap|vodafone|o2|pocket|kindle|mobile|psp|treo/i)){
+      Device.type = "misc mobile";
+      Device.isMobile = true;
+      return;
+    }
+  })();
+})();
+      /* ]]> */
+    </script>
+    <style id="sh_s">
+      /* <![CDATA[ */
+* {
+  font-family: Helvetica, sans-serif;
+  outline:none;
+  outline-width:0;
+}
+body {
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+  -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color:#1c1717;
+  color:#e9e4f2;
+  margin:0;
+  padding:0;
+  min-width:320px;
+}
+body * {
+  font-size:100%;
+}
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+code{
+  font-family: Courier;
+  font-size:90%;
+}
+header {
+  top:0;
+}
+footer {
+  height:45px;
+}
+h2,
+h3,
+.header,
+.subHeader {
+  margin:10px 0 0 0;
+  padding:4px 10px;
+  clear:both;
+}
+
+h2 {
+  background-color:#555;
+  background:gradient(linear, 0 0, 0 100%, from(#777), color-stop(0.47,#666), color-stop(0.53,#555), to(#444));
+    background:-moz-linear-gradient(top, #777 0%, #666 47%, #555 53%, #444 100%);
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#777), color-stop(0.47,#666), color-stop(0.53,#555), to(#444));
+  border-bottom:1px solid #888;
+  border-top:1px solid #888;
+  padding:8px 6px;
+  margin: 3em 0 2em;
+}
+h3,
+.header {
+  background-color:#444;
+  background:gradient(linear, 0 0, 0 100%, from(#444), to(#111));
+    background:-moz-linear-gradient(top, #444, #111);
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#111));
+  margin: 2em 0 1em;
+}
+.header {
+  font-weight:bold;
+}
+.padded {
+  margin:0px;
+  padding:10px;
+}
+.scroll {
+  height:8em;
+  -webkit-overflow-scrolling: touch;
+  overflow:auto;
+}
+.note{
+  color:#7F7F7F;
+  font-size:85%;
+}
+.fixed {
+  position:fixed;
+  background-color:#9AA0AC;
+  background:gradient(linear, 0 0, 0 100%, from(#8fa0aa), to(#b8c1c8));
+    background:-moz-linear-gradient(top, #8fa0aa, #b8c1c8);
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#8fa0aa), to(#b8c1c8));
+  border:1px solid #999ea4;
+  opacity:.8;
+  padding:2px 10px;
+}
+.topright{
+  top:0;
+  right:0;
+}
+.bottomright{
+  bottom:0;
+  right:0;
+}
+.ballBox{
+  position:relative;
+  height:25px;
+  margin-top:10px;
+}
+.txtstyle{
+  -webkit-appearance: textfield;
+}
+.ball{
+  position:absolute;
+  background:rgb(175,50,50);
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius: 20px;
+  display: block;
+  top:0;
+  left:0;
+}
+.ani{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+#isNotRetina{
+  display:inline;
+}
+#isRetina{
+  display:none;
+}
+#retinaTable td{
+  vertical-align:middle;
+  text-align:center;
+}
+#retinaTable td.right{
+  text-align:right;
+}
+.sprite, .sprite1x{
+  background-image:url(sprite@1x.png);
+  vertical-align: middle;
+}
+.sprite-filter_location{
+  background-position: -22px -160px;
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+}
+.sprite2x {
+  background-image:url(sprite@2x.png);
+}
+.sprite2x.sprite-filter_location{
+  background-position: -44px -320px;
+  width: 44px;
+  height: 40px;
+}
+.sprite2xS.sprite-filter_location {
+  background-image:url(sprite@2x.png);
+  -webkit-background-size:65px 180px;
+  -moz-background-size:65px 180px;
+  -o-background-size:65px 180px;
+  -ie-background-size:65px 180px;
+  background-size:65px 180px;
+}
+      .size{
+        display:none
+      }
+      @media all and (min-width: 1px){
+        #mq {display:none;}
+      }
+      @media all and (min-device-width: 481px){
+        /*styles for desktop, and tablets*/
+        #dsizeS,#dsizeM{display:none}
+        #dsizeL{display:block}
+      }
+      @media all and (min-device-width: 321px) and (max-device-width: 480px){
+        /*styles for WVGA smart phones*/
+        #dsizeS,#dsizeL{display:none}
+        #dsizeM{display:block}
+      }
+      @media all and (max-device-width: 320px){
+        /*styles for first gen smart phones*/
+        #dsizeM,#dsizeL{display:none}
+        #dsizeS{display:block}
+      }
+      @media all and (min-width: 481px){
+        /*styles for desktop, and tablets*/
+        #wsizeS,#wsizeM{display:none}
+        #wsizeL{display:block}
+      }
+      @media all and (min-width: 321px) and (max-width: 480px){
+        /*styles for WVGA smart phones*/
+        #wsizeS,#wsizeL{display:none}
+        #wsizeM{display:block}
+      }
+      @media all and (max-width: 320px){
+        /*styles for first gen smart phones*/
+        #wsizeM,#wsizeL{display:none}
+        #wsizeS{display:block}
+      }
+
+      .res{
+        display:none;
+      }
+      #resU{
+        display:block;
+      }
+      @media all and (max-resolution: 200dpi){
+        #resU{display:none}
+        #resH{display:none}
+        #resL{display:block}
+      }
+      @media all and (min-resolution: 200dpi){
+        #resU{display:none}
+        #resL{display:none}
+        #resH{display:block}
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min--moz-device-pixel-ratio: 1.5),
+        only screen and (-o-min-device-pixel-ratio: 3/2),
+        only screen and (min-device-pixel-ratio: 1.5) {
+        #ret{display:block}
+        #isNotRetina{
+          display:none
+        }
+        #isRetina{
+          display:inline;
+        }
+        .sprite{
+          background-image:url(sprite@2x.png);
+          -webkit-background-size:65px 180px;
+          -moz-background-size:65px 180px;
+          -o-background-size:65px 180px;
+          -ie-background-size:65px 180px;
+          background-size:65px 180px;
+        }
+      }
+
+      #mcHT{
+        display:none;
+      }
+      @media handheld{
+        #mcHF{
+          display:none;
+        }
+        #mcHT{
+          display:block;
+        }
+      }
+
+      .orient{
+        display:none
+      }
+      #orientU{
+        display:block
+      }
+      @media all and (orientation:portrait){
+        #orientU{display:none}
+        #orientL{display:none}
+        #orientP{display:block}
+      }
+      @media all and (orientation:landscape){
+        #orientU{display:none}
+        #orientP{display:none}
+        #orientL{display:block}
+      }
+#measure{clear:both}
+#w200{display:block;float:left;text-align:right;margin:0;width:198px;border:1px #ddd solid;font-size:0.5em;padding:5px 0;}
+.w20{display:block;float:left;text-align:right;margin:0;width:18px;border:1px #ddd solid;font-size:0.5em;padding:5px 0;}
+      .w20.i{background-color: #ccc;color:#000;}
+      /* ]]> */
+    </style>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!-- add icon links here -->
+    <title>Mobile Device Test Page</title>
+  </head>
+  <body ononline="online()" onoffline="offline()" onload="load()" onresize="resize()" onscroll="scroll()"> <!-- onscroll="scroll()" is not supported on IE -->
+
+
+      <div id="status" name="status" class="padded">loading...</div>
+<!--
+      <div id="geoloc" name="geoloc" class="padded">geolocating...</div>
+      <script>
+        /* <![CDATA[ */
+        geoloc();
+        /* ]]> */
+      </script>
+-->
+      <h3>Device test results based on JS properties:</h3>
+      <div class="padded">
+        <div><i>Note: some tests (*) below attempt to identify (a limited set of) mobile devices only</i></div>
+        <div>User agent = <span id="userAgent">unknown</span></div>
+        <div>Screen width = <span id="screenWidth">N/A</span> (compare to CSS device-width)</div>
+        <div>Screen height = <span id="screenHeight">N/A</span></div>
+        <div>Client width = <span id="clientWidth">N/A</span> (compare to CSS width)</div>
+        <div>Client height = <span id="clientHeight">N/A</span></div>
+        <div>Inner width = <span id="innerWidth">N/A</span> (includes scroll bar width)</div>
+        <div>Inner height = <span id="innerHeight">N/A</span></div>
+        <div>Page vertical offset = <span id="pageYOffset">N/A</span> (updated on scroll event)</div>
+        <div>Page vertical offset = <span id="pageYOffsetPolled">N/A</span> (polled every second)</div>
+        <div>Touch screen = <span id="isTouch">unknown</span></div>
+        <div>Device pixel ratio = <span id="pixelRatio">unknown</span></div>
+        <div>Mobile device = <span id="isMobile">unknown</span></div>
+        <div>Device type (*) = <span id="type">unknown</span></div>
+        <div>Browser type (*) = <span id="browserType">unknown</span></div>
+        <div>OS (*) = <span id="osType">unknown</span></div>
+        <div>Webkit browser = <span id="isWebkit">unknown</span></div>
+        <div>Local storage is <span id="localStorage">not supported</span></div>
+        <div>Input type date is <span id="inputDate">not supported</span></div>
+        <div>Supported event properties on window object:<br/><code id="supportedEvents"></code></div>
+      </div>
+
+
+      <h3>Device test results based on CSS properties:</h3>
+      <div class="padded">
+        <div class="fixed topright">top-right fixed</div>
+        <div class="fixed bottomright">bottom-right fixed</div>
+        <div id="mq">CSS dimensional Media Queries are NOT supported</div>
+        <div id="mcHT">handheld = true</div>
+        <div id="mcHF">handheld = false</div>
+        <div id="dsizeS" class="size">small size device (device-width&lt;320px)</div>
+        <div id="dsizeM" class="size">medium size device (320px&lt;device-width&lt;480px)</div>
+        <div id="dsizeL" class="size">large size device (device-width>480px)</div>
+        <div id="wsizeS" class="size">small size window (width&lt;320px)</div>
+        <div id="wsizeM" class="size">medium size window (320px&lt;width&lt;480px)</div>
+        <div id="wsizeL" class="size">large size window (width>480px)</div>
+        <div id="resU" class="res">unknown screen resolution</div>
+        <div id="resL" class="res">low res screen (&lt;200dpi)</div>
+        <div id="resH" class="res">high res screen (>200dpi)</div>
+        <div id="ret" class="res">retina display</div>
+        <div id="orientU" class="orient">unknown orientation</div>
+        <div id="orientP" class="orient">portrait orientation (width&lt;height)</div>
+        <div id="orientL" class="orient">landscape orientation (width>height)</div>
+      </div>
+
+
+      <h3>Effective device width:</h3>
+      <section id="measure">
+        <div class="padded">(The text inside the last box on the top row shows the relevant page width in pixels - within a 20 pixel margin)</div>
+        <span id="w200">200</span><span class="w20">220</span><span class="w20">240</span><span class="w20">260</span><span class="w20">280</span><span class="w20 i">300</span><span class="w20">320</span><span class="w20">340</span><span class="w20">360</span><span class="w20">380</span><span class="w20 i">400</span><span class="w20">420</span><span class="w20">440</span><span class="w20">460</span><span class="w20">480</span><span class="w20 i">500</span><span class="w20">520</span><span class="w20">540</span><span class="w20">560</span><span class="w20">580</span><span class="w20 i">600</span><span class="w20">620</span><span class="w20">640</span><span class="w20">660</span><span class="w20">680</span><span class="w20 i">700</span><span class="w20">720</span><span class="w20">740</span><span class="w20">760</span><span class="w20">780</span><span class="w20 i">800</span><span class="w20">820</span><span class="w20">840</span><span class="w20">860</span><span class="w20">880</span><span class="w20 i">900</span><span class="w20">920</span><span class="w20">940</span><span class="w20">960</span><span class="w20">980</span><span class="w20 i">1000</span><span class="w20">1020</span><span class="w20">1040</span><span class="w20">1060</span><span class="w20">1080</span><span class="w20 i">1100</span><span class="w20">1120</span><span class="w20">1140</span><span class="w20">1160</span><span class="w20">1180</span><span class="w20 i">1200</span><span class="w20">1220</span><span class="w20">1240</span><span class="w20">1260</span><span class="w20">1280</span><span class="w20 i">1300</span><span class="w20">1320</span><span class="w20">1340</span><span class="w20">1360</span><span class="w20">1380</span><span class="w20 i">1400</span><span class="w20">1420</span><span class="w20">1440</span><span class="w20">1460</span><span class="w20">1480</span><span class="w20 i">1500</span><span class="w20">1520</span><span class="w20">1540</span><span class="w20">1560</span><span class="w20">1580</span><span class="w20 i">1600</span><span class="w20">1620</span>
+        <div style="clear:both" class="padded"></div>
+      </section>
+
+      <section>
+        <h2>&lt;svg&gt; element</h2>
+        <div class="padded">
+          <div>The &lt;svg&gt; html element is good to create graphics, for mouse interactivity, and for medium level animation. ("svg" stands for Scalar Vector Graphics)</div>
+          <svg width="200" height="200">
+            <rect id="rect1" class="chart" x="0" y="0" width="100" height="100" fill="blue" stroke="red" stroke-width="2px" rx="9" ry="9" />
+          </svg>
+          <svg version="1.1" overflow="visible" width="47px" height="27px" viewBox="485 446 47 27">
+            <path stroke-linejoin="round" stroke-linecap="round" d="M 530 471 L 487 471 487 448 530 448 530 471 " stroke="#33cc33" stroke-opacity="1" stroke-width="2px" fill="none"/>
+          </svg>
+          <div>(if you don't see a blue square with red rounded corners, inline svg is not supported by the browser)</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>&lt;canvas&gt; element</h2>
+        <div class="padded">
+          <div>The &lt;canvas&gt; html element is good for drawing elements on top of svg, for keyboard interactivity, and for high animation.</div>
+          <canvas id="canvas1" width="100" height="80"></canvas>
+          <div>(if you don't see a blue transparent square overlapping a red square, canvas is not supported by the browser)</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>dialog boxes</h2>
+        <input type="button" onclick="display_confirm()" value="Display a confirm box" /><br/>(and see an alert in response)
+      </section>
+
+      <section>
+        <h2>scroll</h2>
+        <div class="padded scroll">
+          Line 1. If scroll is not supported, you will see only about 8 lines here.<br/>
+          Line 2. If scroll is natively supported you will be able to scroll down to line 18.<br/>
+          Line 3<br/>
+          Line 4<br/>
+          Line 5<br/>
+          Line 6<br/>
+          Line 7<br/>
+          Line 8<br/>
+          Line 9<br/>
+          Line 10<br/>
+          Line 11<br/>
+          Line 12<br/>
+          Line 13<br/>
+          Line 14<br/>
+          Line 15<br/>
+          Line 16<br/>
+          Line 17<br/>
+          Line 18<br/>
+        </div>
+      </section>
+
+      <section>
+        <h2>miscellanious elements</h2>
+        <div class="padded">
+          &lt;meter min="0" max="5" low="2" high="4" optimum="5" value="1.5" class="ratingStars" &gt;1.5 stars&lt;/meter&gt;:<br/>
+          <meter min="0" max="5" low="2" high="4" optimum="5" value="1.5" class="ratingStars" >1.5 stars <i>(fallback for non-supported element)</i></meter>
+        </div>
+        <div class="padded">
+          &lt;meter min="0" max="5" low="2" high="4" optimum="5" value="3.5" class="ratingStars" &gt;3.5 stars&lt;/meter&gt;:<br/>
+          <meter min="0" max="5" low="2" high="4" optimum="5" value="3.5" class="ratingStars" >3.5 stars <i>(fallback for non-supported element)</i></meter>
+        </div>
+        <div class="padded">
+          &lt;meter min="0" max="5" low="2" high="4" optimum="5" value="4.5" class="ratingStars" &gt;4.5 stars&lt;/meter&gt;:<br/>
+          <meter min="0" max="5" low="2" high="4" optimum="5" value="4.5" class="ratingStars" >4.5 stars <i>(fallback for non-supported element)</i></meter>
+        </div>
+        <div class="padded">
+          &lt;progress max="100" value="60"&gt;60%&lt;progress/&gt;:<br/>
+          <progress max="100" value="60">60% <i>(fallback for non-supported element)</i></progress>
+        </div>
+        <div class="padded">
+          &lt;input type="range" min="0" max="50" step="5" value="0"/&gt;:<br/>
+          <input type="range" min="0" max="50" step="5" value="0" />
+        </div>
+        <div class="padded">
+          &lt;input type="number" min="1" max="15" value="2"/&gt;:<br/>
+          <input type="number" min="1" max="15" value="2" />
+        </div>
+        <div id="inputDateTest" class="padded">
+          &lt;input type="date" min="2014-03-01" max="2014-06-21" value="2014-03-21"/&gt;:<br/>
+          <input type="date" min="2014-03-01" max="2014-06-21" value="2014-03-21" />
+        </div>
+        <div class="padded">
+          &lt;input type="datetime" value="2014-03-21T13:15:00.0Z"/&gt;:<br/>
+          <input type="datetime" value="2014-03-21T13:15:00.0Z" />
+        </div>
+        <div class="padded">
+          &lt;input type="month" min="2014-01" max="2015-07" value="2014-03"/&gt;:<br/>
+          <input type="month" min="2014-01" max="2015-07" value="2014-03" />
+        </div>
+        <div class="padded">
+          &lt;input type="time" min="06:00" max="00:00" step="900" value="13:15"/&gt;:<br/>
+          <input type="time" value="13:15:00" />
+        </div>
+        <div class="padded">
+          &lt;input type="search" placeholder="Search...." /&gt;:<br/>
+          <input type="search" placeholder="Search...." /> (browser search style)
+        </div>
+        <div class="padded">
+          &lt;input type="search" placeholder="Search...." /&gt;:<br/>
+          <input class="txtstyle" type="search" placeholder="Search...." /> (simple textfield style)
+        </div>
+
+        <div class="padded">
+          Input with suggestions in a &lt;datalist&gt;:<br/>
+          <input list="suggestionsList" name="inputWithSuggestions"/>
+          <datalist id="suggestionsList">
+            <option label="suggestion 1" value="suggestion 1"></option>
+            <option label="suggestion 2" value="suggestion 2"></option>
+            <option label="suggestion 3" value="suggestion 3"></option>
+          </datalist>
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS3 radius and transition</h2>
+        <div class="padded">
+          If radius is supported you see a red circle, otherwise a square.<br/>
+          Click anywhere on the page and the circle will move smoothly horizontally if animation is supported.<br/>
+          <div class="ballBox">
+            <div class="ball ani"></div>
+          </div>
+          <div id="ballLog"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Retina display</h2>
+        <div class="padded">
+          This display is classified as "<span id="isNotRetina">non-retina</span><span id="isRetina">retina</span>".<br/>
+          <table id="retinaTable">
+            <tr>
+              <td class="right">non-retina (@1x) image:</td>
+              <td><span class="sprite1x sprite-filter_location"></span></td>
+            </tr>
+            <tr>
+              <td class="right">retina (@2x) image - original:</td>
+              <td><span class="sprite2x sprite-filter_location"></span></td>
+            </tr>
+            <tr>
+              <td class="right">retina (@2x) image - scaled:</td>
+              <td><span class="sprite2xS sprite-filter_location"></span></td>
+            </tr>
+            <tr>
+              <td class="right">image selected by mediaquery:</td>
+              <td><span class="sprite sprite-filter_location"></span></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>HTML5 test</h2>
+        <div class="padded">
+          <a href="http://html5test.com/">Go tot html5test.com</a>
+        </div>
+      </section>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+  </body>
+</html>
