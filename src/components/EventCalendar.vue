@@ -28,10 +28,12 @@ query {
         category
         type
         slug
+        is_postponed
         title
         performer
         description
         details
+        note
         series
         price
         time {
@@ -48,6 +50,7 @@ query {
         ticket
         stream
         youtube
+        youtube2
         ics
         show_registration_form
       }
