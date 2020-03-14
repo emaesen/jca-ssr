@@ -25,8 +25,8 @@
         v-if="noEvents && type!=='class'" 
       >
         <p v-animate-on-intersection class="script spacious center anima__fade-in-bounce">
-          At the moment we don't have any {{ category || type }} events planned.<br class="spacer"/>
-          
+          <span class="anima__flicker">At the moment we don't have any {{ category || type }} events planned.</span>
+          <br class="spacer"/>
           Please check back soon or –better yet– subscribe to our newsletter below!
         </p>
         <email-subscribe-section v-animate-on-intersection/>
