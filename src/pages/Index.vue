@@ -17,14 +17,15 @@
     <organization-schema-script/>
 
     
-    <g-link to="/events/g/grand-opening-gala-oct-13-2019/" title="click to view details of our grand opening gala event">
+    <g-link to="/events/visual-arts-19-works-submissions/" title="click to view submission details for our 19 Works art event">
       <video 
         class="hero-video anima__zoom" 
         v-if="showFeaturedEvent" 
         autoplay playsinline muted loop 
-        poster="/img/event/grand-opening-gala-w450.png"
+        poster="/img/event/c19works-submission.png"
       >
-        <source src="/video/gala-invitation-900.mp4" type="video/mp4">
+        <source src="/video/c19works-submission-540.webm" type="video/webm;codecs=vp9">
+        <source src="/video/c19works-submission-540.mp4" type="video/mp4">
       </video>
     </g-link>
 
@@ -119,7 +120,6 @@ export default {
   },
   data() {
     return {
-      featuredEventImageSrc: "/img/event/grand-opening-banner-w900.png",
     }
   },
   computed: {
@@ -127,10 +127,10 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     showFeaturedEvent() {
-      const today = new Date().setHours(0,0,0,0);
-      const eventDate = new Date("2019-10-13").setHours(24,0,0,0);
+      const now = Date.now();
+      const eventDate = new Date("2020-08-10T17:00:00");
       return (
-        (today - eventDate) <= 0
+        (now - eventDate) <= 0
       );
     }
   }

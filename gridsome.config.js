@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: 'https://jeffersoncenterforthearts.com/',
   titleTemplate: '%s',
   metadata: {
-    version: 'V1.4.13',
+    version: 'V1.4.14',
   },
   icon: {
     favicon: './static/img/icons/favicon.png',

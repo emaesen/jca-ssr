@@ -26,11 +26,51 @@
     "ticket": "",
     "stream": "",
     "youtube": "",
+    "youtube2": "",
     "ics": "",
     "show_registration_form": false,
     "reference_slug": ""
   },
   "events":[
+    {
+      "slug": "c19-works--sep-4-5-6-7-2020",
+      "date":{
+        "start": "2020-09-04",
+        "end": "2020-09-07"
+      },
+      "reference_slug": "c19-works--aug-28-29-30-2020"
+    },
+    {
+      "category": "visual-arts",
+      "type": "exhibition",
+      "slug": "c19-works--aug-28-29-30-2020",
+      "is_postponed": false,
+      "title": "19 Works - Creations from Isolation",
+      "performer": "",
+      "description": "JCA is proud to host 19 WORKS – CREATIONS FROM ISOLATION. This show is open to all artists, all ages, and all disciplines.",
+      "details": "Although submissions are not necessarily Covid-19 related, they are preferred to have been created during lockdown and inspired from the present circumstances.\n\nThe JCA is proud to offer our community a safe place to explore the arts and spirit of one another.\n\nWe hope you’ll join us!\n\n[Submit art work (deadline August 10)](~/events/visual-arts-19-works-submissions/)",
+      "note": "Social distancing and mask wearing will be enforced at the show with a limited number of people admitted for viewing. Artists will have an opportunity to sell their work and share their stories with the public.",
+      "series": "19 works",
+      "price": "",
+      "time":{
+        "start": "18:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2020-08-28",
+        "end": "2020-08-30"
+      },
+      "image": "c19works.png",
+      "image_width": "600",
+      "image_height": "520",
+      "ticket": "",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "ics": "",
+      "show_registration_form": false,
+      "reference_slug": ""
+    },
     {
       "category": "music",
       "type": "workshop",

@@ -12,7 +12,7 @@
       </div>
       <div class="summary-subcontainer">
         <span class="summary-column summary_description">{{ summaryDescription }}</span>
-        <span class="summary-column summary_image"><g-image class="summary_image" :src="'/img/event/'+event.image" :alt="event.title"/></span>
+        <span class="summary-column summary_image group"><g-image class="summary_image" :src="'/img/event/'+event.image" :alt="event.title"/></span>
       </div>
     </g-link>
 
@@ -363,10 +363,13 @@ export default {
   },
   methods: {
     parseAsHtml(txt) {
+      // external links can be marked as [text](//foo.com/)
+      // internal links should be marked as [text](~/foo-page)
       return (txt && txt
         .replace(/</g, "&lt;")
         .replace(/\n/g, "<br>")
         .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="max-width:100%;"/>' )
+        .replace(/\[([^\]]+)\]\(~([^)]+)\)/g, '<a href="$2">$1</a>' )
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
     },
     parseAsText(txt) {
@@ -392,7 +395,7 @@ export default {
   padding: 0.2em 0.5em;
   color: #e9b761ee;
   position: relative;
-  min-height: 75px;
+  min-height: 85px;
 }
 .summary-subcontainer {
   width: 100%;
