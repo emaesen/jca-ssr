@@ -43,7 +43,7 @@
         Deadline for all submissions is Monday August 10th (2020) at 5pm.
       </p>
       <p class="emph">
-        Artists, please fill out the <a href="/pdf/c19works-visual-artist-agreement.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a> and send to Michael Howell:
+        Artists, please fill out the <a href="/pdf/c19works-visual-artist-agreement-v2.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a> and send to Michael Howell:
       </p>
       <ul class="bullet">
         <li>
