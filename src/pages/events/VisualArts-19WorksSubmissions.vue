@@ -42,20 +42,32 @@
       <p v-animate-on-intersection class="center deadline anima__fade-in-bounce">
         Deadline for all submissions is Monday August 10th (2020) at 5pm.
       </p>
-      <p class="emph">
-        Artists, please fill out the <a href="/pdf/c19works-visual-artist-agreement-v2.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a> and send to Michael Howell:
+      <p>
+        Artists may submit up to four pieces for a $10 entry fee per piece. Artists under 18 years old may submit their art for free to be displayed in the Young People’s Art section of the exhibit. For additional submission instructions please see/print the <a href="/pdf/c19works-visual-artist-agreement-v2.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a>.
       </p>
-      <ul class="bullet">
-        <li>
-          <span class="deemph">either:</span> email to:<br>
-          ca.poppy@gmail.com
-        </li>
-        <li>
-          <span class="deemph">or:</span> send by postal mail to:<br>
-        Michael Howell<br>
-        PO BOX 32 Dunsmuir CA 96025
-        </li>
-      </ul>
+        
+      <div class="submission-box">
+
+        <p class="emph">
+          Artists, please fill out the <a href="/pdf/c19works-visual-artist-agreement-v2.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a> and send to Michael Howell:
+        </p>
+        <ul class="bullet">
+          <li>
+            <span class="deemph">either:</span> email to:<br>
+            ca.poppy@gmail.com
+          </li>
+          <li>
+            <span class="deemph">or:</span> send by postal mail to:<br>
+          Michael Howell<br>
+          PO BOX 32 Dunsmuir CA 96025
+          </li>
+        </ul>
+        <p>
+          Please include a check or money order <span class="deemph">(for the $10 entry fee per piece)</span> addressed to Jefferson Center for the Arts with your submission application.
+       </p>
+
+      </div>
+
       <p>
         Please <g-link to="/contact/">contact Wendy James at JCA</g-link> if you have any questions.
       </p>
@@ -142,5 +154,11 @@ export default {
 }
 .deadline {
   color: #f1795d;
+}
+.submission-box {
+  background-color: rgba(@color_bg, 0.8);
+  border: 1px solid @color_formfield_border;
+  border-radius: 10px;
+  padding: 1em;
 }
 </style>
