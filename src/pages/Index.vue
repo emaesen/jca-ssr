@@ -127,10 +127,10 @@ export default {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },
     showFeaturedEvent() {
-      const now = Date.now();
-      const eventDate = new Date("2020-08-10T17:00:00");
+      const now = new Date();
+      const eventDate = new Date("2020-08-11T23:00");
       return (
-        (now - eventDate) <= 0
+        (now.getTime() - eventDate.getTime()) <= 0
       );
     }
   }

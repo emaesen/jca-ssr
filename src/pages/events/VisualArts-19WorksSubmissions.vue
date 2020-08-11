@@ -40,7 +40,7 @@
     <h2>Submission information</h2>
     <div v-if="isSubmissionOpen">
       <p v-animate-on-intersection class="center deadline anima__fade-in-bounce">
-        Deadline for all submissions is Monday August 10th (2020) at 5pm.
+        Deadline for all submissions is Tuesday August 11th (2020) at 5pm.
       </p>
       <p>
         Artists may submit up to four pieces for a $10 entry fee per piece. Artists under 18 years old may submit their art for free to be displayed in the Young People’s Art section of the exhibit. For additional submission instructions please see/print the <a href="/pdf/c19works-visual-artist-agreement-v2.pdf" target="_blank" rel="noopener noreferrer">artist agreement</a>.
@@ -124,10 +124,10 @@ export default {
       return "Submit your artworks for 19 Works at Jefferson Center for the Arts in Mount Shasta, California, USA.";
     },
     isSubmissionOpen() {
-      const now = Date.now();
-      const closeDate = new Date("2020-08-10T17:00:00");
+      const now = new Date();
+      const closeDate = new Date("2020-08-11T23:00");
       return (
-        (now - closeDate) <= 0
+        (now.getTime() - closeDate.getTime()) <= 0
       );
     },
   }
