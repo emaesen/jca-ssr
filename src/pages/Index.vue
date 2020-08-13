@@ -17,21 +17,25 @@
     <organization-schema-script/>
 
     
-    <g-link to="/events/visual-arts-19-works-submissions/" title="click to view submission details for our 19 Works art event">
-      <video 
-        class="hero-video anima__zoom" 
-        v-if="showFeaturedEvent" 
-        autoplay playsinline muted loop 
-        poster="/img/event/c19works-submission.png"
-      >
-        <source src="/video/c19works-submission-540.webm" type="video/webm;codecs=vp9">
-        <source src="/video/c19works-submission-540.mp4" type="video/mp4">
-      </video>
-    </g-link>
+    <div
+      v-if="showFeaturedEvent"
+    >
+      <g-link to="/events/visual-arts-19-works-submissions/" title="click to view submission details for our 19 Works art event">
+        <video 
+          class="hero-video anima__zoom" 
+          autoplay playsinline muted loop 
+          poster="/img/event/c19works-submission.png"
+        >
+          <source src="/video/c19works-submission-540.webm" type="video/webm;codecs=vp9">
+          <source src="/video/c19works-submission-540.mp4" type="video/mp4">
+        </video>
+      </g-link>
+    </div>
+
 
     <div 
       class="container-carousel anima__zoom noprint"
-      v-if="!showFeaturedEvent"
+      v-else
     >
       <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
         <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
@@ -128,7 +132,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2020-08-11T23:00");
+      const eventDate = new Date("2020-08-13T13:55");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
