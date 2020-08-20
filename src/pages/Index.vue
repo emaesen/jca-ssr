@@ -20,14 +20,14 @@
     <div
       v-if="showFeaturedEvent"
     >
-      <g-link to="/events/visual-arts-19-works-submissions/" title="click to view submission details for our 19 Works art event">
+      <g-link to="/events/visual-arts-19-works/" title="click to view info about our 19 Works art event">
         <video 
           class="hero-video anima__zoom" 
           autoplay playsinline muted loop 
-          poster="/img/event/c19works-submission.png"
+          poster="/img/event/c19works-poster.png"
         >
-          <source src="/video/c19works-submission-540.webm" type="video/webm;codecs=vp9">
-          <source src="/video/c19works-submission-540.mp4" type="video/mp4">
+          <source src="/video/c19works-show-flyer-45vs-vp9.webm" type="video/webm;codecs=vp9">
+          <source src="/video/c19works-show-flyer-22vs.mp4" type="video/mp4">
         </video>
       </g-link>
     </div>
@@ -132,7 +132,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2020-08-13T13:55");
+      const eventDate = new Date("2020-09-07T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
