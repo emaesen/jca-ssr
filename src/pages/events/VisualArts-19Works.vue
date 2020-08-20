@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>19 Works - Creations from Isolation</h1>
+    <div class="subtitle">
+      <category-icon category="visual-arts"/> a visual arts exhibition
+    </div>
 
     <p>
       <g-image class="img-poster" src="/img/event/c19works-poster.png" alt="Poster for 19 Works art event"/>
@@ -44,7 +47,7 @@
     </section>
 
     <section v-animate-on-intersection>
-    <h2>19 Works Events</h2>
+    <h2>19 Works Event Dates</h2>
     <p>
       <g-link to="/events/visual-arts/c19-works--aug-28-29-30-2020/">Friday August 28 - Sunday August 30 (6-9PM)</g-link>
     </p>
@@ -57,12 +60,15 @@
 </template>
 
 <script>
+import CategoryIcon from '@/components/CategoryIcon.vue';
+
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
 export default {
   name: 'visualarts-19works-submissions',
   mixins: [animateOnIntersection],
   components: {
+    CategoryIcon,
   },
   metaInfo () {
     return {
@@ -109,6 +115,13 @@ export default {
   font-weight: 400;
   letter-spacing: 1px;
   color: @color_text_header;
+}
+.subtitle {
+  text-align: center;
+  position: relative;
+  top: -1.5em;
+  opacity: 0.7;
+  color: @color-secondary-1-1;
 }
 .img-poster {
   float: right;

@@ -26,8 +26,8 @@
           autoplay playsinline muted loop 
           poster="/img/event/c19works-poster.png"
         >
-          <source src="/video/c19works-show-flyer-45vs-vp9.webm" type="video/webm;codecs=vp9">
-          <source src="/video/c19works-show-flyer-22vs.mp4" type="video/mp4">
+          <source src="/video/c19works-36vs-vp9.webm" type="video/webm;codecs=vp9">
+          <source src="/video/c19works-22vs-h264.mp4" type="video/mp4">
         </video>
       </g-link>
     </div>
