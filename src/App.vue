@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="/img/jca-logo-sm.png" alt="JCA logo" class="logo_sm"/>
+    <g-link to="/"><img src="/img/jca-logo-sm.png" alt="JCA logo" class="logo_sm"/></g-link>
 
     <site-nav/>
 
