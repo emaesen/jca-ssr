@@ -3,7 +3,7 @@
     <h1>Call For Artists<br>19 Works - Creations from Isolation</h1>
 
     <p>
-      <g-image class="img-call" src="/img/event/c19works-submission.png" alt="Call for submissions for 19 Works art event"/>
+      <g-image class="img-call anima__zoom" src="/img/event/c19works-submission.png" alt="Call for submissions for 19 Works art event"/>
       <cite>
         “The art that is being produced from the heart of domesticity will show how the human experience sits within us, rather than in external components of our lives.”
       </cite>

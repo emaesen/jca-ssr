@@ -6,7 +6,7 @@
     </div>
 
     <p>
-      <g-image class="img-poster" src="/img/event/c19works-poster.png" alt="Poster for 19 Works art event"/>
+      <g-image class="img-poster anima__zoom" src="/img/event/c19works-poster.png" alt="Poster for 19 Works art event"/>
       <cite>
         “The art that is being produced from the heart of domesticity will show how the human experience sits within us, rather than in external components of our lives.”
       </cite>
