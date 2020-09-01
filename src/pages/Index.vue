@@ -24,7 +24,7 @@
         <video 
           class="hero-video anima__zoom" 
           autoplay playsinline muted loop 
-          poster="/img/event/c19works-poster.png"
+          poster="/img/event/c19works-poster-opt.png"
         >
           <source src="/video/c19works-36vs-vp9.webm" type="video/webm;codecs=vp9">
           <source src="/video/c19works-22vs-h264.mp4" type="video/mp4">

@@ -51,10 +51,10 @@
     Header set Cache-Control "max-age=31536000"
   </FilesMatch>
   <FilesMatch "\.(html|htm|txt|xml|json)$">
-    Header set Cache-Control "max-age=600"
+    Header set Cache-Control "max-age=1800"
   </FilesMatch>
   <FilesMatch "service-worker.js">
-    Header set Cache-Control "max-age=600"
+    Header set Cache-Control "max-age=1800"
   </FilesMatch>
 </IfModule>
 # END Caching Headers

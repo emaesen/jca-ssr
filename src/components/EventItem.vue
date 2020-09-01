@@ -12,7 +12,7 @@
       </div>
       <div class="summary-subcontainer">
         <span class="summary-column summary_description">{{ summaryDescription }}</span>
-        <span class="summary-column summary_image group"><g-image class="summary_image" :src="'/img/event/'+event.image" :alt="event.title"/></span>
+        <span class="summary-column summary_image group"><g-image class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
       </div>
     </g-link>
 
@@ -359,6 +359,9 @@ export default {
     },
     videoSrc2() {
       return videoEmbedPath + this.event.youtube2 + video2EmbedQS
+    },
+    eventThumbImage() {
+      return this.event.image.replace('.', '-th.')
     }
   },
   methods: {
