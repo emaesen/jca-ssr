@@ -20,20 +20,12 @@
       </p>
     </section>
 
-
     <section v-animate-on-intersection>
       <h2>Donate:</h2>
       <p>
-        TAX-DEDUCTIBLE DONATIONS can be made on behalf of JCA through the Siskiyou County Arts Council, at <link-outbound to="http://siskiyouarts.org/get-involved/donation-form/">siskiyouarts.org</link-outbound>. 
-        Siskiyou County Arts Council, as a 501(c)(3) nonprofit organization, is the fiscal sponsor for Jefferson Center for the Arts. 
-        Thank you!
-      </p>
-      <p>
-        Or 
-        <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">donate via PayPal</link-outbound>
+        TAX-DEDUCTIBLE DONATIONS can be made to Jefferson Center for the Arts (JCA) by clicking this <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">link</link-outbound>. The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Thank you! 
       </p>
     </section>
-
 
   </div>
 </template>
