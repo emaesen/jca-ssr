@@ -10,7 +10,19 @@
       </p>
     </section>
 
-    <g-image class="img-hero anima__zoom" src="/img/jca-banner.png" alt="JCA banner"/>
+    <div class="hero-container">
+      <video v-if="showVideo"
+        class="hero-video anima__zoom" 
+        playsinline 
+        controls 
+        preload="metadata"
+        poster="/img/jca-banner-sm-with-play-button.png"
+      >
+        <source src="/video/jca-about-us-640p30-23vs-h264.mp4" type="video/mp4">
+        <source src="/video/jca-about-us-640p30-36s-vp8.webm" type="video/webm;codecs=vp9">
+      </video>
+      <g-image v-else class="img-hero anima__zoom" src="/img/jca-banner.png" alt="JCA banner"/>
+    </div>
 
     <section v-animate-on-intersection>
       <h3>Founder of JCA: Wendy James</h3>
@@ -45,6 +57,11 @@ export default {
   components: {
 //    PrivacyStatement,
     LinkOutbound,
+  },
+  data() {
+    return {
+      showVideo: true
+    }
   },
   metaInfo () {
     return {
@@ -81,5 +98,16 @@ export default {
   margin-right: 1em;
   margin-bottom: 1em;
   max-width: 25%;
+}
+
+.hero-container {
+  text-align: center;
+  margin: 0 auto 4em;
+}
+.hero-video {
+  border: 3px solid #575757;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 640px;
 }
 </style>
