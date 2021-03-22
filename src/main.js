@@ -85,8 +85,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   }
 
   const basic_metas = {
-    description: "Jefferson Center for the Arts: Mount Shasta's Premier Educational Center for Music and the Performing Arts",
-    keywords: "arts, music, theater, performance, dance, education, culture, community, center, mount shasta, siskiyou"
+    description: "Jefferson Center for the Arts: Mount Shasta's Premier Educational Center for Music and the Performing Arts"
   };
   for (var meta in basic_metas) {
     head.meta.push({
