@@ -3,7 +3,7 @@
     <h1>JCA Sponsors</h1>
 
     <sponsor 
-      v-for="(sponsor, index) in sponsors" 
+      v-for="(sponsor, index) in activeSponsors" 
       :key="sponsor.name" 
       :id="'sponsor' + (index + 1)"
       :sponsor="sponsor"
@@ -49,6 +49,9 @@ export default {
     }
   },
   computed: {
+    activeSponsors() {
+      return this.sponsors.filter(sponsor => sponsor.isActive)
+    },
     meta_url() {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path
     },

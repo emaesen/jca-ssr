@@ -6,7 +6,8 @@
       "addressline2": "Mount Shasta, California 96067",
       "byline": "Stay at the Cold Creek Inn, a hotel in Mount Shasta. Located downtown: walk to eat, shop, play",
       "url": "https://coldcreekinn.com/",
-      "logo": "cold-creek-inn-logo.png"
+      "logo": "cold-creek-inn-logo.png",
+      "isActive": false
     },
     {
       "name": "Caldera Brewing Company",
@@ -14,7 +15,8 @@
       "addressline2": "Ashland, Oregon 97520",
       "byline": "Dedicated to producing uncompromised quality ales, lagers, sodas and cuisine",
       "url": "https://calderabrewing.com/",
-      "logo": "caldera-brewing-company-logo.png"
+      "logo": "caldera-brewing-company-logo.png",
+      "isActive": true
     },
     {
       "name": "Dunsmuir Brewery Works",
@@ -22,16 +24,18 @@
       "addressline2": "Dunsmuir, California 96025",
       "byline": "A micro brew pub offering a variety of hand crafted ales and fine food",
       "url": "https://dunsmuirbreweryworks.com/",
-      "logo": "dunsmuir-brewery-works-logo2.png"
+      "logo": "dunsmuir-brewery-works-logo2.png",
+      "isActive": true
     },
     {
       "name": "Website Design by Edward Maesen",
       "addressline1": "",
       "addressline2": "Mount Shasta, California 96067",
       "byline": "Mobile-friendly animated websites by seasoned ex-eBay principal software developer",
-      "url": "https://kagalakan.com/",
+      "url": "https://epvm.name/",
       "linkText": "Edward's website",
-      "logo": "edward-maesen-logo.jpg"
+      "logo": "edward-maesen-logo.jpg",
+      "isActive": true
     }
   ]
 }
