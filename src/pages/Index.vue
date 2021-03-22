@@ -63,28 +63,30 @@
       <h2>Get Involved!</h2>
 
       <p>
-        <span class="emph">The only way to be successful in our community is to have YOU involved in the process. We’re here to support community!</span><br class="spacer">
-        We have opened the JCA Educational Center in October of 2019 and are actively raising money to build out the space to include a state of the art sound and lighting system, thrust stage, backstage area and costume shop.<br class="spacer"> 
-        We have been granted the use of a pristine concert grand piano… the only one of its kind in the area!<br class="spacer">
-        SO, we need to get the theatre built so we can hear its glory! 
-      </p>
-      
-      <p>
-        Our structural vision is clear and now <span class="emph">we need the community to decorate that vision with its own unique dreams and ideas.</span><br class="spacer">
-        <span class="emph">Please share yours!</span><br class="spacer">
-        We look forward to hearing from you.
+        <span class="emph">It’s 2021 and we are so excited to open our doors again to live performances!</span><br class="spacer">
+        <br>
+        <span class="donate-button"><button-donate/></span>
+        We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button.<br>
+        <br>
+        Stay in the loop by signing up for our <a href="#subscribe">mailing list</a>! We are booking new shows every week and want to share all of our exciting news with you!
       </p>
 
       <p>
-        <g-link to="/get-involved/">Get Involved</g-link>
+        Musicians, Visual Artists, Performers: <g-link to="/get-involved/">send your submission</g-link>
+      </p>
+      <p>
+        Locals: <g-link to="/get-involved/#volunteer">volunteer</g-link>
       </p>
       <p>
         <g-link to="/contact/">Contact Us</g-link>
       </p>
+
     </section>
 
     <facebook-section v-animate-on-intersection/>
 
+    <div id="subscribe"></div>
+    
     <email-subscribe-section v-animate-on-intersection/>
 
 
@@ -97,6 +99,7 @@ import Carousel from '@/components/Carousel';
 import FacebookSection from '@/components/FacebookSection';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import OrganizationSchemaScript from '@/components/OrganizationSchemaScript';
+import ButtonDonate from '@/components/ButtonDonate';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
@@ -109,6 +112,7 @@ export default {
     FacebookSection,
     EmailSubscribeSection,
     OrganizationSchemaScript,
+    ButtonDonate,
   },
   metaInfo () {
     return {
@@ -177,6 +181,9 @@ img.slide {
   animation-delay: 1s;
   animation-duration: 1s;
   animation-fill-mode: backwards;
+}
+.donate-button {
+  float: right;
 }
 
 @media all and (max-width: 650px) {
