@@ -57,7 +57,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       setTimeout(() => {
         if (to.hash) {
           resolve( {
-            selector: to.hash
+            selector: to.hash,
+            behavior: 'smooth'
           } );
         } else if (savedPosition) {
           resolve( savedPosition );
