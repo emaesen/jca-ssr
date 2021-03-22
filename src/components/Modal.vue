@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .modal-base {
   position: fixed;
   top: 0;
@@ -69,14 +69,14 @@ export default {
   height: 90%;
   width: 90%;
   margin: 0;
-  color: #111;
+  color: rgba(18, 18, 18, 0.9);
   text-shadow: none;
   h2,h3,h4,h5 {
     margin: 1em 0;
-    color: #483703;
+    color: #0227ca;
   }
   a {
-    color: #3b5998;
+    color: #a33030;
   }
   cite {
     margin: 0 1em;
@@ -104,6 +104,10 @@ export default {
   .header {
     padding: 0.4rem 3rem;
     text-shadow: none;
+  }
+
+  .deemph {
+    color: #a3303072;
   }
 
   .close {
