@@ -3,14 +3,11 @@
     <h3>JCA's weekly classes:</h3>
 
     <p>
-      Studio tuition is $55 per month. Multiple class and family discounts too!
-    </p>
-    <p>
       Please visit our sister site <link-outbound to="//shastastudios.net/">Shasta Studios School of Theatrical Dance</link-outbound> for additional information and to register.
     </p>
 
     <p class="spacious">
-      Classes for current season (September 3 to June 21):
+      Classes for current season (January - June 2021):
     </p>
 
     <week-schedule :classes="classes"/>

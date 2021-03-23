@@ -82,7 +82,7 @@ export default {
 .days-header {
   line-height: 2em;
   display: grid;
-  grid-template-columns: 8% 19% 19% 19% 19% 8% 8%;
+  grid-template-columns: 3% 19% 19% 19% 19% 18% 3%;
   grid-template-areas: "a b c d e f g";
   background-color: #0a080e;
   border-top: 1px solid #383247;
@@ -98,14 +98,13 @@ export default {
   border-right: 1px solid #383247;
 }
 .day-label-sun,
-.day-label-fri,
 .day-label-sat {
-  font-size: 80%;
+  font-size: 50%;
 }
 .week-row {
   display: grid;
   grid-template-areas: "k l m n o p q";
-  grid-template-columns: 8% 19% 19% 19% 19% 8% 8%;
+  grid-template-columns: 3% 19% 19% 19% 19% 18% 3%;
 }
 .week-row {
   border-left: 1px solid #383247;
@@ -160,25 +159,23 @@ export default {
   transform: translateY(-9px);
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 800px) {
   .week-day {
     padding: 2px;
   }
   .day-label-sun,
-  .day-label-fri,
   .day-label-sat,
   .week-day-sun,
-  .week-day-fri,
   .week-day-sat {
     display: none;
   }
   .days-header {
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "b c d e";
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-areas: "b c d e f";
   }
   .week-row {
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "l m n o";
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-areas: "l m n o p";
   }
 }
 </style>

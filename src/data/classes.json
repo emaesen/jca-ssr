@@ -23,59 +23,11 @@
        ],
       "monday": [
         {
-          "_id": "mon1430",
-          "category": "music",
-          "title": "Kids Choir K-6",
-          "presenter": "Wendy James",
-          "description": "Singers of all levels are welcome to join our Kids Choir. Kindergarten thru 6th grade. Reading ability is preffered but not mandatory.",
-          "price": "",
-          "time":{
-            "start": "14:30",
-            "end": "15:30"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "mon1530",
-          "category": "music",
-          "title": "Rhythm Kids 7-12",
-          "presenter": "Wendy James",
-          "description": "This fun filled class mixes jazz and world music, body percussion and song to learn different rhythms and musicality. Ages 7-12.",
-          "price": "",
-          "time":{
-            "start": "15:30",
-            "end": "16:30"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "mon1630",
-          "category": "dance",
-          "title": "Lyrical 1",
-          "presenter": "Wendy James",
-          "description": "This contemporary dance form mixes jazz, ballet and creative dance… often telling a story through movement. No experience necessary.",
-          "price": "",
-          "time":{
-            "start": "16:30",
-            "end": "17:30"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
           "_id": "mon1730",
           "category": "dance",
           "title": "Lyrical 2",
-          "presenter": "Wendy James",
-          "description": "Lyrical dance for students with 1 or more years of dance experience… instructor must approve admission for new students. Ages 8+.",
+          "presenter": "",
+          "description": "Lyrical dance for students with 3 or more years of dance experience.",
           "price": "",
           "time":{
             "start": "17:30",
@@ -90,8 +42,8 @@
           "_id": "mon1830",
           "category": "dance",
           "title": "Lyrical 3",
-          "presenter": "Wendy James",
-          "description": "This int/advanced lyrical class is by audition only for new students. Ages 12+.",
+          "presenter": "",
+          "description": "",
           "price": "",
           "time":{
             "start": "18:30",
@@ -105,33 +57,16 @@
       ],
       "tuesday": [
         {
-          "_id": "tue1445",
-          "category": "music",
-          "title": "Intro 2 Music",
-          "presenter": "Kale & Cory Coppin",
-          "description": "This class is primarily for Mt Shasta Children's Theatre students. However, it is open to all who would like to learn more about music… reading, writing and performing.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "",
-          "time":{
-            "start": "14:45",
-            "end": "15:15"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "tue1515",
+          "_id": "tue1530",
           "category": "theater",
-          "title": "Mt Shasta Children's Theatre Class",
-          "presenter": "Kale & Cory Coppin",
-          "description": "Students in MSCT class will rehearse, perfect and perform two plays/musicals each season. All students will have a part in each play and will learn all aspects of putting on a show.",
-          "note": "2x a week (Tue & Thu)",
+          "title": "Beginning Musical Theatre",
+          "presenter": "",
+          "description": "Students will learn the basics of singing, musical theatre movement, storytelling and improv.\n\nThis is a great class for boys and girls ages 8-13.",
+          "note": "",
           "price": "",
           "time":{
-            "start": "15:15",
-            "end": "17:00"
+            "start": "15:30",
+            "end": "16:30"
           },
           "date":{
             "start": "2019-09-03",
@@ -139,11 +74,79 @@
           }
         },
         {
-          "_id": "tue1700",
+          "_id": "tue1630",
           "category": "dance",
           "title": "Ballet 1.5",
-          "presenter": "Sherri Degraffenreid",
-          "description": "A level up from Ballet 1. New students must be approved by the instructor before registering for this class.",
+          "presenter": "",
+          "description": "Ballet for students with 3 or more years of dance experience, ages 8-12.",
+          "price": "",
+          "time":{
+            "start": "16:30",
+            "end": "17:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "tue1730",
+          "category": "dance",
+          "title": "Ballet 2/3",
+          "presenter": "",
+          "description": "This ballet class is for Intermediate and advanced students with 5+ years of dance training.\n\nAll students enrolled must attend class twice each week.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "17:30",
+            "end": "18:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "tue1830",
+          "category": "dance",
+          "title": "Ballet 3/Pointe",
+          "presenter": "",
+          "description": "Pre-point workshop for int/adv ballerinas…\n\nby invitation only.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "18:30",
+            "end": "19:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        }
+      ],
+      "wednesday": [
+        {
+          "_id": "wed1600",
+          "category": "dance",
+          "title": "\"Daisies\" Pre-Ballet Ages 3-4",
+          "presenter": "",
+          "description": "A soft introduction to dance incorporating basic ballet, rhythm games, creative movement and storytelling.",
+          "price": "",
+          "time":{
+            "start": "16:00",
+            "end": "16:45"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "wed1700",
+          "category": "dance",
+          "title": "Butterflies",
+          "presenter": "",
+          "description": "CLASSICAL BALLET Dancers will learn the grace and beauty of classical ballet incorporating barre, center, petite allegro, grand allegro and reverie.",
           "price": "",
           "time":{
             "start": "17:00",
@@ -155,79 +158,11 @@
           }
         },
         {
-          "_id": "tue1800",
-          "category": "dance",
-          "title": "Ballet 2",
-          "presenter": "Sherri Degraffenreid",
-          "description": "Tuesday class meets at the home studio. Thursday class meets at Studio 2. An intermediate Ballet Class by instructors approval only.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "$100 per month",
-          "time":{
-            "start": "18:00",
-            "end": "19:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "tue1900",
-          "category": "dance",
-          "title": "Ballet 3",
-          "presenter": "Sherri Degraffenreid",
-          "description": "By invitation only… this ballet class meets twice a week. Tuesdays with Sherri at the Home Studio, Thursdays with Amy at Studio 2 at Shasta Yoga.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "",
-          "time":{
-            "start": "19:00",
-            "end": "20:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        }
-      ],
-      "wednesday": [
-        {
-          "_id": "wed1500",
-          "category": "dance",
-          "title": "Irish Dance 6-9",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "Students must have soft soled Ghillies for this class. They can be purchased through our online dancewear store. Ages 6-9.",
-          "price": "",
-          "time":{
-            "start": "15:00",
-            "end": "16:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "wed1600",
-          "category": "dance",
-          "title": "Irish Dance 10+",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "Students in this class must purchase soft soled Ghillies. These traditional shoes are available on our online dancewear store. Ages 10+.",
-          "price": "",
-          "time":{
-            "start": "16:00",
-            "end": "17:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
           "_id": "wed1800",
           "category": "dance",
-          "title": "Adult Ballet",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "A technique based class for adults of all levels.",
+          "title": "Ballet 1",
+          "presenter": "",
+          "description": "This classical ballet class is suited for graduates of \"Butterflies\".\n\n2 years ballet experience preferred.",
           "price": "",
           "time":{
             "start": "18:00",
@@ -241,9 +176,9 @@
         {
           "_id": "wed1900",
           "category": "dance",
-          "title": "Zumba",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "(drop in)",
+          "title": "\"My Style\" Improv Dance Ages 12+",
+          "presenter": "",
+          "description": "\"My Style\" Improv Dance is an interactive dance class that promotes self-expressions, courage, choreography, teamwork and more.\n\nAges 12 and up. No experience necessary.",
           "price": "",
           "time":{
             "start": "19:00",
@@ -257,83 +192,33 @@
       ],
       "thursday": [
         {
-          "_id": "thu1445",
-          "category": "music",
-          "title": "Intro 2 Music",
-          "presenter": "Kale & Cory Coppin",
-          "description": "This class is primarily for Mt Shasta Children's Theatre students. However, it is open to all who would like to learn more about music… reading, writing and performing.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "",
-          "time":{
-            "start": "14:45",
-            "end": "15:15"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "thu1515",
+          "_id": "thu1630",
           "category": "theater",
           "title": "Mt Shasta Children's Theatre Class",
-          "presenter": "Kale & Cory Coppin",
-          "description": "Students in MSCT class will rehearse, perfect and perform two plays/musicals each season. All students will have a part in each play and will learn all aspects of putting on a show.",
+          "presenter": "",
+          "description": "Students will hone their skills to be ready for MSCT's spring production.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "16:30",
+            "end": "17:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "thu1730",
+          "category": "dance",
+          "title": "Ballet 2/3",
+          "presenter": "",
+          "description": "This ballet class is for Intermediate and advanced students with 5+ years of dance training.\n\nAll students enrolled must attend class twice each week.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
-            "start": "15:15",
-            "end": "17:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "thu1700",
-          "category": "music",
-          "title": "Community Choir",
-          "presenter": "Kale & Cory Coppin",
-          "description": "Community Choir is a family-friendly musical celebration every week. Families will join together in song learning all types of music. No experience necessary. Special family rate $40 for the whole family. You need only register one family member then bring the rest!",
-          "price": "$40 per family",
-          "time":{
-            "start": "17:00",
-            "end": "18:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "thu1800",
-          "category": "dance",
-          "title": "Ballet 2",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "Tuesday class meets at the home studio. Thursday class meets at Studio 2 at Shasta Yoga. An intermediate Ballet Class by instructors approval only.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "$100 per month",
-          "time":{
-            "start": "18:00",
-            "end": "19:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "thu1900",
-          "category": "dance",
-          "title": "Ballet 3",
-          "presenter": "Bridget Shaw-Murphy",
-          "description": "By invitation only… this ballet class meets twice a week. Tuesdays with Sherri at the Home Studio, Thursdays with Amy at Studio 2 at Shasta Yoga.",
-          "note": "2x a week (Tue & Thu)",
-          "price": "",
-          "time":{
-            "start": "19:00",
-            "end": "20:00"
+            "start": "17:30",
+            "end": "18:30"
           },
           "date":{
             "start": "2019-09-03",
@@ -342,6 +227,39 @@
         }
       ],
       "friday": [
+        {
+          "_id": "fri1445",
+          "category": "theater",
+          "title": "Adv Musical Theatre",
+          "presenter": "",
+          "description": "Students will learn singing, dancing and acting thru the portrayal of Broadway characters in Musical Theatre.\n\nPrevious experience is mandatory.\n\nAll students in this class must also enroll in tap and either lyrical or ballet for their level.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "14:45",
+            "end": "16:15"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "fr1630",
+          "category": "dance",
+          "title": "Hip Hop",
+          "presenter": "",
+          "description": "This fun filled energetic class will teach the basics of jazz and hip hop moves using popular music.",
+          "price": "",
+          "time":{
+            "start": "16:30",
+            "end": "17:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        }
       ],
       "saturday": [
       ]
