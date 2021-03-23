@@ -102,7 +102,7 @@ export default {
 
 .hero-container {
   text-align: center;
-  margin: 0 auto 4em;
+  margin: 0 9px 4em;
 }
 .hero-video {
   border: 3px solid #575757;
