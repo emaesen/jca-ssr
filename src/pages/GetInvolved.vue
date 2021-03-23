@@ -2,7 +2,13 @@
   <div>
     <h1>Get Involved!</h1>
 
-    <submission-section/>
+    <div  class="donate-button">
+      <button-donate/>
+    </div>
+
+    <submission-section id="submission"/>
+
+    <div id="volunteer"/>
 
     <section v-animate-on-intersection>
       <h2>Volunteers:</h2>
@@ -20,12 +26,7 @@
       </p>
     </section>
 
-    <section v-animate-on-intersection>
-      <h2>Donate:</h2>
-      <p>
-        TAX-DEDUCTIBLE DONATIONS can be made to Jefferson Center for the Arts (JCA) by clicking this <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">link</link-outbound>. The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Thank you! 
-      </p>
-    </section>
+    <donate-section v-animate-on-intersection/>
 
   </div>
 </template>
@@ -33,6 +34,8 @@
 <script>
 import SubmissionSection from '@/components/SubmissionSection.vue';
 import LinkOutbound from '@/components/LinkOutbound.vue';
+import DonateSection from '@/components/DonateSection.vue';
+import ButtonDonate from '@/components/ButtonDonate';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
@@ -42,6 +45,8 @@ export default {
   components: {
     SubmissionSection,
     LinkOutbound,
+    DonateSection,
+    ButtonDonate,
   },
   metaInfo () {
     return {
@@ -72,3 +77,9 @@ export default {
   },
 };
 </script>
+
+<style lang="less" scoped>
+.donate-button {
+  float: right;
+}
+</style>
