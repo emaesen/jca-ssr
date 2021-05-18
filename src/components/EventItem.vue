@@ -108,7 +108,7 @@
             <span v-html="description"/>
           </div>
           <div class="event_note">
-            {{ event.note }}
+            <span v-html="note"/>
           </div>
 
         </div>
@@ -354,6 +354,9 @@ export default {
     summaryDescription() {
       return this.parseAsText(this.event.description)
     },
+    note() {
+      return this.parseAsHtml(this.event.note)
+    },
     videoSrc() {
       return videoEmbedPath + this.event.youtube + videoEmbedQS
     },
@@ -491,8 +494,8 @@ h4 {
 }
 .event_performer,
 .event_presenter {
-  position: relative;
-  top: -1em;
+  color: @color-secondary-1-1;
+  margin-bottom: 2em;
 }
 .event_note {
   opacity: 0.9;
@@ -579,7 +582,7 @@ h4 {
   font-size: 13px;
 }
 .event_price_wrapper {
-  margin: .5em 0;
+  margin: 1.3em 0;
 }
 .event_price {
   display: inline-block;
