@@ -5,7 +5,7 @@
 
     <cite class="center byline">Mount Shasta's Premier Educational Center for Music and the Performing Arts!</cite>
 
-    <p>
+    <p class="spacious">
       JCA is Mount Shasta's premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.<br class="spacer">
       The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.<br class="spacer">
       The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.<br class="spacer">
