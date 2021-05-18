@@ -37,7 +37,7 @@
     <section v-animate-on-intersection>
       <h2>Website design and performance</h2>
       <p>
-        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (@ <link-outbound to="https://epvm.name/">epvm.name</link-outbound>).
+        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (<link-outbound to="https://epvm.name/">epvm.name</link-outbound>).
       </p>
     </section>
 
