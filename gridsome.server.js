@@ -26,8 +26,10 @@ module.exports = function (api) {
                         .setHours(0, 0, 0, 0);
       const dayDiff = (eventDate - today) / (24*60*60*1000);
       // We're only interested in future and recent events:
-      // Skip events that happened more than 30 days ago.
-      if (dayDiff > -30) {
+      // Skip events that happened more than 90 days ago.
+      // NOTE that UI will throw graphql error if NO event is loaded...!
+      // Thus... increase this window if the website needs to be updated and there's no recent event.
+      if (dayDiff > -90) {
         eventsCollection.addNode(item)
         console.log(">>> " + (dayDiff < 0 ? "past" : "future") + " event loaded: " + item.slug);
       } else {
