@@ -74,3 +74,6 @@ dist
 **/_ref*
 **/google*
 **/tests/*
+
+# VSC
+*.code-workspace
