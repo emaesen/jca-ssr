@@ -33,6 +33,68 @@
   },
   "events":[
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "brothers-reed-and-kevin-patrick-radley--jun-26-2021",
+      "is_postponed": false,
+      "title": "An evening of Soulful Folk and Rockin Americana",
+      "performer": "The Brothers Reed and Kevin Patrick Radley",
+      "description": "An evening of Soulful Folk and Rockin Americana… Kevin Patrick Radley opens for The Brothers Reed",
+      "details": "[THE BROTHERS REED](http://www.thebrothersreed.com/)\nWith their comedic brotherly banter, impeccable harmonic expression, and widely varying influences, a Brothers Reed performance will have you reflecting on lost lives and lovers, laughing hysterically and leaving completely entertained.\n\nThe duo incorporates harmonica, percussion, into their live performances, soothing your soul with songs that are familiar yet original. Whether they are finger picking their way through a lamentable ballad or bringing you around full-speed with a barn-burning bluegrass number, The Brothers Reed are masters of their craft.\n\nDespite their brotherhood, Aaron and Phil Reed didn’t start playing music together until five years ago after Phil left their hometown of St. Charles, Missouri to join Aaron in the unsullied mountains of the American Northwest. The brothers family blend of folk encapsulates the grit and humor of Midwest life with the swagger and serenity of the west coast. Their style evokes finger picking folk singers of the 60’s and 70’s with a contemporary and boundless edge. Cultivated from years of performing in bands ranging from heavy metal to reggae and rock, to punk, country, and funk, their musical dichotomy is at the root of their diverse yet seamless folk-brand.\n\nThrough an exhaustive tour schedule that includes nearly 300 shows per year, the Brothers Reed have quickly risen to regional renown and tour extensively throughout the U.S. With three studio albums released (Sick As Folk, 2015; Monster In My Head, 2016; Three, 2018) a full band live release (Live at the Buckhunters Ball: Callahan, CA, 2017), and the latest “Caught in a Dream” 2019, The Bros show no signs of slowing down anytime soon.\n\n\n[KEVIN PATRICK RADLEY](https://www.facebook.com/KPRtheHollar) is a singer songwriter from Vallejo, CA. He draws his musical influences from the American musical landscape of blues, country, soul and the occasional country holler. His songs explore time honored themes of love, loss and redemption and performed in the spirit of the juke joint jam. He has played at number of venues throughout Northern California including; The Brick & Mortar & Bazaar Café, The Lost Church, San Francisco Bay Area Blues Festival , Down Home Music in El Cerrito, CA. Armondo’s , Martinez CA. Napa Porch Fest. & Silos’ in Napa Ca, Pops Cultural Center in Dunsmuir, CA. and the 12 Bar Club in London, England.",
+      "note": "",
+      "series": "",
+      "price": "$15 at venue / $15 online →",
+      "time":{
+        "start": "19:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2021-06-26",
+        "end": "2021-06-26"
+      },
+      "image": "brothers-reed-with-kevin-patrick-radley.jpg",
+      "image_width": "720",
+      "image_height": "733",
+      "ticket": "155719337731",
+      "stream": "<iframe width='300' height='450' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/519399408&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>",
+      "youtube": "-3knF8TDxJI",
+      "youtube2": "TPvD5nBVGyc",
+      "ics": "",
+      "show_registration_form": false,
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "bodhi-soundscape-oasis--may-29-2021",
+      "is_postponed": false,
+      "title": "Bodhi Soundscape Oasis - Sound Healing Ceremony",
+      "performer": "Bodhi Setchko",
+      "description": "SOUNDSCAPE OASIS is a unique experience designed to safely guide you in connecting with your deepest self. It’s a sacred journey using sound for healing and rejuvenation. Sound immersion is a powerful form of meditation. Whether resting in Sivasana (laying down) or comfortably seated, the vibrations resonate your body and bring you into harmony with yourself. It is a form of restorative yoga that promotes physical, mental, emotional and spiritual well-being.",
+      "details": "[Bodhi Setchko](https://www.bodhisetchko.com/) has been working with sound meditation, sound healing and sacred sound journeys for over 40 years. He has studied with Tito La Rosa, Paul Horn, Allaudin Mathieu and many other artists. Around the globe, his music is used in yoga studios, health spas, and health practitioners offices. His music has had millions of plays on Pandora, Spotify and other streaming sites. He has performed and recorded with many musicians, including Jaya Lakshmi, Shimshai, Murray Kyle, Jennifer Berezan, Dave Stringer, Aeoliah, and Ashanna. He offers group and private sound healing journeys for concerts, festivals, yoga classes, meditation groups, retreats and conferences.",
+      "note": "Flutes,Tibetan Bowls, Gongs, Shells, Shakers & Keyboards.\n\nBring a yoga mat, blankets, pillow, eye mask, water bottle, etc. to make yourself comfortable. No Scents or Perfume Please.\n\nBENEFITS:\nCalms your body and mind\nGives a deep rest to all your body systems\nCreates a safe space for life visions to unfold\nHelps with: Depression, Insomnia, Anxiety, Deep Relaxation, Health Recovery from Illness, Injury or Surgery",
+      "series": "",
+      "price": "$25 suggested donation",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2021-05-29",
+        "end": "2021-05-29"
+      },
+      "image": "bodhi-soundscape-oasis.jpg",
+      "image_width": "800",
+      "image_height": "1035",
+      "ticket": "",
+      "stream": "",
+      "youtube": "FjdVUVsusn0",
+      "youtube2": "8lVXvAR3XZU",
+      "ics": "",
+      "show_registration_form": false,
+      "reference_slug": ""
+    },
+    {
       "slug": "c19-works--sep-4-5-6-7-2020",
       "date":{
         "start": "2020-09-04",
