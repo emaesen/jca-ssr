@@ -55,6 +55,8 @@ query {
         type
         slug
         is_postponed
+        stamp
+        stamp_summary
         title
         performer
         description
@@ -70,6 +72,7 @@ query {
           start
           end
         }
+        location
         image
         image_width
         image_height

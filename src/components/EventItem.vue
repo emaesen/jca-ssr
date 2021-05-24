@@ -1,8 +1,11 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
-      <div v-if="event.is_postponed" class="postponed_stamp mini_stamp anima__zoom">
+      <div v-if="event.is_postponed && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
+      </div>
+      <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
+        {{ event.stamp_summary || event.stamp }}
       </div>
       <div>
         <category-icon :category="event.category" class="summary_icon"/>
@@ -73,8 +76,11 @@
         <!-- event details -->
         <div :class="['details_column', {'details_column2':!!event.image}]">
           <div class="stamp_container">
-            <div v-if="event.is_postponed" class="postponed_stamp anima__zoom">
+            <div v-if="event.is_postponed && !event.stamp" class="postponed_stamp anima__zoom">
               POSTPONED
+            </div>
+            <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
+              {{ event.stamp }}
             </div>
           </div>
 
@@ -84,6 +90,11 @@
           <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
             {{ time }}
           </div>
+
+          <div v-if="event.location" class="event_location">
+            LOCATION: {{ event.location }}
+          </div>
+
           <div 
             v-if="!isPastEvent && !event.is_postponed" class="event_price_wrapper"
           >
@@ -418,6 +429,7 @@ export default {
 .stamp_container {
   position: relative;
 }
+.event_stamp, 
 .postponed_stamp {
   color: #f00;
   position: absolute;
@@ -434,6 +446,22 @@ export default {
 }
 .mini_stamp {
   font-size: 150%;
+}
+
+.event_stamp,
+.event_stamp.mini_stamp {
+  font-size: 100%;
+  top: 20px;
+  left: 20px;
+  opacity: .8;
+}
+.summary-container {
+  .event_stamp,
+  .event_stamp.mini_stamp {
+    right: 10px;
+    left: auto;
+    z-index: 2;
+  }
 }
 .summary_date {
   font-size: 100%;
@@ -543,6 +571,10 @@ h4 {
     box-shadow: 0 0 4px 0 @color-primary-2;
   }
 }
+.event_location {
+  margin-top: 3em;
+  color: rgb(255, 174, 0);
+}
 .event_desc {
   margin-top: .3em;
   color: @color-secondary-1-1;
@@ -629,6 +661,12 @@ h4 {
   }
   .postponed_stamp {
     font-size: 150%;
+  }
+  
+  .event_stamp,
+  .event_stamp.mini_stamp {
+    right: 10px;
+    left: auto;
   }
   .video_container {
     width: 100%;
