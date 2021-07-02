@@ -297,7 +297,10 @@ footer {
 }
 .deemph {
   font-size: 90%;
-  color: fade(@color_text_body,50%);
+  color: fade(@color_text_body,70%);
+  a {
+    color: fade(@color_text_action,70%);
+  }
 }
 .legal {
   font-size: 70%;
