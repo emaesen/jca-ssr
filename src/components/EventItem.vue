@@ -90,6 +90,9 @@
           <div v-if="!isWeeklyRecurring && !highlightTime" class="event_time">
             {{ time }}
           </div>
+          <div class="event_note">
+            <span v-html="note"/>
+          </div>
 
           <div v-if="event.location" class="event_location">
             LOCATION: {{ event.location }}
@@ -118,16 +121,24 @@
           <div class="event_desc">
             <span v-html="description"/>
           </div>
-          <div class="event_note">
-            <span v-html="note"/>
-          </div>
 
+          <!-- atPageLevel sponsor info -->
+          <div 
+            v-if="atPageLevel && event.sponsor_text"
+            class="event_sponsor group"
+          >
+            <div class="event_sponsor_text">{{ event.sponsor_text }}</div>
+            <div class="event_sponsor_img"><g-image class="sponsor_image" :src="'/img/sponsor/'+event.sponsor_image" alt="event sponsor"/></div>
+          </div>
         </div>
 
       </div>
 
       <!-- atPageLevel event description details -->
       <div v-if="atPageLevel">
+
+
+        <!-- atPageLevel description details -->
         <div 
             v-if="descriptionDetails"
             class="event_desc event_desc_details">
@@ -589,6 +600,18 @@ h4 {
 .event_note {
   margin-top: 1em;
   font-size: 80%;
+}
+
+.event_sponsor {
+  margin-top: 2em;
+  font-size: 80%;
+}
+.event_sponsor_img {
+  max-width: 20vw;
+  .sponsor_image {
+    width: 100%;
+    max-width: 100px;
+  }
 }
 .event_stream,
 .event_youtube,
