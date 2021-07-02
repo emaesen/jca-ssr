@@ -74,6 +74,8 @@ module.exports = function (api) {
             youtube
             youtube2
             ics
+            sponsor_text
+            sponsor_image
             show_registration_form
           }
         }
