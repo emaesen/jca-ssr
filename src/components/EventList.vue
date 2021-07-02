@@ -2,6 +2,9 @@
   <section>
     <template v-if="showSummary">
       <div class="event-summary">
+        <h2 v-if="!noEvents">
+          Upcoming events
+        </h2>
         <event-item 
           v-for="(evt, index) in filteredEvents" 
           :key="evt._id" 
@@ -11,6 +14,9 @@
           v-animate-on-intersection
           :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
         />
+        <div class="deemph spacious center">
+          (View JCA events on <LinkOutbound to="https://www.eventbrite.com/o/jefferson-center-for-the-arts-28035930301">eventbrite</LinkOutbound>)
+        </div>
       </div>
     </template>
     <template v-else>
@@ -81,6 +87,8 @@ query {
         youtube
         youtube2
         ics
+        sponsor_text
+        sponsor_image
         show_registration_form
       }
     }
@@ -92,6 +100,7 @@ query {
 <script>
 import EventItem from '@/components/EventItem';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
+import LinkOutbound from '@/components/LinkOutbound';
 
 import date from '@/mixins/date.js';
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
@@ -102,6 +111,7 @@ export default {
   components: {
     EventItem,
     EmailSubscribeSection,
+    LinkOutbound,
   },
   props: {
     category: {
@@ -161,5 +171,8 @@ export default {
     box-sizing: border-box;
     margin: 2em 0;
   }
+}
+.event-summary {
+  margin-bottom: 4em;
 }
 </style>
