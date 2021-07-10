@@ -291,6 +291,7 @@ footer {
 .nowrap {
   white-space: nowrap
 }
+strong,
 .emph {
   font-family: @font_family_emph;
   font-weight: 700;
