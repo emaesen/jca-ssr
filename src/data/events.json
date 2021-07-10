@@ -11,6 +11,7 @@
     "note": "",
     "series": "",
     "price": "",
+    "ticket": "",
     "time":{
       "start": "hh:mm",
       "end": "hh:mm"
@@ -23,7 +24,6 @@
     "image": "",
     "image_width": "",
     "image_height": "",
-    "ticket": "",
     "stream": "",
     "youtube": "",
     "youtube2": "",
@@ -37,6 +37,78 @@
     "reference_slug": ""
   },
   "events":[
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "andy-gross-live--2021-09-25",
+      "title": "Andy Gross –Stand Up Comic, Magician and Ventriloquist– ALL AGES",
+      "performer": "Andy Gross",
+      "description": "Andy Gross is one of the hottest stand up comic, magician and ventriloquist working today as evidenced by his sold out shows and devoted following! He is considered one of the best by his peers in the entertainment industry and he will leave you spellbound. You may recognize him from his numerous TV appearances, including most recently The Ellen show and an NBC television special featuring his talents.",
+      "details": "[Andy Gross](https://andygrosslive.com/) is a multi-talented entertainer that currently combines stand up comedy, magic and ventriloquism successfully together making him one of the most sought after corporate entertainers in the world. Audiences are absolutely unanimous in their praise of this amazing performer. His ad-libs during his stand-up are compared frequently to Don Rickles and Robin Williams. His voice throwing is amazing to hear and only a few people in the world can throw their voice, it is must hear to believe!\n\nAndy's videos have over 100 Million views and counting on the internet! He performs over 150 shows a year at comedy clubs, Las Vegas, cruise ships, fortune 500 corporate events, colleges and performing arts theaters everywhere.",
+      "note": "",
+      "series": "",
+      "price": "$30 at venue / $25 adv online →",
+      "ticket": "162722436187",
+      "time":{
+        "start": "19:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-09-25",
+        "end": "2021-09-25"
+      },
+      "location": "",
+      "image": "andy-gross-live.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "Z-Isq53CvnE",
+      "youtube2": "gJLTEnj2OuQ",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "workshop",
+      "slug": "merle-andersons-songwriters-circle--jul-25-2021",
+      "title": "Merle Anderson's Songwriter's Circle",
+      "performer": "Merle Anderson",
+      "description": "The Jefferson Center for the Arts hosts a workshop for songwriters. Writers are invited to present their own original songs in the singer-songwriter genre. Beginners, amateurs and professionals are encouraged to bring an instrument and debut a song or two. This is not a public performance event. Attendance limited to writers who will share original songs in a supportive circle of writers.\n\nFor information contact Merle at (530)-925-6795 or merleanderson808@gmail.com.",
+      "details": "The Songwriter Circle is an opportunity for local singer-songwriters, amateurs as well as professionals, to share their original songs with other writers in a casual, supportive workshop setting. Participants are invited to sing or otherwise present songs they have written. Emphasis will be on encouragement and personal expression in song form, not on critique.\n\nThe session on July 25 is limited to songwriters who participate in the circle and will not be a public performance. There will be no cost to participants and pre-registration is not necessary.\n\nIn the singer-songwriter tradition, participants are encouraged to bring a guitar, ukulele, or other instruments to accompany their songs. A piano will also be available. Attendees may also bring songs they’ve written to read or sing without musical accompaniment if they prefer.\n\n\n**Merle Anderson**, a local amateur songwriter, has volunteered to host the circle for JCA. Anderson says the circle will not be a class about songwriting, although discussion about the art of songwriting and personal inspiration will be encouraged. The circle will provide an incentive for singers and writers to write and debut new songs with fellow songwriters. Writers with professional experience are also invited to share their songs and inspire others.\n\n\n**Wendy James**, director of JCA, says that the center is excited to host the songwriter circle as part of its mission to serve as a hub for arts in the area. The workshop was originally proposed last year but had to be postponed due to the pandemic. Depending on the level of interest, the circle may be extended as a monthly or quarterly series of songwriter workshops.",
+      "note": "",
+      "series": "Songwriter Circle",
+      "price": "free admission",
+      "time":{
+        "start": "15:00",
+        "end": "17:00"
+      },
+      "date":{
+        "start": "2021-07-25",
+        "end": "2021-07-25"
+      },
+      "location": "",
+      "image": "songwriterscircle.jpg",
+      "image_width": "800",
+      "image_height": "1200",
+      "ticket": "",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
     {
       "category": "music",
       "type": "performance",
