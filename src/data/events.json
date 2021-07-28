@@ -11,6 +11,7 @@
     "note": "",
     "series": "",
     "price": "",
+    "price_note": "",
     "ticket": "",
     "time":{
       "start": "hh:mm",
@@ -40,6 +41,91 @@
     {
       "category": "theater",
       "type": "performance",
+      "slug": "mary-poppins-jr--aug-06-2021",
+      "title": "Mary Poppins JR",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents a production of Mary Poppins JR; co-sponsored by College of the Siskiyous and the JCA. Our 8th Annual Broadway Summer Stage Production!",
+      "details": "",
+      "note": "Tickets are expected to sell out. Some may be available at the door 30 minutes before each show, space permitting —cash only.\nAdvanced tickets are HIGHLY RECOMMENDED",
+      "series": "",
+      "price": "General Admission $25 at venue, $20 adv¹\nStudents/Seniors $20 at venue, $15 adv¹\nKids 6 and under are FREE",
+      "price_note": "¹: Tickets can be bought in advance at the COS bookstore or [online at the COS website](http://siskiyouscollegebookstore.com/Merch/Tickets/Tickets)",
+      "ticket": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-08-06",
+        "end": "2021-08-06"
+      },
+      "location": "",
+      "image": "mary-poppins-jr.png",
+      "image_width": "800",
+      "image_height": "1032",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "mary-poppins-jr-matinee--aug-07-2021",
+      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-08-07",
+        "end": "2021-08-07"
+      }
+    },
+    {
+      "slug": "mary-poppins-jr--aug-07-2021",
+      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-08-07",
+        "end": "2021-08-07"
+      }
+    },
+    {
+      "slug": "mary-poppins-jr-matinee--aug-08-2021",
+      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-08-08",
+        "end": "2021-08-08"
+      }
+    },
+    {
+      "slug": "mary-poppins-jr--aug-08-2021",
+      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-08-08",
+        "end": "2021-08-08"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
       "slug": "andy-gross-live--2021-09-25",
       "title": "Andy Gross –Stand Up Comic, Magician and Ventriloquist– ALL AGES",
       "performer": "Andy Gross",
@@ -48,6 +134,7 @@
       "note": "",
       "series": "",
       "price": "$30 at venue / $25 adv online →",
+      "price_note": "",
       "ticket": "162722436187",
       "time":{
         "start": "19:30",
@@ -84,6 +171,7 @@
       "note": "",
       "series": "Songwriter Circle",
       "price": "free admission",
+      "price_note": "",
       "time":{
         "start": "15:00",
         "end": "17:00"
@@ -120,6 +208,7 @@
       "note": "New Date! Doors open at 7:30 PM",
       "series": "",
       "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
       "time":{
         "start": "20:00",
         "end": "22:00"
@@ -156,9 +245,10 @@
       "performer": "The Brothers Reed and Kevin Patrick Radley",
       "description": "An evening of Soulful Folk and Rockin Americana… Kevin Patrick Radley opens for The Brothers Reed",
       "details": "[THE BROTHERS REED](http://www.thebrothersreed.com/)\nWith their comedic brotherly banter, impeccable harmonic expression, and widely varying influences, a Brothers Reed performance will have you reflecting on lost lives and lovers, laughing hysterically and leaving completely entertained.\n\nThe duo incorporates harmonica, percussion, into their live performances, soothing your soul with songs that are familiar yet original. Whether they are finger picking their way through a lamentable ballad or bringing you around full-speed with a barn-burning bluegrass number, The Brothers Reed are masters of their craft.\n\nDespite their brotherhood, Aaron and Phil Reed didn’t start playing music together until five years ago after Phil left their hometown of St. Charles, Missouri to join Aaron in the unsullied mountains of the American Northwest. The brothers family blend of folk encapsulates the grit and humor of Midwest life with the swagger and serenity of the west coast. Their style evokes finger picking folk singers of the 60’s and 70’s with a contemporary and boundless edge. Cultivated from years of performing in bands ranging from heavy metal to reggae and rock, to punk, country, and funk, their musical dichotomy is at the root of their diverse yet seamless folk-brand.\n\nThrough an exhaustive tour schedule that includes nearly 300 shows per year, the Brothers Reed have quickly risen to regional renown and tour extensively throughout the U.S. With three studio albums released (Sick As Folk, 2015; Monster In My Head, 2016; Three, 2018) a full band live release (Live at the Buckhunters Ball: Callahan, CA, 2017), and the latest “Caught in a Dream” 2019, The Bros show no signs of slowing down anytime soon.\n\n\n[KEVIN PATRICK RADLEY](https://www.facebook.com/KPRtheHollar) is a singer songwriter from Vallejo, CA. He draws his musical influences from the American musical landscape of blues, country, soul and the occasional country holler. His songs explore time honored themes of love, loss and redemption and performed in the spirit of the juke joint jam. He has played at number of venues throughout Northern California including; The Brick & Mortar & Bazaar Café, The Lost Church, San Francisco Bay Area Blues Festival , Down Home Music in El Cerrito, CA. Armondo’s , Martinez CA. Napa Porch Fest. & Silos’ in Napa Ca, Pops Cultural Center in Dunsmuir, CA. and the 12 Bar Club in London, England.",
-      "note": "$20 at the door starting at 6pm day of the show (based on availability)",
+      "note": "",
       "series": "",
       "price": "$20 at venue / $15 adv online →",
+      "price_note": "$20 at the door starting at 6pm day of the show (based on availability)",
       "time":{
         "start": "19:00",
         "end": "22:00"
