@@ -110,6 +110,9 @@
               :ticketUrl="event.ticket"
               class="event_ticket" 
             />
+            <div class="event_note event_price_note" v-if="event.price_note">
+              {{ event.price_note}}
+            </div>
 
             <!-- registration button -->
             <button-register
