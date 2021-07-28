@@ -70,6 +70,7 @@ query {
         note
         series
         price
+        price_note
         time {
           start
           end
