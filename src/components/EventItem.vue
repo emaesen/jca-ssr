@@ -102,7 +102,7 @@
             v-if="!isPastEvent && !event.is_postponed" class="event_price_wrapper"
           >
             <div class="event_price">
-              {{ event.price }}
+              <span v-html="eventPrice"/>
             </div>
             <!-- buy event ticket -->
             <event-ticket 
@@ -111,7 +111,7 @@
               class="event_ticket" 
             />
             <div class="event_note event_price_note" v-if="event.price_note">
-              {{ event.price_note}}
+              <span v-html="eventPriceNote"/>
             </div>
 
             <!-- registration button -->
@@ -390,7 +390,13 @@ export default {
     },
     eventThumbImage() {
       return this.event.image.replace('.', '-th.')
-    }
+    },
+    eventPrice() {
+      return this.parseAsHtml(this.event.price)
+    },
+    eventPriceNote() {
+      return this.parseAsHtml(this.event.price_note)
+    },
   },
   methods: {
     parseAsHtml(txt) {
