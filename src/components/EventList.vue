@@ -149,8 +149,7 @@ export default {
   },
   methods: {
     sortByDate(a, b) {
-      // TODO: take event time into account
-      return new Date(a.date.start) - new Date(b.date.start);
+      return new Date(a.date.start + "T" + a.time.start + ":00") - new Date(b.date.start + "T" + b.time.start + ":00");
     },
   }
 };
