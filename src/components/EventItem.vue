@@ -467,6 +467,7 @@ export default {
   transform: rotate(-0.02turn);
   transform-origin: top right;
   animation-delay: 1.5s;
+  z-index: 1;
 }
 .mini_stamp {
   font-size: 150%;
