@@ -1,5 +1,5 @@
 {
-  "schema": 
+  "schema":
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
@@ -10,7 +10,7 @@
     "details": "",
     "note": "",
     "series": "",
-    "price": "",
+    "price": "$20 at venue / $15 adv online →",
     "price_note": "",
     "ticket": "",
     "time":{
@@ -39,12 +39,49 @@
   },
   "events":[
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "wind-fields--sep-03-2021",
+      "title": "Wind Fields",
+      "performer": "Wind Fields",
+      "description": "The JCA is proud to welcome Callahan's own WIND FIELDS! If you've never seen them before...get here!",
+      "details": "If you’re lookin for someting with a unique flair, you’ve just found it. With a tasteful combination of original music reaching through multiple genres, Wind Fields are a band that brings an energy and style rarely seen in the current musical landscape. Located in Callahan, Ca and formed in 2017, Wind Fields are comprised of Vince Stevenson (Guitar/Bass/Vocals/Keys), Matthew Jolliff (Guitar/Vocals/Keys), Julia Fryling (Drums/Mandolin/Vocals), and Brianna Murphy (Bass/Violin/Vocals).\n\nJust announced: Wind Fields will be opening for Trampled By Turtles at the BRITT on August 12th!",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "166087571397",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2021-09-03",
+        "end": "2021-09-03"
+      },
+      "location": "",
+      "image": "wind-fields.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "tImV9JXq03M",
+      "youtube2": "xySLcqpWbe4",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
       "category": "theater",
       "type": "performance",
-      "slug": "mary-poppins-jr--aug-06-2021",
+      "slug": "mary-poppins-jr--jan-07-2022",
       "title": "Mary Poppins JR",
       "performer": "Mt Shasta Childrens Theatre",
-      "description": "Mt Shasta Childrens Theatre presents a production of Mary Poppins JR; co-sponsored by College of the Siskiyous and the JCA. Our 8th Annual Broadway Summer Stage Production!",
+      "description": "New Date! Mt Shasta Childrens Theatre presents a production of Mary Poppins JR; co-sponsored by College of the Siskiyous and the JCA. Our 8th Annual Broadway Summer Stage Production!",
       "details": "",
       "note": "Tickets are expected to sell out. Some may be available at the door 30 minutes before each show, space permitting —cash only.\nAdvanced tickets are HIGHLY RECOMMENDED",
       "series": "",
@@ -56,11 +93,11 @@
         "end": ""
       },
       "date":{
-        "start": "2021-08-06",
-        "end": "2021-08-06"
+        "start": "2022-01-07",
+        "end": "2022-01-07"
       },
       "location": "",
-      "image": "mary-poppins-jr.png",
+      "image": "mary-poppins-jr-crop.png",
       "image_width": "800",
       "image_height": "1032",
       "stream": "",
@@ -76,51 +113,51 @@
       "reference_slug": ""
     },
     {
-      "slug": "mary-poppins-jr-matinee--aug-07-2021",
-      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "slug": "mary-poppins-jr-matinee--jan-08-2022",
+      "reference_slug": "mary-poppins-jr--jan-07-2022",
       "time":{
         "start": "14:00",
         "end": ""
       },
       "date":{
-        "start": "2021-08-07",
-        "end": "2021-08-07"
+        "start": "2022-01-08",
+        "end": "2022-01-08"
       }
     },
     {
-      "slug": "mary-poppins-jr--aug-07-2021",
-      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "slug": "mary-poppins-jr--jan-08-2022",
+      "reference_slug": "mary-poppins-jr--jan-07-2022",
       "time":{
         "start": "19:00",
         "end": ""
       },
       "date":{
-        "start": "2021-08-07",
-        "end": "2021-08-07"
+        "start": "2022-01-08",
+        "end": "2022-01-08"
       }
     },
     {
-      "slug": "mary-poppins-jr-matinee--aug-08-2021",
-      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "slug": "mary-poppins-jr-matinee--jan-09-2022",
+      "reference_slug": "mary-poppins-jr--jan-07-2022",
       "time":{
         "start": "14:00",
         "end": ""
       },
       "date":{
-        "start": "2021-08-08",
-        "end": "2021-08-08"
+        "start": "2022-01-09",
+        "end": "2022-01-09"
       }
     },
     {
-      "slug": "mary-poppins-jr--aug-08-2021",
-      "reference_slug": "mary-poppins-jr--aug-06-2021",
+      "slug": "mary-poppins-jr--jan-09-2022",
+      "reference_slug": "mary-poppins-jr--jan-07-2022",
       "time":{
         "start": "19:00",
         "end": ""
       },
       "date":{
-        "start": "2021-08-08",
-        "end": "2021-08-08"
+        "start": "2022-01-09",
+        "end": "2022-01-09"
       }
     },
     {
@@ -227,7 +264,7 @@
       "youtube2": "OoWKeaWfQfI",
       "ics": "",
       "show_registration_form": false,
-      "is_postponed": false,
+      "is_postponed": true,
       "stamp": "",
       "stamp_summary": "",
       "sponsor_text": "",
