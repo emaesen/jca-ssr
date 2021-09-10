@@ -68,7 +68,7 @@ dist
 
 # jca-related
 **/temp/*
-**/img/event/*
+**/img/*
 **/ics/*
 **/video/*
 **/_ref*
