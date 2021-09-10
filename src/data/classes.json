@@ -23,45 +23,11 @@
        ],
       "monday": [
         {
-          "_id": "mon1730",
-          "category": "dance",
-          "title": "Lyrical 2",
-          "presenter": "",
-          "description": "Lyrical dance for students with 3 or more years of dance experience.",
-          "price": "",
-          "time":{
-            "start": "17:30",
-            "end": "18:30"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "mon1830",
-          "category": "dance",
-          "title": "Lyrical 3",
-          "presenter": "",
-          "description": "",
-          "price": "",
-          "time":{
-            "start": "18:30",
-            "end": "20:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        }
-      ],
-      "tuesday": [
-        {
-          "_id": "tue1530",
+          "_id": "mon1530",
           "category": "theater",
-          "title": "Beginning Musical Theatre",
+          "title": "Mt Shasta Children's Theatre - MSCT 1",
           "presenter": "",
-          "description": "Students will learn the basics of singing, musical theatre movement, storytelling and improv.\n\nThis is a great class for boys and girls ages 8-13.",
+          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
           "note": "",
           "price": "",
           "time":{
@@ -74,11 +40,12 @@
           }
         },
         {
-          "_id": "tue1630",
-          "category": "dance",
-          "title": "Ballet 1.5",
+          "_id": "mon1630",
+          "category": "music",
+          "title": "Beginning Voice 8+",
           "presenter": "",
-          "description": "Ballet for students with 3 or more years of dance experience, ages 8-12.",
+          "description": "",
+          "note": "",
           "price": "",
           "time":{
             "start": "16:30",
@@ -88,18 +55,20 @@
             "start": "2019-09-03",
             "end": "2050-06-21"
           }
-        },
+        }
+      ],
+      "tuesday": [
         {
-          "_id": "tue1730",
-          "category": "dance",
-          "title": "Ballet 2/3",
+          "_id": "tue1530",
+          "category": "theater",
+          "title": "Mt Shasta Children's Theatre - MSCT 2",
           "presenter": "",
-          "description": "This ballet class is for Intermediate and advanced students with 5+ years of dance training.\n\nAll students enrolled must attend class twice each week.",
+          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
-            "start": "17:30",
-            "end": "18:30"
+            "start": "15:30",
+            "end": "17:00"
           },
           "date":{
             "start": "2019-09-03",
@@ -107,16 +76,16 @@
           }
         },
         {
-          "_id": "tue1830",
-          "category": "dance",
-          "title": "Ballet 3/Pointe",
+          "_id": "tue1700",
+          "category": "theater",
+          "title": "Mt Shasta Children's Theatre - MSCT 3",
           "presenter": "",
-          "description": "Pre-point workshop for int/adv ballerinas…\n\nby invitation only.",
-          "note": "",
+          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
-            "start": "18:30",
-            "end": "19:00"
+            "start": "17:00",
+            "end": "18:30"
           },
           "date":{
             "start": "2019-09-03",
@@ -125,83 +94,19 @@
         }
       ],
       "wednesday": [
-        {
-          "_id": "wed1600",
-          "category": "dance",
-          "title": "\"Daisies\" Pre-Ballet Ages 3-4",
-          "presenter": "",
-          "description": "A soft introduction to dance incorporating basic ballet, rhythm games, creative movement and storytelling.",
-          "price": "",
-          "time":{
-            "start": "16:00",
-            "end": "16:45"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "wed1700",
-          "category": "dance",
-          "title": "Butterflies",
-          "presenter": "",
-          "description": "CLASSICAL BALLET Dancers will learn the grace and beauty of classical ballet incorporating barre, center, petite allegro, grand allegro and reverie.",
-          "price": "",
-          "time":{
-            "start": "17:00",
-            "end": "18:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "wed1800",
-          "category": "dance",
-          "title": "Ballet 1",
-          "presenter": "",
-          "description": "This classical ballet class is suited for graduates of \"Butterflies\".\n\n2 years ballet experience preferred.",
-          "price": "",
-          "time":{
-            "start": "18:00",
-            "end": "19:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "wed1900",
-          "category": "dance",
-          "title": "\"My Style\" Improv Dance Ages 12+",
-          "presenter": "",
-          "description": "\"My Style\" Improv Dance is an interactive dance class that promotes self-expressions, courage, choreography, teamwork and more.\n\nAges 12 and up. No experience necessary.",
-          "price": "",
-          "time":{
-            "start": "19:00",
-            "end": "20:00"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        }
       ],
       "thursday": [
         {
-          "_id": "thu1630",
+          "_id": "thu1530",
           "category": "theater",
-          "title": "Mt Shasta Children's Theatre Class",
+          "title": "Mt Shasta Children's Theatre - MSCT 2",
           "presenter": "",
-          "description": "Students will hone their skills to be ready for MSCT's spring production.",
-          "note": "",
+          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "17:00"
           },
           "date":{
             "start": "2019-09-03",
@@ -209,15 +114,15 @@
           }
         },
         {
-          "_id": "thu1730",
-          "category": "dance",
-          "title": "Ballet 2/3",
+          "_id": "thu1700",
+          "category": "theater",
+          "title": "Mt Shasta Children's Theatre - MSCT 3",
           "presenter": "",
-          "description": "This ballet class is for Intermediate and advanced students with 5+ years of dance training.\n\nAll students enrolled must attend class twice each week.",
+          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
-            "start": "17:30",
+            "start": "17:00",
             "end": "18:30"
           },
           "date":{
@@ -227,39 +132,6 @@
         }
       ],
       "friday": [
-        {
-          "_id": "fri1445",
-          "category": "theater",
-          "title": "Adv Musical Theatre",
-          "presenter": "",
-          "description": "Students will learn singing, dancing and acting thru the portrayal of Broadway characters in Musical Theatre.\n\nPrevious experience is mandatory.\n\nAll students in this class must also enroll in tap and either lyrical or ballet for their level.",
-          "note": "",
-          "price": "",
-          "time":{
-            "start": "14:45",
-            "end": "16:15"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        },
-        {
-          "_id": "fr1630",
-          "category": "dance",
-          "title": "Hip Hop",
-          "presenter": "",
-          "description": "This fun filled energetic class will teach the basics of jazz and hip hop moves using popular music.",
-          "price": "",
-          "time":{
-            "start": "16:30",
-            "end": "17:30"
-          },
-          "date":{
-            "start": "2019-09-03",
-            "end": "2050-06-21"
-          }
-        }
       ],
       "saturday": [
       ]
