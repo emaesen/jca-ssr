@@ -69,6 +69,10 @@
           <li class="nav item event-sub" role="menuitem">
             <g-link to="/events/sponsors">Sponsors</g-link>
           </li>
+          <li class="nav divider" v-if="showAuditions"></li>
+          <li class="nav item event-sub" role="menuitem" v-if="showAuditions">
+            <g-link to="/events/auditions">Auditions</g-link>
+          </li>
         </ul>
       </li>
       <li class="nav item" role="menuitem">
@@ -110,6 +114,15 @@ export default {
   mounted() {
     this.setUA();
     this.setTouchProp();
+  },
+  computed: {
+    showAuditions() {
+      const now = new Date()
+      const closeDate = new Date("2021-09-24T23:00")
+      return (
+        (now.getTime() - closeDate.getTime()) <= 0
+      )
+    }
   },
   methods: {
     onNavMouseOver(target) {
