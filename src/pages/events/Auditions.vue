@@ -13,7 +13,7 @@
         1124 Pine Grove Drive, Mount Shasta<br>September 23 &amp; 24, 2021 at 6:30 PM.
       </p>
       <p v-animate-on-intersection class="anima__slide-in-from-left del2">
-        Rehearsals begin Oct 5th 630-830pm Tues-Wed-Thurs of each week.<br>
+        Rehearsals begin Oct 5th 6:30-8:30 PM Tues-Wed-Thurs of each week.<br>
         All actors will NOT be called to every single rehearsal in October.<br>
         Children will be released early whenever possible.
       </p>
