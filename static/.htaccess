@@ -37,6 +37,7 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /404/index.html [L,R=404]
 </IfModule>
+  ErrorDocument 404 /404/index.html
 # END Vue SPA
 
 # BEGIN Security Headers
