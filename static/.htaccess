@@ -23,6 +23,11 @@
 </IfModule>
 # END Redirect legacy URLs
 
+# BEGIN redirect rules for rescheduled events
+  Redirect 301 "/events/music/wind-fields--sep-03-2021" "/events/music/wind-fields--nov-20-2021"
+  Redirect 301 "/events/music/wind-fields--nov-13-2021" "/events/music/wind-fields--nov-20-2021"
+# END redirect rules for rescheduled events
+
 # BEGIN Vue SPA
 <IfModule mod_rewrite.c>
   RewriteEngine On
