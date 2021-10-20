@@ -15,7 +15,7 @@
       </div>
       <div class="summary-subcontainer">
         <span class="summary-column summary_description">{{ summaryDescription }}</span>
-        <span class="summary-column summary_image group"><g-image class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
+        <span class="summary-column summary_image group"><g-image  v-if="event.image" class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
       </div>
     </g-link>
 
