@@ -74,6 +74,7 @@ module.exports = function (api) {
             stream
             youtube
             youtube2
+            youtube3
             ics
             sponsor_text
             sponsor_image

@@ -87,6 +87,7 @@ query {
         stream
         youtube
         youtube2
+        youtube3
         ics
         sponsor_text
         sponsor_image

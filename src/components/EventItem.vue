@@ -213,6 +213,29 @@
           </transition>
         </div>
 
+        <!-- atPageLevel third event youtube video -->
+        <div 
+          v-if="event.youtube3"
+          class="event_youtube"
+        >
+          <transition name="fade" mode="out-in">
+            <div v-if="showYoutubeContent" class="video_container">
+              <iframe
+                :src="videoSrc3" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="video"
+              ></iframe>
+            </div>
+            <span
+              v-else 
+              @click="showYoutubeContent=true" 
+              class="event_youtube_button action"
+            >Click to view YouTube video</span>
+          </transition>
+        </div>
+
       </div>
 
       <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)" class="viewmore">
@@ -265,9 +288,9 @@ const videoEmbedOptions = "&fs=0"
       + "&playsinline=1"
       + "&rel=0"
       + (typeof window !== 'undefined' ? "&origin=" + window.location.protocol + "//" + window.location.hostname : "");
-const videoEmbedQS = "?autoplay=1" 
+const videoPlayEmbedQS = "?autoplay=1" 
       + videoEmbedOptions
-const video2EmbedQS = "?autoplay=0" 
+const videoNoPlayEmbedQS = "?autoplay=0" 
       + videoEmbedOptions
 
 export default {
@@ -383,10 +406,13 @@ export default {
       return this.parseAsHtml(this.event.note)
     },
     videoSrc() {
-      return videoEmbedPath + this.event.youtube + videoEmbedQS
+      return videoEmbedPath + this.event.youtube + videoPlayEmbedQS
     },
     videoSrc2() {
-      return videoEmbedPath + this.event.youtube2 + video2EmbedQS
+      return videoEmbedPath + this.event.youtube2 + videoNoPlayEmbedQS
+    },
+    videoSrc3() {
+      return videoEmbedPath + this.event.youtube3 + videoNoPlayEmbedQS
     },
     eventThumbImage() {
       return this.event.image.replace('.', '-th.')

@@ -52,6 +52,7 @@ query {
         stream
         youtube
         youtube2
+        youtube3
         ics
         show_registration_form
       }
