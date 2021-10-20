@@ -23,11 +23,12 @@
     },
     "location": "",
     "image": "",
-    "image_width": "",
+    "image_width": "800",
     "image_height": "",
     "stream": "",
     "youtube": "",
     "youtube2": "",
+    "youtube3": "",
     "ics": "",
     "show_registration_form": false,
     "is_postponed": false,
@@ -38,6 +39,216 @@
     "reference_slug": ""
   },
   "events":[
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "a-christmas-carol--dec-17-2021",
+      "title": "A Christmas Carol",
+      "performer": "",
+      "description": "A Christmas Carol - a local theatre production directed by Sandra Winslow.",
+      "details": "Charles Dickens’ classic ‘A Christmas Carol’ tells the story of Ebenezer Scrooge, a mean-spirited, miserly old man who is visited by the ghost of his former business partner Jacob Marley and the spirits of Christmas Past, Present and Yet to Come. After their visits, Scrooge is transformed into a kinder, gentler man.",
+      "note": "",
+      "series": "",
+      "price": "",
+      "price_note": "Tickets will be available online on November 1st",
+      "ticket": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-17",
+        "end": "2021-12-17"
+      },
+      "location": "",
+      "image": "a-christmas-carol.jpg",
+      "image_width": "800",
+      "image_height": "1199",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "a-christmas-carol--dec-18-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "date":{
+        "start": "2021-12-18",
+        "end": "2021-12-18"
+      }
+    },
+    {
+      "slug": "a-christmas-carol-matinee-dec-19-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-19",
+        "end": "2021-12-19"
+      }
+    },
+    {
+      "slug": "a-christmas-carol--dec-19-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "time":{
+        "start": "18:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-19",
+        "end": "2021-12-19"
+      }
+    },
+    {
+      "slug": "a-christmas-carol--dec-22-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "date":{
+        "start": "2021-12-22",
+        "end": "2021-12-22"
+      }
+    },
+    {
+      "slug": "a-christmas-carol--dec-23-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "date":{
+        "start": "2021-12-23",
+        "end": "2021-12-23"
+      }
+    },
+    {
+      "slug": "a-christmas-carol--dec-24-2021",
+      "reference_slug": "a-christmas-carol--dec-17-2021",
+      "date":{
+        "start": "2021-12-24",
+        "end": "2021-12-24"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "suessical-the-musical--dec-10-2021",
+      "title": "Suessical the Musical",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Suessical the Musical - Mt Shasta Childrens Theatre Class Production",
+      "details": "Preannouncement… Details to follow",
+      "note": "",
+      "series": "",
+      "price": "",
+      "price_note": "Tickets will be available online on November 1st",
+      "ticket": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-10",
+        "end": "2021-12-10"
+      },
+      "location": "",
+      "image": "suessical.jpg",
+      "image_width": "800",
+      "image_height": "374",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "suessical-the-musical--dec-11-2021",
+      "reference_slug": "suessical-the-musical--dec-10-2021",
+      "date":{
+        "start": "2021-12-11",
+        "end": "2021-12-11"
+      }
+    },
+    {
+      "slug": "suessical-the-musical--dec-12-2021",
+      "reference_slug": "suessical-the-musical--dec-10-2021",
+      "time":{
+        "start": "15:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-12",
+        "end": "2021-12-12"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "infernas-legend--dec-03-2021",
+      "title": "Inferna's Legend",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Inferna's Legend - A New MSCT Musical Creation by Kale and Cory Coppin",
+      "details": "Preannouncement… Details to follow",
+      "note": "",
+      "series": "",
+      "price": "",
+      "price_note": "Tickets will be available online on November 1st",
+      "ticket": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-03",
+        "end": "2021-12-03"
+      },
+      "location": "",
+      "image": "",
+      "image_width": "",
+      "image_height": "",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "infernas-legend--dec-04-2021",
+      "reference_slug": "infernas-legend--dec-03-2021",
+      "date":{
+        "start": "2021-12-04",
+        "end": "2021-12-04"
+      }
+    },
+    {
+      "slug": "infernas-legend--dec-05-2021",
+      "reference_slug": "infernas-legend--dec-03-2021",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2021-12-05",
+        "end": "2021-12-05"
+      }
+    },
     {
       "category": "music",
       "type": "performance",
@@ -104,6 +315,7 @@
       "stream": "",
       "youtube": "tImV9JXq03M",
       "youtube2": "xySLcqpWbe4",
+      "youtube3": "",
       "ics": "",
       "show_registration_form": false,
       "is_postponed": false,
@@ -141,6 +353,7 @@
       "stream": "",
       "youtube": "",
       "youtube2": "",
+      "youtube3": "",
       "ics": "",
       "show_registration_form": false,
       "is_postponed": false,
