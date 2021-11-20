@@ -128,6 +128,10 @@
     {
       "slug": "a-christmas-carol--dec-24-2021",
       "reference_slug": "a-christmas-carol--dec-17-2021",
+      "time":{
+        "start": "14:00",
+        "end": "16:00"
+      },
       "date":{
         "start": "2021-12-24",
         "end": "2021-12-24"
