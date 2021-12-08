@@ -1,6 +1,15 @@
 {
   "sponsors": [
     {
+      "name": "Caldera Brewing Company",
+      "addressline1": "590 Clover Lane",
+      "addressline2": "Ashland, Oregon 97520",
+      "byline": "Dedicated to producing uncompromised quality ales, lagers, sodas and cuisine",
+      "url": "https://calderabrewing.com/",
+      "logo": "caldera-brewing-company-logo.png",
+      "isActive": false
+    },
+    {
       "name": "Cold Creek Inn",
       "addressline1": "724 N Mount Shasta Blvd",
       "addressline2": "Mount Shasta, California 96067",
@@ -10,21 +19,21 @@
       "isActive": false
     },
     {
-      "name": "Caldera Brewing Company",
-      "addressline1": "590 Clover Lane",
-      "addressline2": "Ashland, Oregon 97520",
-      "byline": "Dedicated to producing uncompromised quality ales, lagers, sodas and cuisine",
-      "url": "https://calderabrewing.com/",
-      "logo": "caldera-brewing-company-logo.png",
-      "isActive": true
-    },
-    {
       "name": "Dunsmuir Brewery Works",
       "addressline1": "5701 Dunsmuir Ave",
       "addressline2": "Dunsmuir, California 96025",
       "byline": "A micro brew pub offering a variety of hand crafted ales and fine food",
       "url": "https://dunsmuirbreweryworks.com/",
       "logo": "dunsmuir-brewery-works-logo2.png",
+      "isActive": true
+    },
+    {
+      "name": "LOGE Mt. Shasta",
+      "addressline1": "1612 S Mt Shasta Blvd",
+      "addressline2": "Mount Shasta, California 96067",
+      "byline": "LOGE offers a variety of lodging options - hotel rooms, hostel bunks, or camping",
+      "url": "https://www.logecamps.com/mtshasta-ca",
+      "logo": "loge-logo.png",
       "isActive": true
     },
     {
@@ -40,7 +49,7 @@
       "name": "Website Design by Edward Maesen",
       "addressline1": "",
       "addressline2": "Mount Shasta, California 96067",
-      "byline": "Mobile-friendly animated websites by seasoned ex-eBay principal software developer",
+      "byline": "Edward Maesen: sound healer, photographer and website developer",
       "url": "https://epvm.name/",
       "linkText": "Edward's website",
       "logo": "edward-maesen-logo.jpg",
