@@ -1,6 +1,7 @@
 <template>
   <div>
-    <button class="action" @click="openModal" title="click to view donate information">Donate</button>
+    <button class="action" @click="openModal" title="click to view tax-deductible donation information">Donate</button>
+    <div class="button-sub deemph">(tax deductible)</div>
 
     <modal
       v-if="showModal"
@@ -53,5 +54,10 @@ button {
   border: 1px solid rgb(255,222,124);
   box-shadow: 0 0 5px rgb(255,222,124);
   color: rgb(255,222,124);
+}
+.button-sub {
+  display: block;
+  font-size: 70%;
+  text-align: center;
 }
 </style>

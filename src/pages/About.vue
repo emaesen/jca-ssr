@@ -6,7 +6,7 @@
       <h3>Mount Shasta's Premier Educational Center for Music and the Performing Arts!</h3>
 
       <p>
-        Jefferson Center for the Arts (JCA) is Mount Shasta’s premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets. The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.
+        Jefferson Center for the Arts (JCA) is Mount Shasta’s premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets. The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike. The JCA is a 501(c)(3) nonprofit organization.
       </p>
     </section>
 

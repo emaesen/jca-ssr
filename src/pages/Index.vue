@@ -3,10 +3,10 @@
 
 <h1>Jefferson Center for the Arts (JCA)</h1>
 
-    <cite class="center byline">Mount Shasta's Premier Educational Center for Music and the Performing Arts!</cite>
+    <cite class="center byline">Mount Shasta's Premier Nonprofit Educational Center for Music and the Performing Arts!</cite>
 
     <p class="spacious">
-      JCA is Mount Shasta's premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.<br class="spacer">
+      JCA is Mount Shasta's premier nonprofit arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.<br class="spacer">
       The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.<br class="spacer">
       The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.<br class="spacer">
       Jefferson Center for the Arts is Mt Shasta's own community arts and culture center.
@@ -69,7 +69,7 @@
         <span class="emph">It’s 2021 and we are so excited to open our doors again to live performances!</span><br class="spacer">
         <br>
         <span class="donate-button"><button-donate/></span>
-        We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button.<br>
+        We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button. The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Your donations are tax deductible.<br>
         <br>
         Stay in the loop by signing up for our <a href="#subscribe">mailing list</a>! We are booking new shows every week and want to share all of our exciting news with you!
       </p>
