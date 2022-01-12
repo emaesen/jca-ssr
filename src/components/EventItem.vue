@@ -437,7 +437,7 @@ export default {
         .replace(/\*([^*]+)\*/g, "<i>$1</i>")
         .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="max-width:100%;"/>' )
         .replace(/\[([^\]]+)\]\(~([^)]+)\)/g, '<a href="$2">$1</a>' )
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener nofollow noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
     },
     parseAsText(txt) {
       // strip image and link formatting

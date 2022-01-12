@@ -1,5 +1,5 @@
 <template>
-  <a :href="to" target="_blank" rel="noopener noreferrer"><slot></slot><i class="icon-Outbound deemph" v-if="showOutboundIcon"></i></a>
+  <a :href="to" target="_blank" rel="noopener nofollow noreferrer"><slot></slot><i class="icon-Outbound deemph" v-if="showOutboundIcon"></i></a>
 </template>
 
 <script>
