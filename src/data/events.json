@@ -40,6 +40,44 @@
   },
   "events":[
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "comedy-night--feb-19-2022",
+      "title": "Comedy Night at the JCA",
+      "performer": "Corde Snell, Dustin Wood and Nick Meier",
+      "description": "The JCA welcomes Corde Snell, Dustin Wood and Nick Meier for Comedy Night. 21 and Over.",
+      "details": "Jefferson Center for the Arts welcomes local comics Dustin Wood and Nick Meier with headliner Corde Snell for an evening of great comedy. 21 and over please.",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "263890903797",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-02-19",
+        "end": "2022-02-19"
+      },
+      "location": "",
+      "image": "comedy-night.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "anna-moss-in-concert--feb-27-2022",
