@@ -509,8 +509,6 @@ export default {
 .summary-container {
   .event_stamp,
   .event_stamp.mini_stamp {
-    right: 10px;
-    left: auto;
     z-index: 2;
   }
 }
@@ -724,12 +722,6 @@ h4 {
   }
   .postponed_stamp {
     font-size: 150%;
-  }
-  
-  .event_stamp,
-  .event_stamp.mini_stamp {
-    right: 10px;
-    left: auto;
   }
   .video_container {
     width: 100%;
