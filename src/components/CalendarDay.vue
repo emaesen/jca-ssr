@@ -10,7 +10,7 @@
           <div
             :id="'cde-'+event._id"
             class="event event_animate"
-            :class="[{allday: !event.time.start && !event.time.end, recurring: isRecurring(event), postponed: event.is_postponed}, 'event_cat-'+event.category, 'event_type-'+event.type]"
+            :class="[{allday: !event.time.start && !event.time.end, recurring: isRecurring(event), postponed: event.is_postponed, canceled: event.is_canceled}, 'event_cat-'+event.category, 'event_type-'+event.type]"
             v-for="event in todaysEvents"
             :key="event._id"
           >
@@ -202,6 +202,7 @@ h4 {
   color: #cecddb;
   border: 1px solid #ffffff20;
 }
+.event.canceled,
 .event.postponed {
   text-decoration: line-through;
   opacity: 0.6;

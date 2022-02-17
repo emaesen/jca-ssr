@@ -1,7 +1,10 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
-      <div v-if="event.is_postponed && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
+      <div v-if="event.is_canceled && !event.stamp" class="canceled_stamp mini_stamp anima__zoom">
+        CANCELED
+      </div>
+      <div v-if="event.is_postponed && !event.is_canceled && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
       </div>
       <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
@@ -76,7 +79,10 @@
         <!-- event details -->
         <div :class="['details_column', {'details_column2':!!event.image}]">
           <div class="stamp_container">
-            <div v-if="event.is_postponed && !event.stamp" class="postponed_stamp anima__zoom">
+            <div v-if="event.is_canceled && !event.stamp" class="canceled_stamp anima__zoom">
+              CANCELED
+            </div>
+            <div v-if="event.is_postponed &&!event.is_canceled && !event.stamp" class="postponed_stamp anima__zoom">
               POSTPONED
             </div>
             <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
@@ -99,7 +105,7 @@
           </div>
 
           <div 
-            v-if="!isPastEvent && !event.is_postponed" class="event_price_wrapper"
+            v-if="!isPastEvent && !event.is_canceled && !event.is_postponed" class="event_price_wrapper"
           >
             <div class="event_price">
               <span v-html="eventPrice"/>
@@ -480,6 +486,7 @@ export default {
   position: relative;
 }
 .event_stamp, 
+.canceled_stamp,
 .postponed_stamp {
   color: #f00;
   position: absolute;
@@ -720,6 +727,7 @@ h4 {
   .event {
     font-size: 90%;
   }
+  .canceled_stamp,
   .postponed_stamp {
     font-size: 150%;
   }

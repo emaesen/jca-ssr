@@ -48,6 +48,7 @@ module.exports = function (api) {
             type
             slug
             is_postponed
+            is_canceled
             stamp
             stamp_summary
             title
