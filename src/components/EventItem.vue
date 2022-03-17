@@ -150,7 +150,7 @@
         <!-- atPageLevel description details -->
         <div 
             v-if="descriptionDetails"
-            class="event_desc event_desc_details">
+            class="event_desc event_desc_details group">
           <span v-html="descriptionDetails"/>
         </div>
 
@@ -441,7 +441,7 @@ export default {
         .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
         /* emphasis aka italics */
         .replace(/\*([^*]+)\*/g, "<i>$1</i>")
-        .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="float:right;max-width:33%;"/>' )
+        .replace(/!\[([^\]]+)\]\(([^)]+)\)/g, '<img src="/img/event/$2" alt="$1" style="float:right;max-width:25%;margin:0 0 .5em 1em"/>' )
         .replace(/\[([^\]]+)\]\(~([^)]+)\)/g, '<a href="$2">$1</a>' )
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener nofollow noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
     },
