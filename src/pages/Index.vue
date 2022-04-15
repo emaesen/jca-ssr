@@ -66,10 +66,11 @@
       <h2>Get Involved!</h2>
 
       <p>
-        <span class="emph">It’s 2021 and we are so excited to open our doors again to live performances!</span><br class="spacer">
+        <span class="emph">It’s 2022 and we are so excited to open our doors again to live performances!</span><br class="spacer">
         <br>
         <span class="donate-button"><button-donate/></span>
-        We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button. The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Your donations are tax deductible.<br>
+        <!--We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button. -->
+        The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Your donations are tax deductible.<br>
         <br>
         Stay in the loop by signing up for our <a href="#subscribe">mailing list</a>! We are booking new shows every week and want to share all of our exciting news with you!
       </p>
@@ -86,7 +87,9 @@
 
     </section>
 
+    <!--
     <facebook-section v-animate-on-intersection/>
+    -->
 
     <div id="subscribe"></div>
     
