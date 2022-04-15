@@ -41,13 +41,125 @@
   },
   "events":[
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "the-brothers-grimm-spectaculathon--may-20-2022",
+      "title": "The Brothers Grimm Spectaculathon",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "THE BROTHERS GRIMM SPECTACULATHON presented by Mt Shasta Childrens Theatre, Shasta Studios and Jefferson Center for the Arts",
+      "details": "The student actors recreate all 209 of the fairy tales of the Brothers Grimm in a wild, fast-paced extravaganza.\nTo make it more difficult, they attempt to combine them into one gigantic fable using Rapunzel, Rumpelstiltskin, Hansel and Gretel, Snow White, Sleeping Beauty, Cinderella and other more obscure stories like Lean Lisa and The Devil's Grandmother.",
+      "note": "",
+      "series": "",
+      "price": "$10 general admission →\nKids 8 and under FREE",
+      "price_note": "",
+      "ticket": "310738566417",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-05-20",
+        "end": "2022-05-20"
+      },
+      "location": "",
+      "image": "brothers-grimm-spectaculathon.jpg",
+      "image_width": "371",
+      "image_height": "328",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "the-brothers-grimm-spectaculathon-matinee--may-21-2022",
+      "reference_slug": "the-brothers-grimm-spectaculathon--may-20-2022",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-05-21",
+        "end": "2022-05-21"
+      }
+    },
+    {
+      "slug": "the-brothers-grimm-spectaculathon--may-21-2022",
+      "reference_slug": "the-brothers-grimm-spectaculathon--may-20-2022",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-05-21",
+        "end": "2022-05-21"
+      }
+    },
+    {
+      "slug": "the-brothers-grimm-spectaculathon-matinee--may-22-2022",
+      "reference_slug": "the-brothers-grimm-spectaculathon--may-20-2022",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-05-22",
+        "end": "2022-05-22"
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
-      "slug": "gerry-oconnor-w-richard-mandel--may-05-2022",
-      "title": "Gerry O’Connor w/ special guest Richard Mandel",
-      "performer": "Gerry O’Connor, Richard Mandel",
-      "description": "Fiddle player Gerry O’Connor with Richard Mandel (guitar) on their third US West Coast tour, performing music from O’Connor’s latest solo CD “Last Nights Joy”.",
-      "details": "**Gerry O’Connor**\n\n ![Gerry O’Connor](gerry-oconnor-2.jpg) *One of the great fiddle players of his generation* \n\n[Gerry O’Connor](https://gerryoconnor.net/) grew up in the town of Dundalk, County Louth in a family of musicians, dancers and singers. His mother Rose  (née O’Brien) taught Gerry and his siblings the fiddle at home and she continued to teach from there for the next 40 years. Students travelling from Armagh and Dublin as well as closer to home to learn from the doyenne of fiddle teachers. His father Peter was a singer whose seven uncles all played music.\n\nFrom an early age Gerry was involved Irish music and dance, winning numerous All Ireland titles between 1967 and 1973 in a range of formations including duet, trio and four Céili Band titles.\n\nPlaying with Michael Coleman’s contemporary John Joe Gardiner in the 1970’s formed Gerry’s style of music, focussing on the fluid and ornamented lyrical fiddle playing of the great Sligo masters. His own background in step dancing translates into vibrant pulsating dance music for which he is noted; today he is regarded as one of the great fiddle players of his generation.\n\nHe has played and recorded with such highly-regarded groups as Lá Lúgh (Eithne Ní Uallacháin, Sony Music) and Skylark  (Len Graham, Gary O’Briain & Mairtin O’Connor), recording four CDs on the Claddagh label. Gerry has toured and recorded with members of all the legendary groups including Planxty, Bothy Band, De Dannan, Boys of the Lough and Chieftains.  Lá Lugh’s album “Brighid’s Kiss”  was voted Album of the Year 1996 by readers of the Irish Music Magazine.   His solo album “Journeyman” was counted in the top five Albums of the year 2004 by the Irish Times. This critically acclaimed solo album, co-produced with his son Dónal (Ulaid, At First Light), was heralded as a significant milestone in recording the music of the “Oriel” region of South Ulster.\n\nIn 2018 Gerry was awarded  “Ceannródaí”, the prestigious Bardic Award by Comhaltas for his valued contribution to the Traditional Arts. In the same year he launched his second solo album “Last Nights Joy” and published ” The Rose in the Gap” Dance Music for Oriel from the Donnellan Collection.\n\n\n**Richard Mandel**\n\n ![Richard Mandel](richard-mandel.jpg) As a first-call accompanist, Richard Mandel has backed up legendary Irish performers including Paddy Keenan, Tommy Peoples, Tony DeMarco, Gerry O’Connor, and Andrew MacNamara. Richard currently plays in the trio Three Mile Stone with mandolinist Marla Fibish and fiddler Erin Shrader. Three Mile Stone released its debut CD, produced by John Doyle, in March 2010 and has received rave reviews. In addition to Three Mile Stone, Richard can be heard on Christa Burch’s CD “Love of the Land”, Radim Zenkl’s, “Restless Joy”, and Tipsy House’s CD, “Sets in the City.”  ",
+      "slug": "brothers-reed--may-13-2022",
+      "title": "The Brothers Reed",
+      "performer": "The Brothers Reed",
+      "description": "The JCA is proud to welcome back the incomparable BROTHERS REED for an evening of great “familial folk”.",
+      "details": "[THE BROTHERS REED](http://www.thebrothersreed.com/)\nWith their comedic brotherly banter, impeccable harmonic expression, and widely varying influences, a Brothers Reed performance will have you reflecting on lost lives and lovers, laughing hysterically and leaving completely entertained.\n\nThe duo incorporates harmonica, percussion, into their live performances, soothing your soul with songs that are familiar yet original. Whether they are finger picking their way through a lamentable ballad or bringing you around full-speed with a barn-burning bluegrass number, The Brothers Reed are masters of their craft.\n\nDespite their brotherhood, Aaron and Phil Reed didn’t start playing music together until five years ago after Phil left their hometown of St. Charles, Missouri to join Aaron in the unsullied mountains of the American Northwest. The brothers family blend of folk encapsulates the grit and humor of Midwest life with the swagger and serenity of the west coast. Their style evokes finger picking folk singers of the 60’s and 70’s with a contemporary and boundless edge. Cultivated from years of performing in bands ranging from heavy metal to reggae and rock, to punk, country, and funk, their musical dichotomy is at the root of their diverse yet seamless folk-brand.\n\nThrough an exhaustive tour schedule that includes nearly 300 shows per year, the Brothers Reed have quickly risen to regional renown and tour extensively throughout the U.S. With three studio albums released (Sick As Folk, 2015; Monster In My Head, 2016; Three, 2018) a full band live release (Live at the Buckhunters Ball: Callahan, CA, 2017), and the latest “Caught in a Dream” 2019, The Bros show no signs of slowing down anytime soon.",
+      "note": "",
+      "series": "",
+      "ticket": "310729539417",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-05-13",
+        "end": "2022-05-13"
+      },
+      "location": "",
+      "image": "the-brothers-reed-2.jpg",
+      "image_width": "800",
+      "image_height": "500",
+      "stream": "",
+      "youtube": "-3knF8TDxJI",
+      "youtube2": "TPvD5nBVGyc",
+      "ics": "",
+      "is_postponed": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "show_registration_form": false,
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "gerry-oconnor--may-05-2022",
+      "title": "Gerry O’Connor",
+      "performer": "Gerry O’Connor",
+      "description": "Fiddle player Gerry O’Connor on his third US West Coast tour, performing music from his latest solo CD “Last Nights Joy”.",
+      "details": "**Gerry O’Connor**\n\n ![Gerry O’Connor](gerry-oconnor-2.jpg) *One of the great fiddle players of his generation* \n\n[Gerry O’Connor](https://gerryoconnor.net/) grew up in the town of Dundalk, County Louth in a family of musicians, dancers and singers. His mother Rose  (née O’Brien) taught Gerry and his siblings the fiddle at home and she continued to teach from there for the next 40 years. Students travelling from Armagh and Dublin as well as closer to home to learn from the doyenne of fiddle teachers. His father Peter was a singer whose seven uncles all played music.\n\nFrom an early age Gerry was involved Irish music and dance, winning numerous All Ireland titles between 1967 and 1973 in a range of formations including duet, trio and four Céili Band titles.\n\nPlaying with Michael Coleman’s contemporary John Joe Gardiner in the 1970’s formed Gerry’s style of music, focussing on the fluid and ornamented lyrical fiddle playing of the great Sligo masters. His own background in step dancing translates into vibrant pulsating dance music for which he is noted; today he is regarded as one of the great fiddle players of his generation.\n\nHe has played and recorded with such highly-regarded groups as Lá Lúgh (Eithne Ní Uallacháin, Sony Music) and Skylark  (Len Graham, Gary O’Briain & Mairtin O’Connor), recording four CDs on the Claddagh label. Gerry has toured and recorded with members of all the legendary groups including Planxty, Bothy Band, De Dannan, Boys of the Lough and Chieftains.  Lá Lugh’s album “Brighid’s Kiss”  was voted Album of the Year 1996 by readers of the Irish Music Magazine.   His solo album “Journeyman” was counted in the top five Albums of the year 2004 by the Irish Times. This critically acclaimed solo album, co-produced with his son Dónal (Ulaid, At First Light), was heralded as a significant milestone in recording the music of the “Oriel” region of South Ulster.\n\nIn 2018 Gerry was awarded  “Ceannródaí”, the prestigious Bardic Award by Comhaltas for his valued contribution to the Traditional Arts. In the same year he launched his second solo album “Last Nights Joy” and published ” The Rose in the Gap” Dance Music for Oriel from the Donnellan Collection. ",
       "note": "",
       "series": "",
       "price": "General Admission $25 at venue, $20 adv online →\nStudents/Seniors $20 at venue, $15 adv online →",
@@ -62,7 +174,7 @@
         "end": "2022-05-05"
       },
       "location": "",
-      "image": "gerry-oconnor-20220505.jpg",
+      "image": "gerry-oconnor-concert-20220505.jpg",
       "image_width": "700",
       "image_height": "1019",
       "stream": "",
@@ -170,14 +282,14 @@
       "price_note": "",
       "ticket": "300146846297",
       "time":{
-        "start": "20:00",
+        "start": "19:00",
         "end": ""
       },
       "date":{
         "start": "2022-04-15",
         "end": "2022-04-15"
       },
-      "location": "",
+      "location": "Watson’s Vets Club, 406 N Mt Shasta Blvd, Mt Shasta",
       "image": "americana-masters-20220415.jpg",
       "image_width": "720",
       "image_height": "1080",
@@ -188,9 +300,9 @@
       "ics": "",
       "show_registration_form": false,
       "is_postponed": false,
-      "is_canceled": false,
-      "stamp": "",
-      "stamp_summary": "",
+      "is_canceled": true,
+      "stamp": "MOVED to Watson’s Vets Club",
+      "stamp_summary": "MOVED to Watson’s Vets Club",
       "sponsor_text": "",
       "sponsor_image": "",
       "reference_slug": ""
@@ -335,6 +447,7 @@
       "ics": "",
       "show_registration_form": false,
       "is_postponed": false,
+      "is_canceled": true,
       "stamp": "",
       "stamp_summary": "",
       "sponsor_text": "",

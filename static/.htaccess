@@ -27,6 +27,7 @@
   Redirect 301 "/events/music/wind-fields--sep-03-2021" "/events/music/wind-fields--nov-20-2021"
   Redirect 301 "/events/music/wind-fields--nov-13-2021" "/events/music/wind-fields--nov-20-2021"
   Redirect 301 "/events/music/arkins-bigley-coulter-harvey--mar-15-2022"  "/events/music/arkins-bigley-coulter--mar-15-2022"
+  Redirect 301 "/events/music/gerry-oconnor-w-richard-mandel--may-05-2022" "/events/music/gerry-oconnor--may-05-2022"
 # END redirect rules for rescheduled events
 
 # BEGIN Vue SPA
