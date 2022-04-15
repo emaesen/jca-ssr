@@ -484,6 +484,7 @@ export default {
 }
 .stamp_container {
   position: relative;
+  opacity: .85;
 }
 .event_stamp, 
 .canceled_stamp,
@@ -511,7 +512,11 @@ export default {
   font-size: 100%;
   top: 20px;
   left: 20px;
-  opacity: .8;
+}
+.details_container .event_stamp {
+  left: -70px;
+  font-size: 130%;
+  max-width: 100%;
 }
 .summary-container {
   .event_stamp,
