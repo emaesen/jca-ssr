@@ -3,29 +3,35 @@
     <h1>Auditions for 2022 Broadway Camp</h1>
 
     <section>
-      <g-image class="img-poster" src="/img/alice-auditions.jpg" alt="broadway camp 2022 auditions"/>
+      <g-image class="img-poster" src="/img/alice-auditions-v2.jpg" alt="broadway camp 2022 auditions"/>
       <p>
-        Mt Shasta Childrens Theatre presents the 2022 Broadway Camp Auditions, seeking talented actors, singers &amp; dancers ages 8-18 to play multiple roles.
+        <span class="emph">Mt Shasta Childrens Theatre</span> presents the 2022 Broadway Camp Auditions.<br>
+        We are seeking talented actors, singers &amp; dancers ages 8-18 to play multiple roles.
       </p>
       <p v-animate-on-intersection class="anima__slide-in-from-left del1">
-        <span class="emph">Auditions</span>
-        will be held at the JCA<br>
-        1124 Pine Grove Drive, Mount Shasta<br>Wednesday May 25th, 2022 from 4:30 PM to 8:00 PM.
+        <span class="emph">Auditions</span><br>
+        Wednesday May 25th, 4:30 - 8:00 PM<br>
+        At the JCA:<br>
+        1124 Pine Grove Drive, Mount Shasta<br>
       </p>
       <p v-animate-on-intersection class="anima__slide-in-from-left del3">
-        <span class="emph">Camp Dates</span> July 11 - August 7.<br>
-        Monday - thursday 9 AM - 2 PM.<br>
-        20 hours a week.
+        <span class="emph">Camp Dates</span><br>
+        July 11 - August 7<br>
+        Monday - Thursday, 9 AM - 2 PM<br>
+        20 hours a week
       </p>
       <p v-animate-on-intersection class="anima__slide-in-from-left del4">
-        <span class="emph">Tuition</span> $375
+        <span class="emph">Tuition</span><br>
+        $425
       </p>
       <p v-animate-on-intersection class="anima__slide-in-from-left del4">
-        <span class="emph">Sign up</span>: <link-outbound to="https://www.signupgenius.com/go/8050e4faeae28a4fd0-broadway">click here!</link-outbound>.
+        <span class="emph">Sign up</span><br>
+        <link-outbound to="https://www.signupgenius.com/go/8050e4faeae28a4fd0-broadway">click here!</link-outbound>
       </p>
 
       <p v-animate-on-intersection class="anima__slide-in-from-left del4">
-        <span class="emph">Scholarships</span> may be available. Contact Wendy at <a href="mailto:shastastudios@yahoo.com">shastastudios@yahoo.com</a>.
+        <span class="emph">Scholarships</span> may be available.<br>
+        Contact Wendy at <a href="mailto:shastastudios@yahoo.com">shastastudios@yahoo.com</a>.
       </p>
 
       <p v-animate-on-intersection class="anima__fade-in-bounce del6">

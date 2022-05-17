@@ -29,7 +29,7 @@
           <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
           <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
         </video-->
-        <g-image src="/img/alice-auditions.jpg" alt="2022 Broadway Camp auditions" class="hero-img"/>
+        <g-image src="/img/alice-auditions-v2.jpg" alt="2022 Broadway Camp auditions" class="hero-img"/>
         <div class="center">
         View info about auditions for our 2022 Broadway Camp.
         </div>
