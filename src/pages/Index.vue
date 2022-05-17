@@ -20,17 +20,18 @@
     <div
       v-if="showFeaturedEvent"
     >
-      <g-link to="/events/auditions/" title="click to view info about our auditions for A Christmas Carol">
-        <video 
+      <g-link to="/auditions/broadway-camp-2022" title="click to view info about our auditions for 2022 Broadway Camp">
+        <!--video 
           class="hero-video anima__zoom" 
           autoplay playsinline muted loop 
           poster="/img/christmas-carol-auditions.jpg"
         >
           <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
           <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
-        </video>
+        </video-->
+        <g-image src="/img/alice-auditions.jpg" alt="2022 Broadway Camp auditions" class="hero-img"/>
         <div class="center">
-        View info about our auditions for A Christmas Carol
+        View info about auditions for our 2022 Broadway Camp.
         </div>
       </g-link>
     </div>
@@ -66,7 +67,7 @@
       <h2>Get Involved!</h2>
 
       <p>
-        <span class="emph">It’s 2022 and we are so excited to open our doors again to live performances!</span><br class="spacer">
+        <span class="emph">We are excited to open our doors to live performances!</span><br class="spacer">
         <br>
         <span class="donate-button"><button-donate/></span>
         <!--We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button. -->
@@ -142,7 +143,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2021-09-24T23:00");
+      const eventDate = new Date("2022-05-25T23:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
@@ -159,6 +160,9 @@ export default {
   animation-delay: 1s;
 }
 .hero-video {
+  width: 100%;
+}
+.hero-img {
   width: 100%;
 }
 img.banner_lg {
