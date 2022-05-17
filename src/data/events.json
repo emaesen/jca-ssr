@@ -3,7 +3,7 @@
   {
     "category": "music|visual-arts|theater",
     "type": "performance|class|workshop|lecture|exhibition",
-    "slug": "dashed-title--mmm-dd-yyyy",
+    "slug": "dashed-title--mmm-dd-2022",
     "title": "",
     "performer": "",
     "description": "",
@@ -15,11 +15,11 @@
     "ticket": "",
     "time":{
       "start": "hh:mm",
-      "end": "hh:mm"
+      "end": ""
     },
     "date":{
-      "start": "yyyy-mm-dd",
-      "end": "yyyy-mm-dd"
+      "start": "2022-mm-dd",
+      "end": "2022-mm-dd"
     },
     "location": "",
     "image": "",
@@ -40,6 +40,171 @@
     "reference_slug": ""
   },
   "events":[
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "jacob-camara--jun-17-2022",
+      "title": "Jacob Camara",
+      "performer": "Jacob Camara",
+      "description": "JCA Presents Jacob Camara in concert.",
+      "details": "Based out of Eugene, Oregon, independent songwriter [Jacob Camara](https://www.jacobcamara.com/) combines his love for folk, country, and blues to form a unique and timeless American Roots sound. His intricate fingerstyle guitar and skillfully crafted songs are inspired by pickers and singers like Elizabeth Cotton, Mississippi John Hurt, Bob Dylan, Kate Wolf, Robert Johnson, B.B. King, Townes Van Zandt, Blaze Foley, Charlie Parr, and Gillian Welch.\n\nHe has performed hundreds shows in the Pacific Northwest and is planning several solo tours for 2022. His music can be found on CD at live shows or anywhere you stream your music online.\n\nIn addition to his solo project, Jacob also performs as a singer, banjo player, guitarist, and producer/engineer for the Eugene based bluegrass band [The Muddy Souls](https://themuddysouls.com)",
+      "note": "",
+      "series": "",
+      "price": "$15 at venue / $10 general admission adv online →\nKids 10 and under FREE →",
+      "price_note": "",
+      "ticket": "342408481987",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2022-06-17",
+        "end": "2022-06-17"
+      },
+      "location": "",
+      "image": "jacob-camara.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "<iframe style='border: 0; width: 350px; height: 470px;' src='https://bandcamp.com/EmbeddedPlayer/album=240888620/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' seamless><a href='https://jacobjcamara.bandcamp.com/album/crazy-notion'>Crazy Notion by Jacob Camara</a></iframe>",
+      "youtube": "apMcNi_-IDA",
+      "youtube2": "k7EMAPWef_g",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-riverside--jun-10-2022",
+      "title": "The Riverside",
+      "performer": "The Riverside",
+      "description": "“The Riverside is a traditional melodic and harmony-driven folk string band hailing from Southern California, founded by husband and wife Jake and Lorien Jeanson in 2012. The highly engaging four-piece dynamically performs around one microphone, where each instrument and voice crafts a specific part of each story; creating intimate, savory folk music that warms the heart and feeds the soul.” -Nicholas Edward Williams | Earthtone Booking-",
+      "details": "[The Riverside](https://www.theriversidefolk.com/) originated in Southern California where founding member, Jacob Jeanson (songwriter & guitar), was attending Westmont College in 2012. In his senior year, the band formed in hopes of winning Santa Barbara’s battle of the bands. As an energetic and engaging folk band with foot stomping musical companions, the group was able to win the competition and release their first album with the winnings.\n\nIn the following years, Jake got to play with many talented friends and personalities which helped mold the band’s vision and created time to grow in tasteful and intentional songwriting; a nostalgic yet refreshing charm that leads listeners across a grand frontier of warm and beautiful scenery.\n\nHowever, the band was able to make the jump to full time when his wife Lorien Jeanson (mandolin & harmony) was added to the lineup. Lorien is originally from  the redwood forest and farmlands of Northern California, but ended up attending the same college as Jake, where they met and fell in love.\n\nThe duo swiftly began touring with a rotating cast of friends; playing in theaters, venues, festivals, and living room concerts across the United States. Regardless of their current friend lineup, the group aims to create a magical and organic vibe which translates into the feeling of the music, often singing and playing around a single old fashioned microphone,  seamlessly blending the musical composition of their harmonies and instruments. Since 2012, the band has released 4 homegrown records and an EP, with more songs and albums in the works.\n\nGrowing up and being raised listening to the likes of The Eagles, Creedence Clearwater Revival, and Crosby Stills Nash & Young, Jake and Lorien grew an appreciation and aim for group harmonies and heartfelt authenticity , while also striving to be amazing live performers like their modern influences , a few being  Fleet Foxes, Mandolin Orange, and The Head and the Heart.\n\nCurrent Line Up:\n\nJake Jeanson - Guitar, Vocals, Kick Drum, Tambourine\n\nLorien Jeanson - Mandolin, Vocals\n\nJames Page - Standup Bass, Vocals\n\nChase Fierro - Fiddle\n\nTrey Lindsley -  Banjo, Vocals\n\nKristen Posey - Cello, Vocals",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "338424746527",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-10",
+        "end": "2022-06-10"
+      },
+      "location": "",
+      "image": "the-riverside.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "f6l-0MFWH8Q",
+      "youtube2": "A5l6bVlBJK8",
+      "youtube3": "t6tXYO38XZ0",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "25th-annual-putnam-county-spelling-bee--jun-03-2022",
+      "title": "25th Annual Putnam County Spelling Bee",
+      "performer": "",
+      "description": "Mt Shasta Childrens Theatre, Shasta Studios and Jefferson Center for the Arts proudly presents The 25th Annual Putnam County Spelling Bee June 3-5 at the JCA",
+      "details": "Winner of the Tony and the Drama Desk Awards for Best Book, The 25th Annual Putnam County Spelling Bee has charmed audiences across the country with its effortless wit and humor. Featuring a fast-paced, wildly funny and touching book by Rachel Sheinkin and a truly fresh and vibrant score by William Finn, this bee is one unforgettable experience.\n\nAn eclectic group of six mid-pubescents vie for the spelling championship of a lifetime. While candidly disclosing hilarious and touching stories from their home lives, the tweens spell their way through a series of (potentially made-up) words, hoping never to hear the soul-crushing, pout-inducing, life un-affirming “ding” of the bell that signals a spelling mistake. Six spellers enter; one speller leaves! At least the losers get a juice box.\n\nDirected by Kale Coppin\n\nChoreographed by Wendy James",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 general admission adv online →\nKids 8 and under FREE →",
+      "price_note": "",
+      "ticket": "338413823857",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-03",
+        "end": "2022-06-03"
+      },
+      "location": "",
+      "image": "25th-annual-putnam-county-spelling-bee.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "25th-annual-putnam-county-spelling-bee-matinee--jun-04-2022",
+      "reference_slug": "25th-annual-putnam-county-spelling-bee--jun-03-2022",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-04",
+        "end": "2022-06-04"
+      }
+    },
+    {
+      "slug": "25th-annual-putnam-county-spelling-bee--jun-04-2022",
+      "reference_slug": "25th-annual-putnam-county-spelling-bee--jun-03-2022",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-04",
+        "end": "2022-06-04"
+      }
+    },
+    {
+      "slug": "25th-annual-putnam-county-spelling-bee-matinee--jun-05-2022",
+      "reference_slug": "25th-annual-putnam-county-spelling-bee--jun-03-2022",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-05",
+        "end": "2022-06-05"
+      }
+    },
+    {
+      "slug": "25th-annual-putnam-county-spelling-bee--jun-05-2022",
+      "reference_slug": "25th-annual-putnam-county-spelling-bee--jun-03-2022",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-06-05",
+        "end": "2022-06-05"
+      }
+    },
     {
       "category": "theater",
       "type": "performance",
@@ -78,18 +243,6 @@
       "sponsor_text": "",
       "sponsor_image": "",
       "reference_slug": ""
-    },
-    {
-      "slug": "the-brothers-grimm-spectaculathon-matinee--may-21-2022",
-      "reference_slug": "the-brothers-grimm-spectaculathon--may-20-2022",
-      "time":{
-        "start": "14:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2022-05-21",
-        "end": "2022-05-21"
-      }
     },
     {
       "slug": "the-brothers-grimm-spectaculathon--may-21-2022",
