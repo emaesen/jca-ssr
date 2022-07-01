@@ -141,8 +141,8 @@ export default {
     },
     filteredEvents() {
       return this.events
-        .filter(e => this.type? e.type === this.type: true)
-        .filter(e => this.category? e.category === this.category: true)
+        .filter(e => this.type && this.type !== "" ? e.type === this.type: true)
+        .filter(e => this.category && this.category !== "" ? e.category === this.category: true)
         .filter(e => !this.isPastDate(e.date.end ? e.date.end : e.date.start) )
         .sort((a, b) => this.sortByDate(a, b));
     },
