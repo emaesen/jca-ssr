@@ -152,7 +152,11 @@ export default {
   },
   methods: {
     sortByDate(a, b) {
-      return new Date(a.date.start + "T" + a.time.start + ":00") - new Date(b.date.start + "T" + b.time.start + ":00");
+      const dateA = new Date(a.date.start + "T" + (a.time.start && a.time.start!=="" ? a.time.start : "00:00") + ":00")
+      const dateB = new Date(b.date.start + "T" + (b.time.start && b.time.start!=="" ? b.time.start : "00:00") + ":00")
+      const diff = dateA - dateB
+      //console.log(dateA + " " + dateB)
+      return diff;
     },
   }
 };
