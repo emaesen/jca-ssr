@@ -4,6 +4,8 @@
     <i class="icon-Music" v-if="category==='music'"></i>
     <i class="icon-Theater" v-if="category==='theater'"></i>
     <i class="icon-Dance" v-if="category==='dance'"></i>
+    <i class="icon-Fest" v-if="category==='fest'"></i>
+    <i class="icon-Summit" v-if="category==='summit'"></i>
   </span>
 </template>
 
