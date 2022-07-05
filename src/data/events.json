@@ -1,8 +1,8 @@
 {
   "schema":
   {
-    "category": "music|visual-arts|theater",
-    "type": "performance|class|workshop|lecture|exhibition",
+    "category": "music|visual-arts|theater|fest|summit",
+    "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
     "slug": "dashed-title--mmm-dd-2022",
     "title": "",
     "performer": "",
@@ -80,7 +80,7 @@
       "reference_slug": ""
     },
     {
-      "category": "",
+      "category": "fest",
       "type": "benefit",
       "slug": "mt-shasta-oktoberfest-oct-01-2022",
       "title": "Mount Shasta Oktoberfest",
@@ -119,17 +119,17 @@
       "reference_slug": ""
     },
     {
-      "category": "",
-      "type": "summit",
+      "category": "summit",
+      "type": "gathering",
       "slug": "mt-shasta-star-knowledge-peace-summit--aug-12-15-2022",
       "title": "Mt. Shasta Star Knowledge Peace Summit",
       "performer": "",
-      "description": "ALL NATIONS, ALL RACES, ALL OUR RELATIONS.",
-      "details": "**Speakers**\n\nAlway our in Spirit Leader Chief Golden LIght Eagle Loren Zephier.\n\nTerri (Sings with Ravens) Rivera\n\nCarla Poluha\n\nFumi Johns Stewart\n\n**Co-Host** Dr. Arthur Robert Cushman (Tata Arturo) (Arturo Luminoso Ketzal Tlanetzia)\n\nJose Federico Munoz\n\nNikki Zephier South Dakota Daughter of Chief Golden Light Eagle\n\nBlue Hail Matthew D Campbell Jr. Head Singer Star Knowledge Drum\n\nHead Dancer Tata Cuco Murillo from Tecate, Baja California (tentative)\n\nLuis Antonio Fernandez Razo\n\nWash Chimalli ( Nahuatl)\n\nMexika Wisdom Keeper From Meshico Tenochtitlan ( Mexico 🇲🇽 City)\n\nDanza Ameyaltzin Yolihuani\n\nAunty Pooki Lee\n\nLeza Vivio\n\nBishop Darrell Nichols\n\nGeri LittleJohn\n\nMartha Elena Sáenz\n\nLauraSa Pele Lafoia Ava\n\nClaudia Tomasiewicz\n\nJen Noel\n\nBill Homann & The Mitchell-Hedges Crystal Skull\n\nFULL DETAILS on [eventbrite ticket website](https://www.eventbrite.com/e/mt-shasta-star-knowledge-peace-summit-immersion-tickets-159043905603)",
+      "description": "Three days of Wisdom Keepers, Music & Dance. We/You, are all Sacred Beings. Let’s Unite in Prayer & Peace to help change the Planet.\nEarly bird special until 7/7/22 at 7:00PM.",
+      "details": "Do you hear the calling to Mount Shasta? We would love for you to join us.\n\nMount Shasta is a sacred place, a dimensional Doorway to the frequency of Love, let us join together to open our hearts to pure love and Bliss.\n\nShasta is a mirror that shows us the purity of who we truly are are.\n\n\nAll Nations - All Races - All Our Relations\n\n\n**Speakers**\n\nAlway our in Spirit Leader Chief Golden Light Eagle Loren Zephier.\n\nTerri (Sings with Ravens) Rivera\n\nCarla Poluha\n\nFumi Johns Stewart\n\n**Co-Host** Dr. Arthur Robert Cushman (Tata Arturo) (Arturo Luminoso Ketzal Tlanetzia)\n\nJose Federico Munoz\n\nNikki Zephier South Dakota Daughter of Chief Golden Light Eagle\n\nBlue Hail Matthew D Campbell Jr. Head Singer Star Knowledge Drum\n\nHead Dancer Tata Cuco Murillo from Tecate, Baja California (tentative)\n\nLuis Antonio Fernandez Razo\n\nWash Chimalli ( Nahuatl)\n\nMexika Wisdom Keeper From Meshico Tenochtitlan ( Mexico 🇲🇽 City)\n\nDanza Ameyaltzin Yolihuani\n\nAunty Pooki Lee\n\nLeza Vivio\n\nBishop Darrell Nichols\n\nGeri LittleJohn\n\nMartha Elena Sáenz\n\nLauraSa Pele Lafoia Ava\n\nClaudia Tomasiewicz\n\nJen Noel\n\nBill Homann & The Mitchell-Hedges Crystal Skull\n\nFULL DETAILS on [eventbrite ticket website](https://www.eventbrite.com/e/mt-shasta-star-knowledge-peace-summit-immersion-tickets-159043905603)",
       "note": "",
       "series": "",
-      "price": "$222 early bird special / $333 after June 30 →",
-      "price_note": "",
+      "price": "$222 early bird special / $333 after July 7 →",
+      "price_note": "Early bird special until 7/7/22 at 7:00PM",
       "ticket": "159043905603",
       "time":{
         "start": "09:00",
