@@ -41,6 +41,120 @@
   },
   "events":[
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "alice-in-wonderland--aug-05-2022",
+      "title": "Alice In Wonderland",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents ALICE IN WONDERLAND, the 9th Annual Broadway Camp Musical Performance.",
+      "details": "This brand-new musical version of the timeless classic takes you down the rabbit hole with the ever-curious Alice to a land of zany adventures where nothing is as it seems. The White Rabbit, Tweedle-Dee and Tweedle-Dum, the Mad Hatter, the Caterpillar, the Mock Turtle, the mysterious Cheshire Cat, the Queen of Hearts, and all your favorites from Lewis Carroll’s beloved books make this a magical, tuneful, and over-the-top entertaining musical for the whole family!",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue, $15 adv online →\nStudents/Seniors $15 at venue, $10 adv online →\nKids 8 and under FREE →",
+      "price_note": "",
+      "ticket": "382655993377",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2022-08-05",
+        "end": "2022-08-05"
+      },
+      "location": "",
+      "image": "alice-in-wonderland.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "slug": "alice-in-wonderland-matinee--aug-06-2022",
+      "reference_slug": "alice-in-wonderland--aug-05-2022",
+      "time":{
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "date":{
+        "start": "2022-08-06",
+        "end": "2022-08-06"
+      }
+    },
+    {
+      "slug": "alice-in-wonderland--aug-06-2022",
+      "reference_slug": "alice-in-wonderland--aug-05-2022",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2022-08-06",
+        "end": "2022-08-06"
+      }
+    },
+    {
+      "slug": "alice-in-wonderland--aug-07-2022",
+      "reference_slug": "alice-in-wonderland--aug-05-2022",
+      "time":{
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "date":{
+        "start": "2022-08-07",
+        "end": "2022-08-07"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "catch-rabbit-sprig--jul-28-2022",
+      "title": "Catch Rabbit & Sprig",
+      "performer": "Catch Rabbit, Sprig",
+      "description": "Seattle based Catch Rabbit is a psychedelic art-pop project. Sprig opens. An evening of unique and pleasurable musical theatrics. All Ages.",
+      "details": "**CATCH RABBIT**\n\nis the faint aroma of cotton candy in a swirling circus of pleasure. Catch Rabbit is the moment you wake up, when the dream world barges into the real world only to vanish in a puff of glitter. Catch Rabbit is your butt—your personal, literal butt—vibing rhythmically to the symphony of your feelings.\n\nTheir self-titled debut cassette is out now on Den Tapes. Buy the tape to hear Better Angels, Nobody Really Knows and Autumnesque, plus 5 more unheard tracks!\n\n“Would sound real good blasting from a car radio as you do a little Summertime cruise on Alki Beach” - DJ nstop, Hollow Earth Radio\n\n“Recommended for living in a kaleidoscope” - The Tape Deck\n\n\n**SPRIG**\n\nBe The Queercoded Villain You Wanted to Date as a Child.\n\nIt's campy synthy buttrock for girls TM\n\nChristiana is a dumbass ecogoth who writes the songs and does keytar.\n\nDrew Shreve is a powerful drum slut with a growing synth kink.\n\nSara does Viola! She does guitar! She does weird things to my feet!\n\nWatch Out\n\nDrea is our vers goddess of bass, synths, keys, percussion and KINDNESS",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "382651610267",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-07-28",
+        "end": "2022-07-28"
+      },
+      "location": "",
+      "image": "catch-rabbit-sprig.jpg",
+      "image_width": "700",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "bVDriykl9Ds",
+      "youtube2": "9bCjY8VNtAo",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "pato-banton-reggae-show-outdoors--jul-19-2022",
