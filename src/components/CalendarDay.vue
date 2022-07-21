@@ -18,6 +18,9 @@
               <i class="icon-Repeat" v-if="isRecurring(event)"></i>
               {{ timeRange(event) }}
             </span>
+            <span v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="deemph">
+              OUTDOORS
+            </span>
             <span class="type deemph">
               {{ event.category }} {{ event.type }}
             </span>
