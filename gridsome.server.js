@@ -47,6 +47,7 @@ module.exports = function (api) {
             category
             type
             slug
+            is_outdoors
             is_postponed
             is_canceled
             stamp

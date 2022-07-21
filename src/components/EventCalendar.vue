@@ -28,6 +28,7 @@ query {
         category
         type
         slug
+        is_outdoors
         is_postponed
         is_canceled
         stamp
