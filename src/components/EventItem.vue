@@ -15,7 +15,9 @@
         <span class="summary-column summary_date">{{ dateShort }}</span>
         <span class="summary-column summary_time">{{ time }}</span>
         <span class="summary-column summary_title">{{ event.title }}</span>
-        <span v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="outdoors_stamp">
+      </div>
+      <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="summary-subcontainer">
+        <span class="outdoors_stamp">
           OUTDOORS
         </span>
       </div>
@@ -61,7 +63,7 @@
         <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
         <span v-if="isPastEvent"> ~ PAST EVENT</span>
       </div>
-      <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="outdoors_stamp event_outdoors_pagelevel">
+      <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="outdoors_stamp event_outdoors">
         OUTDOORS
       </div>
 
@@ -514,6 +516,7 @@ export default {
 }
 .outdoors_stamp {
   color: rgba(0, 255, 13, 0.72);
+  margin-right: 100px;
 }
 .event_stamp,
 .event_stamp.mini_stamp {
@@ -605,10 +608,11 @@ h4 {
   opacity: 0.7;
   color: @color-secondary-1-1;
 }
-.event_outdoors_pagelevel {
+.event_outdoors {
   text-align: center;
   position: relative;
   top: -1em;
+  margin-right: 0;
 }
 .event_series {
   position: inherit;
