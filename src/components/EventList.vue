@@ -7,7 +7,7 @@
         </h2>
         <event-item 
           v-for="(evt, index) in filteredEvents" 
-          :key="evt._id" 
+          :key="evt.slug" 
           :event="evt"
           :showSummary="true"
           class="anima__slide-in-from-left event-summary-item"
@@ -41,7 +41,7 @@
       <div class="event-list">
         <event-item 
           v-for="(evt, index) in filteredEvents" 
-          :key="evt._id" 
+          :key="evt.slug" 
           :event="evt"
           class="anima__zoom"
           v-animate-on-intersection
