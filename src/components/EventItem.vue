@@ -353,7 +353,7 @@ export default {
       return this.showSummary ? "" : (this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category);
     },
     isPastEvent() {
-      return this.isPastDate(this.event.date.start);
+      return this.isPastDate(this.event.date.end);
     },
     isWeeklyRecurring() {
       return this.recurrence==="weekly" || (this.event.weekdays && this.event.weekdays.length > 0);
