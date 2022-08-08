@@ -47,11 +47,6 @@ module.exports = function (api) {
             category
             type
             slug
-            is_outdoors
-            is_postponed
-            is_canceled
-            stamp
-            stamp_summary
             title
             performer
             description
@@ -60,6 +55,7 @@ module.exports = function (api) {
             series
             price
             price_note
+            ticket
             time {
               start
               end
@@ -72,15 +68,19 @@ module.exports = function (api) {
             image
             image_width
             image_height
-            ticket
             stream
             youtube
             youtube2
             youtube3
             ics
+            show_registration_form
+            is_outdoors
+            is_postponed
+            is_canceled
+            stamp
+            stamp_summary
             sponsor_text
             sponsor_image
-            show_registration_form
           }
         }
       }
@@ -88,12 +88,14 @@ module.exports = function (api) {
 
     data && data.allEvent && data.allEvent.edges.forEach(({ node }) => {
       const cat = node.category || "g";
+      const path = `/events/${cat}/${node.slug}`
       createPage({
-        path: `/events/${cat}/${node.slug}`,
+        path: path,
         component: './src/templates/Event.vue',
         // Use context to pass event data to the Event template
         context: node
       })
+      console.log(">>> created page: " + path);
     })
   })
 }
