@@ -42,6 +42,46 @@
   },
   "events":[
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "blu-egyptian--aug-25-2022",
+      "title": "Blü Egyptian Outdoor Show",
+      "performer": "Blü Egyptian",
+      "description": "Blü Egyptian …Chico based funk world bluegrass band is coming to Mount Shasta play the JCA field on August 25th!",
+      "details": "Grab your dancing shoes and come out to the JCA field on Thursday evening August 25th Tickets $10 advance $15 at the gate. JCA Bar on site bring a chair a blanket. Picnics are welcome. Dancing is vital! Gates open at 6:30. See you there!\n\n[Blü Egyptian](https://www.bluegyptianband.com/) from Chico, Ca, play original music encompassing bluegrass, rock, funk, latin and reggae for the ultimate dance party!\n\nFormed in 2020, Blü Egyptian are friends who met in the recording arts classes in high school and then became a band when the school closed during the pandemic. During that time, they streamed live on Twitch and released a 4-song EP in January 2021. They released their first full length s/t album “Blü Egyptian” in June 2021 and have been touring throughout Northern California since. The new album “Dame Un Segundo” was released in May 2022. They have been touring throughout Northern California this summer playing at many festivals including High Sierra Music Festival, Hogfarm Hideaway, Feather River Flowdown, Owlfest X and California Worldfest.",
+      "note": "Gates open at 6:30",
+      "series": "",
+      "price": "$15 at venue / $10 adv online →",
+      "price_note": "",
+      "ticket": "399648979857",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-08-25",
+        "end": "2022-08-25"
+      },
+      "location": "",
+      "image": "blu-egyptian.jpg",
+      "image_width": "720",
+      "image_height": "720",
+      "stream": "",
+      "youtube": "X7xuqJDR95c",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_outdoors": true,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
       "category": "theater",
       "type": "performance",
       "slug": "alice-in-wonderland--aug-05-2022",
