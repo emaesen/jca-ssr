@@ -63,7 +63,7 @@ typings/
 # gridsome
 .cache
 **/.temp/*
-dist
+dist*
 .env.*
 
 # jca-related
