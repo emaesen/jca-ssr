@@ -515,8 +515,9 @@ export default {
   font-size: 150%;
 }
 .outdoors_stamp {
-  color: rgba(0, 255, 13, 0.72);
+  color: rgba(18, 172, 26, 1);
   margin-right: 100px;
+  font-size: 81%;
 }
 .event_stamp,
 .event_stamp.mini_stamp {
