@@ -10,19 +10,23 @@
       <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
         {{ event.stamp_summary || event.stamp }}
       </div>
+      <div class="summary_text">
+        <div>
+          <category-icon :category="event.category" class="summary_icon"/>
+          <span class="summary-column summary_date">{{ dateShort }}</span>
+          <span class="summary-column summary_time">{{ time }}</span>
+          <span class="summary-column summary_title">{{ event.title }}</span>
+        </div>
+        <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="summary-subcontainer">
+          <span class="outdoors_stamp">
+            OUTDOORS
+          </span>
+        </div>
+        <div class="summary-subcontainer">
+          <span class="summary-column summary_description">{{ summaryDescription }}</span>
+        </div>
+      </div>
       <div>
-        <category-icon :category="event.category" class="summary_icon"/>
-        <span class="summary-column summary_date">{{ dateShort }}</span>
-        <span class="summary-column summary_time">{{ time }}</span>
-        <span class="summary-column summary_title">{{ event.title }}</span>
-      </div>
-      <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="summary-subcontainer">
-        <span class="outdoors_stamp">
-          OUTDOORS
-        </span>
-      </div>
-      <div class="summary-subcontainer">
-        <span class="summary-column summary_description">{{ summaryDescription }}</span>
         <span class="summary-column summary_image group"><g-image  v-if="event.image" class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
       </div>
     </g-link>
@@ -516,8 +520,8 @@ export default {
 }
 .outdoors_stamp {
   color: rgba(18, 172, 26, 1);
-  margin-right: 100px;
-  font-size: 81%;
+  margin: 5px 100px 5px 0;
+  font-size: 72%;
 }
 .event_stamp,
 .event_stamp.mini_stamp {
@@ -536,6 +540,9 @@ export default {
     z-index: 2;
   }
 }
+.summary_text {
+  margin-right: 100px;
+}
 .summary_date {
   font-size: 100%;
   color: #f8d394;
@@ -545,7 +552,7 @@ export default {
   color: #fffee8;
   font-size: 110%;
   flex: 3;
-  margin-right: 100px;
+  margin-right: 1em;
 }
 img.summary_image {
   position: absolute;
@@ -560,6 +567,7 @@ img.summary_image {
   font-size: 70%;
   color: #e9b761b7;
   flex: 6;
+  margin-top: .5em;
 }
 .summary_icon {
   margin-right: 1em;
