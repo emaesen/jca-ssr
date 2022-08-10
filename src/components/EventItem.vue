@@ -520,7 +520,7 @@ export default {
 }
 .outdoors_stamp {
   color: rgba(18, 172, 26, 1);
-  margin: 5px 100px 5px 0;
+  margin: 5px 100px 0 0;
   font-size: 72%;
 }
 .event_stamp,
@@ -567,7 +567,7 @@ img.summary_image {
   font-size: 70%;
   color: #e9b761b7;
   flex: 6;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 .summary_icon {
   margin-right: 1em;
