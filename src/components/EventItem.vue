@@ -552,7 +552,7 @@ export default {
   color: #fffee8;
   font-size: 110%;
   flex: 3;
-  margin-right: 1em;
+  margin-right: .5em;
 }
 img.summary_image {
   position: absolute;
