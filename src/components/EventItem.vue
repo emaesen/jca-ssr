@@ -18,7 +18,7 @@
           <span class="summary-column summary_title">{{ event.title }}</span>
         </div>
         <div v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="summary-subcontainer">
-          <span class="outdoors_stamp">
+          <span class="outdoors_stamp mini_stamp">
             OUTDOORS
           </span>
         </div>
@@ -519,9 +519,12 @@ export default {
   font-size: 150%;
 }
 .outdoors_stamp {
-  color: rgba(18, 172, 26, 1);
+  color: rgba(223,208,67, 1);
   margin: 5px 100px 0 0;
-  font-size: 72%;
+  font-size: 100%;
+}
+.outdoors_stamp.mini_stamp {
+  font-size: 81%;
 }
 .event_stamp,
 .event_stamp.mini_stamp {
