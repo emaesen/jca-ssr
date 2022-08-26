@@ -44,6 +44,46 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "tony-mcmanus-legendary-celtic-guitarist--sep-13-2022",
+      "title": "Tony McManus - legendary Celtic guitarist",
+      "performer": "Tony McManus",
+      "description": "Hailed by John Renbourn as ’the best Celtic guitarist in the world’ Tony McManus will grace the JCA Stage Tuesday evening Sept 13th at 8pm",
+      "details": "“Tonys music is beyond beautiful… its perfect” ~Tommy Emmanuel\n\n(Tony McManus)[https://tonymcmanus.com] has also been listed as one of the 50 transcendent guitarists of all time by Guitar Player Magazine. Tony has both extended and transcended the parameters of contemporary Celtic music. Ranked by peers and predecessors alike alongside the guitar world’s all-time greats, his fiendishly dexterous, dazzlingly original playing draws on traditions from the entire Celtic world, along with still further-ranging flavours such as jazz and eastern European music. Long applauded for his uncanny ability to transpose the delicate, complex ornamentation characteristic of traditional bagpipe or fiddle tunes – even the phrasing of a Gaelic song – onto his own six strings, McManus is increasingly being acknowledged also as a pioneering figure in bridging the realms of Celtic music and other guitar genres.\n\nBorn in 1965 in Paisley, near Glasgow, McManus was introduced to traditional music via the family record collection. Having first tried his hand at the fiddle, whistle and mandolin, he took up the guitar aged ten, although subsequent academic inclinations got him halfway through a PhD in maths before the music won out. After rapidly making his name as an unusually fluent and sensitive accompanist, he took the solo plunge with a triumphant main-stage debut on the final night of Glasgow’s inaugural Celtic Connections festival in 1994, supporting Capercaillie in front of a 2500-strong crowd.\n\nWith the loyal support of Greentrax Recordings in Scotland Tony’s first self-titled recording in 1996, followed by Pourquoi Quebec in 1999 led to worldwide recognition. However, it was with the release of Ceol More in 2002 that Tony’s stature as a first-class musician reached a new level. Having heard his session work on several albums, Nashville based Compass Records released “Ceol More” in North America to universally ecstatic reviews. Critics hailed the focused, spell-binding nature of the music, from the plaintive Jewish hymn “Shalom Aleichem” to the ingenious arrangement of the Charles Mingus tune “Goodbye Pork Pie Hat”. Having been nominated as Musician of the Year by both the BBC Folk Awards and The Scottish Traditional Music awards, in 2002 “Ceol More” hit the Critic’s Album of the year list in Acoustic Guitar magazine and was named Live Ireland Awards' Album of the Year.\n\nIn a relatively short time Tony’s music has come to define a new role for the guitar in Celtic music. He has come to represent Celtic music in the guitar world, making regular appearances at guitar specific f.festivals such as the Chet Atkins Festival in Nashville; the Ellnora Guitar Festival in one of Illinois's most prestigious venues, the Krannert Center, with the likes of Pat Metheny, Kaki King, Molly Tuttle, and Steve Dawson; has appeared at Guitar Festivals in Soave and Pescantina, Italy; Frankston, Australia; Issoudun, France; Kirkmichael, Scotland; Bath and Kent, England; Bochum and Osnabruck, Germanyand has taught at five of Steve Kaufman’s Acoustic Kamps in Maryville, Tennessee. He performed at the famous Ryman Auditorium in Nashville in the “All Star Guitar Night” featuring Steve Morse, Bryan Sutton, Muriel Anderson, Béla Fleck and Victor Wooten and headlined by the legendary Les Paul. His ability to reach audiences unfamiliar with traditional music is remarkable - he is quite comfortable at predominantly classical events such as the Dundee and Derry Guitar Festivals (appearing six times between the two) and even The Bogotá International Guitar Festival where he followed virtuoso Eduardo Fernandez. He is also a signature artist for PRS Guitars in Maryland, and has performed at their venue with Carlos Santana, among others. These days Tony has a busy tour schedule, but he also authors books on Celtic guitar, and is in demand for workshops and lessons.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue, $25 adv online →\nStudents/Seniors $25 at venue, $20 adv online →\nKids 12 and under FREE →",
+      "price_note": "",
+      "ticket": "408257859247",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-09-13",
+        "end": "2022-09-13"
+      },
+      "location": "",
+      "image": "tony-mcmanus.jpg",
+      "image_width": "800",
+      "image_height": "534",
+      "stream": "",
+      "youtube": "ID9GWTDFUoI",
+      "youtube2": "",
+      "youtube3": "",
+      "ics": "",
+      "show_registration_form": false,
+      "is_outdoors": false,
+      "is_postponed": false,
+      "is_canceled": false,
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": ""
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "blu-egyptian--aug-25-2022",
       "title": "Blü Egyptian Outdoor Show",
       "performer": "Blü Egyptian",
@@ -59,8 +99,8 @@
         "end": ""
       },
       "date":{
-        "start": "2022-08-25",
-        "end": "2022-08-25"
+        "start": "2020-08-25",
+        "end": "2020-08-25"
       },
       "location": "",
       "image": "blu-egyptian.jpg",
@@ -251,8 +291,8 @@
       "price_note": "---Online ticket purchase link to be added September 1st---",
       "ticket": "",
       "time":{
-        "start": "",
-        "end": ""
+        "start": "12:00",
+        "end": "18:00"
       },
       "date":{
         "start": "2022-10-01",
