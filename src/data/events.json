@@ -33,7 +33,8 @@
       "show_registration_form": false,
       "is_outdoors": false,
       "is_postponed": false,
-      "is_canceled": false
+      "is_canceled": false,
+      "is_excluded": false
     },
     "stamp": "",
     "stamp_summary": "",
@@ -75,7 +76,8 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -116,7 +118,8 @@
         "show_registration_form": false,
         "is_outdoors": true,
         "is_postponed": false,
-        "is_canceled": true
+        "is_canceled": true,
+        "is_excluded": true
       },
       "stamp": "",
       "stamp_summary": "",
@@ -157,7 +160,8 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -234,7 +238,8 @@
         "show_registration_form": false,
         "is_outdoors": true,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -275,7 +280,8 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -316,7 +322,8 @@
         "show_registration_form": false,
         "is_outdoors": true,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -357,7 +364,8 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -398,7 +406,8 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",

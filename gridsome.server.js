@@ -29,7 +29,9 @@ module.exports = function (api) {
       // Skip events that happened more than 30 days ago.
       // NOTE that UI will throw graphql error if NO event is loaded...!
       // Thus... increase this window if the website needs to be updated and there's no recent event.
-      if (dayDiff > -30) {
+      if (item.flag.is_excluded) {
+        console.log(">>> event excluded: " + item.slug);
+      } else if (dayDiff > -30) {
         eventsCollection.addNode(item)
         console.log(">>> " + (dayDiff < 0 ? "past" : "future") + " event loaded: " + item.slug);
       } else {
