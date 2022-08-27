@@ -10,7 +10,7 @@
           <div
             :id="'cde-'+event._id"
             class="event event_animate"
-            :class="[{allday: !event.time.start && !event.time.end, recurring: isRecurring(event), postponed: event.is_postponed, canceled: event.is_canceled}, 'event_cat-'+event.category, 'event_type-'+event.type]"
+            :class="[{allday: !event.time.start && !event.time.end, recurring: isRecurring(event), postponed: event.flag.is_postponed, canceled: event.flag.is_canceled}, 'event_cat-'+event.category, 'event_type-'+event.type]"
             v-for="event in todaysEvents"
             :key="event._id"
           >
@@ -18,7 +18,7 @@
               <i class="icon-Repeat" v-if="isRecurring(event)"></i>
               {{ timeRange(event) }}
             </span>
-            <span v-if="event.is_outdoors && !event.is_canceled && !event.stamp" class="deemph">
+            <span v-if="event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="deemph">
               OUTDOORS
             </span>
             <span class="type deemph">

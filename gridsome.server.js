@@ -72,11 +72,12 @@ module.exports = function (api) {
             youtube
             youtube2
             youtube3
-            ics
-            show_registration_form
-            is_outdoors
-            is_postponed
-            is_canceled
+            flag {
+              show_registration_form
+              is_outdoors
+              is_postponed
+              is_canceled
+            }
             stamp
             stamp_summary
             sponsor_text

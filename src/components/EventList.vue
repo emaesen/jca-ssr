@@ -64,11 +64,6 @@ query {
         category
         type
         slug
-        is_outdoors
-        is_postponed
-        is_canceled
-        stamp
-        stamp_summary
         title
         performer
         description
@@ -77,6 +72,7 @@ query {
         series
         price
         price_note
+        ticket
         time {
           start
           end
@@ -89,15 +85,20 @@ query {
         image
         image_width
         image_height
-        ticket
         stream
         youtube
         youtube2
         youtube3
-        ics
+        flag {
+          show_registration_form
+          is_outdoors
+          is_postponed
+          is_canceled
+        }
+        stamp
+        stamp_summary
         sponsor_text
         sponsor_image
-        show_registration_form
       }
     }
   }
