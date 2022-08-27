@@ -262,11 +262,6 @@
         </g-link>
       </div>
 
-      <!-- Add to calendar links -->
-      <div v-if="event.ics && !isPastEvent" class="ics">
-        <a :href="'/ics/' + event.ics">Add to calendar</a>
-      </div>
-
       <!-- volunteer button -->
       <button-volunteer
         v-if="!isWeeklyRecurring && !isPastEvent"
@@ -753,9 +748,6 @@ h4 {
 }
 .event_cat-dance {
   .gradient-jewel-4();
-}
-.ics {
-  margin-top: 2em;
 }
 @media all and (max-width: 650px) {
   .event {
