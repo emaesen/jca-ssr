@@ -20,7 +20,7 @@
     <div
       v-if="showFeaturedEvent"
     >
-      <g-link to="/auditions/broadway-camp-2022" title="click to view info about our auditions for 2022 Broadway Camp">
+      <g-link to="/events/music/jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022" title="click to view info about the JCA World Music Festival 2022">
         <!--video 
           class="hero-video anima__zoom" 
           autoplay playsinline muted loop 
@@ -29,9 +29,9 @@
           <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
           <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
         </video-->
-        <g-image src="/img/alice-auditions-v2.jpg" alt="2022 Broadway Camp auditions" class="hero-img"/>
+        <g-image src="/img/wmf-2022-poster-w900.jpg" alt="JCA World Music Festival 2022" class="hero-img"/>
         <div class="center">
-        View info about auditions for our 2022 Broadway Camp.
+        View info about the JCA World Music Festival 2022.
         </div>
       </g-link>
     </div>
@@ -143,7 +143,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2022-05-25T23:00");
+      const eventDate = new Date("2022-10-21T23:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
