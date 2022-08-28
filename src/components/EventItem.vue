@@ -143,6 +143,18 @@
             <span v-html="description"/>
           </div>
 
+          <!-- all-access-pass button -->
+          <div v-if="showAllAccessPassLink" class="event_all_access_pass">
+            <g-link :to="event.all_access_pass.link">
+              <button class="button_all_access_pass action">
+                {{ event.all_access_pass.text }}
+                <div class="event_note event_all_access_pass_note">
+                  {{ event.all_access_pass.note }}
+                </div>
+              </button>
+            </g-link>
+          </div>
+
           <!-- atPageLevel sponsor info -->
           <div 
             v-if="atPageLevel && event.sponsor_text"
@@ -350,6 +362,9 @@ export default {
     },
     containerClasses() {
       return this.showSummary ? "" : (this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category);
+    },
+    showAllAccessPassLink() {
+      return this.event.reference_slug && this.event.all_access_pass && this.event.all_access_pass.link && !this.isPastDate(this.event.all_access_pass.expires)
     },
     isPastEvent() {
       return this.isPastDate(this.event.date.end);
@@ -606,6 +621,13 @@ h4 {
 }
 .event_note {
   opacity: 0.9;
+}
+.event_all_access_pass {
+  margin: 1em 0;
+}
+.event_all_access_pass_note {
+  opacity: 1;
+  font-weight: normal;
 }
 .event_series,
 .event_type_cat_pagelevel {

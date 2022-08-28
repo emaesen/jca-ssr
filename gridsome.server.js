@@ -84,6 +84,13 @@ module.exports = function (api) {
             stamp_summary
             sponsor_text
             sponsor_image
+            reference_slug
+            all_access_pass {
+              link
+              expires
+              text
+              note
+            }
           }
         }
       }

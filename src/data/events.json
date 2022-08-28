@@ -41,29 +41,34 @@
     "sponsor_text": "",
     "sponsor_image": "",
     "reference_slug": "",
-    "all_access_slug": ""
+    "all_access_pass": {
+      "link": "",
+      "expires": "",
+      "text": "",
+      "note": ""
+    }
   },
   "events":[
     {
       "category": "music",
-      "type": "performance",
+      "type": "passport",
       "slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022",
       "title": "JCA World Music Festival (WMF) - ALL ACCESS PASS",
       "performer": "",
-      "description": "ALL ACCESS PASS to all 5 events of the JCA World Music Festival",
-      "details": "JCA WORLD MUSIC FESTIVAL ALL ACCESS PASSPORT\n\nAVAILABLE UNTIL SEPT 24TH\n\nPassport - $100\nIndividual Concerts/Events $25\nThat’s five events for the price of four!\n\nYOUR TICKET=YOUR DONATION TO THE JCA.\n\n☛ [CHICO LATINO ORQUESTRA SEPT 24TH 8PM](~/events/music/chico-latin-orquestra--jca-wmf--sep-24-2022)\n\n☛ [OKTOBERFEST! OCT 1ST 12-6PM](~/events/music/mt-shasta-oktoberfest-oct-01-2022)\n\n☛ [GOH KUROSAWA & SHASTA TAIKO OCT 8TH 7PM](~/events/music/goh-kurosawa-and-shasta%20taiko--jca-wmf--oct-08-2022)\n\n☛ [QUANQWA OCT 16TH 7PM](~/events/music/qwanqwa-from-ethiopia--jca-wmf--oct-16-2022)\n\n☛ [ARJUN VERMA-SITAR & WILLIAM ROSSEL-TABLA OCT 21ST 8PM](~/events/music/arjun-verma-w-william-rossel--jca-wmf--oct-21-2022)\n\n\nJefferson Center for the Arts is a CA 501(c)(3) non-profit organization.\n\n\nBIG THANKS TO OUR SPONSORS!!\n[LOGE CAMPS MT SHASTA](https://www.logecamps.com/mtshasta-ca)\nand\n[PIPELINE CRAFT BEER AND FOOD](https://www.facebook.com/pages/category/Restaurant/Pipeline-Craft-Taps-and-Kitchen-385482385506720/)",
+      "description": "This is the ALL ACCESS PASS to all 5 events of the JCA World Music Festival. Get 5 events for only $100 & receive a commemorative T-shirt - a savings of $50 from the door price: Individual event tickets are $25 online and $30 at the door.",
+      "details": " ![World Music Festival lineup](wmf-2022.jpg) JCA World Music Festival ALL ACCESS PASSPORT\n\nAVAILABLE UNTIL SEPT 24TH\n\nPassport - $100\nIndividual Concerts/Events $25 online ($30 at the venue)\nThat’s five events for the price of four!\nOr a savings of $50 from the door price!\n\nYOUR TICKET = YOUR DONATION TO THE JCA.\n\n\n**Included events:**\n\n1 ☛ [Chico Latin Orquesta, Sep 24, 8PM](~/events/music/chico-latin-orquesta--jca-wmf--sep-24-2022)\n\n2 ☛ [Mount Shasta Oktoberfest, Oct 1, 12-6PM](~/events/music/mt-shasta-oktoberfest-oct-01-2022)\n\n3 ☛ [Goh Kurosawa & Shasta Taiko OCT 8TH 7PM](~/events/music/goh-kurosawa-and-shasta%20taiko--jca-wmf--oct-08-2022)\n\n4 ☛ [QUANQWA from Ethiopia, Oct 16, 7PM](~/events/music/qwanqwa-from-ethiopia--jca-wmf--oct-16-2022)\n\n5 ☛ [Arjun Verma - sitar & William Rossel - tabla, Oct 21, 8PM](~/events/music/arjun-verma-w-william-rossel--jca-wmf--oct-21-2022)\n\n\nJefferson Center for the Arts is a CA 501(c)(3) non-profit organization.\n\n\nBIG THANKS TO OUR SPONSORS!!\n[LOGE CAMPS MT SHASTA](https://www.logecamps.com/mtshasta-ca)\nand\n[PIPELINE CRAFT BEER AND FOOD](https://www.facebook.com/pages/category/Restaurant/Pipeline-Craft-Taps-and-Kitchen-385482385506720/)",
       "note": "",
       "series": "JCA World Music Festival",
       "price": "$100 adv online →\nKids 10 and under FREE →",
-      "price_note": "5 events for only $100 & receive a commemorative T-shirt. (Individual event tickets are $25)",
-      "ticket": "",
+      "price_note": "The All Access Pass is available for purchase until September 24. Individual event tickets go on sale September 1.",
+      "ticket": "408263135027",
       "time":{
         "start": "",
         "end": ""
       },
       "date":{
         "start": "2022-09-24",
-        "end": "2022-10-21"
+        "end": "2022-09-24"
       },
       "location": "",
       "image": "wmf-2022-passport.jpg",
@@ -85,20 +90,25 @@
       "sponsor_text": "",
       "sponsor_image": "",
       "reference_slug": "",
-      "all_access_slug": ""
+      "all_access_pass": {
+        "link": "/events/music/jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022",
+        "expires": "2022-09-24",
+        "text": "View All-Access-Pass",
+        "note": "Valid for all 5 events of the World Music Festival."
+      }
     },
     {
       "category": "music",
       "type": "performance",
-      "slug": "chico-latin-orquestra--jca-wmf--sep-24-2022",
-      "title": "Chico Latin Orquestra - JCA WMF",
-      "performer": "Chico Latin Orquestra",
-      "description": "The JCA World Music Festival presents Chico Latin Orquestra - Northern California's Premier Salsa and Cumbia Band",
-      "details": "[Chico Latin Orquestra](https://chicolatinorquesta.com/)\n\nNorthern California's Premier Latin Orchestra!\n\nFounded in Chico, California in 2019, we are passionate about bringing the Afro Caribbean rhythms of Salsa, Cumbia, Merengue and Bachata to the North State.\n\nAs individuals we are multi-instrumentalists, dancers and artists who cross many genres of music. Chico Latin Orquesta is where we come together with our different backgrounds and talents as musicians to express our own version of latin music. !Sabroso!\n\nPersonnel\n\nJoel Avalos - Lead vocals\n\nShigemi Minetaka - piano\n\nAron Linker - Bass\n\nChris Ivey aka Dr. Ivey - Trombone, vocals\n\nAlexis Barragan - Trombone, vocals\n\nEvan Goodson - Trumpet, French Horn, Guitar, Saxophone, vocals\n\nKatarra Shaw - Band Leader, Saxophone, Flute, Vocals\n\nJaik Hakkarinen - Percussion\n\nJillian Olivar - Percussion\n\nJonah Dvorin - Percussion",
+      "slug": "chico-latin-orquesta--jca-wmf--sep-24-2022",
+      "title": "Chico Latin Orquesta - JCA WMF",
+      "performer": "Chico Latin Orquesta",
+      "description": "The JCA World Music Festival presents Chico Latin Orquesta - Northern California's Premier Salsa and Cumbia Band",
+      "details": "[Chico Latin Orquesta](https://chicolatinorquesta.com/)\n\nNorthern California's Premier Latin Orchestra!\n\nFounded in Chico, California in 2019, we are passionate about bringing the Afro Caribbean rhythms of Salsa, Cumbia, Merengue and Bachata to the North State.\n\nAs individuals we are multi-instrumentalists, dancers and artists who cross many genres of music. Chico Latin Orquesta is where we come together with our different backgrounds and talents as musicians to express our own version of latin music. !Sabroso!\n\nPersonnel\n\nJoel Avalos - Lead vocals\n\nShigemi Minetaka - piano\n\nAron Linker - Bass\n\nChris Ivey aka Dr. Ivey - Trombone, vocals\n\nAlexis Barragan - Trombone, vocals\n\nEvan Goodson - Trumpet, French Horn, Guitar, Saxophone, vocals\n\nKatarra Shaw - Band Leader, Saxophone, Flute, Vocals\n\nJaik Hakkarinen - Percussion\n\nJillian Olivar - Percussion\n\nJonah Dvorin - Percussion",
       "note": "",
       "series": "JCA World Music Festival",
-      "price": "$25 adv online →\nKids 10 and under FREE →",
-      "price_note": "",
+      "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
+      "price_note": "--- Online ticket sale starts Sep 1 ---",
       "ticket": "",
       "time":{
         "start": "20:00",
@@ -127,8 +137,7 @@
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
-      "reference_slug": "",
-      "all_access_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
+      "reference_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
     },
     {
       "category": "music",
@@ -136,11 +145,11 @@
       "slug": "mt-shasta-oktoberfest-oct-01-2022",
       "title": "Mount Shasta Oktoberfest - JCA WMF",
       "performer": "",
-      "description": "Save the date! More info comming soon.",
+      "description": "The JCA World Music Festival presents Mount Shasta Oktoberfest! More info comming soon.",
       "details": "",
       "note": "",
       "series": "",
-      "price": "$25 adv online →\nKids 10 and under FREE →",
+      "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
       "price_note": "---Online ticket purchase link to be added September 1st---",
       "ticket": "",
       "time":{
@@ -170,7 +179,7 @@
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
-      "reference_slug": ""
+      "reference_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
     },
     {
       "category": "music",
@@ -182,8 +191,8 @@
       "details": "[Goh Kurosawa](http://www.composelife.com/)\n\nResiding in Los Angeles and travelling the world from Japan, Kurosawa is a musician armed with Honey Beast (his guitar), Lucky8 (his amp), fresh original songs, electrifying soundscapes, and stunning arrangements of familiar global melodies.\n\n”This year once again, please take me for who I am.” =「 今年も、よろしくお願いします。」\n\nReferred to by many as the Bicultural Music Samurai, all throughout his life, Goh has been working to share honest stories and life connections though music, and his current tour is called Lovetap Tour (previously known as Broken Tour). \n\n“It’s easy… it’s not hard… it’s fun!!!”\n\nHaving performed in a wide range of settings and festivals (for music, art, movement, schools, community centers, and public libraries), Goh has completed more than 20 tours in Japan since 2006, and has been conducting music workshops/seminars at universities, music schools, and other educational institutions. While at home in Los Angeles, in addition to the daily music activities, Goh works at a local food bank in Pasadena California by serving fresh food and everyday necessities to the community; while on tour, he frequents the Pacific Northwest (Seattle and Portland areas) and the Route 66 for seasonal performances. In addition, during the 2020 pandemic, he launched an online event with music and conversations (English & Japanese) called Across Waters. He has been actively touring locally and internationally since 2005, and recently completed two performances in Cuba at the historical Teatro Martí as well as the new and modern Fabrica de Arte Cubano. Both events were promoted by the Japanese Embassy in Cuba as a part of the 120th year anniversary celebration, commemorating the first Japanese immigration on September 9th, 1898. To keep reaching wider and farther, Goh is continuing to make effort to recognize all environments in which music could shine.\n\n“Two important things as an artist... doing good art & building relationships.”\n--Pete Morris (Metro DaVinci Watercolors)\n\nGoh’s audience recognizes various expressive emotions while listening to his recordings and especially by experiencing him live. People have identified his music with concepts such as acoustic, rock, jazz, dance music, sit-down music, tap-slap, Brazilian bossa nova, Spanish flamenco, hip-hop beats, Latin grooves, Balkan rhythms, Electronica-sound-effects, prog-rock, metal, experimental, classical, and the “Yamato Soul (大和魂)” of Japan. To simplify, call it acoustic rock jazz. Goh continues his journey towards his own heart, sound, and soul.  \n\n“Stay true to yourself.”\n\n--Clare Graham (Artist/Collector/Shaman)\n\nUnplugged, Goh embraces a single guitar to create an orchestra with drum beats, percussive grooves, bass lines, and memorable melodies. As an electric pedalist he tweaks, bends, and twists soundscapes. He puts on high energy performances along with elegantly powerful acoustic sounds and traditional classical chamber gestures; he is quiet, and he is loud. Life experiences and vivid awakenings are the primary sources of Goh’s songs; musical and technical influences would include everything and everyone from Paco de Lucia (flamenco) to creative jazz to high-gained biting electric guitar distortions to world percussionists and rock drummers.\n\n“Don't hold back.”\n\n--Adam Levy (of Norah Jones’ Handsome Band)\n\nScott Yanow (journalist for AllMusic & LA Jazz Scene) expresses: “Goh Kurosawa's music is beyond any simple classification. The guitarist improvises melodically, is open to the influences of pop, rock, flamenco, classical, Latin and Japanese music, and has his own musical identity. Equally skilled on electric and acoustic guitars, he has mastered tapping and sometimes uses electrical devices to create a wide range of sounds yet is not shy to embrace a pretty melody; personable and eager to talk about his music and guitar tunings between songs, Goh put on a warm and entertaining show. His set included Bob Marley's No Women No Cry, My Family My Friends (original), a Japanese folk song, Leonard Cohen's Hallelujah (which he sang) and parts of a suite he recently composed.”\n\n“Sharpness is kindness, kindness is sharpness.”\n\nKurosawa is often referred to as the “Musical Wakonyosai (音の和魂洋才)” or the Bicultural Music Samurai. Wakonyosai (和魂洋才) is an approach to the Western knowledge with the Japanese spirit. Overall, he views himself as a world citizen, and lives in a countryside in the city of angels with Nyan Nyan, his blue eyed white tiger cat… send a note just to say hi, or send an offer for bookings (contact info at the bottom of this page). \n\n“Keep it simple, believe, and live every day.”\n\nGoh continues to be on the lookout to compose life.\n\n\n[Shasta Taiko](https://www.facebook.com/ShastaTaiko/)\n\nShasta Taiko is a nonprofit public benefit corporation organized under the Nonprofit Public Benefit Corporation Law for charitable purposes. Shasta Taiko goal is to teach, promote and present the art of Japanese drumming, the art of Taiko.",
       "note": "",
       "series": "JCA World Music Festival",
-      "price": "$25 adv online →\nKids 10 and under FREE →",
-      "price_note": "",
+      "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
+      "price_note": "--- Online ticket sale starts Sep 1 ---",
       "ticket": "",
       "time":{
         "start": "19:00",
@@ -212,8 +221,7 @@
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
-      "reference_slug": "",
-      "all_access_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
+      "reference_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
     },
     {
       "category": "music",
@@ -225,8 +233,8 @@
       "details": "[QWANQWA](https://www.qwanqwa.net/) IS A SUPERGROUP OF MUSICIANS FROM THE BADDEST ENSEMBLES OF ADDIS ABABA.\n\nBrought together by a shared passion for the power of Ethiopian music, this group shines an experimentalism based in the virtuosity of rooted traditions. With swirling masinko (one-stringed fiddle), wah-wah-violin, bass krar boom, and the unstoppable rhythm of heavy kebero (goat-skin drum) beats, powerful traditional lead African diva vocals, QWANQWA keeps the people wrapped in celebratory attention. After making a splash at world renowned festivals Roskilde and WOMEX, and after 3 European tours under their belt,  this world traveling ensemble is hitting the road for a MacArthur Foundation backed Debut US tour in 2022\n\nQWANQWA draws inspiration from East Africa regions of Ethiopia and beyond. Delving deep into regional beats and moods, the repertoire ranges from a trance-like song of the Eritrean tribe of Blen to a Somalian rock number to Mahmoud Ahmed sing-a-longs. The music is characterized by tight arrangements and extended experimental moments. The live show ranges from intimate to wild, from whispery conversations to full blown rock show, and it is hard to believe these psychedelic sounds are coming from traditional harp and violin. It is driving, powerful, and different than anything else coming out of Ethiopia at this current Golden Age of Ethiopian music.\n\nThe ensemble was founded in 2012 by American violinist Kaethe Hostetter, who first worked in Ethiopian music as a founding member of critically acclaimed Debo Band. Since relocating to Addis in 2009, she has participated in numerous exploratory and professional projects, as she honed her sound and immersed herself further into the culture of her surroundings. In this sense, QWANQWA, the Amharic word for “language,” is a project creating dialogues between cultures.\n\nCurrent members of QWANQWA are Endris Hassen (masinko), Kaethe Hostetter (violin), Bubu Teklemariam (bass krar), Selamnesh Zemene (vocalist), and Misale Legesse (kebero). They have appeared internationally with Getachew Mekuria, The EX, Thurston Moore, Fred Frith, Butch Morris, Debo Band, Nile Project, Fendika, Mahmoud Ahmed, Mulatu Astatke, Addis Acoustic, Ethiocolor, Atse Teodros, Mohammed “Jimmy” Mohammed, and Imperial Tiger Orchestra, and have played stages from Lincoln Center to Bonnaroo, Jazzfest (New Orleans), Moers Festival, Roskilde, WOMEX, WOMAD and more.\n\nAn integral and constant presence in Addis Ababa nightlife scene, QWANQWA has been featured performance at Roskilde 2016 (Northern Europe’s biggest music festival).\n\nTheir 2022 tour of US, a 48 date US tour backed by the MacArthur Foundation\n\nSince their founding in 2012, QWANQWA have released three albums: Volume One (2014) and Volume Two (2015), and Volume Three (2020).",
       "note": "",
       "series": "JCA World Music Festival",
-      "price": "$25 adv online →\nKids 10 and under FREE →",
-      "price_note": "",
+      "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
+      "price_note": "--- Online ticket sale starts Sep 1 ---",
       "ticket": "",
       "time":{
         "start": "19:00",
@@ -255,8 +263,7 @@
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
-      "reference_slug": "",
-      "all_access_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
+      "reference_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
     },
     {
       "category": "music",
@@ -268,8 +275,8 @@
       "details": "[Arjun Verma](https://www.arjun-verma.com/), sitarist, was trained by the legendary Maestro Ali Akbar Khan\n\nWith over three decades of performance experience, at venues including the United Nations (Geneva), the Fillmore (San Francisco), Fox Theater (Oakland), Pattee Arena (Monterey), the New School (New York), Birmingham Museum of Art (Birmingham), Prague Castle (Prague), and NBC Bay Area television (San Jose), Arjun has emerged with a unique voice on the sitar—both within the tradition of North Indian Classical Music, and through his innovative cross-genre collaborations.\n\nArjun has spent his entire life steeped in the tradition of North Indian Classical Music.  The son of internationally performing sitarist Roop Verma, who was a disciple of Ali Akbar Khan and Ravi Shankar, Arjun began learning sitar from his father at age five.\n\nAs a teenager, Arjun was deeply inspired by the preeminent sarode maestro, Ali Akbar Khan, and he ultimately moved to the San Francisco Bay Area to study directly with Ali Akbar Khan for eight years.  Since the Maestro’s passing in 2009, Arjun has continued his training under the able guidance of Ali Akbar Khan’s son, Alam Khan.  Arjun has also received guidance from Smt. Annapurna Devi.\n\nAs a musician of the Maihar Gharana (style) of Hindustani classical music, Arjun’s playing is based on the music of Maestro Ali Akbar Khan.  He has developed innovative sitar techniques inspired by the Maestro’s style, and is also influenced by sitarist Nikhil Banerjee.  Arjun’s playing also incorporates musical elements drawn from his long apprenticeship with his father, Roop Verma.  The combination of these influences results in a style encompassing the deeply contemplative as well as the exhilarating elements of Indian Music.\n\nArjun began performing at the age of seven, and has played concerts in the United States, Europe, and India, including performances with Pandit Swapan Chaudhuri, Sri Alam Khan, Pandit Sharda Sahai, Ustad Shabbir Nisar, Bob Weir, Salar Nader, George Brooks, Nilan Chaudhuri, Indranil Mallick, Anirban Roy Chowdhury, and members of the Houston and St. Louis Symphonies.\n\nArjun has performed in front of dignitaries including former United Nations Secretary-General Boutros Boutros-Ghali and spiritual leader Morari Bapu, and has been awarded a Mosaic Silicon Valley commissioning grant to compose for Philharmonia Baroque (2020—Sangam Arts), a Creative Work Fund grant (2018—Haas Foundation), and a Shenson Fellowship (2007—San Francisco Foundation) to support his work.\n\nCombining western classical music with Indian classical music, Arjun was the featured sitar soloist for the world premieres of Jack Perla’s River of Light (2014—Houston Grand Opera), Shalimar the Clown (2016—Opera Theatre St. Louis), and Arjun’s own Bach in Bengal (2022—Philharmonia Baroque Orchestra).\n\nAs a composer, Arjun has written commissioned works for documentary film, opera, and live performing arts, and has arranged numerous works of Indian classical music for ensembles of both Indian and non-Indian instrumentation. \n\nIn 2021, Arjun released a solo album, EPIPHANIES, exploring his very personal relationship with the sitar and Indian classical music. Recorded with cutting-edge studio technology, this album was released in HD and Ambisonic (surround) formats, raising the bar for the sound of the sitar.\n\nArjun has also recorded with GRAMMY-winning jazz arranger & pianist John Beasley, in addition to numerous recordings for Disney television.\n\nArjun’s music has received critical acclaim from leading publications, including the New York Times, Times of India, Sruti Magazine, the St. Louis Post-Dispatch, and the San Francisco Chronicle.\n\nIn addition to performing, Arjun teaches sitar and North Indian Classical Music at the Ali Akbar College of Music and the East-West School of Music.\n\n\n\n[William Rossel](http://williamrossel.com/), disciple of legendary tabla maestro Pandit Swapan Chaudhuri, is a talented tabla player, educator, composer, and inventor in the field of world music. Originally a student of Western classical vocal music, he began training in Hindustani music nearly two decades ago under sitarist Nalini Vinayak. Since 2006, he has been training under tabla maestro Pt. Swapan Chaudhuri at both the Ali Akbar College of Music and at the California Institute of the Arts where he earned a Master of Fine Arts in North Indian Classical Music, also studying Indian music theory from sarode master Ustad Aashish Khan.\n\nEqually strong on tabla as a soloist and accompanist, William has accompanied such prominent artists as Alam Khan, Arjun Verma, Suman Laha, Manik Khan, Bruce Hamm, Steve Oda, Rita Sahai, and many others. He has given numerous solo recitals and lecture demonstrations at the Ali Akbar College of Music, the Aashish Khan School of World Music, Fort Mason Center of Arts and Culture, the San Francisco Asian Art Museum, the Sangati Center, UC Berkeley, California Institute of the Arts, California College of the Arts, California Jazz Conservatory, California Polytechnic State University, Sonoma State University, Florida State University, Yuba College, Pasadena City College, and at private venues across the country.\n\nA professor of music at Yuba College, William is the director of the Yuba College North Indian Music Ensemble, which he created in 2016, and he teaches a wide range of classes, including Intro to World Music, Music as Culture, Western Music Appreciation, Popular Music of the U.S. and Applied Lessons in Percussion. William, is also a tabla instructor at the Ali Akbar College of Music and teaches rhythm theory (taal). He is also a Senior Lecturer at the California College of the Arts, in Oakland, and has directed North Indian music ensembles at the California Institute of the Arts’ Community Arts Partnership.\n\nWilliam's interests in world music have led him to study the music of Indonesia, Uganda, Tanzania, Ghana, and many others. He spent half a year in a remote village in northern Bali, conducting field research and training under master musicians I Made Terip and I Putu Putrawan and was a member of Sekar Jaya, a world-renowned Gamelan ensemble, playing in their Gong Kebyar, Anklung, Joged and Jegog ensembles. Other musicians William has studied under include Randy Gloss, I Nyoman Wenten, Andrew Grueschow, Houman Pourmehdi, Alfred Ladzekpo, Damascus Kafumbe, Dr. Michael Bakan and Dr. Frank Gunderson.\n\nAdditionally, William directs music workshops for students with autism and other developmental differences through Youth In Arts, a leading arts education non-profit organization.\n\nWilliam is the inventor of the Tihai Clock, a mechanical means of completely representing the many rhythmic cadences of Hindustani music, known as tihai. He lives in San Anselmo, California where he teaches Tabla privately.",
       "note": "",
       "series": "JCA World Music Festival",
-      "price": "$25 adv online →\nKids 10 and under FREE →",
-      "price_note": "",
+      "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
+      "price_note": "--- Online ticket sale starts Sep 1 ---",
       "ticket": "",
       "time":{
         "start": "20:00",
@@ -298,8 +305,7 @@
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
-      "reference_slug": "",
-      "all_access_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
+      "reference_slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022"
     },
     {
       "category": "music",
@@ -312,7 +318,7 @@
       "note": "",
       "series": "",
       "price": "General Admission $30 at venue, $25 adv online →\nStudents/Seniors $25 at venue, $20 adv online →\nKids 12 and under FREE →",
-      "price_note": "",
+      "price_note": "--- Online ticket sale starts Sep 1 ---",
       "ticket": "408257859247",
       "time":{
         "start": "20:00",
