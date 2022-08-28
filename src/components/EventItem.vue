@@ -1,10 +1,10 @@
 <template>
   <div :class="containerClasses">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
-      <div v-if="event.flag.is_canceled && !event.stamp" class="canceled_stamp mini_stamp anima__zoom">
+      <div v-if="event.flag && event.flag.is_canceled && !event.stamp" class="canceled_stamp mini_stamp anima__zoom">
         CANCELED
       </div>
-      <div v-if="event.flag.is_postponed && !event.flag.is_canceled && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
+      <div v-if="event.flag && event.flag.is_postponed && !(event.flag.is_canceled) && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
       </div>
       <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
@@ -17,7 +17,7 @@
           <span class="summary-column summary_time">{{ time }}</span>
           <span class="summary-column summary_title">{{ event.title }}</span>
         </div>
-        <div v-if="event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="summary-subcontainer">
+        <div v-if="event.flag && event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="summary-subcontainer">
           <span class="outdoors_stamp mini_stamp">
             OUTDOORS
           </span>
@@ -67,7 +67,7 @@
         <category-icon :category="event.category"/> {{ event.category }}  {{ event.type || type }}
         <span v-if="isPastEvent"> ~ PAST EVENT</span>
       </div>
-      <div v-if="event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="outdoors_stamp event_outdoors">
+      <div v-if="event.flag && event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="outdoors_stamp event_outdoors">
         OUTDOORS
       </div>
 
@@ -91,10 +91,10 @@
         <!-- event details -->
         <div :class="['details_column', {'details_column2':!!event.image}]">
           <div class="stamp_container">
-            <div v-if="event.flag.is_canceled && !event.stamp" class="canceled_stamp anima__zoom">
+            <div v-if="event.flag && event.flag.is_canceled && !event.stamp" class="canceled_stamp anima__zoom">
               CANCELED
             </div>
-            <div v-if="event.flag.is_postponed &&!event.flag.is_canceled && !event.stamp" class="postponed_stamp anima__zoom">
+            <div v-if="event.flag && event.flag.is_postponed &&!event.flag.is_canceled && !event.stamp" class="postponed_stamp anima__zoom">
               POSTPONED
             </div>
             <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
@@ -117,7 +117,7 @@
           </div>
 
           <div 
-            v-if="!isPastEvent && !event.flag.is_canceled && !event.flag.is_postponed" class="event_price_wrapper"
+            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed)" class="event_price_wrapper"
           >
             <div class="event_price">
               <span v-html="eventPrice"/>
@@ -134,7 +134,7 @@
 
             <!-- registration button -->
             <button-register
-              v-if="event.flag.show_registration_form"
+              v-if="event.flag && event.flag.show_registration_form"
               :event="event" 
               class="button_register"
             ></button-register>
