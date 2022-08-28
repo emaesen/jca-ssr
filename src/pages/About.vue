@@ -6,6 +6,8 @@
       <h3>Mount Shasta's Premier Educational Center for Music and the Performing Arts!</h3>
 
       <p>
+        <span class="donate-button"><button-donate/></span>
+
         Jefferson Center for the Arts (JCA) is Mount Shasta’s premier arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets. The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike. The JCA is a 501(c)(3) nonprofit organization.
       </p>
     </section>
@@ -48,6 +50,7 @@
 <script>
 //import PrivacyStatement from "@/components/PrivacyStatement.vue";
 import LinkOutbound from '@/components/LinkOutbound.vue';
+import ButtonDonate from '@/components/ButtonDonate';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
@@ -57,6 +60,7 @@ export default {
   components: {
 //    PrivacyStatement,
     LinkOutbound,
+    ButtonDonate,
   },
   data() {
     return {
@@ -109,5 +113,8 @@ export default {
   border-radius: 5px;
   width: 100%;
   max-width: 640px;
+}
+.donate-button {
+  float: right;
 }
 </style>
