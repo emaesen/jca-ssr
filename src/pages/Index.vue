@@ -29,7 +29,7 @@
           <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
           <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
         </video-->
-        <g-image src="/img/wmf-2022-poster-w900.jpg" alt="JCA World Music Festival 2022" class="hero-img"/>
+        <g-image src="/img/jca-wmf-2022.jpg" alt="JCA World Music Festival 2022" class="hero-img"/>
         <div class="center">
         View info about the JCA World Music Festival 2022.
         </div>
