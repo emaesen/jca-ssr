@@ -51,6 +51,54 @@
   "events":[
     {
       "category": "music",
+      "type": "performance",
+      "slug": "test--mmm-dd-2022",
+      "title": "TEST",
+      "performer": "",
+      "description": "TEST",
+      "details": "TEST",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "---Online ticket purchase link to be added soon---",
+      "ticket": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-09-15",
+        "end": "2022-09-15"
+      },
+      "location": "",
+      "image": "",
+      "image_width": "",
+      "image_height": "",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": true,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": true
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "passport",
       "slug": "jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022",
       "title": "JCA World Music Festival (WMF) - ALL ACCESS PASS",
@@ -103,7 +151,7 @@
       "slug": "chico-latin-orquesta--jca-wmf--sep-24-2022",
       "title": "Chico Latin Orquesta - JCA WMF",
       "performer": "Chico Latin Orquesta",
-      "description": "The JCA World Music Festival presents Chico Latin Orquesta - Northern California's Premier Salsa and Cumbia Band",
+      "description": "The JCA World Music Festival presents Chico Latin Orquesta - Northern California's Premier Salsa and Cumbia Band.",
       "details": "[Chico Latin Orquesta](https://chicolatinorquesta.com/)\n\nNorthern California's Premier Latin Orchestra!\n\nFounded in Chico, California in 2019, we are passionate about bringing the Afro Caribbean rhythms of Salsa, Cumbia, Merengue and Bachata to the North State.\n\nAs individuals we are multi-instrumentalists, dancers and artists who cross many genres of music. Chico Latin Orquesta is where we come together with our different backgrounds and talents as musicians to express our own version of latin music. !Sabroso!\n\nPersonnel\n\nJoel Avalos - Lead vocals\n\nShigemi Minetaka - piano\n\nAron Linker - Bass\n\nChris Ivey aka Dr. Ivey - Trombone, vocals\n\nAlexis Barragan - Trombone, vocals\n\nEvan Goodson - Trumpet, French Horn, Guitar, Saxophone, vocals\n\nKatarra Shaw - Band Leader, Saxophone, Flute, Vocals\n\nJaik Hakkarinen - Percussion\n\nJillian Olivar - Percussion\n\nJonah Dvorin - Percussion",
       "note": "",
       "series": "JCA World Music Festival",
@@ -149,9 +197,9 @@
       "details": "Artisans - Entertainment - Steinholding Competition - Dance Lessons - Kids Area - Raffle",
       "note": "",
       "series": "",
-      "price": "$25 at venue\nKids 10 and under FREE",
-      "price_note": "Oktoberfest Tix are only available at the Gate. Admission gets you a commemorative Oktoberfest beer stein and a ticket for your first beer! $15 tix w/out mug and beer ticket.",
-      "ticket": "",
+      "price": "General Admission $25 →\nGeneral Admission w/out beer $15 →\nKids 10 and under FREE",
+      "price_note": "Admission gets you a commemorative Oktoberfest beer stein and a ticket for your first beer! $15 tix w/out mug and beer ticket.",
+      "ticket": "421612242567",
       "time":{
         "start": "12:00",
         "end": "18:00"
@@ -229,13 +277,13 @@
       "slug": "qwanqwa-from-ethiopia--jca-wmf--oct-16-2022",
       "title": "QWANQWA from Ethiopia - JCA WMF",
       "performer": "QWANQWA",
-      "description": "The JCA World Music Festival presents QWANQWA from Ethiopia",
+      "description": "The JCA World Music Festival presents QWANQWA from Ethiopia, on their debut US tour.",
       "details": " ![QWANQWA poster](qwanqwa-poster.jpg) [QWANQWA](https://www.qwanqwa.net/) IS A SUPERGROUP OF MUSICIANS FROM THE BADDEST ENSEMBLES OF ADDIS ABABA.\n\nBrought together by a shared passion for the power of Ethiopian music, this group shines an experimentalism based in the virtuosity of rooted traditions. With swirling masinko (one-stringed fiddle), wah-wah-violin, bass krar boom, and the unstoppable rhythm of heavy kebero (goat-skin drum) beats, powerful traditional lead African diva vocals, QWANQWA keeps the people wrapped in celebratory attention. After making a splash at world renowned festivals Roskilde and WOMEX, and after 3 European tours under their belt,  this world traveling ensemble is hitting the road for a MacArthur Foundation backed Debut US tour in 2022\n\nQWANQWA draws inspiration from East Africa regions of Ethiopia and beyond. Delving deep into regional beats and moods, the repertoire ranges from a trance-like song of the Eritrean tribe of Blen to a Somalian rock number to Mahmoud Ahmed sing-a-longs. The music is characterized by tight arrangements and extended experimental moments. The live show ranges from intimate to wild, from whispery conversations to full blown rock show, and it is hard to believe these psychedelic sounds are coming from traditional harp and violin. It is driving, powerful, and different than anything else coming out of Ethiopia at this current Golden Age of Ethiopian music.\n\nThe ensemble was founded in 2012 by American violinist Kaethe Hostetter, who first worked in Ethiopian music as a founding member of critically acclaimed Debo Band. Since relocating to Addis in 2009, she has participated in numerous exploratory and professional projects, as she honed her sound and immersed herself further into the culture of her surroundings. In this sense, QWANQWA, the Amharic word for “language,” is a project creating dialogues between cultures.\n\nCurrent members of QWANQWA are Endris Hassen (masinko), Kaethe Hostetter (violin), Bubu Teklemariam (bass krar), Selamnesh Zemene (vocalist), and Misale Legesse (kebero). They have appeared internationally with Getachew Mekuria, The EX, Thurston Moore, Fred Frith, Butch Morris, Debo Band, Nile Project, Fendika, Mahmoud Ahmed, Mulatu Astatke, Addis Acoustic, Ethiocolor, Atse Teodros, Mohammed “Jimmy” Mohammed, and Imperial Tiger Orchestra, and have played stages from Lincoln Center to Bonnaroo, Jazzfest (New Orleans), Moers Festival, Roskilde, WOMEX, WOMAD and more.\n\nAn integral and constant presence in Addis Ababa nightlife scene, QWANQWA has been featured performance at Roskilde 2016 (Northern Europe’s biggest music festival).\n\nTheir 2022 tour of US, a 48 date US tour backed by the MacArthur Foundation\n\nSince their founding in 2012, QWANQWA have released three albums: Volume One (2014) and Volume Two (2015), and Volume Three (2020).",
       "note": "",
       "series": "JCA World Music Festival",
       "price": "$30 at venue, $25 adv online →\nKids 12 and under FREE →",
-      "price_note": "--- Online ticket sale starts Sep 1 ---",
-      "ticket": "",
+      "price_note": "",
+      "ticket": "421615612647",
       "time":{
         "start": "19:00",
         "end": ""
@@ -271,13 +319,13 @@
       "slug": "arjun-verma-w-william-rossel--jca-wmf--oct-21-2022",
       "title": "Arjun Verma & William Rossel - JCA WMF",
       "performer": "Arjun Verma & William Rossel",
-      "description": "The JCA World Music Festival presents Arjun Verma on sitar with William Rossel on tabla.",
+      "description": "The JCA World Music Festival presents an evening of Indian music: Arjun Verma on sitar with William Rossel on tabla.",
       "details": " ![event poster](arjun-verma-w-william-rossel-poster.jpg) [Arjun Verma](https://www.arjun-verma.com/), sitarist, was trained by the legendary Maestro Ali Akbar Khan\n\nWith over three decades of performance experience, at venues including the United Nations (Geneva), the Fillmore (San Francisco), Fox Theater (Oakland), Pattee Arena (Monterey), the New School (New York), Birmingham Museum of Art (Birmingham), Prague Castle (Prague), and NBC Bay Area television (San Jose), Arjun has emerged with a unique voice on the sitar—both within the tradition of North Indian Classical Music, and through his innovative cross-genre collaborations.\n\nArjun has spent his entire life steeped in the tradition of North Indian Classical Music.  The son of internationally performing sitarist Roop Verma, who was a disciple of Ali Akbar Khan and Ravi Shankar, Arjun began learning sitar from his father at age five.\n\nAs a teenager, Arjun was deeply inspired by the preeminent sarode maestro, Ali Akbar Khan, and he ultimately moved to the San Francisco Bay Area to study directly with Ali Akbar Khan for eight years.  Since the Maestro’s passing in 2009, Arjun has continued his training under the able guidance of Ali Akbar Khan’s son, Alam Khan.  Arjun has also received guidance from Smt. Annapurna Devi.\n\nAs a musician of the Maihar Gharana (style) of Hindustani classical music, Arjun’s playing is based on the music of Maestro Ali Akbar Khan.  He has developed innovative sitar techniques inspired by the Maestro’s style, and is also influenced by sitarist Nikhil Banerjee.  Arjun’s playing also incorporates musical elements drawn from his long apprenticeship with his father, Roop Verma.  The combination of these influences results in a style encompassing the deeply contemplative as well as the exhilarating elements of Indian Music.\n\nArjun began performing at the age of seven, and has played concerts in the United States, Europe, and India, including performances with Pandit Swapan Chaudhuri, Sri Alam Khan, Pandit Sharda Sahai, Ustad Shabbir Nisar, Bob Weir, Salar Nader, George Brooks, Nilan Chaudhuri, Indranil Mallick, Anirban Roy Chowdhury, and members of the Houston and St. Louis Symphonies.\n\nArjun has performed in front of dignitaries including former United Nations Secretary-General Boutros Boutros-Ghali and spiritual leader Morari Bapu, and has been awarded a Mosaic Silicon Valley commissioning grant to compose for Philharmonia Baroque (2020—Sangam Arts), a Creative Work Fund grant (2018—Haas Foundation), and a Shenson Fellowship (2007—San Francisco Foundation) to support his work.\n\nCombining western classical music with Indian classical music, Arjun was the featured sitar soloist for the world premieres of Jack Perla’s River of Light (2014—Houston Grand Opera), Shalimar the Clown (2016—Opera Theatre St. Louis), and Arjun’s own Bach in Bengal (2022—Philharmonia Baroque Orchestra).\n\nAs a composer, Arjun has written commissioned works for documentary film, opera, and live performing arts, and has arranged numerous works of Indian classical music for ensembles of both Indian and non-Indian instrumentation. \n\nIn 2021, Arjun released a solo album, EPIPHANIES, exploring his very personal relationship with the sitar and Indian classical music. Recorded with cutting-edge studio technology, this album was released in HD and Ambisonic (surround) formats, raising the bar for the sound of the sitar.\n\nArjun has also recorded with GRAMMY-winning jazz arranger & pianist John Beasley, in addition to numerous recordings for Disney television.\n\nArjun’s music has received critical acclaim from leading publications, including the New York Times, Times of India, Sruti Magazine, the St. Louis Post-Dispatch, and the San Francisco Chronicle.\n\nIn addition to performing, Arjun teaches sitar and North Indian Classical Music at the Ali Akbar College of Music and the East-West School of Music.\n\n\n\n[William Rossel](http://williamrossel.com/), disciple of legendary tabla maestro Pandit Swapan Chaudhuri, is a talented tabla player, educator, composer, and inventor in the field of world music. Originally a student of Western classical vocal music, he began training in Hindustani music nearly two decades ago under sitarist Nalini Vinayak. Since 2006, he has been training under tabla maestro Pt. Swapan Chaudhuri at both the Ali Akbar College of Music and at the California Institute of the Arts where he earned a Master of Fine Arts in North Indian Classical Music, also studying Indian music theory from sarode master Ustad Aashish Khan.\n\nEqually strong on tabla as a soloist and accompanist, William has accompanied such prominent artists as Alam Khan, Arjun Verma, Suman Laha, Manik Khan, Bruce Hamm, Steve Oda, Rita Sahai, and many others. He has given numerous solo recitals and lecture demonstrations at the Ali Akbar College of Music, the Aashish Khan School of World Music, Fort Mason Center of Arts and Culture, the San Francisco Asian Art Museum, the Sangati Center, UC Berkeley, California Institute of the Arts, California College of the Arts, California Jazz Conservatory, California Polytechnic State University, Sonoma State University, Florida State University, Yuba College, Pasadena City College, and at private venues across the country.\n\nA professor of music at Yuba College, William is the director of the Yuba College North Indian Music Ensemble, which he created in 2016, and he teaches a wide range of classes, including Intro to World Music, Music as Culture, Western Music Appreciation, Popular Music of the U.S. and Applied Lessons in Percussion. William, is also a tabla instructor at the Ali Akbar College of Music and teaches rhythm theory (taal). He is also a Senior Lecturer at the California College of the Arts, in Oakland, and has directed North Indian music ensembles at the California Institute of the Arts’ Community Arts Partnership.\n\nWilliam's interests in world music have led him to study the music of Indonesia, Uganda, Tanzania, Ghana, and many others. He spent half a year in a remote village in northern Bali, conducting field research and training under master musicians I Made Terip and I Putu Putrawan and was a member of Sekar Jaya, a world-renowned Gamelan ensemble, playing in their Gong Kebyar, Anklung, Joged and Jegog ensembles. Other musicians William has studied under include Randy Gloss, I Nyoman Wenten, Andrew Grueschow, Houman Pourmehdi, Alfred Ladzekpo, Damascus Kafumbe, Dr. Michael Bakan and Dr. Frank Gunderson.\n\nAdditionally, William directs music workshops for students with autism and other developmental differences through Youth In Arts, a leading arts education non-profit organization.\n\nWilliam is the inventor of the Tihai Clock, a mechanical means of completely representing the many rhythmic cadences of Hindustani music, known as tihai. He lives in San Anselmo, California where he teaches Tabla privately.",
       "note": "",
       "series": "JCA World Music Festival",
       "price": "$30 at venue, $25 adv online →\nKids 10 and under FREE →",
-      "price_note": "--- Online ticket sale starts Sep 1 ---",
-      "ticket": "",
+      "price_note": "",
+      "ticket": "421621811187",
       "time":{
         "start": "20:00",
         "end": ""
