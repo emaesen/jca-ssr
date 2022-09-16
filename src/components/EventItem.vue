@@ -1,5 +1,5 @@
 <template>
-  <div :class="containerClasses">
+  <div :class="containerClasses" v-show="!event._isPastEvent">
     <g-link v-if="showSummary" :to="eventPageUrl" class="summary-container">
       <div v-if="event.flag && event.flag.is_canceled && !event.stamp" class="canceled_stamp mini_stamp anima__zoom">
         CANCELED

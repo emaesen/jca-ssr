@@ -157,20 +157,22 @@ export default {
          removed from the list, still the original number of 
          event listings is displayed, and some events show 
          the data of other events. 
-         CAUSE: Using .filter() creates a shallow copy
-         which can lead to reference issues.
-         FIX: use .map() to create a NEW array.
-         Alternative idea was to add _index and
-         _isPastEvent properties to read in display logic 
-         while rendering all events, but that does not seem 
-         to be necessary - keeping it for potential future 
-         need. 
+         suspected CAUSE: Using .filter() to remove past 
+         events creates a shallow copy which can lead to 
+         reference issues.
+         1st attempted FIX: use .map() to create a NEW 
+         array. -> fixed data copy issue, but still another
+         runtime error
+         2nd attempted FIX: instead of filtering out past 
+         events from the array, add _isPastEvent property to 
+         read in display logic while rendering all events, 
+         so that the array size remains the same, but past 
+         events are conditionally hidden in the UI.
       */
       const events = this.events.map(e => e)
       let filteredEvents = events
         .map(e => {e._isPastEvent = this.isPastDate(
           e.date && e.date.start ? (e.date.end ? e.date.end : e.date.start) : "2052-01-01"); return e})
-        .filter(e => !e._isPastEvent )
         .filter(e => (this.type && this.type !== "") ? e.type === this.type : true)
         .filter(e => (this.category && this.category !== "") ? e.category === this.category : true)
         .sort((a, b) => this.sortByDate(a, b))
