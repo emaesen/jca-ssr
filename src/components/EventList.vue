@@ -159,10 +159,12 @@ export default {
          the data of other events. 
          suspected CAUSE: Using .filter() to remove past 
          events creates a shallow copy which can lead to 
-         reference issues.
+         reference issues when page pre-generation created
+         a certain number of list items that's larger than
+         the current list due to expired events.
          1st attempted FIX: use .map() to create a NEW 
          array. -> fixed data copy issue, but still another
-         runtime error
+         runtime error.
          2nd attempted FIX: instead of filtering out past 
          events from the array, add _isPastEvent property to 
          read in display logic while rendering all events, 
