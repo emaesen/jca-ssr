@@ -7,15 +7,19 @@ em@kagalakan.com
 
 
 
+Project installation:
+=====================
+(Recommended command window: Git Bash)
+(Need to have node.js installed)
+
+* Go to https://github.com/emaesen/jca-ssr
+* Follow install directions in main README file
+
 
 Workflow to update/add events:
 ==============================
-
 (Recommended editor: Visual Studio Code)
-(Recommended command window: Git Bash)
-(Need to have node.js and npm installed)
 
-* Clone/Copy the repository to your local PC
 * Edit file `/src/data/events.json`
   * copy the schema object at the top of the file and paste it in the events array below. 
     * the schema defines some of the expected formatting and choices for the event properties
