@@ -16,10 +16,21 @@
             :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
           />
         </div>
+        <div 
+          v-if="noEvents" 
+        >
+          <p v-animate-on-intersection class="script spacious center anima__fade-in-bounce">
+            <span class="anima__flicker">At the moment we don't have any {{ category || type }} events planned.</span>
+            <br class="spacer"/>
+            Please check back soon or –better yet– subscribe to our newsletter below!
+          </p>
+        </div>
         <div class="deemph spacious center">
           (View JCA events on <LinkOutbound to="https://www.eventbrite.com/o/jefferson-center-for-the-arts-28035930301">eventbrite</LinkOutbound>)
         </div>
       </div>
+
+
     </template>
     <template v-else>
       <h2 v-if="!noEvents && category">
@@ -171,19 +182,27 @@ export default {
          so that the array size remains the same, but past 
          events are conditionally hidden in the UI.
       */
+      const curType = this.type
+      const curCategory = this.category
       const events = this.events.map(e => e)
+      const isPastDate = this.isPastDate
+      const sortByDate = this.sortByDate
       let filteredEvents = events
-        .map(e => {e._isPastEvent = this.isPastDate(
+        .map(e => {e._isPastEvent = isPastDate(
           e.date && e.date.start ? (e.date.end ? e.date.end : e.date.start) : "2052-01-01"); return e})
-        .filter(e => (this.type && this.type !== "") ? e.type === this.type : true)
-        .filter(e => (this.category && this.category !== "") ? e.category === this.category : true)
-        .sort((a, b) => this.sortByDate(a, b))
+        .filter(e => (curType && curType !== "") ? e.type === curType : true)
+        .filter(e => (curCategory && curCategory !== "") ? e.category === curCategory : true)
+        .sort((a, b) => sortByDate(a, b))
         .map((e,i) => {e._index = i; return e})
       //console.log("with events clone ", {filteredEvents})
       return filteredEvents
     },
     noEvents() {
-      return this.filteredEvents && this.filteredEvents.length === 0;
+      const activeEvents = this.filteredEvents
+        .map(e => e)
+        .filter(e => !e._isPastEvent)
+      console.log({activeEvents})
+      return activeEvents && activeEvents.length === 0;
     }
   },
   methods: {
