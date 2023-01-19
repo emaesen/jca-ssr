@@ -3,14 +3,14 @@
   {
     "category": "music|visual-arts|theater|fest|summit",
     "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
-    "slug": "dashed-title--mmm-dd-2022",
+    "slug": "dashed-title--mmm-dd-2023",
     "title": "",
     "performer": "",
     "description": "",
     "details": "",
     "note": "",
     "series": "",
-    "price": "$20 at venue / $15 adv online →",
+    "price": "$25 at venue / $20 adv online →",
     "price_note": "---Online ticket purchase link to be added soon---",
     "ticket": "",
     "time":{
@@ -18,8 +18,8 @@
       "end": ""
     },
     "date":{
-      "start": "2022-mm-dd",
-      "end": "2022-mm-dd"
+      "start": "2023-mm-dd",
+      "end": "2023-mm-dd"
     },
     "location": "",
     "image": "",
@@ -52,7 +52,7 @@
     {
       "category": "music",
       "type": "performance",
-      "slug": "test--mmm-dd-2022",
+      "slug": "test--mmm-dd-2023",
       "title": "TEST",
       "performer": "",
       "description": "TEST",
@@ -67,8 +67,8 @@
         "end": ""
       },
       "date":{
-        "start": "2022-11-15",
-        "end": "2022-11-15"
+        "start": "2023-01-26",
+        "end": "2023-01-26"
       },
       "location": "",
       "image": "",
@@ -95,6 +95,186 @@
         "expires": "",
         "text": "",
         "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "bart-budwig-the-brothers-reed-w-special-guest-meredith-lane--mar-05-2023",
+      "title": "Bart Budwig & The Brothers Reed w/ special guest Meredith Lane",
+      "performer": "Bart Budwig, The Brothers Reed, Meredith Lane",
+      "description": "Bart Budwig and The Brothers Reed join together for a double bill of Americana with special guest Meredith Lane",
+      "details": "[Bart Budwig](https://www.bartbudwig.com/)\n\n![Bart Budwig](bart-budwig.jpg) “Sometimes when Bart sings, I forget what we’re talking about. I’m sure he knows though. I trust him. He sounds like John Prine, plays like Hoyt Axton, and looks like well… Bart Budwig. He’s a cosmic country lawn gnome. He's a cosmic country lawn anome. He's cherubic, cheer, and an Old soul. Songs spring from the dreams of his noonday naps, and punch the keys of his typewnter above the OK Theater in Enterprise, Oregon. When words won't take, he calls em in with a bugle of his trumpet, or a strum of soothing quitar.”\n~Sean Jewell, American Standard Time\n\n“Bart Budwig is one of the most underrated musicians in Oregon.”\n~ Oregon Pubic Broadcasting\n\n“Cue up Budwig's melancholy brand of folk-rock n' soul, close your eyes and transport yourself to the Urs well-worn dance floor. It's a trip worn taking.”\n~ 1859, Uregons Magazine\n\n\n[The Brothers Reed](https://www.thebrothersreed.com/)\n\n![The Brothers Reed](the-brothers-reed-2.jpg) With their comedic brotherly banter, impeccable harmonic expression, and widely varying influences, a Brothers Reed performance will have you reflecting on lost lives and lovers, laughing hysterically and leaving completely entertained.\n\nThe duo incorporates harmonica, percussion, into their live performances, soothing your soul with songs that are familiar yet original. Whether they are finger picking their way through a lamentable ballad or bringing you around full-speed with a barn-burning bluegrass number, The Brothers Reed are masters of their craft.",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "505494797547",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-03-05",
+        "end": "2023-03-05"
+      },
+      "location": "",
+      "image": "bart-budwig-brothers-reed.jpg",
+      "image_width": "800",
+      "image_height": "470",
+      "stream": "",
+      "youtube": "-oBjGw8nSfY",
+      "youtube2": "Pw7tXt7poag",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "comedy-night-w-robert-omoto--feb-18-2023",
+      "title": "Comedy Night w/ Robert Omoto",
+      "performer": "Robert Omoto",
+      "description": "Robert was named a StandUp NBC semi-finalist, has been seen on America’s Funniest Videos, and on Amazon Prime.",
+      "details": "[Robert “Bobby” Omoto](http://www.robertomoto.com/) has a flair for bringing the seemingly random tangents that make up his inner thought into a well oiled, if not a tad off kilter, comedy machine. His razor sharp wit combined with a ridiculous life journey, meld into a rip roaring, off the cuff entertaining comedy experience.\n\nRobert was named a StandUp NBC semi-finalist, has been seen on America’s Funniest Videos, and on Amazon Prime. He has performed at Sketchfest, the San Luis Obispo Comedy Festival, San Diego Comedy Festival, San Francisco Comedy Competition, for the U.S. Navy, and is the host/producer of the popular podcast “Random Thoughts.”\n\nHe is a regular at comedy clubs across the country and has opened for Pablo Francisco, Bret Ernst, Sarah Tiana, Rex Navarrete, TK Kirkland, Karlous Miller, Joey Medina, and Mike Epps. Robert is a rising comedian out of Sacramento, California not to be missed.",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "505370435577",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-02-18",
+        "end": "2023-02-18"
+      },
+      "location": "",
+      "image": "robert-omoto.jpg",
+      "image_width": "500",
+      "image_height": "625",
+      "stream": "",
+      "youtube": "MY95SGqTqg4",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "elf-jr-the-musical--dec-16-2022",
+      "title": "ELF JR - the Musical",
+      "performer": "Mount Shasta Childrens Theatre",
+      "description": "Based on the beloved holiday film, Mount Shasta Childrens Theatre proudly presents ELF the Musical, a hilarious comedy for the whole family. LOCATION: College of the Siskiyous, Weed.",
+      "details": "Elf the Musical is the hilarious tale of Buddy, a young orphan child who mistakenly crawls into Santa’s bag of gifts and is transported back to the North Pole. Unaware that he is actually human, Buddy’s enormous size and poor toy-making abilities cause him to face the truth. With Santa’s permission, Buddy embarks on a journey to New York City to find his birth father, discover his true identity, and help New York remember the true meaning of Christmas. This modern day Christmas classic is sure to make everyone embrace their inner Elf.\n\nPerformed by 30 of the most talented young actors in the region. ELF will be, yet another, fantastic show presented by Mount Shasta Childrens Theatre. Bring the family! We'll see you there! :)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue, $15 adv online →\nStudents/Seniors $15 at venue, $10 adv online →\nKids 8 and under FREE →",
+      "price_note": "",
+      "ticket": "470699935177",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-12-16",
+        "end": "2022-12-16"
+      },
+      "location": "College of the Siskiyous,\n800 College Avenue,\nWeed, CA 96094",
+      "image": "elf-the-musical.jpg",
+      "image_width": "800",
+      "image_height": "1036",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "elf-jr-the-musical--matinee--dec-17-2022",
+      "reference_slug": "elf-jr-the-musical--dec-16-2022",
+      "time":{
+        "start": "15:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-12-17",
+        "end": "2022-12-17"
+      }
+    },
+    {
+      "slug": "elf-jr-the-musical--dec-17-2022",
+      "reference_slug": "elf-jr-the-musical--dec-16-2022",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-12-17",
+        "end": "2022-12-17"
+      }
+    },
+    {
+      "slug": "elf-jr-the-musical--matinee--dec-18-2022",
+      "reference_slug": "elf-jr-the-musical--dec-16-2022",
+      "time":{
+        "start": "15:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2022-12-18",
+        "end": "2022-12-18"
       }
     },
     {
