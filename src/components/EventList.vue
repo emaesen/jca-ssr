@@ -2,29 +2,34 @@
   <section>
     <template v-if="showSummary">
       <div class="event-summary">
-        <h2 v-if="!noEvents">
+
+        <h2>
           Upcoming events
         </h2>
-        <div
-            v-for="(evt, index) in filteredEvents" 
-            :key="evt.slug">
-          <event-item 
-            :event="evt"
-            :showSummary="true"
-            class="anima__slide-in-from-left event-summary-item"
-            v-animate-on-intersection
-            :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
-          />
+        
+        <div class="__events">
+          <div
+              v-for="(evt, index) in filteredEvents" 
+              :key="evt.slug">
+            <event-item 
+              :event="evt"
+              :showSummary="true"
+              class="anima__slide-in-from-left event-summary-item"
+              v-animate-on-intersection
+              :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
+            />
+          </div>
         </div>
-        <div 
-          v-if="noEvents" 
-        >
-          <p v-animate-on-intersection class="script spacious center anima__fade-in-bounce">
-            <span class="anima__flicker">At the moment we don't have any {{ category || type }} events planned.</span>
+
+        <div class="__no_events">
+          <div v-show="noEvents" 
+              v-animate-on-intersection class="script spacious center anima__fade-in-bounce">
+            <span class="anima__flicker">At the moment we don't have any events planned.</span>
             <br class="spacer"/>
             Please check back soon or –better yet– subscribe to our newsletter below!
-          </p>
+          </div>
         </div>
+
         <div class="deemph spacious center">
           (View JCA events on <LinkOutbound to="https://www.eventbrite.com/o/jefferson-center-for-the-arts-28035930301">eventbrite</LinkOutbound>)
         </div>
