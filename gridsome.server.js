@@ -40,6 +40,17 @@ module.exports = function (api) {
     }
   })
 
+  api.loadSource(async ({ addCollection }) => {
+    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+    const comingsoonCollection = addCollection('ComingSoon');
+    const comingsoonJson = await require('./src/data/comingsoon.json');
+    const today = (new Date()).setHours(0, 0, 0, 0);
+    for(let item of comingsoonJson.events){
+      comingsoonCollection.addNode(item)
+      console.log(">>> coming soon event loaded: " + item.title);
+    }
+  })
+
   api.createPages(async ({ graphql, createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
     const { data } = await graphql(`{

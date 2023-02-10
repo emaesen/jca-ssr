@@ -34,3 +34,5 @@ Workflow to update/add events:
     * this will build a production version of the website, viewable on http://localhost:9002/
 
 * Test the site and when ok, simply ftp the `\dist` folder to the web server.
+
+* Short pre-announcements of upcoming events can be stored in file `/src/data/comingsoon.json`

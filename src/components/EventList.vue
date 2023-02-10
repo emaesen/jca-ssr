@@ -35,6 +35,26 @@
         </div>
       </div>
 
+      <div class="event-summary event-comingsoon"  v-if="showComingSoon">
+        <h2>
+          Pre-announcements
+        </h2>
+        <div class="__comingsoon-events">
+          <div
+              v-for="(evt, index) in filteredComingSoonEvents" 
+              :key="evt.title">
+            <comingsoon-item 
+              :event="evt"
+              class="anima__slide-in-from-left event-summary-item"
+              v-animate-on-intersection
+              :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
+            />
+          </div>
+        </div>
+
+
+      </div>
+
 
     </template>
     <template v-else>
@@ -84,7 +104,7 @@ query {
         performer
         description
         details
-        note
+        description
         series
         price
         price_note
@@ -125,12 +145,31 @@ query {
       }
     }
   }
+  comingSoonEvents: allComingSoon {
+    edges {
+      node {
+        title
+        description
+        note
+        time {
+          start
+          end
+        }
+        date {
+          start
+          end
+        }
+        is_placeholder
+      }
+    }
+  }
 }
 </static-query>
 
 
 <script>
 import EventItem from '@/components/EventItem';
+import ComingsoonItem from '@/components/ComingsoonItem';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import LinkOutbound from '@/components/LinkOutbound';
 
@@ -142,6 +181,7 @@ export default {
   mixins: [date, animateOnIntersection],
   components: {
     EventItem,
+    ComingsoonItem,
     EmailSubscribeSection,
     LinkOutbound,
   },
@@ -208,6 +248,21 @@ export default {
         .filter(e => !e._isPastEvent)
       console.log({activeEvents})
       return activeEvents && activeEvents.length === 0;
+    },
+    comingSoonEvents() {
+      return this.$static.comingSoonEvents.edges.map(e => {
+        return e.node;
+      });
+    },
+    filteredComingSoonEvents() {
+      let filteredEvents = this.comingSoonEvents
+        .filter(e => !e.is_placeholder)
+        .sort((a, b) => this.sortByDate(a, b))
+      //console.log("with events clone ", {filteredEvents})
+      return filteredEvents
+    },
+    showComingSoon() {
+      return true;
     }
   },
   methods: {

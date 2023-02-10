@@ -58,4 +58,4 @@ npm run prod
 
 ### Site data
 
-Event, classes and sponsor data are stored in `/src/data/events.json`, `/src/data/classes.json` and `/src/data/sponsors.json` respectively.
+Event, coming soon, classes and sponsor data are stored in `/src/data/events.json`, `/src/data/comingsoon.json`, `/src/data/classes.json` and `/src/data/sponsors.json` respectively.
