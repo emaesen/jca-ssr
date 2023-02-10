@@ -136,10 +136,14 @@ export default {
   flex: 6;
   margin-top: 1em;
 }
+.summary_date,
+.summary_time {
+  margin-right: 1em;
+}
 @media all and (max-width: 560px) {
   .summary_date,
   .summary_time {
-    margin-right: .2em;
+    margin-right: .15em;
   }
   .summary_title {
     margin-top: .3em;
