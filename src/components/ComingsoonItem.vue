@@ -111,14 +111,11 @@ export default {
   flex-wrap: nowrap;
 }
 .summary-column {
-  margin-right: 1em;
-  flex: 1;
   display: inline-block;
   font-size: 90%;
   min-width: 100px;
 }
 .summary_text {
-  margin-right: 100px;
 }
 .summary_date {
   font-size: 100%;
@@ -128,8 +125,6 @@ export default {
   font-family: @font_family_header, serif;
   color: #fffee8;
   font-size: 110%;
-  flex: 3;
-  margin-right: .5em;
 }
 .summary_description {
   margin-top: .5em;
@@ -141,10 +136,14 @@ export default {
   flex: 6;
   margin-top: 1em;
 }
-@media all and (max-width: 650px) {
+@media all and (max-width: 560px) {
   .summary_date,
   .summary_time {
     margin-right: .2em;
+  }
+  .summary_title {
+    margin-top: .3em;
+    display:block;
   }
 }
 </style>
