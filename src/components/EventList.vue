@@ -258,11 +258,10 @@ export default {
       let filteredEvents = this.comingSoonEvents
         .filter(e => !e.is_placeholder)
         .sort((a, b) => this.sortByDate(a, b))
-      //console.log("with events clone ", {filteredEvents})
       return filteredEvents
     },
     showComingSoon() {
-      return true;
+      return this.filteredComingSoonEvents.length > 0;
     }
   },
   methods: {
