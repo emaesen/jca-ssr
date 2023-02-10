@@ -1,7 +1,7 @@
 {
   "schema":
   {
-    "category": "music|visual-arts|theater|fest|summit",
+    "category": "music|visual-arts|theater|fest|summit|comedy",
     "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
     "slug": "dashed-title--mmm-dd-2023",
     "title": "",
@@ -59,7 +59,7 @@
       "details": "TEST",
       "note": "",
       "series": "",
-      "price": "$20 at venue / $15 adv online →",
+      "price": "$20 at venue / $15 adv online →\nKids 8 and under FREE →",
       "price_note": "---Online ticket purchase link to be added soon---",
       "ticket": "",
       "time":{
@@ -84,6 +84,54 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-weeds-and-stuart-mason--mar-10-2023",
+      "title": "The Weeds and Stuart Mason Live in Concert",
+      "performer": "John and Tyler Weed, Stuart Mason, Marisa Gilman",
+      "description": "The Weeds and Stuart Mason Live in Concert, Featuring Dance From Portland’s Marisa Gilman",
+      "details": "Join father/son duo John and Tyler Weed with Stuart Mason for an evening of Celtic music, Irish dancing, and American song. The performance will feature the dancing of world champion Pacific Northwest step wizard Marisa Gilman. As is tradition, Mason and The Weeds will embark on a journey across the Atlantic, tracing the music of the Emerald Isles to one of many landing spots in the United States. Watch the folk process unfold as John Weed and “Uncle” Stuart Mason, two members of West Coast Celtic power house Molly’s Revenge and Nordic band New World String Project, pass this musical lineage to West Coast banjo, mandolin, and fiddle ace Tyler Weed. The event will feature a never heard, debut composition on tenor banjo from Tyler, a fresh voice upcoming the West Coast scene.\n\n\n**Tyler Weed** was raised in a musical family, hearing his mother and father playing fiddle since birth. Tyler has been taught guitar and banjo licks from “Uncle” Stuart Mason since his first days strumming a guitar. He was recently one of 14 students out of 1650 entrants to receive Maestro Award for improvisational soloing at the 2022 Heritage Jazz Festival in Anaheim, California. Tyler is a six time recipient of Santa Cruz Redwood Camp Teen Band scholarship, has been awarded the Big Sur Fiddle Camp scholarship twice. Tyler’s composition, “Tyler’s Ancient Jig” was featured in Molly’s Revenge’s latest release, “The Lucky Set.”\n\n**John Weed**, fiddler for Molly’s Revenge and New World String Project, is a classically-trained violinist who has spent the last 25 years immersed in various fiddle styles. With an affinity for folk traditions, John’s exploration has emphasized Irish, Scottish, Swedish, and Old-Time fiddle. While he holds a bachelor’s degree of music from CSU Chico, the musical education that charted his path began through a long series of Irish sessions. There, he learned the nuance of aural passing of melodies and the tradition of conversing in a deeply musical manner. John’s passion for the vital expressiveness of the session lead to performing across the United States and internationally. In addition to being a full time performer and instructor, John is currently on faculty at Palenke Arts, a multicultural arts organization in Seaside, California.\n\n[Stuart Mason](http://www.stuartmason.com) is known for his authentic vocals and nimble skills on guitar, mandola, and banjo. He is a member of the Celtic band Molly’s Revenge, and has performed at festivals in China, Scotland, Ireland, and many of the United States. He also tours with old time quartet SLO County Stumblers, Nordic quartet New World String Project, and in a duo with fiddler John Weed.\nStuart has won first place awards for traditional singing (Goleta Old-Time Fiddler’s Convention), mandola (Topanga Banjo and Fiddle Contest), and songwriting (West Coast Songwriter’s Association). When not gigging, he teaches, writes, and builds websites. His music blog Fiddlefreak has been going strong since 2008.",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →\nKids 12 and under FREE →",
+      "price_note": "",
+      "ticket": "541776065797",
+      "time":{
+        "start": "19:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2023-03-10",
+        "end": "2023-03-10"
+      },
+      "location": "",
+      "image": "the-weeds-and-stuart-mason.jpg",
+      "image_width": "635",
+      "image_height": "360",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
       },
       "stamp": "",
       "stamp_summary": "",
@@ -146,11 +194,11 @@
       }
     },
     {
-      "category": "theater",
+      "category": "comedy",
       "type": "performance",
       "slug": "comedy-night-w-robert-omoto--feb-18-2023",
-      "title": "Comedy Night w/ Robert Omoto",
-      "performer": "Robert Omoto",
+      "title": "Comedy Night w/ Robert Omoto, Josh Barnes & Casey Moran",
+      "performer": "Robert Omoto, Josh Barnes & Casey Moran",
       "description": "Robert was named a StandUp NBC semi-finalist, has been seen on America’s Funniest Videos, and on Amazon Prime.",
       "details": "[Robert “Bobby” Omoto](http://www.robertomoto.com/) has a flair for bringing the seemingly random tangents that make up his inner thought into a well oiled, if not a tad off kilter, comedy machine. His razor sharp wit combined with a ridiculous life journey, meld into a rip roaring, off the cuff entertaining comedy experience.\n\nRobert was named a StandUp NBC semi-finalist, has been seen on America’s Funniest Videos, and on Amazon Prime. He has performed at Sketchfest, the San Luis Obispo Comedy Festival, San Diego Comedy Festival, San Francisco Comedy Competition, for the U.S. Navy, and is the host/producer of the popular podcast “Random Thoughts.”\n\nHe is a regular at comedy clubs across the country and has opened for Pablo Francisco, Bret Ernst, Sarah Tiana, Rex Navarrete, TK Kirkland, Karlous Miller, Joey Medina, and Mike Epps. Robert is a rising comedian out of Sacramento, California not to be missed.",
       "note": "",
@@ -167,9 +215,9 @@
         "end": "2023-02-18"
       },
       "location": "",
-      "image": "robert-omoto.jpg",
+      "image": "comedy-night-20230218.jpg",
       "image_width": "500",
-      "image_height": "625",
+      "image_height": "750",
       "stream": "",
       "youtube": "MY95SGqTqg4",
       "youtube2": "",
