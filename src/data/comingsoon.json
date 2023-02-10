@@ -3,7 +3,7 @@
   {
     "title": "",
     "description": "",
-    "note": "",
+    "note": "tickets go on sale mmm dd",
     "time":{
       "start": "hh:mm",
       "end": ""
@@ -44,7 +44,7 @@
     {
       "title": "JIMBO SCOTT and Special Guests",
       "description": "",
-      "note": "Tix go on sale March 1",
+      "note": "tickets go on sale March 1",
       "time":{
         "start": "19:00",
         "end": ""
@@ -70,7 +70,7 @@
     {
       "title": "JCA COMEDY NIGHT",
       "description": "with headliner SAM MILLER and special guests 18+ ",
-      "note": "Tix go on sale March 1st",
+      "note": "tickets go on sale March 1st",
       "time":{
         "start": "20:00",
         "end": ""
@@ -83,7 +83,7 @@
     {
       "title": "ANNA MOSS AND THE NIGHTSHADES",
       "description": "",
-      "note": "Tix go on sale March 1st",
+      "note": "tickets go on sale March 1st",
       "time":{
         "start": "19:30",
         "end": ""
@@ -96,7 +96,7 @@
     {
       "title": "DAVID ARKENSTONE",
       "description": "presented by QDV productions",
-      "note": "for tix and info visit www.davidarkenstone.com",
+      "note": "for tickets and info visit www.davidarkenstone.com",
       "time":{
         "start": "",
         "end": ""
@@ -109,7 +109,7 @@
     {
       "title": "PUPPETEERS FOR FEARS",
       "description": "",
-      "note": "Tickets go on sale May 1st",
+      "note": "tickets go on sale May 1st",
       "time":{
         "start": "20:00",
         "end": ""
