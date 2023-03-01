@@ -100,6 +100,54 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "dirty-cello--may-29-2023",
+      "title": "Dirty Cello",
+      "performer": "Dirty Cello",
+      "description": "“Dirty Cello’s music is all over the map: funky, carnival, romantic, sexy, tangled, electric, fiercely rhythmic” ~ Oakland Magazine",
+      "details": "From Iceland to Italy, and all over the U.S., San Francisco based band [Dirty Cello](https://www.dirtycello.com/) brings the world a high energy and unique spin on blues, rock, and Americana. Led by vivacious cross-over cellist, Rebecca Roudman, Dirty Cello is cello like you’ve never heard before. From down home blues and rock with a wailing cello to virtuosic stompin’ Americana, Dirty Cello is a band that gets your heart thumping and your toes tapping!\n\n“Dirty Cello’s music is all over the map: funky, carnival, romantic, sexy, tangled, electric, fiercely rhythmic, and textured, and only occasionally classical.” ~ Oakland Magazine\n\n“The band plays every style imaginable, and does some fantastic covers. (Their rendition of “Purple Haze” is incredible.) But what is most spectacular about them is hearing the depth of soul in Roudman’s playing—it goes beyond what most people would expect from the instrument. She plays it with so much heart, you’ll wonder why more bands don’t have a cellist.” ~ Good Times Santa Cruz​\n\n“A five-piece string ensemble that truly pushes the envelope and breaks the barriers, they blend blues, bluegrass and world music sounds with roots in the world of European classical music in a style that is unique and refreshing.” ~ Cloverdale Reveille\n\n“The group seamlessly careens from blues to bluegrass and rock in a way that really shouldn't make sense but somehow does.” ~ LA Times\n\n“The ensemble plays a range of eclectic tunes in ways you won’t hear anyone else dare to attempt.” ~ Argus Courier\n\n“Anyone who's been in an audience when the San Francisco Bay Area Dirty Cello takes the stage knows that something unique happens whenever cellist Rebecca Roudman and ensemble come face to face with living, breathing (and whooping and shouting) fans.” ~ Strings Magazine",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "559799203487",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2023-05-29",
+        "end": "2023-05-29"
+      },
+      "location": "",
+      "image": "dirty-cello.jpg",
+      "image_width": "600",
+      "image_height": "374",
+      "stream": "",
+      "youtube": "K16hf1yWO7U",
+      "youtube2": "GuG8dMulga4",
+      "youtube3": "TlpTYsQUl5I",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "the-weeds-and-stuart-mason--mar-10-2023",
       "title": "The Weeds and Stuart Mason Live in Concert",
       "performer": "John and Tyler Weed, Stuart Mason, Marisa Gilman",
@@ -178,7 +226,7 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false,
+        "is_canceled": true,
         "is_excluded": false
       },
       "stamp": "",
