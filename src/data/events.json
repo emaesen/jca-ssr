@@ -100,6 +100,54 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "anna-moss-and-the-nightshades--may-16-2023",
+      "title": "Anna Moss and The Nightshades",
+      "performer": "Anna Moss and The Nightshades",
+      "description": "Anna Moss returns to the JCA after a sold out show last season. And she brings her band The Nightshades! Adv tix highly recommended for this.",
+      "details": "[Anna Moss](https://www.annamossmusic.com/) has a voice that will stop you dead in your tracks. She commands attention and takes audiences on a spiritual journey when she sings. Moss’s vocal quality is so unique and deeply healing that crowds often beg for down tempo and Acapella songs. It is in these moments that you can fully absorb the smokey, gritty and dynamic nature of her singing. Growing up in Berryville Arkansas, (a town whose main industry is chicken farming) Anna flew the coop and made her career playing music in the US, Canada, Europe, Central and South America. She has made waves in the folk and festival scenes of North America as a front woman for the band Handmade Moments. After seeing most of the Western World she decided New Orleans would be her home. Moving to the New Orleans has influenced Anna’s arrangements and style. She began writing her debut album in a dark depression during 2020. All shows were cancelled and live musicians were practically erased from the economy. It was in these bleak times that Anna wrote profusely and honed in her bedroom pop style. She searched for months to find a band in New Orleans to fill out her sound. Eventually she found what she was looking for. Fernando Lima, a local percussionist and drummer originally from Sao Paulo, Brazil and Olivya Lee, a flautist and vocalist originaly from Uruguay joined Anna to create the Nightshades.",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "577723645977",
+      "time":{
+        "start": "19:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-05-16",
+        "end": "2023-05-16"
+      },
+      "location": "",
+      "image": "anna-moss-and-the-nightshades.jpg",
+      "image_width": "330",
+      "image_height": "510",
+      "stream": "",
+      "youtube": "v2173grW8Bw",
+      "youtube2": "uHhDqxw1LM4",
+      "youtube3": "bBwrZmNWLbk",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "dirty-cello--may-29-2023",
       "title": "Dirty Cello",
       "performer": "Dirty Cello",
@@ -178,7 +226,7 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false,
+        "is_canceled": true,
         "is_excluded": false
       },
       "stamp": "",

@@ -29,19 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "HONEYBEE CLASS",
-      "description": "for info contact Kendra at Raventree at 530 926-6695",
-      "note": "",
-      "time":{
-        "start": "09:00",
-        "end": "12:00"
-      },
-      "date":{
-        "start": "2023-03-12",
-        "end": "2023-03-12"
-      }
-    },
-    {
       "title": "JIMBO SCOTT and Special Guests",
       "description": "",
       "note": "tickets go on sale March 1st",
@@ -78,19 +65,6 @@
       "date":{
         "start": "2023-04-28",
         "end": "2023-04-28"
-      }
-    },
-    {
-      "title": "ANNA MOSS AND THE NIGHTSHADES",
-      "description": "",
-      "note": "tickets go on sale March 1st",
-      "time":{
-        "start": "19:30",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-05-16",
-        "end": "2023-05-16"
       }
     },
     {
