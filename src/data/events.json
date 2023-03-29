@@ -100,6 +100,54 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "jimbo-scott-yesterdays-biscuits--apr-21-2023",
+      "title": "Jimbo Scott & Yesterday's Biscuits",
+      "performer": "Jimbo Scott & Yesterday's Biscuits",
+      "description": "A favorite of the SF Bay Areas Folk & Americana Scene Jimbo is “Honest Honey-Eyed Americana” ...a mix of Tennessee country with Oakland soul",
+      "details": "**[Jimbo Scott](https://jimboscottmusic.com/about/)**\n\nHave you ever been walking down the street, and suddenly heard a voice that made you walk into a venue to see whose it was? That is Jimbo Scott’s voice – a bell, magnetic and the definition of a powerhouse. A favorite of the Bay Area’s folk and Americana scene, Jimbo Scott has been entertaining audiences far and wide for more than a decade, including 2 years as a member of the famed NorCal Jamgrass band, Poor Man’s Whiskey. His solo work evokes traditions of Tennessee country and bluegrass, Oakland soul in sepia toned California landscapes and life-scapes.\n\nDescribed by Tahoe Weekly as “Honest Honey-Eyed Americana”, Jimbo’s music casts reflections around the room, flashing from honest self-deprecation to cinematic retrospectives on our part in shaping our communities and accounting the consequences of our actions and inactions. His signature baritone voice has moved many an audience including The Kate Wolf Music Festival, Hardly Strictly Bluegrass, Salmonfest and the Fillmore.\n\nAt the end of 2022, Jimbo teamed up with an all-star lineup of musicians to form Jimbo Scott and Yesterday’s Biscuits. Featuring Kiel Williams (the Risky Biscuits) on Guitar and Pedal Steel, Andy Merrill (The Risky Biscuits) on bass and Rob Hooper (Carolyn Wonderland, Jimmy Dale Gilmore, Patrice Pike) on drums, Jimbo Scott and Yesterday’s Biscuits are a rising force in the NorCal Americana Scene, not to be missed and best to be consumed with reckless abandon.\n\nIf you like Jason Isbell, Zach Brown, Leftover Salmon or Paul Simon then you will like Jimbo Scott.\n\nALL AGES WELCOME!\n\nKIDS ARE FREE :)",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →\nKids 8 and under FREE →",
+      "price_note": "",
+      "ticket": "598010283857",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-04-21",
+        "end": "2023-04-21"
+      },
+      "location": "",
+      "image": "jimbo-scott-yesterdays-biscuits.jpg",
+      "image_width": "800",
+      "image_height": "451",
+      "stream": "",
+      "youtube": "B0rY_q-fHhs",
+      "youtube2": "Az5GNdigrcw",
+      "youtube3": "_N1f_swWq-k",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "anna-moss-and-the-nightshades--may-16-2023",
       "title": "Anna Moss and The Nightshades",
       "performer": "Anna Moss and The Nightshades",
