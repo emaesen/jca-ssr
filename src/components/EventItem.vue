@@ -748,11 +748,9 @@ h4 {
 .event_price_wrapper {
   margin: 1.3em 0;
 }
-.event_price {
+.event_price, .event_ticket {
   display: inline-block;
-}
-.event_ticket {
-  display: inline-block;
+  vertical-align: middle;
 }
 .video_container {
   margin: auto;
