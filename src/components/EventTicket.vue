@@ -12,8 +12,8 @@
       <iframe id="iframe-ticket" width="100%" :height="frameHeight" :src="href" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" allowtransparency="true" onload="document.getElementById('iframe-ticket').style.background = 'none'"></iframe>
 
       <template v-slot:header>
-        <div class="legal">JCA uses Eventbrite as their online ticket sales platform. By clicking below to purchase, you acknowledge that your information will be transferred to Eventbrite for processing.<br/>
-        <link-outbound to="https://www.eventbrite.com/privacypolicy">About Eventbrite's privacy practices.</link-outbound></div>
+        <div class="legal">JCA uses {{ticketPlatformName}} as their online ticket sales platform. By clicking below to purchase, you acknowledge that your information will be transferred to {{ticketPlatformName}} for processing.<br/>
+        <link-outbound :to="ticketPlatformPPUrl">About {{ticketPlatformName}}'s privacy practices.</link-outbound></div>
       </template>
     </modal>
   </div>
@@ -37,16 +37,44 @@ export default {
     ticketUrl: {
       type: String
     },
+    ticketRefHumanitix: {
+      type: String
+    }
   },
   data() {
     return {
       showModal: false,
       baseUrl: "//eventbrite.com/tickets-external?eid=[ticket]&ref=etckt",
+      baseUrlHumanitix: "https://events.humanitix.com/[ticket]/tickets",
     }
   },
   computed: {
+    ticketPlatformName() {
+      let platform=""
+      if (this.ticketRefHumanitix) {
+        platform = "Humanitix"
+      } else {
+        platform = "Eventbrite"
+      }
+      return platform
+    },
+    ticketPlatformPPUrl() {
+      let url=""
+      if (this.ticketRefHumanitix) {
+        url = "https://console.humanitix.com/public/pdfs/humanitix_privacy_policy.pdf"
+      } else {
+        url = "https://www.eventbrite.com/privacypolicy"
+      }
+      return url
+    },
     href() {
-      return this.baseUrl.replace("[ticket]", this.ticketUrl);
+      let href=""
+      if (this.ticketRefHumanitix) {
+        href = this.baseUrlHumanitix.replace("[ticket]", this.ticketRefHumanitix)
+      } else {
+        href = this.baseUrl.replace("[ticket]", this.ticketUrl)
+      }
+      return href
     },
     frameHeight() {
       return (this.windowHeight - 150) + "px";

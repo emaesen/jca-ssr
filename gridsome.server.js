@@ -69,6 +69,7 @@ module.exports = function (api) {
             price
             price_note
             ticket
+            humanitix
             time {
               start
               end

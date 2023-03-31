@@ -124,8 +124,9 @@
             </div>
             <!-- buy event ticket -->
             <event-ticket 
-              v-if="event.ticket" 
+              v-if="event.ticket || event.humanitix" 
               :ticketUrl="event.ticket"
+              :ticketRefHumanitix="event.humanitix"
               class="event_ticket" 
             />
             <div class="event_note event_price_note" v-if="event.price_note">

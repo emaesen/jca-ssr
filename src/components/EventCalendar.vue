@@ -37,6 +37,7 @@ query {
         price
         price_note
         ticket
+        humanitix
         time {
           start
           end
