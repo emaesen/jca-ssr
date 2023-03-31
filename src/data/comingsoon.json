@@ -29,32 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "EARTH DAY",
-      "description": "sponsored by the Mount Shasta Ecology Center",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-04-22",
-        "end": "2023-04-22"
-      }
-    },
-    {
-      "title": "JCA COMEDY NIGHT",
-      "description": "with headliner SAM MILLER and special guests 18+ ",
-      "note": "tickets go on sale March 1st",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-04-28",
-        "end": "2023-04-28"
-      }
-    },
-    {
       "title": "DAVID ARKENSTONE",
       "description": "presented by QDV productions",
       "note": "for tickets and info visit www.davidarkenstone.com",

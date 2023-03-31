@@ -1,7 +1,7 @@
 {
   "schema":
   {
-    "category": "music|visual-arts|theater|fest|summit|comedy",
+    "category": "music|visual-arts|theater|fest|festival|summit|comedy",
     "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
     "slug": "dashed-title--mmm-dd-2023",
     "title": "",
@@ -13,6 +13,7 @@
     "price": "$25 at venue / $20 adv online →",
     "price_note": "---Online ticket purchase link to be added soon---",
     "ticket": "",
+    "humanitix": "",
     "time":{
       "start": "hh:mm",
       "end": ""
@@ -98,12 +99,109 @@
       }
     },
     {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night-with-sam-miller--apr-28-2023",
+      "title": "JCA Comedy Night with Sam Miller",
+      "performer": "Sam Miller, Freeway Farrell, Mike Sparks",
+      "description": "Join us for some hilarious comics at JCA COMEDY NIGHT with headliner SAM MILLER, featuring FREEWAY FARRELL, with special guest MIKE SPARKS.",
+      "details": "**Sam Miller** is a comedian from Olympia Washington. He is 6 foot 6, 360 pounds, has 2 kids, (one of them is on purpose) he's been married for 11 years, and has been clean and sober for 14 years. Sam likes to make jokes about what it's like to be a sober parent. He also likes to make jokes about what jails like in Yakima. His first album and special, Round Trip, was recently recorded and filmed under the tutelage of Grammy-winning producer Dan Schlissel, whose indie label, Stand Up! Records, Sam had recently signed a three-album deal with. Sam was the runner-up in the 2021 Seattle International Comedy Competition and won the Comedy on Trial Competition in 2017. He's also performed with the Addicts Comedy Tour and at NA and AA conventions all over the northwest. For 3 consecutive years he won awards in “The Best of Olympia” issue of the Weekly Volcano. 2016 Best Local Hero 2017 Best Local Celebrity 2018 Best Comic Relief He has opened for Nate Jackson and Laurie Kilmartin and is regularly performing at clubs and casinos around the country.\n\n**Freeway Farrell**  has always been in the entertainment business. He began his career thirty-five years ago in high school as a Disc Jockey at a roller rink. He then hosted his own weekend time slot as a DJ at a local radio station. This later led to traveling the country while working as an on-air personality for various radio stations, whilst he also maintained a regular spot in the local stand-up comedy scene. Over the years, Freeway has been a comedy producer. Frequently requested Emcee, voice over actor and a colorful character actor. These days he has retired from radio and producing shows. Since 2016 he is now an active full time stand-up comedian, comedy writer, emcee and promoter. Freeway does comedy promotion work as a side hustle through his company Farrell Boys Promotions, to help the comedy community. As a standup comedian, Freeway has a deep passion for performing. He has three different sets, each an hour long. All sets can be performed clean, PG-13 or blue.\nFreeway looks forward to performing for you.",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jca-comedy-night-with-sam-miller",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2023-04-28",
+        "end": "2023-04-28"
+      },
+      "location": "",
+      "image": "jca-comedy-night-2023-04-28.jpg",
+      "image_width": "800",
+      "image_height": "368",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "festival",
+      "type": "",
+      "slug": "earth-day-festival--apr-22-2023",
+      "title": "Earth Day Festival",
+      "performer": "",
+      "description": "Earth Day 2023, sponsored by the Mount Shasta Ecology Center.",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "FREE admission",
+      "price_note": "",
+      "ticket": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-04-22",
+        "end": "2023-04-22"
+      },
+      "location": "",
+      "image": "earth-day-2023-04-22.jpg",
+      "image_width": "600",
+      "image_height": "777",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "jimbo-scott-yesterdays-biscuits--apr-21-2023",
       "title": "Jimbo Scott & Yesterday's Biscuits",
       "performer": "Jimbo Scott & Yesterday's Biscuits",
-      "description": "A favorite of the SF Bay Areas Folk & Americana Scene Jimbo is “Honest Honey-Eyed Americana” ...a mix of Tennessee country with Oakland soul",
+      "description": "EARTH DAY PRE-PARTY. A favorite of the SF Bay Areas Folk & Americana Scene Jimbo is “Honest Honey-Eyed Americana” ...a mix of Tennessee country with Oakland soul",
       "details": "**[Jimbo Scott](https://jimboscottmusic.com/about/)**\n\nHave you ever been walking down the street, and suddenly heard a voice that made you walk into a venue to see whose it was? That is Jimbo Scott’s voice – a bell, magnetic and the definition of a powerhouse. A favorite of the Bay Area’s folk and Americana scene, Jimbo Scott has been entertaining audiences far and wide for more than a decade, including 2 years as a member of the famed NorCal Jamgrass band, Poor Man’s Whiskey. His solo work evokes traditions of Tennessee country and bluegrass, Oakland soul in sepia toned California landscapes and life-scapes.\n\nDescribed by Tahoe Weekly as “Honest Honey-Eyed Americana”, Jimbo’s music casts reflections around the room, flashing from honest self-deprecation to cinematic retrospectives on our part in shaping our communities and accounting the consequences of our actions and inactions. His signature baritone voice has moved many an audience including The Kate Wolf Music Festival, Hardly Strictly Bluegrass, Salmonfest and the Fillmore.\n\nAt the end of 2022, Jimbo teamed up with an all-star lineup of musicians to form Jimbo Scott and Yesterday’s Biscuits. Featuring Kiel Williams (the Risky Biscuits) on Guitar and Pedal Steel, Andy Merrill (The Risky Biscuits) on bass and Rob Hooper (Carolyn Wonderland, Jimmy Dale Gilmore, Patrice Pike) on drums, Jimbo Scott and Yesterday’s Biscuits are a rising force in the NorCal Americana Scene, not to be missed and best to be consumed with reckless abandon.\n\nIf you like Jason Isbell, Zach Brown, Leftover Salmon or Paul Simon then you will like Jimbo Scott.\n\nALL AGES WELCOME!\n\nKIDS ARE FREE :)",
       "note": "",
       "series": "",
