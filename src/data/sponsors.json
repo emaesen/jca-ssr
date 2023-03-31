@@ -11,12 +11,30 @@
     },
     {
       "name": "Cold Creek Inn",
-      "addressline1": "724 N Mount Shasta Blvd",
+      "addressline1": "724 North Mount Shasta Blvd",
       "addressline2": "Mount Shasta, California 96067",
       "byline": "Stay at the Cold Creek Inn, a hotel in Mount Shasta. Located downtown: walk to eat, shop, play",
       "url": "https://coldcreekinn.com/",
       "logo": "cold-creek-inn-logo.png",
       "isActive": false
+    },
+    {
+      "name": "Shasta Inn",
+      "addressline1": "1121 South Mount Shasta Blvd",
+      "addressline2": "Mount Shasta, California 96067",
+      "byline": "Charming Rustic Lodge in the Heart of Mt. Shasta",
+      "url": "https://www.shastainn.com/",
+      "logo": "shasta-inn-logo.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Pipeline Craft Taps & Kitchen",
+      "addressline1": "320 North Mount Shasta Blvd",
+      "addressline2": "Mount Shasta, California 96067",
+      "byline": "American Restaurant in Mount Shasta, California",
+      "url": "https://www.facebook.com/pages/category/Restaurant/Pipeline-Craft-Taps-and-Kitchen-385482385506720/",
+      "logo": "pipeline.png",
+      "isActive": true
     },
     {
       "name": "Dunsmuir Brewery Works",
@@ -29,21 +47,12 @@
     },
     {
       "name": "LOGE Mt. Shasta",
-      "addressline1": "1612 S Mt Shasta Blvd",
+      "addressline1": "1612 South Mount Shasta Blvd",
       "addressline2": "Mount Shasta, California 96067",
       "byline": "LOGE offers a variety of lodging options - hotel rooms, hostel bunks, or camping",
       "url": "https://www.logecamps.com/mtshasta-ca",
       "logo": "loge-logo.png",
-      "isActive": true
-    },
-    {
-      "name": "Pipeline Craft Taps & Kitchen",
-      "addressline1": "320 N. Mount Shasta Blvd",
-      "addressline2": "Mount Shasta, California 96067",
-      "byline": "American Restaurant in Mount Shasta, California",
-      "url": "https://www.facebook.com/pages/category/Restaurant/Pipeline-Craft-Taps-and-Kitchen-385482385506720/",
-      "logo": "pipeline.png",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "Website Design by Edward Maesen",
