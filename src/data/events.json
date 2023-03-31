@@ -99,6 +99,55 @@
       }
     },
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "david-arkenstone-and-friends--may-26-2023",
+      "title": "An Evening with David Arkenstone & Friends",
+      "performer": "David Arkenstone",
+      "description": "Join 5-Time Grammy Nominee David Arkenstone and friends for a joyous candlelit genre-blending musical journey from first note to last. Presented by QDV productions.",
+      "details": "This candlelit concert is a joyous genre blend of neo-classical piano, new age, Celtic, progressive rock, orchestral, world music, and Music Inspired by Middle Earth. With over 100 million Spotify streams, 5 Grammy® nominations, 60+ albums, numerous film scores, game score compositions such as World of Warcraft, and unforgettable themes for NBC such as The Kentucky Derby, US Women's Figure Skating, and Premier League soccer, David’s music holds something for everyone, taking concertgoers on a musical journey from first note to last.\n\nJoined on stage by virtuoso musicians on violin, flute, cello, and percussion, David has plenty of surprises in store. A musical storyteller, he is passionate about taking listeners on a journey, creating sonic tapestries that evoke every emotion. “I envision a place where I would like to go, or an adventure I would like to take, and let my imagination run free,” says David. “I’ve gotten countless messages from listeners who love to take these journeys with me. I’m sometimes surprised by how powerfully people respond to my music.” visit [davidarkenstone.com](https://davidarkenstone.com/)\n\nReceiving Grammy® nominations in 2021, 2019, 2004, 2000, and 1992, David’s compositions are often influenced by the beauty of nature, classical music, Celtic dance, medieval folklore, and the realm of J.R.R. Tolkien’s Middle Earth. An Evening with David Arkenstone & Friends will embrace the Pacific Northwest with passionate compositions, heartwarming stories, and an evening to be remembered for years to come.\n\nAttendees may opt for a VIP Experience that includes a post-show autograph meet & greet, preferred seating, lanyard with tour laminate, a signed photo, and a custom compilation CD.\n\nVisit [davidarkenstone.com](https://davidarkenstone.com/) and join the Arkenfans Community on Facebook. You can also follow David on Facebook, Instagram, and Twitter for behind-the-scenes looks and even more magical content.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $35 at venue / $30 adv online →\nStudents w/ID $25 at venue / $20 adv online →\nVIP $45 adv online →",
+      "price_note": "",
+      "ticket": "552282320287",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2023-05-26",
+        "end": "2023-05-26"
+      },
+      "location": "",
+      "image": "david-arkenstone.jpg",
+      "image_width": "800",
+      "image_height": "470",
+      "stream": "",
+      "youtube": "1f-cnPiaUcA",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "comedy",
       "type": "performance",
       "slug": "jca-comedy-night-with-sam-miller--apr-28-2023",
