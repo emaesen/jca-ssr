@@ -1,5 +1,5 @@
 <template>
-  <a :href="to" target="_blank" rel="noopener nofollow noreferrer"><slot></slot><i class="icon-Outbound deemph" v-if="showOutboundIcon"></i></a>
+  <a :href="to" target="_blank" rel="noopener nofollow noreferrer" class="nowrap"><slot></slot><i class="icon icon-Outbound deemph" v-if="showOutboundIcon"></i></a>
 </template>
 
 <script>
@@ -22,8 +22,9 @@ export default {
 
 <style lang="less">
 .icon.deemph {
-  color: #cccccccc;
+  color: inherit;
   width: 1em;
+  margin-left: .2em;
 }
 .modal 
 .icon.deemph {
