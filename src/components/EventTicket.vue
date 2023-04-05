@@ -2,7 +2,7 @@
   <div>
     
     <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
-      Buy ticket <i class="icon-Ticket action"></i>
+      {{ticketAction}} ticket <i class="icon-Ticket action"></i>
     </button>
 
     <modal
@@ -39,6 +39,9 @@ export default {
     },
     ticketRefHumanitix: {
       type: String
+    },
+    isFreeEvent: {
+      type: Boolean
     }
   },
   data() {
@@ -49,6 +52,13 @@ export default {
     }
   },
   computed: {
+    ticketAction() {
+      let action = "Buy"
+      if (this.isFreeEvent) {
+        action = "Get"
+      }
+      return action
+    },
     ticketPlatformName() {
       let platform=""
       if (this.ticketRefHumanitix) {

@@ -127,6 +127,7 @@
               v-if="event.ticket || event.humanitix" 
               :ticketUrl="event.ticket"
               :ticketRefHumanitix="event.humanitix"
+              :isFreeEvent="event.flag && event.flag.is_free"
               class="event_ticket" 
             />
             <div class="event_note event_price_note" v-if="event.price_note">
