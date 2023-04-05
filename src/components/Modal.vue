@@ -66,7 +66,6 @@ export default {
 
 .modal {
   box-sizing: border-box;
-  height: 90%;
   width: 90%;
   margin: 0;
   color: rgba(18, 18, 18, 0.9);
