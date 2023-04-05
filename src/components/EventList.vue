@@ -30,11 +30,10 @@
           </div>
         </div>
 
-        <!--
         <div class="deemph spacious center">
-          (View JCA events on <LinkOutbound to="https://www.eventbrite.com/o/jefferson-center-for-the-arts-28035930301">eventbrite</LinkOutbound>)
+          View JCA events and buy advanced tickets on <LinkOutbound to="https://events.humanitix.com/host/jefferson-center-for-the-arts">Humanitix</LinkOutbound>
         </div>
-        -->
+
       </div>
 
       <div class="event-summary event-comingsoon"  v-if="showComingSoon">
