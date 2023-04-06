@@ -31,7 +31,13 @@
         </div>
 
         <div class="deemph spacious center">
-          View JCA events and buy advanced tickets on <LinkOutbound to="https://events.humanitix.com/host/jefferson-center-for-the-arts">Humanitix</LinkOutbound>
+          <div>
+            Follow JCA and buy advanced tickets on <LinkOutbound to="https://events.humanitix.com/host/jefferson-center-for-the-arts">Humanitix</LinkOutbound>.
+          </div>
+
+          <div class="deemph center narrow">
+            "100% of profits from booking fees go to funding education projects for the world's most disadvantaged children to close the global education gap."
+          </div>
         </div>
 
       </div>

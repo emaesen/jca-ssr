@@ -1,9 +1,15 @@
 <template>
   <div>
     
-    <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
-      {{ticketAction}} ticket <i class="icon-Ticket action"></i>
-    </button>
+    <div  class="event-ticket-container">
+      <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
+        {{ticketAction}} ticket <i class="icon-Ticket action"></i>
+      </button>
+      <div class="note-humanitix" v-if="ticketRefHumanitix">
+      All profits from ticket fees go to children's charities.
+      </div>
+    </div>
+
 
     <modal
       v-if="showModal"
@@ -102,6 +108,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.event-ticket-container {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 150px;
+}
 button {
   margin:.5em;
   border-color: #76fb6d;
@@ -113,6 +126,12 @@ button {
 }
 .icon-ticket {
   vertical-align: bottom;
+}
+.note-humanitix {
+  display:inline-block;
+  color: #36ff29c7;
+  font-size: 60%;
+  margin-left: 1em;
 }
 .legal {
   margin: 0;
