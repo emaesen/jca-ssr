@@ -29,9 +29,74 @@
       "is_placeholder": true
     },
     {
-      "title": "PUPPETEERS FOR FEARS",
+      "title": "The Greek Mythology Olympiaganza",
+      "description": "A Mt Shasta Childrens Theatre production.",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-06-02",
+        "end": "2023-06-03"
+      }
+    },
+    {
+      "title": "The Jungle Book",
+      "description": "A Mt Shasta Childrens Theatre production.",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-06-09",
+        "end": "2023-06-10"
+      }
+    },
+    {
+      "title": "Alice DiMicele Trio",
       "description": "",
-      "note": "tickets go on sale May 1st",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-06-14",
+        "end": "2023-06-14"
+      }
+    },
+    {
+      "title": "Twisted Pine",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-06-18",
+        "end": "2023-06-18"
+      }
+    },
+    {
+      "title": "Black Sheep Brass Band",
+      "description": "Free Show in the JCA Field",
+      "note": "",
+      "time":{
+        "start": "18:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-07-18",
+        "end": "2023-07-18"
+      }
+    },
+    {
+      "title": "Puppeteers For Fears",
+      "description": "",
+      "note": "",
       "time":{
         "start": "20:00",
         "end": ""
@@ -40,6 +105,58 @@
         "start": "2023-07-21",
         "end": "2023-07-21"
       }
-    }              
+    },
+    {
+      "title": "JCA World Music Festival",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-09-07",
+        "end": "2023-09-10"
+      }
+    },
+    {
+      "title": "Mt Shasta Oktoberfest",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-09-30",
+        "end": "2023-09-30"
+      }
+    },
+    {
+      "title": "JCA Halloween Ball",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-10-28",
+        "end": "2023-10-28"
+      }
+    },
+    {
+      "title": "Beaujolais Noveau Gala",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-11-17",
+        "end": "2023-11-17"
+      }
+    }
   ]
 }

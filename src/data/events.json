@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "the-suitcase-junket--may-24-2023",
+      "title": "The Suitcase Junket",
+      "performer": "Matt Lorenz",
+      "description": "“The Suitcase Junket is a master of musical imagination” ~ NPR World Cafe",
+      "details": "Matt Lorenz's vision, manifest in [The Suitcase Junket](https://thesuitcasejunket.com/), developed in the tension between the grand and the solitary. Grand in its imagery, sound, and staging. Solitary in its thrift and self-reliance. What instruments he requires, Lorenz builds from scratch and salvage. What parts five players would perform, he performs alone. The spectacle of his one-man set bears constant comparison to legends of showmanship, brilliance, madness, and invention.\n\nWhile audiences are captivated by his solitary form and the show itself, Lorenz, who homesteads with rescue dogs and chickens in rural Western Massachusetts, is most serious about the songs. He has been building a catalog, writing a world into existence. Solitary on stage and on the road, his mind is crowded with characters, narratives, voices, imagery, sounds as wide and varied as mountain throat singers and roadhouse juke boxes, plus newsreels of the planet's destruction and salvage. With this 2020 release, The End is New, Lorenz’s grand vision for the song overrides the how of it.\n\nCheck him out! He is incredible! [theSuitcaseJunket.com](https://thesuitcasejunket.com/)",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-suitcase-junket",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2023-05-24",
+        "end": "2023-05-24"
+      },
+      "location": "",
+      "image": "thesuitcasejunket.jpg",
+      "image_width": "750",
+      "image_height": "468",
+      "stream": "",
+      "youtube": "3DhZWAATmTc",
+      "youtube2": "9xa_ph8o2Zc",
+      "youtube3": "4rdlch518b4",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "pato-banton-free-show--apr-19-2023",
       "title": "FREE Pato Banton reggae concert",
       "performer": "Pato Banton",
