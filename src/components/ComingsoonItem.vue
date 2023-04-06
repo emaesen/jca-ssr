@@ -2,9 +2,11 @@
   <div class="event-summary-item">
     <div class="summary-container">
       <div class="summary_text">
-        <div>
-          <span class="summary-column summary_date">{{ dateShort }}</span>
-          <span class="summary-column summary_time">{{ time }}</span>
+        <div class="summary-main">
+          <div class="summary-column summary_date_time">
+            <span class="summary_date">{{ dateShort }}</span>
+            <span class="summary_time">{{ time }}</span>
+          </div>
           <span class="summary-column summary_title">{{ event.title }}</span>
         </div>
         <div class="summary-subcontainer">
@@ -114,17 +116,30 @@ export default {
   display: inline-block;
   font-size: 90%;
   min-width: 100px;
+  flex: 1;
+}
+.summary-main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .summary_text {
 }
+.summary_date_time {
+  min-width: 200px;
+}
 .summary_date {
+  display: inline-block;
   font-size: 100%;
   color: #f8d394;
+  min-width: 100px;
 }
 .summary_title {
   font-family: @font_family_header, serif;
   color: #fffee8;
   font-size: 110%;
+  flex: 5;
 }
 .summary_description {
   margin-top: .5em;
@@ -144,10 +159,16 @@ export default {
   .summary_date,
   .summary_time {
     margin-right: .15em;
+    min-width: 80px;
   }
+  .summary-column.summary_date_time {
+    min-width: 150px;
+  }
+}
+@media all and (max-width: 470px) {
+  .summary-main,
   .summary_title {
-    margin-top: .3em;
-    display:block;
+    display: block;
   }
 }
 </style>

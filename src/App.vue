@@ -324,6 +324,9 @@ strong {
   margin-top: 3em;
   margin-bottom: 2em;
 }
+.narrow {
+  margin: 0 20%;
+}
 .version {
   position: fixed;
   right: 5px;
@@ -379,11 +382,17 @@ strong {
   img.secondary {
     max-width: 75%;
   }
+  .narrow {
+    margin: 0 10%;
+  }
 }
 
 @media all and (max-width: 450px) {
   img.secondary {
     max-width: 100%;
+  }
+  .narrow {
+    margin: 0 5%;
   }
 }
 
