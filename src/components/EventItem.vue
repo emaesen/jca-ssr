@@ -480,7 +480,7 @@ export default {
         /* internal link [text](~/foo-page) */
         .replace(/\[([^\]]+)\]\(~([^)]+)\)/g, '<a href="$2">$1</a>' )
         /* external link [text](//foo.com/) */
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener nofollow noreferrer">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a><i class="icon-Outbound deemph"></i>' )) || "";
     },
     parseAsText(txt) {
       // strip image and link formatting
