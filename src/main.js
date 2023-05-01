@@ -171,7 +171,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   /********************
    * vue-meta settings
    ********************/
-  const fonts = ['poiretone-latin.woff2', 'asul-latin.woff2', 'merienda-latin.woff2', 'montserrat-bold-latin.woff2']
+  const fonts = ['poiretone-latin.woff2', 'asul-latin.woff2', 'merienda-latin.woff2', 'montserrat-latin.woff2']
   fonts.forEach(font => {
     head.link.push({
       rel: 'preload',

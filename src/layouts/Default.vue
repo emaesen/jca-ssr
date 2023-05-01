@@ -266,7 +266,7 @@ footer {
 }
 .emph {
   font-family: @font_family_emph;
-  font-weight: 700;
+  font-weight: 400;
 }
 .deemph {
   font-size: 90%;

@@ -291,13 +291,12 @@ footer {
 .nowrap {
   white-space: nowrap
 }
-strong {
-  font-family: @font_family_emph;
-  font-weight: 700;
-}
-.emph {
+.emph, strong {
   font-family: @font_family_emph;
   font-weight: 500;
+  font-size: 108%;
+}
+.emph {
   font-variant: small-caps;
   font-size: 117%;
 }
