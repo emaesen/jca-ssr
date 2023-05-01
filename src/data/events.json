@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "puppeteers-for-fears-cthulhu-the-musical--jul-21-2023",
+      "title": "Puppeteers For Fears - Cthulhu The Musical",
+      "performer": "Puppeteers for Fears",
+      "description": "Puppeteers for Fears presents, Cthulhu: The Musical! A rock’n’roll retelling of the horror classic “The Call of Cthulhu,” performed entirely with puppets. Runtime: two hours+ with one intermission. Rated R for language and themes. Includes flashing lights. Featuring live music from The Elephant.",
+      "details": "**Cthulhu The Musical** - written by Josh Gross, directed by Katy Curtis and Alyssa Mathews.\n\nDetective LaGrasse is searching for a murderer. Francine Thurston’s uncle vanished. The only clue to both mysteries is a bizarre statue worshiped by a nightmarish cult. And it’s leading both of them out to sea, toward a mysterious island from their nightmares—and toward insanity. But, you know, with singing puppets.\n\nPuppeteers for Fears, Oregon's premier rock'n'roll puppet troupe, presents an original show that, in a sensible universe, would be impossible: a feature-length musical comedy adaptation of one of the least musical or comedic stories ever: H.P. Lovecraft’s cosmic horror classic, The Call of Cthulhu—performed entirely with puppets, and a live band.\n\nSee noir detectives, dancing tentacles, anarchist pirates, broken-hearted academics, sassy monsters, and more, as they sing and dance their way to love, madness, and possibly the end of the world.\n\n“You haven’t truly experienced Lovecraft’s madness until you’ve experienced it in its truest form: As a puppet musical.” —The Portland Mercury\n\n“The most blasphemous ritual of singing and dancing since Chicago.” —SyFy Wire\n\n“I don't even like puppets. But that was some next-level puppet shit.” —Susan, audience member",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudents/Seniors $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "puppeteers-for-fears-cthulhu-the-musical",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2023-07-21",
+        "end": "2023-07-21"
+      },
+      "location": "",
+      "image": "puppeteers-for-fears-cthulhu-the-musical.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "the-suitcase-junket--may-24-2023",
