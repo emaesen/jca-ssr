@@ -468,7 +468,7 @@ export default {
         .replace(/</g, "&lt;")
         .replace(/\n/g, "<br>")
         /* sub header */
-        .replace(/\#([^*]+)\#/g, "<h3>$1</h3>")
+        .replace(/\#([^#]+)\#/g, "<h3>$1</h3>")
         /* strong emphasis aka bold */
         .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
         /* emphasis */
