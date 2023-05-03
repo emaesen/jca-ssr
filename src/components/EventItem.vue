@@ -14,7 +14,7 @@
         <div>
           <category-icon :category="event.category" class="summary_icon"/>
           <span class="summary-column summary_date">{{ dateShort }}</span>
-          <span class="summary-column summary_time">{{ time }}</span>
+          <span :class="[{'summary-column summary_time':time,'summary_time_filler':!time}]">{{ time }}</span>
           <span class="summary-column summary_title">{{ event.title }}</span>
         </div>
         <div v-if="event.flag && event.flag.is_outdoors && !event.flag.is_canceled && !event.stamp" class="summary-subcontainer">
@@ -574,6 +574,10 @@ export default {
 .summary_date {
   font-size: 100%;
   color: #f8d394;
+}
+.summary_time_filler {
+  display: inline-block;
+  min-width: 20px;
 }
 .summary_title {
   font-family: @font_family_header, serif;
