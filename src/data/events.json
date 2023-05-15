@@ -102,6 +102,146 @@
       }
     },
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "the-jungle-book--jun-09-2023",
+      "title": "The Jungle Book",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre is proud to present THE JUNGLE BOOK MSCT 2's Spring Play. This wonderful story is retold with lots of audience participation and fun!",
+      "details": "Kids will all sit down front (bring a pillow if you like) and many will have the opportunity to get on stage and be part of the jungle :)\n\nDoors open 30 minutes prior to showtime. Sweet and Savory snacks will be available at our concession stand. Get ready for a great time!",
+      "note": "",
+      "series": "Mt Shasta Childrens Theatre",
+      "price": "General Admission $15 at venue / $10 adv online →\nKids ages 12 and under $10 at venue / $5 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-jungle-book-xo4gyjun",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-06-09",
+        "end": "2023-06-09"
+      },
+      "location": "",
+      "image": "jungle-book.jpg",
+      "image_width": "839",
+      "image_height": "468",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "the-jungle-book--matinee--jun-10-2023",
+      "reference_slug": "the-jungle-book--jun-09-2023",
+      "time":{
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "date":{
+        "start": "2023-06-10",
+        "end": "2023-06-10"
+      }
+    },
+    {
+      "slug": "the-jungle-book--jun-10-2023",
+      "reference_slug": "the-jungle-book--jun-09-2023",
+      "date":{
+        "start": "2023-06-10",
+        "end": "2023-06-10"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "the-greek-mythology-olympiaganza--jun-02-2023",
+      "title": "The Greek Mythology Olympiaganza!",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre is proud to present THE GREEK MYTHOLOGY OLYMPIAGANZA! A hilarious romp through mythological lands. Death! Destruction! Mime! Plot Twists! Silliness!",
+      "details": "Performed by MSCT3 Students ages 13-18. Fun for the whole family! Togas optional :)",
+      "note": "",
+      "series": "Mt Shasta Childrens Theatre",
+      "price": "General Admission $15 at venue / $10 adv online →\nKids ages 12 and under $10 at venue / $5 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-greek-mythology-olympiaganza",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2023-06-02",
+        "end": "2023-06-02"
+      },
+      "location": "",
+      "image": "olympiaganza.jpg",
+      "image_width": "846",
+      "image_height": "468",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "the-greek-mythology-olympiaganza--matinee--jun-03-2023",
+      "reference_slug": "the-greek-mythology-olympiaganza--jun-02-2023",
+      "time":{
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "date":{
+        "start": "2023-06-03",
+        "end": "2023-06-03"
+      }
+    },
+    {
+      "slug": "the-greek-mythology-olympiaganza--jun-03-2023",
+      "reference_slug": "the-greek-mythology-olympiaganza--jun-02-2023",
+      "date":{
+        "start": "2023-06-03",
+        "end": "2023-06-03"
+      }
+    },
+    {
       "category": "",
       "type": "class",
       "slug": "blood-and-bones-class--may-18-21-2023",
