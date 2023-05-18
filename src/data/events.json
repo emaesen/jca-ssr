@@ -11,7 +11,7 @@
     "note": "",
     "series": "",
     "price": "$25 at venue / $20 adv online →",
-    "price_note": "---Online ticket purchase link to be added soon---",
+    "price_note": "",
     "ticket": "",
     "humanitix": "",
     "time":{
@@ -87,6 +87,56 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "aaron-jonah-lewis--jul-11-2023",
+      "title": "Aaron Jonah Lewis",
+      "performer": "Aaron Jonah Lewis",
+      "description": "Champion fiddler Aaron Jonah Lewis has been elbow-deep in traditional American fiddle and banjo music since his first lessons at the age of five with Kentucky native Robert Oppelt.",
+      "details": "[Aaron Jonah Lewis](https://aaronjonahlewis.com/) is an acclaimed multi-instrumentalist, performer and educator. He has won awards at the Clifftop Appalachian String Band Festival, including First Place Neotraditional Band in 2008 and 2015, and at the Galax Old Fiddlers Convention, including First Place Bluegrass Fiddle in 2018 and in 2007. He has performed at major festivals from the US to the UK and from Italy to Finland and continues to tour extensively.\n\nLewis has appeared on dozens of recordings from bluegrass and old time to traditional jazz, contemporary experimental and Turkish classical music projects. He has taught workshops at the the Royal Scottish Academy of Music and Drama in Glasgow and at the English Folk Dance and Song Society in London. He also plays and teaches banjo, mandolin, and guitar and is currently based in Detroit.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →\nStudents/Seniors $15 at venue / $10 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "aaron-jonah-lewis",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2023-07-11",
+        "end": "2023-07-11"
+      },
+      "location": "",
+      "image": "aaron-jonah-lewis.jpg",
+      "image_width": "700",
+      "image_height": "467",
+      "stream": "",
+      "youtube": "Xihbqca2L9s",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",
