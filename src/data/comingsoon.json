@@ -29,45 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "Black Sheep Brass Band",
-      "description": "Free Show in the JCA Field",
-      "note": "",
-      "time":{
-        "start": "18:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-07-18",
-        "end": "2023-07-18"
-      }
-    },
-    {
-      "title": "JCA World Music Festival",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-09-07",
-        "end": "2023-09-10"
-      }
-    },
-    {
-      "title": "Mt Shasta Oktoberfest",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-09-30",
-        "end": "2023-09-30"
-      }
-    },
-    {
       "title": "JCA Halloween Ball",
       "description": "",
       "note": "",
