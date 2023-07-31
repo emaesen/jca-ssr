@@ -142,7 +142,7 @@
             ></button-register>
           </div>
           <div class="event_desc">
-            <span v-html="description"/>
+            <div v-html="description"/>
           </div>
 
           <!-- all-access-pass button -->
@@ -177,7 +177,7 @@
         <div 
             v-if="descriptionDetails"
             class="event_desc event_desc_details group">
-          <span v-html="descriptionDetails"/>
+          <div v-html="descriptionDetails"/>
         </div>
 
         <!-- atPageLevel event music stream -->
