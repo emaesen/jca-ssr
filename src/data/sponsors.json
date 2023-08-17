@@ -3,7 +3,7 @@
     {
       "name": "Caldera Brewing Company",
       "addressline1": "590 Clover Lane",
-      "addressline2": "Ashland, Oregon 97520",
+      "addressline2": "Ashland, OR 97520",
       "byline": "Dedicated to producing uncompromised quality ales, lagers, sodas and cuisine",
       "url": "https://calderabrewing.com/",
       "logo": "caldera-brewing-company-logo.png",
@@ -12,7 +12,7 @@
     {
       "name": "Cold Creek Inn",
       "addressline1": "724 North Mount Shasta Blvd",
-      "addressline2": "Mount Shasta, California 96067",
+      "addressline2": "Mount Shasta, CA 96067",
       "byline": "Stay at the Cold Creek Inn, a hotel in Mount Shasta. Located downtown: walk to eat, shop, play",
       "url": "https://coldcreekinn.com/",
       "logo": "cold-creek-inn-logo.png",
@@ -21,7 +21,7 @@
     {
       "name": "Shasta Inn",
       "addressline1": "1121 South Mount Shasta Blvd",
-      "addressline2": "Mount Shasta, California 96067",
+      "addressline2": "Mount Shasta, CA 96067",
       "byline": "Charming Rustic Lodge in the Heart of Mt. Shasta",
       "url": "https://www.shastainn.com/",
       "logo": "shasta-inn-logo.jpg",
@@ -30,7 +30,7 @@
     {
       "name": "Pipeline Craft Taps & Kitchen",
       "addressline1": "320 North Mount Shasta Blvd",
-      "addressline2": "Mount Shasta, California 96067",
+      "addressline2": "Mount Shasta, CA 96067",
       "byline": "American Restaurant in Mount Shasta, California",
       "url": "https://www.facebook.com/pages/category/Restaurant/Pipeline-Craft-Taps-and-Kitchen-385482385506720/",
       "logo": "pipeline.png",
@@ -39,20 +39,29 @@
     {
       "name": "Dunsmuir Brewery Works",
       "addressline1": "5701 Dunsmuir Ave",
-      "addressline2": "Dunsmuir, California 96025",
+      "addressline2": "Dunsmuir, CA 96025",
       "byline": "A micro brew pub offering a variety of hand crafted ales and fine food",
       "url": "https://dunsmuirbreweryworks.com/",
       "logo": "dunsmuir-brewery-works-logo2.png",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "LOGE Mt. Shasta",
       "addressline1": "1612 South Mount Shasta Blvd",
-      "addressline2": "Mount Shasta, California 96067",
+      "addressline2": "Mount Shasta, CA 96067",
       "byline": "LOGE offers a variety of lodging options - hotel rooms, hostel bunks, or camping",
       "url": "https://www.logecamps.com/mtshasta-ca",
       "logo": "loge-logo.png",
       "isActive": false
+    },
+    {
+      "name": "Ray-Mac Mechanical, Inc",
+      "addressline1": "901 N Mount Shasta Blvd.",
+      "addressline2": "Mount Shasta, CA 96067",
+      "byline": "Dependable Plumbing, Refrigeration, Heating and Air Conditioning in Mount Shasta, CA",
+      "url": "https://www.raymacmechanical.com/",
+      "logo": "ray-mac-mechanical-logo.png",
+      "isActive": true
     },
     {
       "name": "Humanitix",
@@ -66,11 +75,11 @@
     {
       "name": "Website Design by Edward Maesen",
       "addressline1": "",
-      "addressline2": "Mount Shasta, California 96067",
+      "addressline2": "Mount Shasta, CA 96067",
       "byline": "Edward Maesen: sound healer, photographer and website developer",
-      "url": "https://epvm.name/",
-      "linkText": "Edward's website",
-      "logo": "edward-maesen-logo.jpg",
+      "url": "https://mountshastasoundhealing.com/",
+      "linkText": "Edward's Sound Healing website",
+      "logo": "ad-edward-sound-healing.jpg",
       "isActive": true
     }
   ]
