@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "fest",
+      "type": "",
+      "slug": "halloween-costume-party--oct-28-2023",
+      "title": "Halloween Costume Party",
+      "performer": "",
+      "description": "Mount Shasta Halloween costume party!",
+      "details": "DJ, live music\nFood\nDrinks\n\n$500 in cash and prizes\nlocal artizans\n18+",
+      "note": "",
+      "series": "",
+      "price": "$10 at venue",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-10-28",
+        "end": "2023-10-28"
+      },
+      "location": "",
+      "image": "halloween-2023.jpg",
+      "image_width": "800",
+      "image_height": "1422",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "gadan-irish-trad-and-celtgrass--oct-06-2023",
+      "title": "Gadan - Irish Trad & Celtgrass",
+      "performer": "Gadan",
+      "description": "Gadan is a new quartet, blending the drive of Irish traditional music and bluegrass with the heart and soul of folk & Appalachian music.",
+      "details": "#Celtic music with a refreshing new attitude# [Gadan](https://www.gadanband.com/) is a new project created by four experienced musicians of Irish trad and European folk/rock scene. They come with years of experience touring the major European and US traditional and alternative folk music festivals.\n\nTheir high–energy repertoire has a powerful live appeal and a sound comparable to new–trad acts such as Talisk, and WeBanjo3, but with a unique identity thanks to years of experience in several folk scenes, from Appalachian & Old Time to English folk and Irish traditional music. Their lineup consists of two banjos – tenor & clawhammer – fiddle, mandolin, bouzouki and guitar creating an “strings–only” sound with a hint of electronics, driven by a powerful rhythmic pulse.\n\nGadan’s performances build energy, taking audience to ecstasy with their wide spectrum of refreshing yet traditional sound.\n\nGadan’s power leaves no one unmoved. You don’t need drums to groove.\n\n*Andrea Verga*: mandolin, banjo, vocals\n*Jacopo Ventura*: guitar, bouzouki, vocals\n*Joan Gatti*: fiddle\n*Lorenzo Testa*: tenor banjo, mandolin, guitar, vocals",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "gadan-irish-trad-and-celtgrass",
+      "time":{
+        "start": "19:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2023-10-06",
+        "end": "2023-10-06"
+      },
+      "location": "",
+      "image": "gadan.jpg",
+      "image_width": "600",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "jDmiPgj_dcA",
+      "youtube2": "TTqPUUOAEtg",
+      "youtube3": "44J75th3ubc",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "comedy",
       "type": "workshop",
       "slug": "stand-up-comedy-101--sep-23-2023",
