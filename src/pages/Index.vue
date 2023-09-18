@@ -20,7 +20,7 @@
     <div
       v-if="showFeaturedEvent"
     >
-      <g-link to="/events/music/jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022" title="click to view info about the JCA World Music Festival 2022">
+      <!--<g-link to="/events/music/jca-world-music-festival-all-access-pass--sep-24-to-oct-21-2022" title="click to view info about the JCA World Music Festival 2022">-->
         <!--video 
           class="hero-video anima__zoom" 
           autoplay playsinline muted loop 
@@ -29,11 +29,11 @@
           <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
           <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
         </video-->
-        <g-image src="/img/jca-wmf-2022.jpg" alt="JCA World Music Festival 2022" class="hero-img"/>
-        <div class="center">
+        <g-image src="/img/art-mentorship-2023.jpg" alt="JCA art mentorship 2023" class="hero-img"/>
+        <!--<div class="center">
         View info about the JCA World Music Festival 2022.
         </div>
-      </g-link>
+      </g-link>-->
     </div>
 
 
@@ -143,7 +143,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2022-10-21T23:00");
+      const eventDate = new Date("2023-10-02T16:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
