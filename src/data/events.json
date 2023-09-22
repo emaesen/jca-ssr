@@ -1,7 +1,7 @@
 {
   "schema":
   {
-    "category": "music|visual-arts|theater|fest|festival|summit|comedy",
+    "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic",
     "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
     "slug": "dashed-title--mmm-dd-2023",
     "title": "",
@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "open-mic",
+      "type": "gathering",
+      "slug": "jca-open-mic--oct-14-2023",
+      "title": "JCA Open Mic",
+      "performer": "Hosts Cheryl Lunar Wind and Shambala",
+      "description": "Join us for an evening of creative gift sharing: poetry, song, drumming, chanting or your unique thoughts. With hosts Cheryl Lunar Wind and Shambala.",
+      "details": "",
+      "note": "",
+      "series": "Open Mic",
+      "price": "$10 suggested donation appreciated",
+      "price_note": "None will be turned away",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2023-10-14",
+        "end": "2023-10-14"
+      },
+      "location": "",
+      "image": "open-mic-20231016.jpg",
+      "image_width": "800",
+      "image_height": "1035",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night-with-cyrus-naderpour--oct-13-2023",
+      "title": "JCA Comedy Night with Cyrus Naderpour",
+      "performer": "Cyrus Naderpour",
+      "description": "JCA Presents COMEDY NIGHT with Cyrus Naderpour, hosted by Nick Meier. 18+",
+      "details": "#Cyrus Naderpour# Well before traveling the world to tell dick jokes to strangers, [Cyrus Naderpour](https://thecyrusshow.com/) was born in Rome and immigrated to the U.S. with his family when he was two. Cyrus grew up in Maryland where he attended the University of Maryland and earned his BS in Accounting. At the age of 24, Cyrus moved to Los Angeles to pursue a promising new office job. Several years after moving to LA, Cyrus separated his shoulder in a snowboarding accident. While binge watching standup specials in an opioid and weed induced haze, Cyrus thought it would be a good idea to abandon his six figure office job and become a standup comic. After sobering up he still thought that was a good idea, and here we are today.\n\nCyrus cut his teeth producing and performing in a traveling comedic variety show. Having to follow burlesque, sideshow, and outlandish drag acts forced Cyrus to develop the unshakeable act that he has today. Cyrus has performed standup at Improvs all over the country, the SF and Sac Punchline, and was part of a Vegas residency. Cyrus now focuses on touring for standup, and creating digital content. TikTok’s core audience of Zoomers and the Chinese Intelligence Agency have taken a real liking to Cyrus’s brand of comedy his has nearly 30k followers on the platform, and has gone viral several times. Whether it be online or in person you can always count on Cyrus to deliver a raw form of comedy that isn’t scared to tackle any issue, and will have you laughing from start to finish.",
+      "note": "",
+      "series": "Comedy Night",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jca-comedy-night-with-cyrus-naderpour",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2023-10-13",
+        "end": "2023-10-13"
+      },
+      "location": "",
+      "image": "comedy-night-20231013.jpg",
+      "image_width": "700",
+      "image_height": "991",
+      "stream": "",
+      "youtube": "VKVRzT08HdY",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "fest",
       "type": "",
       "slug": "halloween-costume-party--oct-28-2023",
@@ -116,7 +216,7 @@
       "ticket": "",
       "humanitix": "",
       "time":{
-        "start": "",
+        "start": "20:00",
         "end": ""
       },
       "date":{
@@ -234,12 +334,12 @@
       "flag": {
         "show_registration_form": false,
         "is_outdoors": false,
-        "is_postponed": false,
+        "is_postponed": true,
         "is_canceled": false,
         "is_excluded": false,
         "is_free": false
       },
-      "stamp": "",
+      "stamp": "rescheduled spring 2024",
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
@@ -284,12 +384,12 @@
       "flag": {
         "show_registration_form": false,
         "is_outdoors": false,
-        "is_postponed": false,
+        "is_postponed": true,
         "is_canceled": false,
         "is_excluded": false,
         "is_free": false
       },
-      "stamp": "",
+      "stamp": "rescheduled spring 2024",
       "stamp_summary": "",
       "sponsor_text": "",
       "sponsor_image": "",
