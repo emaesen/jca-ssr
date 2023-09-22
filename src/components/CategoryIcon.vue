@@ -7,6 +7,7 @@
     <i class="icon-Fest" v-if="category==='fest'"></i>
     <i class="icon-Summit" v-if="category==='summit'"></i>
     <i class="icon-Summit" v-if="category==='festival'"></i>
+    <i class="icon-Summit" v-if="category==='open-mic'"></i>
     <i class="icon-Summit" v-if="category===''"></i>
     <i class="icon-Theater" v-if="category==='comedy'"></i>
   </span>
