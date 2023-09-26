@@ -83,7 +83,7 @@
         <email-subscribe-section v-animate-on-intersection/>
       </div>
 
-      <div class="event-list">
+      <div v-if="!noEvents" class="event-list">
         <div
             v-for="(evt, index) in filteredEvents" 
             :key="evt.slug">
