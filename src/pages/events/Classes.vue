@@ -2,6 +2,16 @@
   <div>
     <h1>Classes at JCA</h1>
 
+    <div
+      v-if="showFeature"
+      class="classes-feature"
+    >
+      <link-outbound to="//shastastudios.net/">
+        <g-image src="/img/shasta-studios-classes-2023-m.jpg" alt="Shasta Studio Classes 2023" class="classes-feature-img"/>
+      </link-outbound>
+
+    </div>
+
     <event-list type="class"/>
 
     <class-schedule v-animate-on-intersection/>
@@ -12,6 +22,7 @@
 </template>
 
 <script>
+import LinkOutbound from '@/components/LinkOutbound.vue';
 import EventList from "@/components/EventList.vue";
 import ClassSchedule from "@/components/ClassSchedule.vue";
 import ClassCalendar from "@/components/ClassCalendar.vue";
@@ -22,6 +33,7 @@ export default {
   name: 'Classes',
   mixins: [animateOnIntersection],
   components: {
+    LinkOutbound,
     EventList,
     ClassSchedule,
     ClassCalendar,
@@ -51,10 +63,30 @@ export default {
     meta_description() {
       return "Weekly classes at Jefferson Center for the Arts in Mount Shasta, California, USA.";
     },
+    showFeature() {
+      const now = new Date();
+      const endDate = new Date("2023-11-06T16:00");
+      return (
+        (now.getTime() - endDate.getTime()) <= 0
+      );
+    },
   }
 };
 </script>
 
-<style lang="less" scoped>
-
+<style lang="less">
+  .classes-feature .icon-Outbound{
+    display:none;
+  }
+  .event_price_wrapper {
+    margin:0!important;
+  }
+  .event_presenter {
+    margin-bottom:1em!important;
+  }
+  .classes-feature-img {
+    float:right;
+    margin: 3em 0 .5em 1em;
+    width:30%;
+  }
 </style>
