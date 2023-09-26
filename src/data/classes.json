@@ -23,11 +23,28 @@
        ],
       "monday": [
         {
+          "_id": "mon1500",
+          "category": "theater",
+          "title": "Art Mentorship for Teens - ages 13+",
+          "presenter": "Baruch",
+          "description": "Each and every week we will embark on a weekly creative adventure, in which we explore the creative process: ideation and brainstorming, sketching, design, color, composition and many other fundamental skill sets. Class is limited to 10 students.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "15:00",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
           "_id": "mon1530",
           "category": "theater",
-          "title": "Mt Shasta Childrens Theatre - MSCT 1",
-          "presenter": "",
-          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "title": "Mt Shasta Childrens Theatre - MSCT 1 - ages 7-9",
+          "presenter": "Guinevere",
+          "description": "Mt Shasta Childrens Theatre has been educating young actors and entertaining the community for over 8 years. MSCT 1 is for beginning actors who want to learn more about theatre arts and all of its components. Students will learn the basics of singing, musical theatre movement, storytelling and improv. This is a great class for boys and girls ages 7-9",
           "note": "",
           "price": "",
           "time":{
@@ -42,9 +59,9 @@
         {
           "_id": "mon1630",
           "category": "music",
-          "title": "Beginning Voice 8+",
-          "presenter": "",
-          "description": "",
+          "title": "Group Singing - ages 8-14",
+          "presenter": "Guinevere",
+          "description": "Students will learn to sing pop, folk and musical theatre styles in a group setting. They will learn aspects of reading music and dynamics as well. All ages are welcome but if non-readers sign up they should have a sibling or parent sign up too.",
           "note": "",
           "price": "",
           "time":{
@@ -59,11 +76,28 @@
       ],
       "tuesday": [
         {
+          "_id": "tue1000",
+          "category": "music",
+          "title": "Preschool Music - ages 3-5",
+          "presenter": "Brigitara",
+          "description": "A wonderful introduction to music for children ages 3-5.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "10:00",
+            "end": "11:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
           "_id": "tue1530",
           "category": "theater",
-          "title": "Mt Shasta Childrens Theatre - MSCT 2",
-          "presenter": "",
-          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "title": "Mt Shasta Childrens Theatre - MSCT 2 - ages 8-12",
+          "presenter": "Wendy",
+          "description": "Mt Shasta Childrens Theatre has been educating young actors and entertaining the community for over 10 years. MSCT 2 is for actors with previous MSCT or Broadway Camp experience. All students must be comfortable singing harmony as well as solo pieces. Ideally all students in MSCT2 will have 2-3 years of previous theatre experience.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
@@ -78,9 +112,9 @@
         {
           "_id": "tue1700",
           "category": "theater",
-          "title": "Mt Shasta Childrens Theatre - MSCT 3",
+          "title": "Mt Shasta Childrens Theatre - MSCT 3 - ages 12-18",
           "presenter": "",
-          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "description": "Mt Shasta Childrens Theatre has been educating young actors and entertaining the community for over 10 years. MSCT 3 is for experienced actors ages 12-18 with previous MSCT or Broadway Camp experience All students must be comfortable singing harmony as well as solo pieces. Ideally all students in MSCT will have 3-5 years of previous theatre experience.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
@@ -94,14 +128,116 @@
         }
       ],
       "wednesday": [
+        {
+          "_id": "wen1500",
+          "category": "theater",
+          "title": "Art Mentorship for Kids - ages 7-12",
+          "presenter": "Baruch",
+          "description": "Each and every week we will embark on a weekly creative adventure, in which we explore the creative process: ideation and brainstorming, sketching, design, color, composition and many other fundamental skill sets. Class is limited to 10 students.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "15:00",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "wed1530",
+          "category": "theater",
+          "title": "Lyrical 2 - ages 10-15",
+          "presenter": "Wendy",
+          "description": "Lyrical dance for students with 3 or more years of dance experience.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "15:30",
+            "end": "17:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "wed1700",
+          "category": "theater",
+          "title": "Tap 2/3",
+          "presenter": "Wendy",
+          "description": "This tap class is for dancers with 3+ years of experience. Black, flat, lace up shoes required.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "17:00",
+            "end": "18:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "wed1800",
+          "category": "theater",
+          "title": "Lyrical 3",
+          "presenter": "Wendy",
+          "description": "Lyrical 2 Prerequisite Ages 11-18",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "18:00",
+            "end": "19:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "wed1900",
+          "category": "theater",
+          "title": "Jazz 3",
+          "presenter": "Wendy",
+          "description": "Int/Adv jazz. students also take Lyrical 3 at 6pm",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "19:00",
+            "end": "20:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        }
       ],
       "thursday": [
         {
+          "_id": "thu1000",
+          "category": "music",
+          "title": "Preschool Music - ages 3-5",
+          "presenter": "Brigitara",
+          "description": "A wonderful introduction to music for children ages 3-5.",
+          "note": "2x a week (Tue & Thu)",
+          "price": "",
+          "time":{
+            "start": "10:00",
+            "end": "11:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
           "_id": "thu1530",
           "category": "theater",
-          "title": "Mt Shasta Childrens Theatre - MSCT 2",
-          "presenter": "",
-          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "title": "Mt Shasta Childrens Theatre - MSCT 2 - ages 8-12",
+          "presenter": "Wendy",
+          "description": "Mt Shasta Childrens Theatre has been educating young actors and entertaining the community for over 10 years. MSCT 2 is for actors with previous MSCT or Broadway Camp experience. All students must be comfortable singing harmony as well as solo pieces. Ideally all students in MSCT2 will have 2-3 years of previous theatre experience.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
@@ -116,9 +252,9 @@
         {
           "_id": "thu1700",
           "category": "theater",
-          "title": "Mt Shasta Childrens Theatre - MSCT 3",
-          "presenter": "",
-          "description": "Acting, Singing, Scene Study and Performance Classes for Kids of All Ages.",
+          "title": "Mt Shasta Childrens Theatre - MSCT 3 - ages 12-18",
+          "presenter": "Wendy",
+          "description": "Mt Shasta Childrens Theatre has been educating young actors and entertaining the community for over 10 years. MSCT 3 is for experienced actors ages 12-18 with previous MSCT or Broadway Camp experience All students must be comfortable singing harmony as well as solo pieces. Ideally all students in MSCT will have 3-5 years of previous theatre experience.",
           "note": "2x a week (Tue & Thu)",
           "price": "",
           "time":{
@@ -132,6 +268,57 @@
         }
       ],
       "friday": [
+        {
+          "_id": "fri1100",
+          "category": "music",
+          "title": "Piano class for adults",
+          "presenter": "Sharon",
+          "description": "Beginner piano class for adults. Class is limited to six students.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "11:00",
+            "end": "12:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "fri1530",
+          "category": "music",
+          "title": "Piano class - ages 8-11",
+          "presenter": "Sharon",
+          "description": "Beginner piano class for ages 8 to 11. Class is limited to six students.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "15:30",
+            "end": "16:30"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        },
+        {
+          "_id": "fri1700",
+          "category": "music",
+          "title": "Piano class - ages 8-11",
+          "presenter": "Sharon",
+          "description": "Beginner piano class for ages 8 to 11. Class is limited to six students.",
+          "note": "",
+          "price": "",
+          "time":{
+            "start": "17:00",
+            "end": "18:00"
+          },
+          "date":{
+            "start": "2019-09-03",
+            "end": "2050-06-21"
+          }
+        }
       ],
       "saturday": [
       ]

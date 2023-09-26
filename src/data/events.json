@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "arts",
+      "type": "benefit",
+      "slug": "regenerative-arts-learning-center-potluck--oct-06-2023",
+      "title": "Regenerative Arts Learning Center Potluck Fundraiser",
+      "performer": "",
+      "description": "The Regenerative Arts Learning Center is having a POT LUCK FUNDRAISER right before the GADAN show with an awesome raffle with great prizes donated by the Mt Shasta community. Live music by the Campo Jazz Collective featuring JCA’s Wendy James on vocals.",
+      "details": "The JCA is honored to welcome the Regenerative Arts Learning Center as part of our community property. They have already created a beautiful children’s garden and have had camps to teach children in a natural, cooperative and environmentally conscious environment. Their goal is to create a space that is not only a kids day camp during the summer but a learning center for after school classes, activities and all age classes of all sorts under the Regenerative Arts umbrella. They’re having a POT LUCK FUNDRAISER on OCT 6TH right before the GADAN show with an awesome raffle with great prizes donated by the Mt Shasta community. Please come support these fantastic new people! Live music by the Campo Jazz Collective featuring JCA’s Wendy James on vocals. FREE FOR ALL! See you there!\n\nPlease also see their [GoFundMe](https://www.gofundme.com/f/regenerative-arts-learning-center-day-camp) fund-raising campaign.",
+      "note": "",
+      "series": "",
+      "price": "FREE FOR ALL!",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2023-10-06",
+        "end": "2023-10-06"
+      },
+      "location": "",
+      "image": "rad-camp.jpg",
+      "image_width": "719",
+      "image_height": "405",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "open-mic",
       "type": "gathering",
       "slug": "jca-open-mic--oct-14-2023",
