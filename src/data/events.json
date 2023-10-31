@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "worlds-finest--dec-09-2023",
+      "title": "World's Finest",
+      "performer": "World's Finest",
+      "description": "Creating what could best be described as Neo-Americana, World’s Finest has bridged the gap between bluegrass, ska, folk and rock.",
+      "details": "#World’s Finest# ![World’s Finest](worlds-finest-m.jpg) It’s been a wild and crazy ride for the fellas in [World’s Finest](https://worldsfinestmusic.com/) since their modest beginning as an acoustic duo in Portland, OR living rooms in 2011. With a songwriting style rooted in Americana, the band banks on their ability to transcend genres of all kinds. String-centric and bluegrass-inspired compositions seamlessly transition into 3-Dimensional Psytrance, Funk, and Dub soundscapes, leaving their audience with a full circle experience of emotion and dance. Their appreciation for punk and ska can be found peppered throughout their shows and albums, made evident by up-tempo, high-energy offerings. Never happy to settle, Chris, Dan, Sean, Evan, and Kirk continue to push through boundaries and challenge themselves, while hoping to inspire their listeners to expect the most out of what a band in the modern age can be capable of conjuring up.\n\nSeven years, countless shows, and 5 albums later, the band is still firing on all cylinders. The current lineup features 5 members: Chris Couch (Guitar/Vocals), Dan Hurley (Banjo/Vocals), Sean McLean (Sax/Guitar/Vocals), Evan Malfer (Bass), and Kirk Kalbfleisch (Drums). Their paths have all crossed in Portland, by way of Ohio, Illinois, Eastern Oregon, New York and Las Vegas. As a result of such diverse upbringings, it was inevitable that the band’s sound reflected their coast to coast musical influences.\n\nThe latest offering from World’s Finest is a 9 song LP entitled “Chromatophores”. A departure from previous work, the album showcases more of the group’s lengthier compositions. Still rooted in a string band style, but with strong emphasis on poignant instrumental explorations, “Chromatophores” is a comprehensive offering of the band’s sound and showcases the members’ songwriting and instrumental capabilities.\n\nWorld’s Finest has hit the West Coast Festival scene hard, making appearances at High Sierra, Northwest String Summit, Summer Meltdown, Oregon Country Fair, 4 Peaks, What the Festival ?!, and Symbiosis. Their unique style has allowed them to connect with fans from all different kinds of musical worlds. In addition, their chameleon-like approach to their live show has allowed them the honor to share the stage with such acts as Steel Pulse, Leftover Salmon, The Motet, The Expendables, Rusted Root, The Skatalites, Fruition, Ziggy Marley and many more.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online\nStudents/Seniors $20 at venue / $15 adv online",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "worlds-finest",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2023-12-09",
+        "end": "2023-12-09"
+      },
+      "location": "",
+      "image": "worlds-finest.jpg",
+      "image_width": "800",
+      "image_height": "569",
+      "stream": "",
+      "youtube": "cIWh_yQhu3o",
+      "youtube2": "R3aurrolWCo",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "the-brothers-reed--nov-10-2023",
       "title": "The Brothers Reed",
       "performer": "The Brothers Reed",
@@ -111,7 +161,7 @@
       "details": "#The Brothers Reed# The [Brothers Reed](https://www.thebrothersreed.com/) duo incorporates harmonica, percussion, into their live performances, soothing your soul with songs that are familiar yet original. Whether they are finger picking their way through a lamentable ballad or bringing you around full-speed with a barn-burning bluegrass number, The Brothers Reed are masters of their craft.",
       "note": "",
       "series": "",
-      "price": "$20 at venue / $15 adv online →",
+      "price": "$20 at venue / $15 adv online",
       "price_note": "",
       "ticket": "",
       "humanitix": "the-brothers-reed",
