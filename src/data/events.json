@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night-w-mike-betancourt--dec-08-2023",
+      "title": "JCA comedy night with Mike Betancourt",
+      "performer": "Mike Betancourt, Dustin Wood, Nick Meier",
+      "description": "The JCA is stoked to host this special celebrity comedy night with MIKE BETANCOURT! ",
+      "details": "Energetic. Animated. Outrageous. These are just a few of the words that describe multi-faceted performer and creator [Mike Betancourt](https://www.mikebetancourt.com/), the comedian, actor, writer and producer. As a comedian, Mike tears up stages all around the nation and creates new fans wherever he goes.\n\nJCA Comedy Night will feature Dustin Wood and the evening will be hosted by “funnyman” Nick Meier.\n\nSpecial guest TBA :)",
+      "note": "",
+      "series": "Comedy Night",
+      "price": "$20 at venue / $15 adv online",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jca-comedy-night-w-mike-betancourt",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2023-12-08",
+        "end": "2023-12-08"
+      },
+      "location": "",
+      "image": "comedy-night-20231208.jpg",
+      "image_width": "800",
+      "image_height": "1132",
+      "stream": "",
+      "youtube": "3x9gszg8aPg",
+      "youtube2": "VwTuwjmDIg0",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "worlds-finest--dec-09-2023",
