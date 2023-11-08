@@ -123,11 +123,11 @@ h1, h2.h1 {
 }
 h2 {
   margin: 3em 0 1em 0;
-  font-size: 170%;
+  font-size: 150%;
 }
 h3 {
   margin: 2em 0 0.5em 0;
-  font-size: 140%;
+  font-size: 130%;
 }
 button {
   margin: 1em .5em 1em 1em;
@@ -318,6 +318,11 @@ footer {
 .spacer {
   vertical-align: text-top;
   line-height: 1.7em;
+}
+br.spacer {
+    content: " ";
+    display: block;
+    margin-bottom: 0.5em;
 }
 .spacious {
   margin-top: 3em;

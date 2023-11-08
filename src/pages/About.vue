@@ -3,7 +3,7 @@
     <h1>Jefferson Center for the Arts (JCA)</h1>
 
     <section>
-      <h3>Mount Shasta's Premier Educational Center for Music and the Performing Arts!</h3>
+      <h2>Mount Shasta's Premier Educational Center for Music and the Performing Arts!</h2>
 
       <p>
         <span class="donate-button"><button-donate/></span>
@@ -27,11 +27,11 @@
     </div>
 
     <section v-animate-on-intersection>
-      <h3>Founder of JCA: Wendy James</h3>
+      <h2>Founder of JCA: Wendy James</h2>
 
       <p>
         <g-image class="photo" src="/img/wendy-james.jpg" alt="Wendy James photo"/>
-        Wendy James is the founder of Jefferson Center for the Arts, and is also the owner and director of <link-outbound to="//shastastudios.net/">Shasta Studios School of Theatrical Dance</link-outbound> in Mount Shasta. She has been involved in dance, music and theatre all of her life. Wendy comes from four generations of theatrical performers who have led her to happily do the same. She was raised in the family school, Schumacher’s School of Dance, just outside of San Francisco. It was the largest dance academy in Northern California for 41 years with five classrooms and 750 students each year.
+        Wendy James is the founder and executive director of Jefferson Center for the Arts, and is also the owner and director of <link-outbound to="//shastastudios.net/">Shasta Studios School of Theatrical Dance</link-outbound> in Mount Shasta. She has been involved in dance, music and theatre all of her life. Wendy comes from four generations of theatrical performers who have led her to happily do the same. She was raised in the family school, Schumacher’s School of Dance, just outside of San Francisco. It was the largest dance academy in Northern California for 41 years with five classrooms and 750 students each year.
       </p>
 
       <p>
@@ -43,7 +43,33 @@
       </p>
     </section>
 
+
+    <section v-animate-on-intersection>
+      <h2>Board of Directors for JCA</h2>
+
+      <director 
+        v-for="(director, index) in activeDirectors" 
+        :key="director.name" 
+        :id="'director' + (index + 1)"
+        :director="director"
+        class="anima__zoom"
+        v-animate-on-intersection
+        :style="'animation-delay:' + index/10 + 's;animation-fill-mode: backwards;'"
+      />
+       
+    </section>
+
+    <section v-animate-on-intersection style="animation-delay:1s;animation-duration: 3s;">
+      <h2>Webmaster for JCA</h2>
+      <p>
+        <g-image class="photo" src="/img/edward-maesen.jpg" alt="Edward Maesen photo"/>
+        The JCA website is designed, developed and maintained by Edward Maesen, a Mount Shasta <link-outbound to="https://mountshastasoundhealing.com/">sound healer</link-outbound> and <link-outbound to="https://mountshastaphotographyart.com/">photographer</link-outbound>.<br class="spacer">
+        After a career in physics and software development, I now devote my time to assist individuals in realizing their true potential.
+      </p>
+    </section>
+
     <!--<privacy-statement v-animate-on-intersection/>-->
+
   </div>
 </template>
 
@@ -51,8 +77,11 @@
 //import PrivacyStatement from "@/components/PrivacyStatement.vue";
 import LinkOutbound from '@/components/LinkOutbound.vue';
 import ButtonDonate from '@/components/ButtonDonate';
+import Director from '@/components/Director.vue';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
+
+import directorsJson from '@/data/directors.json';
 
 export default {
   name: 'About',
@@ -61,10 +90,12 @@ export default {
 //    PrivacyStatement,
     LinkOutbound,
     ButtonDonate,
+    Director,
   },
   data() {
     return {
-      showVideo: true
+      showVideo: true,
+      directors: directorsJson.directors,
     }
   },
   metaInfo () {
@@ -91,6 +122,9 @@ export default {
     },
     meta_description() {
       return "JCA is the premier educational center for music and the performing arts in Mount Shasta, California, USA.";
+    },
+    activeDirectors() {
+      return this.directors.filter(director => director.isActive)
     },
   }
 };
