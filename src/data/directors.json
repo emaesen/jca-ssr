@@ -3,9 +3,9 @@
     {
       "name": "Wendy james",
       "title": "JCA Executive Director",
-      "bio": "Wendy is an Emmy-award winning Broadway performer who came to Mt Shasta in 2008 seeking a better quality of life for her family. She has become one of the most influential creators of art and culture in Mt Shasta, educating hundreds of students over the past 15 years in music, art, dance and theatre. She is the founder and director of Shasta Studios School of Theatrical Dance and Mt Shasta Children’s Theatre.  She founded the JCA in 2017 to welcome more culture into the region and since then has continued to nurture it into the educational art and music center it  has become. Wendy is a graduate of Berklee College of Music in Boston. She has travelled extensively performing and teaching in China, Japan, Russia, France, England and the Czech republic. Her passion for the arts propels her motivation to continually create. She wants to break the stigma of “starving artist” by raising funds to not only pay artists well, but also offer free and low cost artistic and cultural experiences to the whole community. Alongside the JCA Board of Directors, she runs all of the operations of Jefferson Center for the Arts as a volunteer... programming, advertising, grantwriting, event planning and more. She is grateful for the opportunity to gather people together in celebration of the arts and is thrilled to hold space for the JCA to be the cultural hub of the region.",
+      "bio": "Wendy is an Emmy-award winning Broadway performer who came to Mt Shasta in 2008 seeking a better quality of life for her family. She has become one of the most influential creators of art and culture in Mt Shasta, educating hundreds of students over the past 15 years in music, art, dance and theatre. She is the founder and director of [Shasta Studios School of Theatrical Dance](//shastastudios.net/) and Mt Shasta Children’s Theatre.\nShe founded the JCA in 2017 to welcome more culture into the region and since then has continued to nurture it into the educational art and music center it has become.\nWendy is a graduate of Berklee College of Music in Boston. She has travelled extensively performing and teaching in China, Japan, Russia, France, England and the Czech republic. Her passion for the arts propels her motivation to continually create. She wants to break the stigma of “starving artist” by raising funds to not only pay artists well, but also offer free and low cost artistic and cultural experiences to the whole community.\nAlongside the JCA Board of Directors, she runs all of the operations of Jefferson Center for the Arts as a volunteer... programming, advertising, grantwriting, event planning and more. She is grateful for the opportunity to gather people together in celebration of the arts and is thrilled to hold space for the JCA to be the cultural hub of the region.",
       "img": "wendy-james.jpg",
-      "isActive": false
+      "isActive": true
     },
     {
       "name": "Eva Mitchell",
@@ -22,17 +22,17 @@
       "isActive": true
     },
     {
-      "name": "Cindy Rossman",
-      "title": "JCA Board Member",
-      "bio": "I am an experienced leader in the hospitality and entertainment industries, bringing a unique perspective to the Jefferson Center for the Arts Board of Directors. My passion for the arts and marketing and public relations background make me a valuable asset to any organization looking to promote and support the arts.\nAs the chair of the Santa Monica Malibu Unified School District Visual and Performing Arts Advisory Committee, I gained insight into the challenges and opportunities facing arts education programs. I have also co-produced the McCloud Mountain Bluegrass Festival, which has raised funds to support music education programs.\nMoreover, I am a third-generation hotelier and founder of Fuze Artz, an Emmy-winning music publishing and production company. I own and operate the McCloud Hotel, Sage Restaurant, and Axe & Rose Public House in McCloud, which have become luxury boutique brands and culinary destinations under my leadership.\nMy entrepreneurial spirit and innovative approach have earned me numerous accolades, including an Emmy award in 2020 for producing original music for Hearst Broadcasting. I built the music publishing, licensing, and music library division at Groove Addicts, Inc., which was later sold to Warner Chappell Music for a reported amount of $18 million. At the Hotel Oceana in Santa Monica, I managed a multi-million dollar renovation that transformed the property from a dated, budget lodging into a five-star luxury hotel.\nI am deeply committed to the arts, believing that they have the power to enrich lives and transform communities. I would be honored to bring my skills and experience to JCA and work together to promote and support the arts in our community.",
-      "img": "cindy-rossman-2.jpg",
-      "isActive": true
-    },
-    {
       "name": "Tim Belton",
       "title": "JCA Board Member",
       "bio": "I am Tim Belton. I was raised in a church that loved to sing and grew up around theater and arts in a large family of eight kids. I moved to Mount Shasta in 2001 with my wife Sandy. We own and operate Spring Hill nursery and gardens. We focus on growing the roots of our community through our artistic ideas, concerts and events. Our support the JCA as a board member and volunteer because they have the same community determination to contribute through entertainment education and positive interpersonal experiences. Being raised in that culture of creativity, taught me that art and community, are essential.   Without those elements present, a town isn’t a place worth living.  I am a board member so that I can be a part of the energy that maintains arts influence in Mount Shasta.",
       "img": "tim-belton.jpg",
+      "isActive": true
+    },
+    {
+      "name": "John Carr",
+      "title": "JCA Board Member",
+      "bio": "Raised in different parts of Northern California.  A farm kid for some of that time.  Graduated from San Jose State University with a BA and an MA in fine arts.  Junior College teaching credential also from SJSU.\nWorked at SJSU from about 1970 to 1975, as an art director.  Lots of fun and stories here,  Traveled during 1976.  Settled in Redding CA. 1977.  Worked odd jobs for a while then as the director of The Redding Museum for about a year.  Then I went into the real estate business, became a broker and pursued that occupation for over forty years to the present time.\nI am married to Mary Rose Roach and we have an eight year old daughter, adopted, Sequoia Rose Carr. She is the light of my life!   We have two dogs, the famous Ringo, and beautiful Rosie, an eight month old holy terror but so full of love.\nI believe in the science of happiness, living in the now, and that it is an honor, a privilege, and a big responsibility to be a human on this stunning planet earth.",
+      "img": "john-carr-2.jpg",
       "isActive": true
     },
     {
@@ -43,17 +43,17 @@
       "isActive": true
     },
     {
+      "name": "Cindy Rossman",
+      "title": "JCA Board Member",
+      "bio": "I am an experienced leader in the hospitality and entertainment industries, bringing a unique perspective to the Jefferson Center for the Arts Board of Directors. My passion for the arts and marketing and public relations background make me a valuable asset to any organization looking to promote and support the arts.\nAs the chair of the Santa Monica Malibu Unified School District Visual and Performing Arts Advisory Committee, I gained insight into the challenges and opportunities facing arts education programs. I have also co-produced the McCloud Mountain Bluegrass Festival, which has raised funds to support music education programs.\nMoreover, I am a third-generation hotelier and founder of Fuze Artz, an Emmy-winning music publishing and production company. I own and operate the McCloud Hotel, Sage Restaurant, and Axe & Rose Public House in McCloud, which have become luxury boutique brands and culinary destinations under my leadership.\nMy entrepreneurial spirit and innovative approach have earned me numerous accolades, including an Emmy award in 2020 for producing original music for Hearst Broadcasting. I built the music publishing, licensing, and music library division at Groove Addicts, Inc., which was later sold to Warner Chappell Music for a reported amount of $18 million. At the Hotel Oceana in Santa Monica, I managed a multi-million dollar renovation that transformed the property from a dated, budget lodging into a five-star luxury hotel.\nI am deeply committed to the arts, believing that they have the power to enrich lives and transform communities. I would be honored to bring my skills and experience to JCA and work together to promote and support the arts in our community.",
+      "img": "cindy-rossman-2.jpg",
+      "isActive": true
+    },
+    {
       "name": "Andrea Shanti",
       "title": "JCA Board Member",
       "bio": "I am a mother artist healer and leader in the transformative arts. I am the proprietor of holistic body therapy, an internationally distributed line of wild crafted and plant based health products. I reside in Mount Shasta and experienced deep satisfaction in developing my homesteading arts of gardening, painting, pottery and knitting. I'm very happy to offer my experience to the board of directors at the JCA. It's a wonderful place.",
       "img": "andrea-shanti.jpg",
-      "isActive": true
-    },
-    {
-      "name": "Bianca Garza",
-      "title": "JCA Fundraising Consultant and Facilitator",
-      "bio": "Driven by community and values, I consistently find myself propelling the arts. With my decade of experience in fundraising & communications, I hope to ensure our community has opportunities for children and adults to learn and express themselves.\nMy first professional job was as an Executive Assistant to Anna Brennan, Founder and Artistic Producing Director of Stageworks Theatre. Around this time, I founded a live-production promotional company in Tampa, FL. I pivoted to co-founding a music and art festival that showcased artists from circus to live music to painted installations and beyond for 9 years. Overlapping this time, I began my career in communications for nonprofits and political campaigns. I now have over a decade of professional communications & fundraising experience that I am so glad to bring to the JCA. Beyond this, you could and will find me volunteering my time as an usher, at the door or bar of an event, parking cars or whatever it takes to make the magic happen.",
-      "img": "bianca-garza.jpg",
       "isActive": true
     },
     {
@@ -64,10 +64,10 @@
       "isActive": true
     },
     {
-      "name": "John Carr",
-      "title": "JCA Board Member",
-      "bio": "Raised in different parts of Northern California.  A farm kid for some of that time.  Graduated from San Jose State University with a BA and an MA in fine arts.  Junior College teaching credential also from SJSU.\nWorked at SJSU from about 1970 to 1975, as an art director.  Lots of fun and stories here,  Traveled during 1976.  Settled in Redding CA. 1977.  Worked odd jobs for a while then as the director of The Redding Museum for about a year.  Then I went into the real estate business, became a broker and pursued that occupation for over forty years to the present time.\nI am married to Mary Rose Roach and we have an eight year old daughter, adopted, Sequoia Rose Carr. She is the light of my life!   We have two dogs, the famous Ringo, and beautiful Rosie, an eight month old holy terror but so full of love.\nI believe in the science of happiness, living in the now, and that it is an honor, a privilege, and a big responsibility to be a human on this stunning planet earth.",
-      "img": "john-carr.jpg",
+      "name": "Bianca Garza",
+      "title": "JCA Fundraising Consultant and Facilitator",
+      "bio": "Driven by community and values, I consistently find myself propelling the arts. With my decade of experience in fundraising & communications, I hope to ensure our community has opportunities for children and adults to learn and express themselves.\nMy first professional job was as an Executive Assistant to Anna Brennan, Founder and Artistic Producing Director of Stageworks Theatre. Around this time, I founded a live-production promotional company in Tampa, FL. I pivoted to co-founding a music and art festival that showcased artists from circus to live music to painted installations and beyond for 9 years. Overlapping this time, I began my career in communications for nonprofits and political campaigns. I now have over a decade of professional communications & fundraising experience that I am so glad to bring to the JCA. Beyond this, you could and will find me volunteering my time as an usher, at the door or bar of an event, parking cars or whatever it takes to make the magic happen.",
+      "img": "bianca-garza.jpg",
       "isActive": true
     },
     {

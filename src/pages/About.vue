@@ -26,6 +26,8 @@
       <g-image v-else class="img-hero anima__zoom" src="/img/jca-banner.png" alt="JCA banner"/>
     </div>
 
+    <!--
+
     <section v-animate-on-intersection>
       <h2>Founder of JCA: Wendy James</h2>
 
@@ -42,6 +44,7 @@
         Wendy won an Emmy Award in 2001 and the top prize at the International Dance Exposition in Prague for her jazz choreography. She lives now in Mt Shasta with her daughter, sharing her knowledge and love of the arts with the community in Siskiyou County!
       </p>
     </section>
+    -->
 
 
     <section v-animate-on-intersection>
@@ -61,11 +64,21 @@
 
     <section v-animate-on-intersection style="animation-delay:1s;animation-duration: 3s;">
       <h2>Webmaster for JCA</h2>
-      <p>
-        <g-image class="photo" src="/img/edward-maesen.jpg" alt="Edward Maesen photo"/>
-        The JCA website is designed, developed and maintained by Edward Maesen, a Mount Shasta <link-outbound to="https://mountshastasoundhealing.com/">sound healer</link-outbound> and <link-outbound to="https://mountshastaphotographyart.com/">photographer</link-outbound>.<br class="spacer">
-        After a career in physics and software development, I now devote my time to assist individuals in realizing their true potential.
-      </p>
+      <h3>Edward Maesen</h3>
+      <div class="webmaster">
+        <div class="column left">
+            <g-image class="webmaster_img" src="/img/edward-maesen.jpg" alt="Edward Maesen photo"/>
+        </div>
+        <div class="column right">
+          <div class="webmaster_bio">
+            When I first saw the signs of an art center taking form in my neighborhood, I felt compelled to volunteer my services to design, develop and maintain the JCA website.<br class="spacer">
+            I am a Mount Shasta <link-outbound to="https://mountshastasoundhealing.com/">sound healer</link-outbound> and <link-outbound to="https://mountshastaphotographyart.com/">photographer</link-outbound>.<br class="spacer">
+            After a career in physics and software development, I now devote my time to assist individuals in realizing their true potential.<br class="spacer">
+            From an early age I have been aware of the multi-dimensionality of my being and found refuge in the Stillness Within. I now use sound to help others enter that state of harmony and peace. My sound sessions have been referred to as “galactic shamanism” and “celestial initiation”.
+            
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--<privacy-statement v-animate-on-intersection/>-->
@@ -151,4 +164,20 @@ export default {
 .donate-button {
   float: right;
 }
+.webmaster {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.column.left {
+  flex: 1;
+}
+.column.right {
+  flex: 3;
+}
+.webmaster_img {
+  max-width: 90%;
+}
+
 </style>
