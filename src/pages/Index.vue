@@ -16,55 +16,63 @@
 
     <organization-schema-script/>
 
-    
-    <div
-      v-if="showFeaturedEvent"
-    >
-      <g-link to="/events/fest/halloween-costume-party--oct-28-2023" title="click to view info about the JCA Halloween Party">
-        <!--video 
-          class="hero-video anima__zoom" 
-          autoplay playsinline muted loop 
-          poster="/img/christmas-carol-auditions.jpg"
-        >
-          <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
-          <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
-        </video-->
-        <g-image src="/img/event/halloween-2023.jpg" alt="JCA Halloween Party 2023" class="hero-img"/>
+    <section v-animate-on-intersection>
+      <div class="feature"
+        v-if="showFeaturedEvent"
+      >
+        <h2>Featured event</h2>
         <div class="center">
-        View info about the JCA Halloween Party.
+          <!--g-link to="/events/fest/halloween-costume-party--oct-28-2023" title="click to view info about the JCA Halloween Party"-->
+            <!--video 
+              class="hero-video anima__zoom" 
+              autoplay playsinline muted loop 
+              poster="/img/christmas-carol-auditions.jpg"
+            >
+              <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
+              <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
+            </video-->
+            <g-image src="/img/giving-tuesday-2023.jpg" alt="JCA Giving Tuesday 2023" class="hero-img"/>
+            <div class="center">
+            Giving Tuesday is coming and we're participating for the 1st time ever!<br>
+            Will you help us continue to enrich the lives of people of all ages?<br>
+            Starting November 14th, you can schedule your <link-outbound to="https://www.northstategives.org/organization/Jefferson-Center-For-The-Arts">donation</link-outbound>.<br>
+            The big day is November 28th and we plan to have a party to celebrate giving season!
+            </div>
+          <!--/g-link-->
         </div>
-      </g-link>
-    </div>
+      </div>
 
 
-    <div 
-      class="container-carousel anima__zoom noprint"
-      v-else
-    >
-      <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
-        <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
-        <div>
-          <g-link to="/events/theater/" title="click to view theater events">
-            <g-image class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
-          </g-link>
-        </div>
-        <div>
-          <g-link to="/events/music/" title="click to view music events">
-            <g-image class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
-          </g-link>
-        </div>
-        <div>
-          <g-link to="/events/visual-arts/" title="click to visual arts events">
-            <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
-          </g-link>
-        </div>
-        <template slot="prevButton"><i class="icon-Backward action"></i></template>
-        <template slot="nextButton"><i class="icon-Forward action"></i></template>
-      </carousel>
-    </div>
+      <div 
+        class="container-carousel anima__zoom noprint"
+        v-else
+      >
+        <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
+          <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
+          <div>
+            <g-link to="/events/theater/" title="click to view theater events">
+              <g-image class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
+            </g-link>
+          </div>
+          <div>
+            <g-link to="/events/music/" title="click to view music events">
+              <g-image class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
+            </g-link>
+          </div>
+          <div>
+            <g-link to="/events/visual-arts/" title="click to visual arts events">
+              <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
+            </g-link>
+          </div>
+          <template slot="prevButton"><i class="icon-Backward action"></i></template>
+          <template slot="nextButton"><i class="icon-Forward action"></i></template>
+        </carousel>
+      </div>
+
+    </section>
 
     <section v-animate-on-intersection>
-      <h2>Get Involved!</h2>
+      <h2>Get involved!</h2>
 
       <p>
         <span class="emph">We are excited to open our doors to live performances!</span><br class="spacer">
@@ -107,6 +115,7 @@ import FacebookSection from '@/components/FacebookSection';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import OrganizationSchemaScript from '@/components/OrganizationSchemaScript';
 import ButtonDonate from '@/components/ButtonDonate';
+import LinkOutbound from '@/components/LinkOutbound.vue';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
@@ -120,6 +129,7 @@ export default {
     EmailSubscribeSection,
     OrganizationSchemaScript,
     ButtonDonate,
+    LinkOutbound,
   },
   metaInfo () {
     return {
@@ -143,7 +153,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2023-10-28T22:00");
+      const eventDate = new Date("2023-11-28T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
@@ -163,7 +173,7 @@ export default {
   width: 100%;
 }
 .hero-img {
-  width: 100%;
+  max-width: 100%;
 }
 img.banner_lg {
   width: 100%;
