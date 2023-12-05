@@ -27,19 +27,6 @@
         "end": "2023-mm-dd"
       },
       "is_placeholder": true
-    },
-    {
-      "title": "Beaujolais Noveau Gala",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2023-11-17",
-        "end": "2023-11-17"
-      }
     }
   ]
 }

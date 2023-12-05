@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "sound-ceremony-as-celestial-initiation--jan-07-2024",
+      "title": "Sound Ceremony as Celestial Initiation",
+      "performer": "Edward Maesen",
+      "description": "A meditative sound healing with a collection of acoustic instruments and voice to welcome the New Year - guided by Edward Maesen.",
+      "details": "#Edward Maesen# [Edward Maesen](https://epvm.name/) is a Mount Shasta local. He offers sound healing sessions and canvas prints of his photography art of Mt Shasta.\n\nFrom an early age he has been aware of the multi-dimensionality of his being and found refuge in the Stillness Within. He now uses sound to assist others enter that state of harmony and peace. His sound sessions have been referred to as “galactic shamanism” and “celestial initiation”.\n\nWith thirty years experience in the healing arts, he studied many different modalities and distilled his own unique method from that.\n\nThrough the ceremonial use of sound with acoustic instruments and his voice,\nhe reflects the state of your true Being,\ninviting and allowing you to enter a state of harmony and peace,\nrevitalizing and reinforcing your connection to Self,\ninviting you to remember and realize All that Is – The Ultimate – Awareness beyond being.\n\n\nLet the sounds guide you into the Stillness\nEnter the Kingdom Within\nAnd Be\nLove\n\n\nEdward offers private sound healing sessions in Mount Shasta (by donation - for individuals, couples and small groups up to 6 people):\n[Mount Shasta Sound Healing](https://MountShastaSoundHealing.com/)",
+      "note": "",
+      "series": "SCCI",
+      "price": "$10-$20 suggested donation appreciated",
+      "price_note": "None will be turned away",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2024-01-07",
+        "end": "2024-01-07"
+      },
+      "location": "",
+      "image": "edward-maesen-sound-healing.jpg",
+      "image_width": "800",
+      "image_height": "703",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "comedy",
       "type": "performance",
       "slug": "jca-comedy-night-w-mike-betancourt--dec-08-2023",
@@ -135,7 +185,7 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false,
+        "is_canceled": true,
         "is_excluded": false,
         "is_free": false
       },
