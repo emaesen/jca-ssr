@@ -47,6 +47,7 @@
         class="container-carousel anima__zoom noprint"
         v-else
       >
+        <!--
         <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
           <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
           <div>
@@ -64,6 +65,17 @@
               <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
             </g-link>
           </div>
+          <template slot="prevButton"><i class="icon-Backward action"></i></template>
+          <template slot="nextButton"><i class="icon-Forward action"></i></template>
+        </carousel>
+        -->
+        <carousel :nav-buttons="true" :autoplay-speed="5400" :speed="2700" fade pause-on-hover pause-on-dots-hover autoplay>
+          <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
+          <g-image class="slide" src="/img/carousel/jca-music-1.jpg" alt="JCA music sample 1"/>
+          <g-image class="slide" src="/img/carousel/jca-comedy-1.jpg" alt="JCA comedy sample"/>
+          <g-image class="slide" src="/img/carousel/jca-music-2.jpg" alt="JCA music sample 2"/>
+          <g-image class="slide" src="/img/carousel/jca-theater-1.jpg" alt="JCA theater sample"/>
+          <g-image class="slide" src="/img/carousel/jca-music-3.jpg" alt="JCA music sample 3"/>
           <template slot="prevButton"><i class="icon-Backward action"></i></template>
           <template slot="nextButton"><i class="icon-Forward action"></i></template>
         </carousel>
