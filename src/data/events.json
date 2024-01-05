@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "the-secret-beach-w-special-guest-matt-jolliff--feb-26-2024",
+      "title": "The Secret Beach on Tour",
+      "performer": "Micah Erenberg (The Secret Beach), Matt Jolliff",
+      "description": "The Secret Beach is the moniker used by Canadian artist Micah Erenberg, whose refreshingly plainspoken candor has become a dominant through-line in the singer/songwriters ever-expanding catalog. With special guest Matt Jolliff.",
+      "details": "#The Secret Beach# Everyone loves a secret: a shortcut through the woods, a fishing hole, a beach.\n\n![Micah Erenberg](micah-erenberg-m.jpg)I’m at [the Secret Beach](https://www.thesecretbeach.ca/) now, and I’m reminded that it’s been years since Micah Erenberg merged into the rocks and trees and sand that line this endless spine of a beach – a beach that arches out of an inland ocean like a giant waking from a marshy sleep. How he did this, I can’t tell you. But it came to him as if by revelation: if place is being, then you must become that place: become the Secret Beach: become a firmament for sunny summer days: become a place where you feel like you belong, a place that reminds you of home, a place that is home. And so he became the beach. This is what the Songs from Secret Beach do, too – they can shatter and scatter you into the winds, they can peer into you as if you were glass, they can weather the edges of your broken bottles. And they allow for others – like me – to reflect. You can hear them easier out here. Listen. Put your ears to the ground. Do you hear it? Each grain of sand sings a secret song. Each one is no less important than another. I hear billions around me. A chorus of melodies swarm along the shoreline. This must be how Micah makes his songs – he simply nets them as if they were butterflies.\n\nI walk into the lake, sinking into a sandbar: it’s smooth and cool against my feet. I’m up to my waist in the Secret Beach’s dark waters. I stare back at myself through the ripples that radiate around me. Each song is a tree ring. Like a record player, I curl my finger into a stylus and lower it carefully into the wavy grooves below. “Miss You” plays, “God is” plays. I’m reminded of the smell of balsam poplar buds, and the way they stick to your toes. It’s a memory that the music has freed, and it carries me to shore. As far as I can tell, there’s no one around, and so I sing along, kicking at the water with an intoxicated abandon. \n\nThis is the secret of the Secret Beach: you get to make your own meaning, your own purpose. Through songs that blend the personal and universal, the Secret Beach encourages that meaning-making – and in doing so, makes some spectacularly great music.\n\nBut don’t tell anyone I told you that. That’s between you and me. \n\n- [The Famous Sandhogs](https://thefamoussandhogs.bandcamp.com/)",
+      "note": "",
+      "series": "",
+      "price": "Pay What You Can →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-secret-beach-w-special-guest-matt-jolliff",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2024-02-26",
+        "end": "2024-02-26"
+      },
+      "location": "",
+      "image": "the-secret-beach.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "8qhrb0CKULM",
+      "youtube2": "vUUkFuQMegQ",
+      "youtube3": "uNB99MIzJa4",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "the-clements-brothers--jan-23-2024",
       "title": "The Clements Brothers",
       "performer": "The Clements Brothers, Mike Harmon",
