@@ -2,21 +2,27 @@
   <div>
     <h1>Contact Us</h1>
 
-    <section>
+    <section v-animate-on-intersection>
       <h2>Different ways to reach us</h2>
-      You may contact Wendy James at JCA:<br class="spacer">
+      Communicate with the JCA on social media:<br class="spacer">
+       <ul>
+        <li class="anima__slide-in-from-left del3">
+          the 
+          <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">JCA on facebook</link-outbound>
+        </li>
+        <li class="anima__slide-in-from-left del3">
+          the
+          <link-outbound to="https://www.instagram.com/jeffersoncenterforthearts/">JCA on instagram</link-outbound>
+        </li>
+      </ul>
+      <br>
+      Contact Wendy James at JCA:<br class="spacer">
       <ul>
         <li class="anima__slide-in-from-left del1">
           by phone at <a href="tel:+15309188383">(530) 918-8383</a>
         </li>
         <li class="anima__slide-in-from-left del2">
           by email at <a href="mailto:TheJCA@yahoo.com">TheJCA@yahoo.com</a>
-        </li>
-        <li class="anima__slide-in-from-left del3">
-          via facebook at the 
-          <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">JCA page</link-outbound> 
-          or at 
-          <link-outbound to="https://www.facebook.com/wendybirdfly">Wendy's page</link-outbound>
         </li>
         <li class="anima__slide-in-from-left del4">
           by postal mail at:
