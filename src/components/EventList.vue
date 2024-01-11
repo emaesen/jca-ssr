@@ -57,6 +57,9 @@
               :style="'animation-delay:' + index/20 + 's;animation-fill-mode: backwards;'"
             />
           </div>
+          <div class="deemph center narrow">
+            Tickets for all shows go on sale 30 days before the show date
+          </div>
         </div>
 
 
