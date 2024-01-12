@@ -97,10 +97,10 @@
       </p>
 
       <p>
-        Musicians, Visual Artists, Performers: <g-link to="/get-involved/">send your submission</g-link>
+        Musicians, Visual Artists, Performers: <g-link to="/contact/get-involved/">send your submission</g-link>
       </p>
       <p>
-        Locals: <g-link to="/get-involved/#volunteer">volunteer</g-link>
+        Locals: <g-link to="/contact/get-involved/#volunteer">volunteer</g-link>
       </p>
       <p>
         <g-link to="/contact/">Contact Us</g-link>
@@ -116,7 +116,12 @@
     
     <email-subscribe-section v-animate-on-intersection/>
 
-
+    <section v-animate-on-intersection>
+      <h2>Address</h2>
+      <div>
+        <postal-address/>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -128,6 +133,7 @@ import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import OrganizationSchemaScript from '@/components/OrganizationSchemaScript';
 import ButtonDonate from '@/components/ButtonDonate';
 import LinkOutbound from '@/components/LinkOutbound.vue';
+import PostalAddress from '@/components/PostalAddress.vue';
 
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
 
@@ -142,6 +148,7 @@ export default {
     OrganizationSchemaScript,
     ButtonDonate,
     LinkOutbound,
+    PostalAddress,
   },
   metaInfo () {
     return {

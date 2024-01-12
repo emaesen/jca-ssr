@@ -6,11 +6,11 @@
       <h2>Different ways to reach us</h2>
       Communicate with the JCA on social media:<br class="spacer">
        <ul>
-        <li class="anima__slide-in-from-left del3">
+        <li class="anima__slide-in-from-left del1">
           the 
           <link-outbound to="https://www.facebook.com/JeffersonCenterfortheArts/">JCA on facebook</link-outbound>
         </li>
-        <li class="anima__slide-in-from-left del3">
+        <li class="anima__slide-in-from-left del2">
           the
           <link-outbound to="https://www.instagram.com/jeffersoncenterforthearts/">JCA on instagram</link-outbound>
         </li>
@@ -24,7 +24,7 @@
         <li class="anima__slide-in-from-left del2">
           by email at <a href="mailto:TheJCA@yahoo.com">TheJCA@yahoo.com</a>
         </li>
-        <li class="anima__slide-in-from-left del4">
+        <li class="anima__slide-in-from-left del3">
           by postal mail at:
           <postal-address/>
         </li>
@@ -40,12 +40,14 @@
 
     <location-section v-animate-on-intersection/>
 
+
     <section v-animate-on-intersection>
       <h2>Website design and performance</h2>
       <p>
-        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a> (<link-outbound to="https://epvm.name/">epvm.name</link-outbound>).
+        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a>.
       </p>
     </section>
+
 
   </div>
 </template>
@@ -95,7 +97,7 @@ export default {
     },
     mailtoWebmaster() {
       const emailSubject = "Message about JeffersonCenterForTheArts.com";
-      return "mailto:" + "edward.maesen" + "@" + "gmail.com" +
+      return "mailto:" + "em" + "@" + "kagalakan.com" +
       "?subject=" + encodeURIComponent(emailSubject);
     }
   }
@@ -103,7 +105,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import '../assets/variab.less';
+@import '../../assets/variab.less';
 
 li {
   margin-bottom: .5em;

@@ -16,74 +16,125 @@
 
     <ul :class="['nav menu', {'bar-open':isBarMenuOpen, 'bar-closed':!isBarMenuOpen}]" role="menu"
       @click="onNavClick('menu', $event)">
+
       <li class="nav item" role="menuitem">
         <g-link to="/" exact><i class="icon-Home"></i> Welcome</g-link>
       </li>
+
       <li
-        @mouseover.passive="onNavMouseOver('events', $event)"
-        @mouseleave.passive="onNavMouseLeave('events', $event)"
+        @mouseover.passive="onNavMouseOver('Events', $event)"
+        @mouseleave.passive="onNavMouseLeave('Events', $event)"
         class="nav item"
         role="menuitem"
       >
         <g-link to="/events">
-          <span @click.stop.prevent="onNavClick('events', $event)" class="actionicon">
-            <i @click.stop.prevent="onNavClick('eventsMenuToggle', $event)" 
+          <span @click.stop.prevent="onNavClick('Events', $event)" class="actionicon">
+            <i @click.stop.prevent="onNavClick('MenuToggle-Events', $event)" 
               :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavEventsExpanded}]"
             ></i>
           </span>
           Events
         </g-link>
         <ul :class="['nav submenu', {collapsed:!isNavEventsExpanded}]" role="menu">
-          <li class="nav item event-sub" role="menuitem">
+          <li class="nav item nav-sub" role="menuitem">
             <g-link to="/events/music">
               <category-icon category="music"/>
               Music
             </g-link>
           </li>
-          <li class="nav item event-sub" role="menuitem">
+          <li class="nav item nav-sub" role="menuitem">
             <g-link to="/events/theater">
               <category-icon category="theater"/>
               Theater
             </g-link>
           </li>
-          <li class="nav item event-sub" role="menuitem">
+          <li class="nav item nav-sub" role="menuitem">
             <g-link to="/events/visual-arts">
               <category-icon category="visual-arts"/>
               Visual Arts
             </g-link>
           </li>
-          <li class="nav item event-sub" role="menuitem">
+          <li class="nav item nav-sub" role="menuitem">
             <g-link to="/events/calendar">Events Calendar</g-link>
           </li>
-          <li class="nav divider"></li>
-          <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/classes">Classes</g-link>
-          </li>
-          <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/classes-calendar">Classes Calendar</g-link>
-          </li>
-          <li class="nav divider"></li>
-          <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/venue-info-booking">Venue Info &amp; Booking</g-link>
-          </li>
-          <li class="nav item event-sub" role="menuitem">
-            <g-link to="/events/sponsors">Sponsors</g-link>
-          </li>
+
           <li class="nav divider" v-if="showAuditions"></li>
-          <li class="nav item event-sub" role="menuitem" v-if="showAuditions">
+          <li class="nav item nav-sub" role="menuitem" v-if="showAuditions">
             <g-link to="/events/auditions">Auditions</g-link>
           </li>
         </ul>
       </li>
-      <li class="nav item" role="menuitem">
-        <g-link to="/about">About</g-link>
+
+      <li
+        @mouseover.passive="onNavMouseOver('Classes', $event)"
+        @mouseleave.passive="onNavMouseLeave('Classes', $event)"
+        class="nav item"
+        role="menuitem"
+      >
+        <g-link to="/classes">
+          <span @click.stop.prevent="onNavClick('Classes', $event)" class="actionicon">
+            <i @click.stop.prevent="onNavClick('MenuToggle-Classes', $event)" 
+              :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavClassesExpanded}]"
+            ></i>
+          </span>
+          Classes
+        </g-link>
+        <ul :class="['nav submenu', {collapsed:!isNavClassesExpanded}]" role="menu">
+          <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/classes/calendar">Classes Calendar</g-link>
+          </li>
+        </ul>
       </li>
-      <li class="nav item" role="menuitem">
-        <g-link to="/get-involved">Get Involved</g-link>
+
+
+      <li
+        @mouseover.passive="onNavMouseOver('About', $event)"
+        @mouseleave.passive="onNavMouseLeave('About', $event)"
+        class="nav item"
+        role="menuitem"
+      >
+        <g-link to="/about">
+          <span @click.stop.prevent="onNavClick('About', $event)" class="actionicon">
+            <i @click.stop.prevent="onNavClick('MenuToggle-About', $event)" 
+              :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavAboutExpanded}]"
+            ></i>
+          </span>
+          About
+        </g-link>
+        <ul :class="['nav submenu', {collapsed:!isNavAboutExpanded}]" role="menu">
+          <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/about/press">Press</g-link>
+          </li>
+          <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/about/venue-info-booking">Venue Info &amp; Booking</g-link>
+          </li>
+          <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/about/sponsors">Sponsors</g-link>
+          </li>
+        </ul>
       </li>
-      <li class="nav item" role="menuitem">
-        <g-link to="/contact">Contact Us</g-link>
+
+      <li
+        @mouseover.passive="onNavMouseOver('Contact', $event)"
+        @mouseleave.passive="onNavMouseLeave('Contact', $event)"
+        class="nav item"
+        role="menuitem"
+      >
+        <g-link to="/contact">
+          <span @click.stop.prevent="onNavClick('Contact', $event)" class="actionicon">
+            <i @click.stop.prevent="onNavClick('MenuToggle-Contact', $event)" 
+              :class="['icon-ArrowDown svg-icon icon_transition', {flip:isNavContactExpanded}]"
+            ></i>
+          </span>
+          Contact Us
+        </g-link>
+        <ul :class="['nav submenu', {collapsed:!isNavContactExpanded}]" role="menu">
+          <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/contact/get-involved">Get Involved</g-link>
+          </li>
+        </ul>
       </li>
+
     </ul>
   </nav>
 </template>
@@ -102,8 +153,15 @@ export default {
   },
   data() {
     return {
+      navTopics:["Events","Classes","About","Contact"],
       isNavEventsExpanded: false,
+      isNavClassesExpanded: false,
+      isNavAboutExpanded: false,
+      isNavContactExpanded: false,
       isMouseOverNavEvents: false,
+      isMouseOverNavClasses: false,
+      isMouseOverNavAbout: false,
+      isMouseOverNavContact: false,
       showBarMenu: true,
       isBarMenuOpen: false,
       windowBreakPoint: 650,
@@ -126,34 +184,28 @@ export default {
   },
   methods: {
     onNavMouseOver(target) {
-      if (target==="events" && !this.showBarMenu && !this.isTouch) {
-        this.isNavEventsExpanded = true;
-        this.isMouseOverNavEvents = true;
+      if (target!=="menu" && !this.showBarMenu && !this.isTouch) {
+        this["isNav" + target + "Expanded"] = true;
+        this["isMouseOverNav" + target] = true;
       }
     },
     onNavMouseLeave(target) {
-      if (target==="events" && !this.showBarMenu && !this.isTouch) {
-        this.isNavEventsExpanded = false;
-        this.isMouseOverNavEvents = false;
+      if (target!=="menu" && !this.showBarMenu && !this.isTouch) {
+        this["isNav" + target + "Expanded"] = false;
+        this["isMouseOverNav" + target]  = false;
       }
     },
     onNavClick(target, evt) {
-      if (target==="eventsMenuToggle") {
-        this.isNavEventsExpanded = !this.isNavEventsExpanded;
-      }
-      if (target==="events" && !this.isMouseOverNavEvents) {
-        this.isNavEventsExpanded = !this.isNavEventsExpanded;
-      }
-      if (target==="menu" && this.isNavEventsExpanded) {
-        let isEventSub = 
-          evt.target.offsetParent 
-          && evt.target.offsetParent.className.indexOf('event-sub') !== -1;
-        if(!this.showBarMenu || !isEventSub) {
-          this.isNavEventsExpanded = false;
+      let targetArr = target.split("-")
+      if (targetArr[0] === "MenuToggle") {
+        this["isNav" + targetArr[1] + "Expanded"] = !this["isNav" + targetArr[1] + "Expanded"]
+      } else {
+        if (target!=="menu" && !this.isMouseOverNavEvents) {
+          this["isNav" + target + "Expanded"] = !this["isNav" + target + "Expanded"]
         }
-      }
-      if (target==="menu" && this.showBarMenu) {
-        this.isBarMenuOpen = false;
+        if (target==="menu" && this.showBarMenu) {
+          this.isBarMenuOpen = false;
+        }
       }
     },
     toggleMenu() {
@@ -181,9 +233,9 @@ export default {
       this.checkDeviceSwitch();
     },
     showBarMenu(newVal) {
-      if (newVal === false) {
-        this.isNavEventsExpanded = false;
-      }
+      let that = this
+      // expand all menu items when the menu bar is presented, otherwise collaps all menu items
+      this.navTopics.forEach(topic => that["isNav" + topic + "Expanded"] = newVal)
     }
   }
   
@@ -219,7 +271,7 @@ nav {
     font-weight: 700;
     &.active {
       color: @color_text_action_selected;
-      box-shadow: 0 0 30px #a7dcff;
+      box-shadow: 0 0 1px #a7dcff;
     }
   }
   a + a {
@@ -234,17 +286,16 @@ nav {
     border: none;
   }
 }
-a.active--exact {
+a.active.active--exact {
   cursor: default;
   color: @color_text_action_selected;
   text-decoration: none;
+  box-shadow: 0 0 18px #a7dcff;
+  border-top: 2px solid #80afe4;
+  border-bottom: 2px solid #80afe4;
 }
 a:not(.active--exact):hover {
   text-decoration: underline;
-}
-a.active {
-  border-top: 2px solid #80afe4;
-  border-bottom: 2px solid #80afe4;
 }
 
 .icon_transition {
@@ -276,6 +327,9 @@ ul.nav {
   a {
     padding: 5px 10px;
   }
+}
+.nav.item.nav-sub {
+  top: -2px;
 }
 .nav.submenu {
   background-color: @color_bg;

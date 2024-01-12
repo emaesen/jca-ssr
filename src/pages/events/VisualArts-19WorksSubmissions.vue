@@ -32,7 +32,7 @@
     </p>
 <!--
     <p>
-      Visual artists… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
+      Visual artists… get involved and <g-link to="/contact/get-involved/">send us your submissions</g-link>!
     </p>
 -->
 

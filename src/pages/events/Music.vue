@@ -12,11 +12,10 @@
       The community will often be able to meet the artists in a workshop setting or Q&amp;A before/after each show.<br class="spacer">
 
       Our programming caters to you… the community. 
-      So, please drop us a line with your suggestions!
-      <a href="mailto:info@jeffersoncenterforthearts.com">info@jeffersoncenterforthearts.com</a>
+      So, please <g-link to="/contact">drop us a line</g-link> with your suggestions!
     </p>
     <p>
-      Musicians… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
+      Musicians… get involved and <g-link to="/contact/get-involved/">send us your submissions</g-link>!
     </p>
 
     <event-list category="music"/>

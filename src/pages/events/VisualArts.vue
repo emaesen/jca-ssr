@@ -8,7 +8,7 @@
       Artists chosen for our gallery space will be encouraged to share their methods and inspirations during gallery openings and workshops.
     </p>
     <p>
-      Visual artists… get involved and <g-link to="/get-involved/">send us your submissions</g-link>!
+      Visual artists… get involved and <g-link to="/contact/get-involved/">send us your submissions</g-link>!
     </p>
 
     <event-list category="visual-arts"/>

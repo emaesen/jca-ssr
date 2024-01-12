@@ -31,6 +31,18 @@
   Redirect 301 "/events/g/mt-shasta-star-knowledge-peace-summit--aug-12-15-2022" "/events/summit/mt-shasta-star-knowledge-peace-summit--aug-12-15-2022"
 # END redirect rules for rescheduled events
 
+# BEGIN Redirect rules after site nav re-org
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule /events/classes /classes [L,R=301]
+  RewriteRule /events/classes-calendar /classes/calendar [L,R=301]
+  RewriteRule /events/venue-info-booking /about/venue-info-booking [L,R=301]
+  RewriteRule /events/sponsors /about/sponsors [L,R=301]
+  RewriteRule /get-involved /contact/get-involved [L,R=301]
+</IfModule>
+# END Redirect rules after site nav re-org
+
 # BEGIN Vue SPA
 <IfModule mod_rewrite.c>
   RewriteEngine On

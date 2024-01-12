@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "date": "2023-12-30",
+      "publisher": "North State Parent",
+      "author": "Stacey Leigh Mohr",
+      "title": "Liberty Arts and Jefferson Center for the Arts: Siskiyou County Venues Where Art and Artists Flourish",
+      "url": "https://northstateparent.com/article/liberty-arts-and-jefferson-center-for-the-arts-siskiyou-county-venues-where-art-and-artists-flourish/",
+      "image": "nsp-artists-231230.jpg",
+      "quote": "Artistic spaces offer a place for people to come together and create in an atmosphere of non-judgement. This supportive environment is especially important to nurture budding young artists. Siskiyou County is blessed with two unique arts organizations, Liberty Arts in Yreka and Jefferson Arts Center in Mount Shasta, both of which work to provide artists of all ages with spaces, opportunities and support to discover and develop their creative talents.",
+      "isActive": true
+    },
+    {
+      "date": "2023-12-30",
+      "publisher": "North State Parent",
+      "author": "Sarah Lyons",
+      "title": "Children Who Participate in Theater Reap Lifelong Benefits",
+      "url": "https://northstateparent.com/article/children-who-participate-in-theater-reap-lifelong-benefits/",
+      "image": "nsp-theater-231230.jpg",
+      "quote": "If you have a child with a flair for the dramatic, who loves to sing and dance, or wants to be part of a team without playing sports, theater may be the answer you are looking for. Participating in theater can expose kids to music, arts, culture, teamwork and more. Most of the benefits of participating in theater will help them in school now as well as in the future as they enter college and/or the workforce.",
+      "isActive": true
+    }
+  ]
+}
