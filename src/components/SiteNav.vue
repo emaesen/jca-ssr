@@ -162,7 +162,7 @@ export default {
       isMouseOverNavClasses: false,
       isMouseOverNavAbout: false,
       isMouseOverNavContact: false,
-      showBarMenu: true,
+      showBarMenu: null,
       isBarMenuOpen: false,
       windowBreakPoint: 650,
       isTouch: false,
@@ -228,6 +228,7 @@ export default {
   watch: {
     windowWidth(newWidth) {
       // windowWidth is set/updated by the windowSize mixin on window resize
+      //console.log("watch windowWidth " + newWidth)
       this.showBarMenu = newWidth < this.windowBreakPoint;
       // for dev case, check if (virtual) device was switched
       this.checkDeviceSwitch();
@@ -235,6 +236,7 @@ export default {
     showBarMenu(newVal) {
       let that = this
       // expand all menu items when the menu bar is presented, otherwise collaps all menu items
+      //console.log("watch showBarMenu " + newVal)
       this.navTopics.forEach(topic => that["isNav" + topic + "Expanded"] = newVal)
     }
   }
@@ -421,7 +423,7 @@ li li {
     }
     .nav.submenu:not(.collapsed) {
       position: relative;
-      margin-left: 1em;
+      border-bottom: 2px solid #80afe490;
     }
     .toggle-icons {
       visibility: visible;
