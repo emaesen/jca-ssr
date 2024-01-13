@@ -258,7 +258,7 @@ export default {
       const activeEvents = this.filteredEvents
         .map(e => e)
         .filter(e => !e._isPastEvent)
-      console.log({activeEvents})
+      //console.log({activeEvents})
       return activeEvents && activeEvents.length === 0;
     },
     comingSoonEvents() {
