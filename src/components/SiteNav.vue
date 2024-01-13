@@ -196,15 +196,32 @@ export default {
       }
     },
     onNavClick(target, evt) {
+      // the target is either any of the menu items (thus navigation click) 
+      // or one of the up-down menu toggles
       let targetArr = target.split("-")
       if (targetArr[0] === "MenuToggle") {
-        this["isNav" + targetArr[1] + "Expanded"] = !this["isNav" + targetArr[1] + "Expanded"]
+        let that = this
+        this.navTopics.forEach(topic => {
+          if (topic===targetArr[1]) {
+            // toggle the selected target
+            that["isNav" + targetArr[1] + "Expanded"] = !this["isNav" + targetArr[1] + "Expanded"]
+          } else if (this.isTouch && !this.showBarMenu) {
+            //make sure all others are collapsed (for large touch screens: they don't register above mouse events)
+            that["isNav" + topic + "Expanded"] = false
+          }
+          
+        })
       } else {
         if (target!=="menu" && !this.isMouseOverNavEvents) {
           this["isNav" + target + "Expanded"] = !this["isNav" + target + "Expanded"]
         }
         if (target==="menu" && this.showBarMenu) {
           this.isBarMenuOpen = false;
+        }
+        if (target==="menu" && !this.showBarMenu && this.isTouch) {
+          //collapse (all) sub menu(s) (for large touch screens: they don't register above mouse events)
+          let that = this
+          this.navTopics.forEach(topic => that["isNav" + topic + "Expanded"] = false)
         }
       }
     },
