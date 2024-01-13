@@ -9,20 +9,6 @@
 </IfModule>
 # END redirect http to https
 
-# BEGIN Redirect legacy URLs
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^about-jca /about [L,R=301]
-  RewriteRule ^contact-us /contact [L,R=301]
-  RewriteRule ^donate-subscribe /get-involved [L,R=301]
-  RewriteRule ^venue-info-booking /events/venue-info-booking [L,R=301]
-  RewriteRule ^music /events/music [L,R=301]
-  RewriteRule ^theater /events/theater [L,R=301]
-  RewriteRule ^visual-arts /events/visual-arts [L,R=301]
-</IfModule>
-# END Redirect legacy URLs
-
 # BEGIN redirect rules for rescheduled/changed events
   Redirect 301 "/events/music/wind-fields--sep-03-2021" "/events/music/wind-fields--nov-20-2021"
   Redirect 301 "/events/music/wind-fields--nov-13-2021" "/events/music/wind-fields--nov-20-2021"
@@ -32,15 +18,11 @@
 # END redirect rules for rescheduled events
 
 # BEGIN Redirect rules after site nav re-org
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule /events/classes /classes [L,R=301]
-  RewriteRule /events/classes-calendar /classes/calendar [L,R=301]
-  RewriteRule /events/venue-info-booking /about/venue-info-booking [L,R=301]
-  RewriteRule /events/sponsors /about/sponsors [L,R=301]
-  RewriteRule /get-involved /contact/get-involved [L,R=301]
-</IfModule>
+  Redirect 301 "/events/classes" "/classes"
+  Redirect 301 "/events/classes-calendar" "/classes/calendar"
+  Redirect 301 "/events/venue-info-booking" "/about/venue-info-booking"
+  Redirect 301 "/events/sponsors" "/about/sponsors"
+  Redirect 301 "/get-involved" "/contact/get-involved"
 # END Redirect rules after site nav re-org
 
 # BEGIN Vue SPA
