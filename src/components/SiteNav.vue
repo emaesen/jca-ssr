@@ -288,9 +288,8 @@ nav {
     background-color: @color_bg;
     font-family: @font_family_header;
     font-weight: 700;
-    &.active {
+    &.active .actionicon {
       color: @color_text_action_selected;
-      box-shadow: 0 0 1px #a7dcff;
     }
   }
   a + a {
@@ -309,12 +308,10 @@ a.active.active--exact {
   cursor: default;
   color: @color_text_action_selected;
   text-decoration: none;
-  box-shadow: 0 0 18px #a7dcff;
-  border-top: 2px solid #80afe4;
-  border-bottom: 2px solid #80afe4;
+  z-index:1;
 }
 a:not(.active--exact):hover {
-  text-decoration: underline;
+  color: @color_text_action_hover;
 }
 
 .icon_transition {
@@ -441,6 +438,9 @@ li li {
     .nav.submenu:not(.collapsed) {
       position: relative;
       border-bottom: 2px solid #80afe490;
+    }
+    a:not(.active--exact):hover {
+      color: @color_text_action;
     }
     .toggle-icons {
       visibility: visible;
