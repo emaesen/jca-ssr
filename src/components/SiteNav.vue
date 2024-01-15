@@ -1,5 +1,5 @@
 <template>
-  <nav :class="['nowrap', {'bar-open':isBarMenuOpen, 'bar-closed':!isBarMenuOpen}]">
+  <nav :class="['nowrap', {'bar-open':isBarMenuOpen, 'bar-closed':!isBarMenuOpen,'touch':isTouch}]">
 
     <span @click.stop.prevent="toggleMenu" class="toggle-icons">
       <transition name="fade" mode="out-in">
@@ -310,7 +310,7 @@ a.active.active--exact {
   text-decoration: none;
   z-index:1;
 }
-a:not(.active--exact):hover {
+nav:not(.touch) a:not(.active--exact):hover {
   color: @color_text_action_hover;
 }
 
@@ -406,7 +406,7 @@ li li {
     padding-left: 10px;
     margin-left: 0;
     border-radius: 0;
-    opacity: 0.9;
+    opacity: 0.96;
     &.bar-open {
       z-index: 999999;
       padding-top: 10px;

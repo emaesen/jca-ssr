@@ -121,6 +121,9 @@ h1, h2.h1 {
   margin: 3em 0 1em 0;
   font-size: 210%;
 }
+h1 {
+  margin-top: 2em;
+}
 h2 {
   margin: 3em 0 1em 0;
   font-size: 150%;
@@ -364,8 +367,8 @@ br.spacer {
 }
 
 @media all and (max-width: 650px) {
-  html {
-    background-image: none;
+  body {
+    background-color: rgba(@color_bg, 0.81);
   }
   body,
   input,
