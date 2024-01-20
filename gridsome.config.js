@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: 'https://jeffersoncenterforthearts.com/',
   titleTemplate: '%s',
   metadata: {
-    version: 'V1.5.1',
+    version: 'V1.6.1',
   },
   icon: {
     favicon: './static/img/icons/favicon.png',
@@ -19,7 +19,7 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
-        exclude: ['/events/classes-calendar/', '/events/calendar/', '/get-involved/','/contact/'],
+        exclude: ['/classes/calendar/', '/events/calendar/', '/contact/get-involved/','/contact/'],
         config: {
           '/': {
             changefreq: 'daily',
@@ -27,19 +27,19 @@ module.exports = {
           },
           '/events/': {
             changefreq: 'weekly',
-            priority: 0.3
+            priority: 0.7
           },
-          '/events/classes*': {
+          '/classes/': {
             changefreq: 'monthly',
             priority: 0.1
           },
           '/events/*': {
             changefreq: 'weekly',
-            priority: 0.3
+            priority: 0.7
           },
           '/events/*/*': {
-            changefreq: 'monthly',
-            priority: 0.2
+            changefreq: 'weekly',
+            priority: 0.9
           },
           '/*': {
             changefreq: 'monthly',
