@@ -2,6 +2,6 @@
   <pre>
     Jefferson Center for the Arts
     1124 Pine Grove Dr
-    Mt Shasta, CA 96067
+    Mount Shasta, CA 96067
   </pre>
 </template>

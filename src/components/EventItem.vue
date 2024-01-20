@@ -290,6 +290,10 @@
         {{event.series}}
       </div>
 
+      <div class="jca">
+        <postal-address/>
+      </div>
+
     </template>
 
     <!-- structured data script element -->
@@ -306,6 +310,7 @@ import EventTicket from '@/components/EventTicket.vue';
 import ButtonVolunteer from '@/components/ButtonVolunteer.vue';
 import ButtonRegister from '@/components/ButtonRegister.vue';
 import EventSchemaScript from '@/components/EventSchemaScript.vue';
+import PostalAddress from '@/components/PostalAddress.vue';
 
 import date from '@/mixins/date.js'
 
@@ -329,6 +334,7 @@ export default {
     ButtonVolunteer,
     ButtonRegister,
     EventSchemaScript,
+    PostalAddress,
   },
   props: {
     event: {
@@ -787,6 +793,13 @@ h4 {
 }
 .event_cat-dance {
   .gradient-jewel-4();
+}
+.jca pre {
+  text-align: center;
+  opacity: 0.9;
+  color: @color-secondary-1-1;
+  font-family: @font_family_header, serif;
+  color: @color_text_header;
 }
 @media all and (max-width: 650px) {
   .event {
