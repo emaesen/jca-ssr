@@ -1,8 +1,8 @@
 {
   "schema":
   {
-    "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic",
-    "type": "performance|class|workshop|lecture|exhibition|benefit|gathering",
+    "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic|movie",
+    "type": "performance|class|workshop|lecture|exhibition|benefit|gathering|presentation",
     "slug": "dashed-title--mmm-dd-2024",
     "title": "",
     "performer": "",
@@ -87,6 +87,106 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "movie",
+      "type": "presentation",
+      "slug": "movie-the-reluctant-saint--feb-02-2024",
+      "title": "The Reluctant Saint - movie",
+      "performer": "",
+      "description": "Special Film Presentation of the 1962 movie “The Reluctant Saint” starring Maximilian Schell, Ricardo Montalban and Lea Padovan. 1h 44m.",
+      "details": "[The Reluctant Saint](https://www.imdb.com/title/tt0056403/): Maximilian Schell stars as “the flying friar”, St. Joseph of Cupertino, in this heartwarming and amazing true story of the humble Franciscan friar who literally rose to sainthood in the impoverished village of 17th century Cupertino, Italy. Joseph’s peasant mother convinces the reluctant Abbott (Ricardo Montalban) to accept her son into the monastery and by a series of miraculous incidents, the simple but pious Joseph is ordained a priest. Yet some are convinced that it is the devil,not God, who is responsible for Joseph’s miraculous powers – until a final miracle reveals to all, his true sanctity.\n\n\nPERSONAL NOTE FROM SAHADEV (event producer)\n\nI’m setting up this event with a triple purpose:\n1) To inspire! ✨\n2) As a fundraiser for JCA! Please be generous. 😊\n...we do have a license from the publisher to present this film 👍🏻\n3) To celebrate my birthday with as many people as possible!\n\nSee you there!\n\nSahadev 💖",
+      "note": "",
+      "series": "",
+      "price": "Sliding Scale $5-$20",
+      "price_note": "Popcorn & drinks available for purchase",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-02-02",
+        "end": "2024-02-02"
+      },
+      "location": "",
+      "image": "movie-the-reluctant-saint.jpg",
+      "image_width": "648",
+      "image_height": "894",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "spring-equinox-sound-ceremony--mar-21-2024",
+      "title": "Spring Equinox Sound Ceremony",
+      "performer": "Edward Maesen",
+      "description": "A meditative sound healing ceremony by Edward Maesen with a collection of acoustic instruments and voice.",
+      "details": "#Edward Maesen# [Edward Maesen](https://epvm.name/) is a Mount Shasta local. He offers sound healing sessions and canvas prints of his photography art of Mt Shasta.\n\nFrom an early age he has been aware of the multi-dimensionality of his being and found refuge in the Stillness Within. He now uses sound to assist others enter that state of harmony and peace. His sound sessions have been referred to as “galactic shamanism” and “celestial initiation”.\n\nWith over thirty years experience in the healing arts, he studied many different modalities and distilled his own unique method from that.\n\nThrough the ceremonial use of sound with acoustic instruments and his voice,\nhe reflects the state of your true Being,\ninviting and allowing you to enter a state of harmony and peace,\nrevitalizing and reinforcing your connection to Self,\ninviting you to remember and realize All that Is – The Ultimate – Awareness beyond being.\n\n\nLet the sounds guide you into the Stillness\nEnter the Kingdom Within\nAnd Be\nLove\n\n\nEdward offers private sound healing sessions in Mount Shasta (by donation - for individuals, couples and small groups up to 6 people):\n[Mount Shasta Sound Healing](https://MountShastaSoundHealing.com/)",
+      "note": "",
+      "series": "SCCI",
+      "price": "Sliding Scale $5-$20",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2024-03-21",
+        "end": "2024-03-21"
+      },
+      "location": "",
+      "image": "edward-maesen-sound-healing.jpg",
+      "image_width": "800",
+      "image_height": "703",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",
