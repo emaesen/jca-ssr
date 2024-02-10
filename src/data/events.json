@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "simon-chrisman-and-nic-gareiss-live-in-concert--mar-02-2024",
+      "title": "Simon Chrisman & Nic Gareiss - Live In Concert",
+      "performer": "Simon Chrisman & Nic Gareiss",
+      "description": "Simon Chrisman & Nic Gareiss mesh time and timbre to create dynamic performances of music and dance!",
+      "details": "#Simon Chrisman & Nic Gareiss# [Nic Gareiss](https://www.nicgareiss.com/) (percussive dance, bouzouki, vocals) and Simon Chrisman (hammer dulcimer) met in 2007 at a fiddle festival in the Californian redwoods and have been exploring sound and movement together ever since. Both innovators on their instruments, [Nic and Simon](http://www.facebook.com/simonchrismanandnicgareiss) bring their unique approaches together for traditional song, percussive dance, instrumental tunes, improvisation and new compositions, engaging interlocking rhythms and dynamic textures. Well-known for his work with the groundbreaking new acoustic string band The Bee Eaters, Simon's music combines “chamber music’s finely calibrated arrangements with bluegrass’s playful virtuosity and pop music’s melodic resourcefulness.” (Boston Herald) Noted for his “dexterous melding of Irish and Appalachian dance” (New York Times) and described as “the most inventive and expressive step dancer on the scene” (Boston Herald), Nic has performed with many of the luminaries of contemporary traditional music and dance, including The Chieftains, The Gloaming, Phil Wiggins, Liz Carroll, Bruce Molsky, Bill Frisell, Alasdair Fraser and Natalie Haas. Together, Nic and Simon adventure into the world of time and timbre to create a breathtaking evening-length performance of song, instrumental music, and percussive dance.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudents/Seniors $20 at venue / $15 adv online →",
+      "price_note": "Also combo tickets available including Appalachian Flatfooting Dance Workshop Sun 2/3 11am.",
+      "ticket": "",
+      "humanitix": "simon-chrisman-and-nic-gareiss-live-in-concert",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2024-03-02",
+        "end": "2024-03-02"
+      },
+      "location": "",
+      "image": "simon-chrisman-nick-gareiss.jpg",
+      "image_width": "800",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "jzVYcXKdxfs",
+      "youtube2": "4KIpQTpv66Y",
+      "youtube3": "ID8KZfOEwwA",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "movie",
       "type": "presentation",
       "slug": "movie-the-reluctant-saint--feb-02-2024",
@@ -178,8 +228,8 @@
       "image_width": "800",
       "image_height": "703",
       "stream": "",
-      "youtube": "",
-      "youtube2": "",
+      "youtube": "tDIry5Wbmq4",
+      "youtube2": "jHrkb48jgP4",
       "youtube3": "",
       "flag": {
         "show_registration_form": false,

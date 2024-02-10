@@ -36,7 +36,7 @@
           </div>
 
           <div class="deemph center narrow">
-            "100% of profits from booking fees go to funding education projects for the world's most disadvantaged children to close the global education gap."
+            "Humanitix donates 100% of profits from booking fees to charity."
           </div>
         </div>
 

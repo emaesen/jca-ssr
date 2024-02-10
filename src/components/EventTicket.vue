@@ -6,7 +6,7 @@
         {{ticketAction}} ticket <i class="icon-Ticket action"></i>
       </button>
       <div class="note-humanitix" v-if="ticketRefHumanitix">
-      All profits from ticket fees go to children's charities.
+      All profits from ticket fees go to charity.
       </div>
     </div>
 
