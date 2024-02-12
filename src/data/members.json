@@ -1,0 +1,22 @@
+{
+  "members": {
+    "goldSponsors": [
+      {
+        "name": "",
+        "isActive": false
+      }
+    ],
+    "artsLovers": [
+      {
+        "name": "",
+        "isActive": false
+      }
+    ],
+    "communityFriends": [
+      {
+        "name": "",
+        "isActive": false
+      }
+    ]
+  }
+}

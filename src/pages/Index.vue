@@ -9,7 +9,8 @@
       JCA is Mount Shasta's premier nonprofit arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.<br class="spacer">
       The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.<br class="spacer">
       The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.<br class="spacer">
-      Jefferson Center for the Arts is Mount Shasta's own community arts and culture center.
+      Jefferson Center for the Arts is Mount Shasta's own community arts and culture center.<br class="spacer">
+      <g-link to="/about/members/">Become a JCA member!</g-link>
     </p>
 
     <event-list :showSummary="true"/>
@@ -101,6 +102,9 @@
       </p>
       <p>
         Locals: <g-link to="/contact/get-involved/#volunteer">volunteer</g-link>
+      </p>
+      <p>
+        <g-link to="/about/members/">Become a JCA member!</g-link>
       </p>
       <p>
         <g-link to="/contact/">Contact Us</g-link>

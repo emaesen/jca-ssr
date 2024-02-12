@@ -109,6 +109,9 @@
             <g-link to="/about/venue-info-booking">Venue Info &amp; Booking</g-link>
           </li>
           <li class="nav item nav-sub" role="menuitem">
+            <g-link to="/about/members">Become a member</g-link>
+          </li>
+          <li class="nav item nav-sub" role="menuitem">
             <g-link to="/about/sponsors">Sponsors</g-link>
           </li>
         </ul>
