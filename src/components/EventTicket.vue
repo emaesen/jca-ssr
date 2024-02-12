@@ -2,7 +2,7 @@
   <div>
     
     <div  class="event-ticket-container">
-      <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy a ticket through Eventbrite">
+      <button @click="openModal" class="action buy nowrap anima__flicker-subtle anima__-pause-on-hover" title="click to buy an event ticket">
         {{ticketAction}} ticket <i class="icon-Ticket action"></i>
       </button>
       <div class="note-humanitix" v-if="ticketRefHumanitix">
