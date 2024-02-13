@@ -29,48 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "Nic Gareiss Tap Workshops - Beg-Adv",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2024-03-03",
-        "end": "2024-03-03"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Matthew Fowler",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2024-03-29",
-        "end": "2024-03-29"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Earth Day Festival",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2024-04-21",
-        "end": "2024-04-21"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Sam Shackleton",
       "description": "",
       "note": "",
@@ -109,6 +67,20 @@
       "date":{
         "start": "2024-05-25",
         "end": "2024-05-25"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "The Wildwoods",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-05-31",
+        "end": "2024-05-31"
       },
       "is_placeholder": false
     },

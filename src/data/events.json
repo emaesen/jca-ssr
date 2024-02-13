@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "dance",
+      "type": "workshop",
+      "slug": "appalachian-flatfooting-dance-workshop--mar-03-2024",
+      "title": "Appalachian Flatfooting Dance Workshop",
+      "performer": "Nic Gareiss",
+      "description": "Nic Gareiss presents an Appalachian Flatfooting Dance Workshop. For ages 12+. No experience necessary.",
+      "details": "This is a concert plus workshop package. The price includes the concert by Simon Chrisman & Nic Gareiss on March 2nd and Appalachian Flatfooting Dance Workshop by Nic Gareiss on March 3rd.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $35 at venue, $30 adv online →\nStudents/Seniors $30 at venue, $25 adv online →",
+      "price_note": "Price includes admission to concert on March 2nd.",
+      "ticket": "",
+      "humanitix": "simon-chrisman-and-nic-gareiss-live-in-concert",
+      "time":{
+        "start": "11:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-03-03",
+        "end": "2024-03-03"
+      },
+      "location": "",
+      "image": "nic-gareiss.jpg",
+      "image_width": "500",
+      "image_height": "500",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "matthew-fowler--mar-29-2024",
+      "title": "Matthew Fowler with special guests Hannah Connelly and Abby Litman",
+      "performer": "Matthew Fowler, Hannah Connelly, Abby Litman",
+      "description": "JCA presents Matthew Fowler in concert, with special guests Hannah Connelly and Abby Litman  for an evening of mellow folk music.",
+      "details": "[Matthew Fowler](https://www.matthewfowlermusic.com/)\n“The Denver singer-songwriter sits comfortably amongst the likes of Ray LaMontagne and Damien Rice with his smoky vocals and keen ability to strike an emotional chord.”\n- POPMATTERS\n\nIn 2021, seven years after his debut album, Matthew released his sophomore LP via Signature Sounds Records - The Grief We Gave Our Mother. The album, produced by acclaimed producer Shane Leonard and mixed by grammy-winning producer/engineer Brian Joseph (Bon Iver, etc), has garnered significant praise and has amassed an organic growth of 50-70% listenership since March 1 on Spotify and now has topped nearly 300,000 monthly listeners.\n\nThe live performance is an elegant, emotionally charged concert of gritty grandeur and vulnerable intimacy driven by raw and direct vocals hinting at everything from Damien Rice and Glen Hansard to Ray LaMontagne and Ben Howard. It’s an overwhelmingly rich and rootsy vibe\n\n“..beautifully relatable and, occasionally, heartbreakingly familiar.”\n- AMERICAN SONGWRITER\n\nWith Special Guests [Hannah Connely](www.hannahconnolly.com) and [Abbie Litman](https://abbylitman.com/)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue, $20 adv online →\nStudents/Seniors $20 at venue, $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "matthew-fowler-w-special-guests-hannah-connelly-and-abby-litman",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2024-03-29",
+        "end": "2024-03-29"
+      },
+      "location": "",
+      "image": "matthew-fowler.jpg",
+      "image_width": "600",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "SKcC40WKOzM",
+      "youtube2": "TnMLHmAf5Ys",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "movie",
       "type": "presentation",
       "slug": "movie-clare-and-francis--mar-01-2024",
