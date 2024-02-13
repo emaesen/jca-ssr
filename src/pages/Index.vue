@@ -10,7 +10,7 @@
       The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.<br class="spacer">
       The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.<br class="spacer">
       Jefferson Center for the Arts is Mount Shasta's own community arts and culture center.<br class="spacer">
-      <g-link to="/about/members/">Become a JCA member!</g-link>
+      <g-link to="/about/members/" class="link-membership">Become a JCA member!</g-link>
     </p>
 
     <event-list :showSummary="true"/>
@@ -104,12 +104,16 @@
         Locals: <g-link to="/contact/get-involved/#volunteer">volunteer</g-link>
       </p>
       <p>
-        <g-link to="/about/members/">Become a JCA member!</g-link>
-      </p>
-      <p>
         <g-link to="/contact/">Contact Us</g-link>
       </p>
 
+
+      <p class="center poster">
+        <g-link to="/about/members/" class="link-membership">
+          <g-image src="/img/jca-become-a-member.jpg" alt="Become a JCA member" class="hero-img"/><br>
+          Become a JCA member!
+        </g-link>
+      </p>
     </section>
 
     <!--
@@ -228,7 +232,9 @@ img.slide {
 .donate-button {
   float: right;
 }
-
+.link-membership {
+  font-size:126%;
+}
 @media all and (max-width: 650px) {
   .container-carousel {
     min-height: 150px;
