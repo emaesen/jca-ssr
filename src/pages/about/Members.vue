@@ -37,7 +37,18 @@
     </div>
 
 
-    <h2 v-if="hasActiveMembers"  v-animate-on-intersection>JCA Members</h2>
+    <h2 v-if="hasActiveMembers"  v-animate-on-intersection>JCA Awesome Sponsors Wall</h2>
+
+    <h3 v-if="hasActiveArtsAngels">Arts Angels</h3>
+    <member 
+      v-for="(member, index) in activeArtsAngels" 
+      :key="member.name" 
+      :id="'member' + (index + 1)"
+      :member="member"
+      class="anima__zoom"
+      v-animate-on-intersection
+      :style="'animation-delay:' + index/10 + 's;animation-fill-mode: backwards;'"
+    />
 
     <h3 v-if="hasActiveGoldSponsors">Gold Sponsors</h3>
     <member 
@@ -111,6 +122,9 @@ export default {
     }
   },
   computed: {
+    activeArtsAngels() {
+      return this.members.artsAngels.filter(member => member.isActive)
+    },
     activeGoldSponsors() {
       return this.members.goldSponsors.filter(member => member.isActive)
     },
@@ -119,6 +133,9 @@ export default {
     },
     activeCommunityFriends() {
       return this.members.communityFriends.filter(member => member.isActive)
+    },
+    hasActiveArtsAngels() {
+      return this.activeArtsAngels.length > 0
     },
     hasActiveGoldSponsors() {
       return this.activeGoldSponsors.length > 0
@@ -130,7 +147,7 @@ export default {
       return this.activeCommunityFriends.length > 0
     },
     hasActiveMembers() {
-      return this.hasActiveGoldSponsors || this.hasActiveArtsLovers || this.hasActiveCommunityFriends
+      return this.hasActiveArtsAngels || this.hasActiveGoldSponsors || this.hasActiveArtsLovers || this.hasActiveCommunityFriends
     },
     meta_url() {
       return 'https://jeffersoncenterforthearts.com' + this.$router.currentRoute.path

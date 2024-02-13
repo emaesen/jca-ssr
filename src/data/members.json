@@ -1,5 +1,11 @@
 {
   "members": {
+    "artsAngels": [
+      {
+        "name": "",
+        "isActive": false
+      }
+    ],
     "goldSponsors": [
       {
         "name": "",

@@ -11,7 +11,7 @@
       <template v-slot:header>
         <div class="legal">JCA uses Zeffy as their online membership payment processor. By clicking below to purchase a membership, you acknowledge that your information will be transferred to Zeffy for processing.<br/>
         <link-outbound to="https://support.zeffy.com/legal">About Zeffy's privacy practices.</link-outbound><br>
-        If the form below is causing issues, you may <link-outbound :to="href">open the Zeffy form in a new window tab</link-outbound>.</div>
+        If the form below is causing issues, you may <link-outbound :to="href">open the Zeffy form in a new browser tab</link-outbound>.</div>
 
       </template>
     </modal>
@@ -45,7 +45,7 @@ export default {
   },
   computed: {
     href() {
-      return "https://www.zeffy.com/en-US/ticketing/188a0200-bb5f-4f7b-bc72-9fa315de199b"
+      return "https://www.zeffy.com/en-US/donation-form/49d1ece1-2e16-424f-908e-7e1279c6394d"
     },
     frameHeight() {
       return (this.windowHeight - 150) + "px";
