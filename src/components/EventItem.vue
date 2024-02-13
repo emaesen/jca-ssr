@@ -632,6 +632,9 @@ h4 {
   position: relative;
   width: 100%;
 }
+.event_date {
+  font-size: 117%;
+}
 .event-page .event_date_emph {
   position: relative;
   top: 2.7em;
@@ -719,7 +722,7 @@ h4 {
   font-size: 90%;
 }
 .event_note {
-  margin-top: 1em;
+  margin: 1em 0;
   font-size: 80%;
 }
 
@@ -763,6 +766,9 @@ h4 {
 .event_price, .event_ticket {
   display: inline-block;
   vertical-align: middle;
+}
+.event_price {
+  color: #aaffa5;
 }
 .video_container {
   margin: auto;
