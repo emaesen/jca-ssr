@@ -119,7 +119,7 @@
           <div 
             v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed)" class="event_price_wrapper"
           >
-            <div class="event_price">
+            <div class="event_price" :class="{event_price_no_ticket:!event.humanitix}">
               <span v-html="eventPrice"/>
             </div>
             <!-- buy event ticket -->
@@ -767,7 +767,7 @@ h4 {
   display: inline-block;
   vertical-align: middle;
 }
-.event_price {
+.event_price_no_ticket {
   color: #aaffa5;
 }
 .video_container {
