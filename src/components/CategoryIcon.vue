@@ -12,6 +12,7 @@
     <i class="icon-Summit" v-if="category==='movie'"></i>
     <i class="icon-Summit" v-if="category===''"></i>
     <i class="icon-Theater" v-if="category==='comedy'"></i>
+    <i class="icon-Theater" v-if="category==='poetry'"></i>
   </span>
 </template>
 
