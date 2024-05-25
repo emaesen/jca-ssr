@@ -21,7 +21,7 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>Featured event</h2>
+        <h2>JCA Summer Concerts</h2>
         <div class="center">
           <!--g-link to="/events/fest/halloween-costume-party--oct-28-2023" title="click to view info about the JCA Halloween Party"-->
             <!--video 
@@ -32,12 +32,10 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/giving-tuesday-2023.jpg" alt="JCA Giving Tuesday 2023" class="hero-img"/>
+            <g-image src="/img/jca-summer-concerts-2024.jpg" alt="JCA Summer Concerts 2024" class="hero-img"/>
             <div class="center">
-            Giving Tuesday is coming and we're participating for the 1st time ever!<br>
-            Will you help us continue to enrich the lives of people of all ages?<br>
-            Starting November 14th, you can schedule your <link-outbound to="https://www.northstategives.org/organization/Jefferson-Center-For-The-Arts">donation</link-outbound>.<br>
-            The big day is November 28th and we plan to have a party to celebrate giving season!
+              Mark Your Calendars For Summer Fun!<br>
+              BIG THANKS to Sandi and Tim Belton of Springhill Nursery and Gardens for their generous donation of plants and trees to beautify the JCA Field and outdoor space.
             </div>
           <!--/g-link-->
         </div>
@@ -48,28 +46,6 @@
         class="container-carousel anima__zoom noprint"
         v-else
       >
-        <!--
-        <carousel :nav-buttons="true" :autoplay-speed="10000" :speed="2500" fade pause-on-hover pause-on-dots-hover autoplay>
-          <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
-          <div>
-            <g-link to="/events/theater/" title="click to view theater events">
-              <g-image class="slide" src="/img/temp/kyle-head-p6rNTdAPbuk-unsplash.jpg" alt="theater category"/>
-            </g-link>
-          </div>
-          <div>
-            <g-link to="/events/music/" title="click to view music events">
-              <g-image class="slide" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
-            </g-link>
-          </div>
-          <div>
-            <g-link to="/events/visual-arts/" title="click to visual arts events">
-              <g-image class="slide" src="/img/temp/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="visual-arts category"/>
-            </g-link>
-          </div>
-          <template slot="prevButton"><i class="icon-Backward action"></i></template>
-          <template slot="nextButton"><i class="icon-Forward action"></i></template>
-        </carousel>
-        -->
         <carousel :nav-buttons="true" :autoplay-speed="5400" :speed="2700" fade pause-on-hover pause-on-dots-hover autoplay>
           <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
           <g-image class="slide" src="/img/carousel/jca-music-1.jpg" alt="JCA music sample 1"/>
@@ -180,7 +156,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2023-11-28T22:00");
+      const eventDate = new Date("2024-08-30T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
