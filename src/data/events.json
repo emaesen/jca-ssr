@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "fest",
+      "type": "performance",
+      "slug": "johnny-rawls-and-the-blackwell-bros--jul-03-2024",
+      "title": "Johnny Rawls & The Blackwell Bros",
+      "performer": "Johnny Rawls & The Blackwell Bros",
+      "description": "Free concert and outdoor dance party on the JCA field with Johnny Rawls and The Blackwell Bros.",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "FREE event",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "18:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2024-07-03",
+        "end": "2024-07-03"
+      },
+      "location": "",
+      "image": "johnny-rawls-and-blackwells.jpg",
+      "image_width": "800",
+      "image_height": "1422",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "daddy-issues-a-comedy-showcase--jun-16-2024",
+      "title": "Daddy Issues -A Comedy Showcase",
+      "performer": "",
+      "description": "Come celebrate Father’s Day with these insanely hysterical comics. Free beer for dads! Adult content. See you there.",
+      "details": "",
+      "note": "Doors open at 7:30",
+      "series": "Comedy Night",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "daddy-issues-a-comedy-showcase",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-06-16",
+        "end": "2024-06-16"
+      },
+      "location": "",
+      "image": "daddy-issues-comedy.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "slug": "mt-shasta-wesak-and-festival-of-unity--may-25-2024",
       "reference_slug": "mt-shasta-wesak-and-festival-of-unity--may-24-2024",
       "description": "Mt Shasta Wesak and the Festival of Unity 2024 - Day 2.  A celebration of unity, goodwill, and oneness for all life on planet Earth.",
@@ -272,7 +372,7 @@
       "title": "Gentle Thunder in Concert - A Benefit for JCA",
       "performer": "Gentle Thunder, Beloved Heartsong",
       "description": "A fundraising concert for JCA with Gentle Thunder playing Native American flutes, grand hammer dulcimer, piano and drums. Guest appearance by Beloved Heartsong.",
-      "details": "#Gentle Thunder# [Gentle Thunder](http://www.gentlethunder.com) is a GRAMMY® award nominated multi-instrumentalist, recording artist, producer and musical intuitive sound healing facilitator. In 1981 she began her professional musical path as a drummer in the Seattle area. In the early 1990’s she became captivated by her maternal ancestral Cree heritage, awakened her spiritual path, left the rock-n-roll business and moved to Mount Shasta in 1993. Throughout the years her musical voice has expanded to encompass an array of extraordinary Native American flutes, grand hammer dulcimer, piano and drums.\n\nHaving recorded six CDs to date, her third CD release, “Beyond Words” with Will Clipman & AmoChip Dabney, was GRAMMY® award nominated for Best New Age album alongside CDs by Enya, Peter Kater, Andreas Vollenweider and Enigma.\n\nKnown for her heartfelt signature sound and authentic presence, Gentle Thunder says, “I allow myself to be played as an instrument through which Great Spirit speaks and am deeply dedicated to walking a path of beauty, honoring all life as sacred and bringing the vision of wholeness to all I do.”\n\nGentle Thunder's focus the past 10 years is working as a musical intuitive with groups and individuals, offering sound healing sessions, flute lessons, occasional concerts, musically supporting those in transition to the spirit world and weaving into various musical collaborations.\n\nGentle Thunder says “I am delighted to offer this fundraising concert at Jefferson Center for the Arts. There will be a surprise special guest appearing on a few songs. Please join us for a nourishing evening of music, heart connection and supporting Jefferson Center for the Arts.”\n\n*Quotes:*\n\n“Music that calls you back home to your heart, your center...a welcome place within… unique and inspiring.”\n~Bette Timm - Aura Magazine\n\n“A glorious musical journey that’s a sharing of deep spirit more than a mere performance.”\n~Eric Alan - JPR Music Director\n\n“Music that is direct and organic.”\n~Jim Fusilli - Wall Street Journal\n\n#Cameo Appearance by Beloved Heartsong# [Beloved](https://belovedheartsong.com) is a singer/songwriter/composer/pianist and receives her uplifting, prescriptive and transformative music composed in its entirety from Spirit.\n\nHer music is encoded with the energetic Grace in which she receives it. It is soothing, uplifting and inspirational, and assists listeners in transforming stress, fear and grief into gentle heart opening, letting go and inner peace.\n\nBeloved’s music is available on her site, Apple Music, Amazon, CD Baby, Pandora, Spotify and other music platforms.\n\nBeloved is also the Director and Instructor for the [LaHo-Chi Institute of Energy Healing](https://lahochi.org). She has been sharing and teaching this work throughout the country for almost 30 years. Private sessions are available.",
+      "details": "#Gentle Thunder# ![Gentle Thunder](gentle-thunder-m1.jpg) [Gentle Thunder](http://www.gentlethunder.com) is a GRAMMY® award nominated multi-instrumentalist, recording artist, producer and musical intuitive sound healing facilitator. In 1981 she began her professional musical path as a drummer in the Seattle area. In the early 1990’s she became captivated by her maternal ancestral Cree heritage, awakened her spiritual path, left the rock-n-roll business and moved to Mount Shasta in 1993. Throughout the years her musical voice has expanded to encompass an array of extraordinary Native American flutes, grand hammer dulcimer, piano and drums.\n\nHaving recorded six CDs to date, her third CD release, “Beyond Words” with Will Clipman & AmoChip Dabney, was GRAMMY® award nominated for Best New Age album alongside CDs by Enya, Peter Kater, Andreas Vollenweider and Enigma.\n\nKnown for her heartfelt signature sound and authentic presence, Gentle Thunder says, “I allow myself to be played as an instrument through which Great Spirit speaks and am deeply dedicated to walking a path of beauty, honoring all life as sacred and bringing the vision of wholeness to all I do.”\n\nGentle Thunder's focus the past 10 years is working as a musical intuitive with groups and individuals, offering sound healing sessions, flute lessons, occasional concerts, musically supporting those in transition to the spirit world and weaving into various musical collaborations.\n\nGentle Thunder says “I am delighted to offer this fundraising concert at Jefferson Center for the Arts. There will be a surprise special guest appearing on a few songs. Please join us for a nourishing evening of music, heart connection and supporting Jefferson Center for the Arts.”\n\n ![Gentle Thunder](gentle-thunder-m2.jpg) *Quotes:*\n\n“Music that calls you back home to your heart, your center...a welcome place within… unique and inspiring.”\n~Bette Timm - Aura Magazine\n\n“A glorious musical journey that’s a sharing of deep spirit more than a mere performance.”\n~Eric Alan - JPR Music Director\n\n“Music that is direct and organic.”\n~Jim Fusilli - Wall Street Journal\n\n#Cameo Appearance by Beloved Heartsong# ![Beloved Heartsong](beloved-heartsong-m.jpg) [Beloved](https://belovedheartsong.com) is a singer/songwriter/composer/pianist and receives her uplifting, prescriptive and transformative music composed in its entirety from Spirit.\n\nHer music is encoded with the energetic Grace in which she receives it. It is soothing, uplifting and inspirational, and assists listeners in transforming stress, fear and grief into gentle heart opening, letting go and inner peace.\n\nBeloved’s music is available on her site, Apple Music, Amazon, CD Baby, Pandora, Spotify and other music platforms.\n\nBeloved is also the Director and Instructor for the [LaHo-Chi Institute of Energy Healing](https://lahochi.org). She has been sharing and teaching this work throughout the country for almost 30 years. Private sessions are available.",
       "note": "",
       "series": "",
       "price": "General Admission Sliding Scale / $20-$50 adv online →",
@@ -288,9 +388,9 @@
         "end": "2024-06-18"
       },
       "location": "",
-      "image": "gentle-thunder-benefit.jpg",
+      "image": "gentle-thunder.jpg",
       "image_width": "800",
-      "image_height": "400",
+      "image_height": "800",
       "stream": "",
       "youtube": "Ipf74epQTXY",
       "youtube2": "HRavYf23ecQ",
