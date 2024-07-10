@@ -7,7 +7,7 @@
     "title": "",
     "performer": "",
     "description": "",
-    "details": "",
+    "details": "#header# info",
     "note": "",
     "series": "",
     "price": "$25 at venue / $20 adv online →",
@@ -87,6 +87,56 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "feng-e-ukulele-sensation--sep-28-2024",
+      "title": "Feng E - Ukulele Sensation",
+      "performer": "Feng E",
+      "description": "Come see ukelele child prodigy Feng E on his first US tour.",
+      "details": "#Feng E# [Feng E](https://www.instagram.com/fengeofficial/) is a young musical sensation (born in 2007) from Taiwan. His notoriety continues to skyrocket through his various ukulele covers of popular music with over 600K YouTube subscribers and millions of views. His expert renditions and his straight-forward “can do” attitude has turned the heads and stolen the hearts of some of the biggest stars in the world.\n\n#How It All Began# The reason Feng E took up the instrument in the first place was because his kindergarten teacher had discovered that his finger development was slow; he couldn’t draw a straight line or form a ball out of clay. His father tried to get him to play the piano, but the youngster lacked both interest and aptitude. When his father introduced him to the ukulele, he also resisted. But his father eventually found a way to convince him to practice: he offered to play Legos with him after each lesson, and it worked.\n\n#Accomplishments# To date, Feng E has mastered five musical instruments, starting with the piano at the age of four. He also has numerous compositions to his name. Although he has struggled to keep up in music class at school, Feng E has become a star in the world of ukulele music, performing and winning competitions around the world, in places like Singapore, Malaysia, Japan, China, and Hawaii. On “Asia’s Got Talent” (2017), he was the only competitor to get the Golden Buzzer from producer David Foster. In 2018, a video of Feng E playing Tommy Emmanuel’s arrangement of “Classical Gas,” with a ukulele in the park area of Taipei has nearly 20 million views. Owing to the viral video, Feng E was invited to “The Ellen DeGeneres Show” to play for a worldwide audience. He has since been on Ellen's show twice (2018 and 2019).",
+      "note": "",
+      "series": "",
+      "price": "$25 at venue / $20 adv online →\nKids 12 and under FREE →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "feng-e-ukulele-sensation",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2024-09-28",
+        "end": "2024-09-28"
+      },
+      "location": "",
+      "image": "feng-e.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "cFikE9PEUHs",
+      "youtube2": "ppAmI82xUSA",
+      "youtube3": "fhLZAu9jvU0",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",
