@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "hildaland--sep-29-2024",
+      "title": "Hildaland",
+      "performer": "Hildaland",
+      "description": "Hildaland in concert: Appalachian and Scottish traditions, intertwined with contemporary compositions.",
+      "details": "#Hildaland# Orkney (Scotland) born fiddler **Louise Bichan** and Indiana (USA) mandolinist **Ethan Setiawan** present a collaboration and meeting of their musical worlds in [Hildaland](https://www.hildaland.com/). A path steeped in the fiddle traditions of their respective sides of the Atlantic, the journey taken wends through Scottish and American soil, celebrating their foundations while intertwining with contemporary composition. Bichan’s fiddle is a melodic foil to Setiawan’s counterpoint and harmonic depth, and the two weave in and out seamlessly.\n\n*Setiawan* has won such accolades as the 2014 National Mandolin Championship, the 2017 RockyGrass Mandolin Championship and has shared the stage with the likes of Julian Lage, Darrell Scott, Bryan Sutton, Mike Marshall, Tony Trischka, Darol Anger, Casey Driessen, the Steel Wheels, Don Stiernberg, Matt Flinner, and Jacob Jolliff.\n\n*Bichan* has won awards for her compositions and playing, and has travelled far and wide to perform in various line ups since a young age. She has appeared at the likes of the BBC TV's Hogmanay Live show, Edinburgh Castle, Reading Festival, Cambridge Folk Festival, Lorient Interceltique Festival, Milwaukee Irish Festival and Sligo Live festival. In 2016 she released her first solo album, Out of My Own Light, to great acclaim.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "hildaland",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2024-09-29",
+        "end": "2024-09-29"
+      },
+      "location": "",
+      "image": "hildaland.jpg",
+      "image_width": "800",
+      "image_height": "",
+      "stream": "",
+      "youtube": "fwSqHdQEF9s",
+      "youtube2": "xQ4erybrV4E",
+      "youtube3": "T8n7E-oXNaM",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "feng-e-ukulele-sensation--sep-28-2024",
       "title": "Feng E - Ukulele Sensation",
       "performer": "Feng E",
