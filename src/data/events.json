@@ -103,6 +103,56 @@
     },
     {
       "category": "music",
+      "type": "performance",
+      "slug": "federale--aug-25-2024",
+      "title": "Federale",
+      "performer": "Federale",
+      "description": "Portland's band Federale in concert. Music inspired by the spaghetti westerns of the 60s and 70s.",
+      "details": "#Federale# [Federale](https://federalepdx.com/) is a six-piece ensemble based in Portland, OR. Spearheaded by longtime *Brian Jonestown Massacre* bassist *Collin Hegna*, the band was conceived as an outlet to channel inspiration from ‘60s & ‘70s European soundtracks, particularly those from Italy made famous by the Spaghetti Western & Giallo genres. As well as the narrative driven song stylings of Lee Hazlewood and Nick Cave.\n\n*Reverb & Seduction* is the legendary Portland band’s most immersive and varied album to date. A tour de force road trip from psych rock to country duets that never strays too far from the spaghetti western roots that inspired the band so many blood moons ago.\n\n“…equal parts Ennio Morricone, Lee Hazelwood, and Nick Cave with a touch of Chris Isaak’s less romantic side… few if any artists are brave and/or creative enough to channel this ghostly, often ominous vibe into moving, sensual and stirring music.”\n~ HAL HOROWITZ, American Songwriter",
+      "note": "",
+      "series": "",
+      "price": "$20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "federale",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-08-25",
+        "end": "2024-08-25"
+      },
+      "location": "",
+      "image": "federale-c-jason-quigley-2024.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "L9wmdUYwmqw",
+      "youtube2": "pryjJsH_dvI",
+      "youtube3": "szTf8z5-y9c",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "gathering",
       "slug": "scott-pemberton-end-of-summer-dance-party--aug-30-2024",
       "title": "Scott Pemberton - end of summer cool indoor dance party",
