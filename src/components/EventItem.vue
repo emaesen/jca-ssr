@@ -25,9 +25,12 @@
         <div class="summary-subcontainer">
           <span class="summary-column summary_description">{{ summaryDescription }}</span>
         </div>
+        <div class="summary-subcontainer" v-if="event.series">
+          <span class="summary-column summary_series">{{ event.series }}</span>
+        </div>
       </div>
       <div>
-        <span class="summary-column summary_image group"><g-image  v-if="event.image" class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
+        <span class="summary_image group"><g-image  v-if="event.image" class="summary_image" :src="'/img/event/'+eventThumbImage" :alt="event.title"/></span>
       </div>
     </g-link>
 
@@ -606,6 +609,14 @@ img.summary_image {
   color: #e9b761b7;
   flex: 6;
   margin-top: 1em;
+}
+.summary_series {
+  font-family: @font_family_cursive, cursive;
+  color: @color-secondary-1-1;
+  font-size: 70%;
+  color: #fffee890;
+  flex: 6;
+  margin-top: .63em;
 }
 .summary_icon {
   margin-right: 1em;
