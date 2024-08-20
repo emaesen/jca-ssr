@@ -104,13 +104,263 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "cotter-jackson-colliton-clarridge--sep-12-2024",
+      "title": "Colin Cotter & Sumaia Jackson w/ Tristan Clarridge and Anna Colliton",
+      "performer": "Colin Cotter, Sumaia Jackson, Tristan Clarridge and Anna Colliton",
+      "description": "Four artful musicians at the top of their game, eager to make some magic together as they embark on their first performances together.",
+      "details": "There’s a certain feeling musicians get when they decide to collectively leap into the unknown together, a feeling born of the thrill of endless possibilities, the intimacy of creating something unique to the moment together, the mighty release in embracing chaos, and the resolute peace that takes hold when you find order within it all…there’s nothing like it to breathe a little fire into a performance. This collaboration, a pickup band of sorts, features four such thrill seekers - four artful musicians at the top of their game, eager to make some magic together as they embark on their first performances together.\n\nThe band isn’t completely without a foundation, as Colin Cotter (vox / guitar) and Sumaia Jackson (5-string fiddle) gig together as a duo, performing Sumaia’s original tunes, Colin’s original songs, and music from the Celtic & American folk traditions. Joining them are Tristan Clarridge (cello) and Anna Colliton (bodhrán), two of the finest musicians around whose creative instincts create endless marvelous possibilities. This band will take you on quite a journey as they shift from blazing fiddle tunes to beautiful slow songs, sing silky vocal harmony, pull off tightly arranged pieces, and let loose with improvised solos and spontaneously crafted arrangements, all the while sharing the joy of organic interplay between musicians openly expressing in the moment.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "cotter-jackson-colliter-clarridge",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-09-12",
+        "end": "2024-09-12"
+      },
+      "location": "",
+      "image": "cotter-jackson-colliton-clarridge.jpg",
+      "image_width": "800",
+      "image_height": "776",
+      "stream": "",
+      "youtube": "FtjxL_924ys",
+      "youtube2": "pXozSlpK7aI",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "festival",
+      "slug": "jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+      "title": "JCA World Music FESTIVAL PASSPORT",
+      "performer": "",
+      "description": "Jefferson Center for the Arts (JCA) presents the second annual JCA WORLD MUSIC FESTIVAL September 19-29. Musical artists from all over the world will be highlighted and presented over two weekends including IONA FYFE from SCOTLAND, FENG E the young ukulele virtuoso from TAIWAN, Singer songwriter THE SECRET BEACH from CANADA, Afro- Brazilian dance band ALQUIMISTAS from BRAZIL, TADAIMA from JAPAN and HILDALAND a CELTIC/SWEDISH duo from Scotland and the US.",
+      "details": "#JCA World Music Festival 2024# Tickets for all shows are $20 in advance, $15 for students and seniors.\nSpecial FESTIVAL PASSPORT tickets for all 6 shows are only $85 in advance (A 30% total discount!).\nIndividual show tickets are $25 at the door.\n\nThe JCA MUSIC FESTIVAL is sponsored by Sierra Nevada Brewing Company, Pipeline Craft Taps, Trailer Lane Campground, Shasta Studios, Spring Hill Nursery and Ray-Mac Mechanical.\n\nKids 12 and under are free at all performances.\n\n#Six performances:#\n[♦ Sept 19 - Iona Fyfe](~/events/music/iona-fyfe-live-from-scotland--sep-19-2024)\n[♦ Sept 20 - Tadaima](~/events/music/tadaima--sep-20-2024)\n[♦ Sept 21 - Secret Beach w/ special guest Matt Jolliff](~/events/music/the-secret-beach-w-special-guest-matt-jolliff--mmm-dd-2024)\n[♦ Sept 27 - Alquimistas](~/events/music/alquimistas--sep-27-2024)\n[♦ Sept 28 - Feng E](~/events/music/feng-e-ukulele-sensation--sep-28-2024)\n[♦ Sept 29 - Hildaland](~/events/music/hildaland--sep-29-2024)",
+      "note": "",
+      "series": "JCA World Music Festival 2024 - PASSPORT",
+      "price": "JCA Festival Passport $85 adv online →\nKids 12 and under are free at all performances",
+      "price_note": "Passport includes 6 SHOWS -> a 30% discount",
+      "ticket": "",
+      "humanitix": "jca-world-music-festival-passport-ticket",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-09-19",
+        "end": "2024-09-29"
+      },
+      "location": "",
+      "image": "jca-world-music-festival-2024.jpg",
+      "image_width": "800",
+      "image_height": "832",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "tadaima--sep-20-2024",
+      "title": "Tadaima",
+      "performer": "Tadaima",
+      "description": "Tadaima with Russel Baba of Shasta Taiko performs original music influenced by the traditions of jazz improvisation, world cultures, and modern music.",
+      "details": "#Tadaima# [Russel Baba](https://www.russelbaba.com/) may be one of the first Asian American artists to produce his own work with the critically acclaimed recording “Hisashi” in 1978. In 1992 he produced “ Earth Prayer” which features pianist Andrew Hill and in 1999 “Spirit Drum- Taiko Stories From America” with Jeanne Mercer, Masato Baba, and Shoji Kameda. In 2010 he recorded “Tadaima” and “KorewaKorewa” which features original work with Jeanne Mercer and Masato Baba. Baba not only plays conventional items such as the alto saxophone, but a variety of ethnic instruments from all over the world. Even when Baba plays the alto, he gives it an eerie other-worldly quality that puts the music right into the twilight zone ...a daring approach to the music, a worthwhile deviation from the norm. ~ San Francisco Chronicle\n\n“Tadaima!” - “now, at present / I am here! / I am home!” - is a traditional Japanese announcement when one comes home.",
+      "note": "",
+      "series": "JCA World Music Festival 2024 - concert #2",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "tadaiama-jca-world-music-festival-concert-2",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2024-09-20",
+        "end": "2024-09-20"
+      },
+      "location": "",
+      "image": "tadaima.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "dndHJR_Wm0c",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-secret-beach-w-special-guest-matt-jolliff--mmm-dd-2024",
+      "title": "The Secret Beach",
+      "performer": "Micah Erenberg (The Secret Beach), Matt Jolliff",
+      "description": "The Secret Beach is the moniker used by Canadian artist Micah Erenberg, whose refreshingly plainspoken candor has become a dominant through-line in the singer/songwriters ever-expanding catalog. With special guest Matt Jolliff.",
+      "details": "#The Secret Beach# Everyone loves a secret: a shortcut through the woods, a fishing hole, a beach.\n\n![Micah Erenberg](micah-erenberg-m.jpg)I’m at [the Secret Beach](https://www.thesecretbeach.ca/) now, and I’m reminded that it’s been years since Micah Erenberg merged into the rocks and trees and sand that line this endless spine of a beach – a beach that arches out of an inland ocean like a giant waking from a marshy sleep. How he did this, I can’t tell you. But it came to him as if by revelation: if place is being, then you must become that place: become the Secret Beach: become a firmament for sunny summer days: become a place where you feel like you belong, a place that reminds you of home, a place that is home. And so he became the beach. This is what the Songs from Secret Beach do, too – they can shatter and scatter you into the winds, they can peer into you as if you were glass, they can weather the edges of your broken bottles. And they allow for others – like me – to reflect. You can hear them easier out here. Listen. Put your ears to the ground. Do you hear it? Each grain of sand sings a secret song. Each one is no less important than another. I hear billions around me. A chorus of melodies swarm along the shoreline. This must be how Micah makes his songs – he simply nets them as if they were butterflies.\n\nI walk into the lake, sinking into a sandbar: it’s smooth and cool against my feet. I’m up to my waist in the Secret Beach’s dark waters. I stare back at myself through the ripples that radiate around me. Each song is a tree ring. Like a record player, I curl my finger into a stylus and lower it carefully into the wavy grooves below. “Miss You” plays, “God is” plays. I’m reminded of the smell of balsam poplar buds, and the way they stick to your toes. It’s a memory that the music has freed, and it carries me to shore. As far as I can tell, there’s no one around, and so I sing along, kicking at the water with an intoxicated abandon. \n\nThis is the secret of the Secret Beach: you get to make your own meaning, your own purpose. Through songs that blend the personal and universal, the Secret Beach encourages that meaning-making – and in doing so, makes some spectacularly great music.\n\nBut don’t tell anyone I told you that. That’s between you and me. \n\n- [The Famous Sandhogs](https://thefamoussandhogs.bandcamp.com/)",
+      "note": "",
+      "series": "JCA World Music Festival 2024 - concert #3",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-secret-beach-w-special-guest-matt-jolliff-jca-world-music-festival-concert-3",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-09-21",
+        "end": "2024-09-21"
+      },
+      "location": "",
+      "image": "the-secret-beach.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "8qhrb0CKULM",
+      "youtube2": "vUUkFuQMegQ",
+      "youtube3": "uNB99MIzJa4",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "alquimistas--sep-27-2024",
+      "title": "Alquimistas",
+      "performer": "Alquimistas",
+      "description": "Alquimistas is a high energy afro-brazilian dance band from Ashland, Oregon.",
+      "details": "#Alquimistas# [instagram](https://www.instagram.com/alquimistasband/)",
+      "note": "",
+      "series": "JCA World Music Festival 2024 - concert #4",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "alquimistas-jca-world-music-festival-concert-4",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-09-27",
+        "end": "2024-09-27"
+      },
+      "location": "",
+      "image": "alquimistas.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "38aYkOPkqhI",
+      "youtube2": "hndntulJvDc",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "iona-fyfe-live-from-scotland--sep-19-2024",
       "title": "Iona Fyfe - Live from Scotland",
       "performer": "Iona Fyfe",
-      "description": "The JCA is Proud to Welcome IONA FYFE Direct From Scotland AS THE FIRST CONCERT OF THE JCA WORLD MUSIC FESTIVAL 2024!",
+      "description": "The JCA is proud to welcome Iona Fyfe from Scotland as the first concert of the JCA WORLD MUSIC FESTIVAL 2024.",
       "details": "#Iona Fyfe# Aberdeenshire folksinger, Iona Fyfe, has become one of Scotland’s finest singers, rooted deeply in the singing traditions of the North East of Scotland. In 2021, she became the first singer to win the coveted title of Musician of the Year at the MG ALBA Scots Trad Music Awards. Iona is a fierce advocate for the official recognition of the Scots Language, leading a successful campaign to pressure Spotify into recognising Scots and add it to its list of languages. Honoured at the Scots Language Awards with the title of Speaker of the Year in 2021, Iona performs both folk and pop songs in the Scots language, remaining true to her rooting in tradition. Iona has featured in several publications including The Sunday Post, The Financial Times, The Wall Street Journal and The Times. She won the title of Scots Singer of the Year at the MG ALBA Scots Trad Music Awards in 2018 and was described as “one of the best Scotland has to offer.” ~ Global-Music.de\n\n#Social Media# Facebook: [@ionafyfe](https://www.facebook.com/ionafyfe)\nTwitter: [@ionafyfe](https://twitter.com/ionafyfe)\nInstagram: [@iona.fyfe](https://www.instagram.com/iona.fyfe/)\nYouTube: [/ionafyfe](https://www.youtube.com/ionafyfe)\nSpotify: [/36PlU2e](https://spoti.fi/36PlU2e)\nBandcamp: [ionafyfe](https://ionafyfe.bandcamp.com/music)",
       "note": "",
-      "series": "JCA World Music Festival 2024",
+      "series": "JCA World Music Festival 2024 - concert #1",
       "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nJCA Festival Passport $85 adv online →",
       "price_note": "",
       "ticket": "",
@@ -145,10 +395,10 @@
       "sponsor_image": "",
       "reference_slug": "",
       "all_access_pass": {
-        "link": "",
-        "expires": "",
-        "text": "",
-        "note": ""
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
       }
     },
     {
@@ -260,7 +510,7 @@
       "description": "Hildaland in concert: Appalachian and Scottish traditions, intertwined with contemporary compositions.",
       "details": "#Hildaland# Orkney (Scotland) born fiddler **Louise Bichan** and Indiana (USA) mandolinist **Ethan Setiawan** present a collaboration and meeting of their musical worlds in [Hildaland](https://www.hildaland.com/). A path steeped in the fiddle traditions of their respective sides of the Atlantic, the journey taken wends through Scottish and American soil, celebrating their foundations while intertwining with contemporary composition. Bichan’s fiddle is a melodic foil to Setiawan’s counterpoint and harmonic depth, and the two weave in and out seamlessly.\n\n*Setiawan* has won such accolades as the 2014 National Mandolin Championship, the 2017 RockyGrass Mandolin Championship and has shared the stage with the likes of Julian Lage, Darrell Scott, Bryan Sutton, Mike Marshall, Tony Trischka, Darol Anger, Casey Driessen, the Steel Wheels, Don Stiernberg, Matt Flinner, and Jacob Jolliff.\n\n*Bichan* has won awards for her compositions and playing, and has travelled far and wide to perform in various line ups since a young age. She has appeared at the likes of the BBC TV's Hogmanay Live show, Edinburgh Castle, Reading Festival, Cambridge Folk Festival, Lorient Interceltique Festival, Milwaukee Irish Festival and Sligo Live festival. In 2016 she released her first solo album, Out of My Own Light, to great acclaim.",
       "note": "",
-      "series": "JCA World Music Festival 2024",
+      "series": "JCA World Music Festival 2024 - concert #6",
       "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
       "price_note": "",
       "ticket": "",
@@ -295,10 +545,10 @@
       "sponsor_image": "",
       "reference_slug": "",
       "all_access_pass": {
-        "link": "",
-        "expires": "",
-        "text": "",
-        "note": ""
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
       }
     },
     {
@@ -307,10 +557,10 @@
       "slug": "feng-e-ukulele-sensation--sep-28-2024",
       "title": "Feng E - Ukulele Sensation",
       "performer": "Feng E",
-      "description": "Come see ukelele child prodigy Feng E on his first US tour.",
+      "description": "Come see ukelele child prodigy Feng E from Taiwan on his first US tour.",
       "details": "#Feng E# [Feng E](https://www.instagram.com/fengeofficial/) is a young musical sensation (born in 2007) from Taiwan. His notoriety continues to skyrocket through his various ukulele covers of popular music with over 600K YouTube subscribers and millions of views. His expert renditions and his straight-forward “can do” attitude has turned the heads and stolen the hearts of some of the biggest stars in the world.\n\n#How It All Began# The reason Feng E took up the instrument in the first place was because his kindergarten teacher had discovered that his finger development was slow; he couldn’t draw a straight line or form a ball out of clay. His father tried to get him to play the piano, but the youngster lacked both interest and aptitude. When his father introduced him to the ukulele, he also resisted. But his father eventually found a way to convince him to practice: he offered to play Legos with him after each lesson, and it worked.\n\n#Accomplishments# To date, Feng E has mastered five musical instruments, starting with the piano at the age of four. He also has numerous compositions to his name. Although he has struggled to keep up in music class at school, Feng E has become a star in the world of ukulele music, performing and winning competitions around the world, in places like Singapore, Malaysia, Japan, China, and Hawaii. On “Asia’s Got Talent” (2017), he was the only competitor to get the Golden Buzzer from producer David Foster. In 2018, a video of Feng E playing Tommy Emmanuel’s arrangement of “Classical Gas,” with a ukulele in the park area of Taipei has nearly 20 million views. Owing to the viral video, Feng E was invited to “The Ellen DeGeneres Show” to play for a worldwide audience. He has since been on Ellen's show twice (2018 and 2019).",
       "note": "",
-      "series": "JCA World Music Festival 2024",
+      "series": "JCA World Music Festival 2024 - concert #5",
       "price": "$25 at venue / $20 adv online →\nKids 12 and under FREE →",
       "price_note": "",
       "ticket": "",
@@ -345,10 +595,10 @@
       "sponsor_image": "",
       "reference_slug": "",
       "all_access_pass": {
-        "link": "",
-        "expires": "",
-        "text": "",
-        "note": ""
+        "link": "/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024",
+        "expires": "2024-09-22",
+        "text": "View FESTIVAL PASSPORT offer",
+        "note": "30% DISCOUNT for all 6 events of the JCA World Music Festival 2024"
       }
     },
     {
