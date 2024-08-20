@@ -7,7 +7,7 @@
       <div v-if="event.flag && event.flag.is_postponed && !(event.flag.is_canceled) && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
       </div>
-      <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
+      <div v-if="event.stamp_summary || event.stamp" class="event_stamp mini_stamp anima__zoom">
         {{ event.stamp_summary || event.stamp }}
       </div>
       <div class="summary_text">
@@ -375,7 +375,7 @@ export default {
       return this.showSummary ? "" : (this.atPageLevel ? "event-page group" : "event event_cat event_cat-" + this.event.category);
     },
     showAllAccessPassLink() {
-      return this.event.reference_slug && this.event.all_access_pass && this.event.all_access_pass.link && !this.isPastDate(this.event.all_access_pass.expires)
+      return this.event.all_access_pass && this.event.all_access_pass.link && !this.isPastDate(this.event.all_access_pass.expires)
     },
     isPastEvent() {
       return this.isPastDate(this.event.date.end);
@@ -612,9 +612,8 @@ img.summary_image {
 }
 .summary_series {
   font-family: @font_family_cursive, cursive;
-  color: @color-secondary-1-1;
   font-size: 70%;
-  color: #fffee890;
+  color: #fffa13dd;
   flex: 6;
   margin-top: .63em;
 }
@@ -667,6 +666,7 @@ h4 {
 .event_all_access_pass_note {
   opacity: 1;
   font-weight: normal;
+  font-family:@font_family_cursive, cursive;
 }
 .event_series,
 .event_type_cat_pagelevel {
