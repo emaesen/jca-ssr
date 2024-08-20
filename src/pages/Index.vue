@@ -21,9 +21,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>JCA Summer Events</h2>
+        <h2>JCA World Music Festival 2024</h2>
         <div class="center">
-          <!--g-link to="/events/fest/halloween-costume-party--oct-28-2023" title="click to view info about the JCA Halloween Party"-->
+          <g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024" title="click to view info about the JCA World Music Festival">
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -32,14 +32,14 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/jca-upcoming-073024.jpg" alt="JCA Upcoming Events 2024" class="hero-img"/>
+            <g-image src="/img/jca-world-music-festival-2024.jpg" alt="JCA World Music Festival 2024" class="hero-img"/>
             <!--
             <div class="center">
               Mark Your Calendars For Summer Fun!<br>
               BIG THANKS to Sandi and Tim Belton of Springhill Nursery and Gardens for their generous donation of plants and trees to beautify the JCA Field and outdoor space.
             </div>
             -->
-          <!--/g-link-->
+          </g-link>
         </div>
       </div>
 
@@ -158,7 +158,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2024-09-30T22:00");
+      const eventDate = new Date("2024-09-29T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
