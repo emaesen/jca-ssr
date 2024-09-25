@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "object-heavy--oct-26-2024",
+      "title": "Object Heavy",
+      "performer": "Object Heavy",
+      "description": "Object Heavy is back to fill the dance floor at the JCA Mt Shasta once again! We’re psyched for the show!",
+      "details": "#Object Heavy# [Object Heavy](https://objectheavymusic.com/) is Humboldt County’s hard hitting soul sensation. The band is led by the nuanced and powerful voice of Richard Love and composed of seasoned veterans of the West Coast Soul and Funk scene. Fresh off the release of their new record, 'Love & Gravity' (Produced by Kelly Finnigan of Monophonics), they have garnered stellar reviews from an international audience and were promoted as a featured artist on Apple Music's Soul and RnB carousel. They were also featured on several of Apple Music's top playlists within their genre field. Object Heavy has spent the last few years establishing themselves as a stand out live experience in touring the greater western United States and sharing the stage with diverse talent such as Orgone, The Motet, Rebirth Brass Band, Polyrhythmics, Turkuaz, Lyrics Born, and Chali 2na. Object Heavy’s magnetic blend of classic Cadillac soul, effortlessly contagious dance grooves, vocal harmonies and blazing musicianship is a must see live experience.\n\n“A tight well oiled machine that plays heavy funk and R&B fueled by great songwriting and deep grooves.”\n~ Kelly Finnigan, producer",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "object-heavy",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-10-26",
+        "end": "2024-10-26"
+      },
+      "location": "",
+      "image": "object-heavy2.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "bz9bkI_iuPM",
+      "youtube2": "hllpV1JknuI",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "cotter-jackson-colliton-clarridge--sep-12-2024",
       "title": "Colin Cotter & Sumaia Jackson w/ Tristan Clarridge and Anna Colliton",
       "performer": "Colin Cotter, Sumaia Jackson, Tristan Clarridge and Anna Colliton",
@@ -171,7 +221,7 @@
       },
       "date":{
         "start": "2024-09-19",
-        "end": "2024-09-29"
+        "end": "2024-09-21"
       },
       "location": "",
       "image": "jca-world-music-festival-2024.jpg",
@@ -254,7 +304,7 @@
     {
       "category": "music",
       "type": "performance",
-      "slug": "the-secret-beach-w-special-guest-matt-jolliff--mmm-dd-2024",
+      "slug": "the-secret-beach-w-special-guest-matt-jolliff--sep-21-2024",
       "title": "The Secret Beach",
       "performer": "Micah Erenberg (The Secret Beach), Matt Jolliff",
       "description": "The Secret Beach is the moniker used by Canadian artist Micah Erenberg, whose refreshingly plainspoken candor has become a dominant through-line in the singer/songwriters ever-expanding catalog. With special guest Matt Jolliff.",
