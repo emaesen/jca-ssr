@@ -104,6 +104,106 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "kommuna-lux-urban-folk-and-klezmer-band-from-ukraine--oct-12-2024",
+      "title": "Kommuna Lux - Ukranian folk and klezmer band",
+      "performer": "Kommuna Lux",
+      "description": "Kommuna Lux plays joyful songs and melodies from Odesa and all Eastern Europe in spiced up arrangements.",
+      "details": "#Kommuna Lux# Come fall in love with Odesa, Ukraine, the Pearl of the Black Sea! [Kommuna Lux](https://kommunalux.com/) brings you the heritage music of their beloved hometown. Klezmer, Balkan, and Urban Chanson, with a dash of Ukrainian Folk and powered by rocket fuel, Kommuna Lux impacts the crowd with a nostalgic, high-energy Big Band sound from the bygone days of speakeasies and rum runners. ",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "kommuna-lux-urban-folk-and-klezmer-band-from-ukraine",
+      "time":{
+        "start": "19:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2024-10-12",
+        "end": "2024-10-12"
+      },
+      "location": "",
+      "image": "kommuna-lux.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "cYDb3l2WDLg",
+      "youtube2": "7SCtr-efow4",
+      "youtube3": "uHTsUL2b3Qs",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "daimh-gaelic-supergroup-folk-band-of-the-year--oct-08-2024",
+      "title": "Dàimh -  ‘Gaelic Supergroup’",
+      "performer": "Dàimh",
+      "description": "Dàimh (pronounced dive) are a 5 piece band from Scotland. They are a long-established favourite at folk festivals in Scotland, Ireland and across Europe.",
+      "details": "#Dàimh# [Dàimh](https://www.daimh.net/) – Gaelic Supergroup and un-challenged champions of straight in the eye Highland music are based around West Lochaber and the Isle of Skye.\n\nFormed around the turn of the century and taking the name from the Gaelic word for “kinship” Dàimh (pronounced Dive) have taken their contemporary take of Highland and Gaelic music to over 20 countries, setting audiences alight from Moscow to San Francisco.\n\nWith a reputation as giants of the Bagpipes and Fiddle, Angus Mackenzie and Gabe McVarish lead the melodic powerhouse with fellow founder member Ross Martin underpinning the groove on the Guitar. The Band are joined by “new guy” Murdo “Yogi” Cameron on Mandola and Accordion to complete the instrumental line up.\n\nDàimh have always had the renown and notoriety of working with some of the finest Gaelic singers in Scotland and the current line up only serves to cement that distinction with the addition of the Gaelic firmament’s most rapidly rising star, Ellen MacDonald on vocals.\n\nRecent accolades include last year’s award for the “Best Folk Band in Europe” at the prestigious Folkherbst competition in Germany and most recently winner of “Folk Band of the Year” at the Scottish Traditional Music Awards.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 12 and under FREE →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "daimh-gaelic-supergroup-folk-band-of-the-year",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-10-08",
+        "end": "2024-10-08"
+      },
+      "location": "",
+      "image": "daimh.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "VWnmI6SRCRA",
+      "youtube2": "V47jp-2XDQc",
+      "youtube3": "IBiGvZia5uA",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "object-heavy--oct-26-2024",
       "title": "Object Heavy",
       "performer": "Object Heavy",
