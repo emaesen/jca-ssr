@@ -23,7 +23,7 @@
       >
         <h2>JCA World Music Festival 2024</h2>
         <div class="center">
-          <g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-sep-29-2024" title="click to view info about the JCA World Music Festival">
+          <g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-oct-12-2024" title="click to view info about the JCA World Music Festival">
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -32,7 +32,7 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/jca-world-music-festival-2024.jpg" alt="JCA World Music Festival 2024" class="hero-img"/>
+            <g-image src="/img/jca-world-music-festival-2024-extended.jpg" alt="JCA World Music Festival 2024" class="hero-img"/>
             <!--
             <div class="center">
               Mark Your Calendars For Summer Fun!<br>
@@ -158,7 +158,7 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2024-09-29T22:00");
+      const eventDate = new Date("2024-10-12T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
