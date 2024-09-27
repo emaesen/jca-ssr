@@ -27,34 +27,6 @@
         "end": "2024-mm-dd"
       },
       "is_placeholder": true
-    },
-    {
-      "title": "JCA World Music Festival 2024",
-      "description": "Iona Fyfe, Secret Beach, Alquimistas, Tadaima/Shasta Taiko, Feng E, Hildaland",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2024-09-19",
-        "end": "2024-09-29"
-      },
-      "is_placeholder": true
-    },
-    {
-      "title": "Summer Solstice Sound Ceremony with Edward Maesen",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2024-06-20",
-        "end": "2024-06-20"
-      },
-      "is_placeholder": true
     }
   ]
 }
