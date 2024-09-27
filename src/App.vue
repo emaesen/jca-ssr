@@ -141,6 +141,7 @@ button {
   padding: 7px 9px;
   font-family: @font_family_header;
   font-weight: 700;
+  font-size: (22/18) * @font_size ;
 }
 button:disabled {
   cursor: default;
