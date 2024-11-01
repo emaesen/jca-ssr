@@ -103,6 +103,265 @@
     },
     {
       "category": "music",
+      "type": "performance",
+      "slug": "ensemble-sangineto-on-tour-from-italy--dec-7-2024",
+      "title": "Ensemble Sangineto - On Tour From Italy",
+      "performer": "Ensemble Sangineto",
+      "description": "The JCA is proud to welcome back Ensemble Sangineto after their sold out show last season!",
+      "details": "#Ensemble Sangineto# [Ensemble Sangineto](http://www.ensemblesangineto.com/) is an eclectic band which blends skillfully ancient harmonies and sonorities with modern rhythms. The wide-ranging musical experiences of the individual members converge to create fresh arrangements of traditional Irish, Scottish, Breton & Italian tunes and original compositions that display influences from many varied musical genres ranging from classical to folk, from Gregorian chant to musical, from pop to Celtic music.\n\nThe delicate combination of the pure and magic tones of the harp and of the bowed psaltery with the guitar intermingle with the three voice-polyphonic texture evoking dreamlike and airy atmospheres, which are simultaneously joyful and light.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "ensemble-sangineto-on-tour-from-italy",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2024-12-07",
+        "end": "2024-12-07"
+      },
+      "location": "",
+      "image": "ensemble-sangineto.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "RImggYLozEc",
+      "youtube2": "G68rrzjhQQ0",
+      "youtube3": "jNFtfaAGvRE",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "movie",
+      "type": "presentation",
+      "slug": "the-golden-ghosts-film--2pm--nov-23-2024",
+      "title": "The Golden Ghosts - film @2pm",
+      "performer": "",
+      "description": "Film Screening of “The Golden Ghosts”, a film by Mark Oliver, starring Fred Magee & Victor Martin, written by Sean McFarland & Mark Oliver.",
+      "details": "In 1852, a lone Black woman trudges barefoot along a dry riverbed in Siskiyou County, watched by two Black men in the trees. She seems indifferent to the spectacular beauty around her, near the base of Mount Shasta. “There’s a lot of purpose in those legs,” one of the men remarks. They assume she is looking for gold, as they are, but conclude that the important thing is what she and they are walking towards. Freedom. It’s the opening scene of an hour-long movie, “The Golden Ghosts,” the latest work by Mt Shasta artist and filmmaker Mark Oliver’s project to recover the forgotten history of African Americans’ participation in the California Gold Rush. Funded by the 18th St Art Center in Santa Monica and the California Arts Council Oliver picked a local group of actors who you will recognize, Clue=one plays the saxophone! It is a historical fiction work based on Siskiyou County events.\n\n[Buy advance tickets on Mark Oliver’s website](https://markoliver.org/events)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $15 at venue / $12 adv online",
+      "price_note": "[Tickets on MarkOliver.org](https://markoliver.org/events)",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-11-23",
+        "end": "2024-11-23"
+      },
+      "location": "",
+      "image": "the-golden-ghosts-film.jpg",
+      "image_width": "800",
+      "image_height": "695",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "the-golden-ghosts-film--7pm--nov-23-2024",
+      "reference_slug": "the-golden-ghosts-film--2pm--nov-23-2024",
+      "title": "The Golden Ghosts - film @7pm",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "john-whelan-s-transatlantic-project--nov-16-2024",
+      "title": "John Whelan's Transatlantic Project",
+      "performer": "John Whelan",
+      "description": "John Whelan, the accomplished accordion player is touring for the first time with two members of Gadan and two talented dancers from Celtic Roses. ",
+      "details": "#John Whelan# Often hailed as one of the world’s best living Irish button accordion players, seven-time All-Ireland champion [John Whelan](https://johnwhelanmusic.com/) has been praised for his “humor and high energy blend with impeccable musicianship” by The Wall Street Journal. John embodies the dichotomy of being forward-thinking while still deeply rooted in tradition. He fearlessly explores the creative reaches of music, artistry, and expression while carefully preserving the musical roots from which he originally flourished, and passing those on to the next generation.\n\n[Gadan’s website](https://www.gadanband.com/)\n[Celtic Roses’ website](https://www.celticroses.it/)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 12 and under FREE →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "john-whelan-s-transatlantic-project",
+      "time":{
+        "start": "19:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2024-11-16",
+        "end": "2024-11-16"
+      },
+      "location": "",
+      "image": "john-whelan-project.jpg",
+      "image_width": "900",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "LxjBoS1669M",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "matthew-jolliff-au-revoir--nov-15-2024",
+      "title": "Matthew Jolliff - Au Revoir",
+      "performer": "Matthew Jolliff, Tristan Behm, Johnny Callahan and The Wind Fields",
+      "description": "This is the farewell concert of local singer-songwriter Matthew Jolliff. He will be sharing stories and songs of his songwriting life. Featured are Tristan Behm, Johnny Callahan and The Wind Fields. ",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "matt-jolliff-au-revoir-featuring-tristan-behm-johnny-callahan-and-the-wind-fields",
+      "time":{
+        "start": "19:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-11-15",
+        "end": "2024-11-15"
+      },
+      "location": "",
+      "image": "matt-jolliff.jpg",
+      "image_width": "900",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night-w-nick-meier-freeway-farrell-pete-nelson-and-sam-mallett--nov-09-2024",
+      "title": "JCA COMEDY NIGHT w/ Nick Meier, Freeway Farrell, Pete Nelson and Sam Mallett",
+      "performer": "Nick Meier, Freeway Farrell, Pete Nelson and Sam Mallett",
+      "description": "Four Hilarious Comics! One Fantastic Show!",
+      "details": "#Freeway Farrell# [Freeway Farrell](https://www.freewayfarrell.com/) has always been in the entertainment business. He began his career thirty-two years ago in high school as a Disc Jockey at a roller rink. He then hosted his own weekend time slot as a DJ at a local radio station. This later led to traveling the country while working as an on-air personality for various radio stations, whilst he also maintained a regular spot in the local stand-up comedy scenes.\n\nOver the years, Freeway has been a comedy producer. Frequently requested Emcee, voice over actor and a colorful character actor. These days he has retired from radio and producing shows. Since 2016 he is been an active full time stand-up comedian, comedy writer, emcee and promoter.\n\nAs a standup comedian, Freeway has a deep passion for performing. He has different sets, each an hour long. All sets can be performed clean, PG-13 or blue. He is a great fit for corporate events. Freeway writes new material everyday. Often changing his act.\n\n​Freeway looks forward to performing for you.\n\n#Pete Nelson# Pete Nelson loves how funny stupid can be. Puns. Aliens. Dad jokes. Male pattern baldness. What is this guy on? As seen in the Wall Street Journal!\n\n#Sam Mallett# Sam Mallett is a comedian from a small agricultural town in the Central Valley. Headlined festivals in Colorado and California, featured across the west coast. Having performed across California in all types of venues ranging from clubs to a catfish tounrament, he can perform for any kind of crowd./n/n#Nick Meier# Nick Meier is a Southern Oregon comedian who hails from the Midwest. You’ll get the feeling that a family member is telling jokes in your living room with enough presence that even the kids listen. He has a unique perspective on the many things that make life funny from his travels across the country and has found his calling in using those experiences to blend all audiences together.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jca-comedy-night-w-nick-meier-freeway-farrell-pete-nelson-and-sam-mallett",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2024-11-09",
+        "end": "2024-11-09"
+      },
+      "location": "",
+      "image": "comedy-night-20241109.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "saSc6px_RnU",
+      "youtube2": "bmckgw0sH4g",
+      "youtube3": "YUEdtLfE6zo",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "festival",
       "slug": "jca-world-music-festival-passport--sep-19-to-oct-12-2024",
       "title": "JCA World Music FESTIVAL - EXTENDED",
