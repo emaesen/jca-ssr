@@ -27,6 +27,20 @@
         "end": "2024-mm-dd"
       },
       "is_placeholder": true
+    },
+    {
+      "title": "Christmas Crisis in Mistletoe Mesa",
+      "description": "MSCT's Holiday Show",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-12-13",
+        "end": "2024-12-15"
+      },
+      "is_placeholder": false
     }
   ]
 }
