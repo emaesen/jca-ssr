@@ -102,6 +102,80 @@
       }
     },
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "christmas-crisis-in-mistletoe-mesa--dec-13-2024",
+      "title": "Christmas Crisis in Mistletoe Mesa",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents “Christmas Crisis in Mistletoe Mesa”, a holiday melodrama for the whole family.",
+      "details": "Drinks, Popcorn & Sweet Treats available at the show.\n\nAll proceeds directly benefit the Mt Shasta Childrens Theatre Scholarship Fund.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $15 at venue\nKids 12 and under FREE",
+      "price_note": "Tickets are only available at the door starting 30 minutes before showtime",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-12-13",
+        "end": "2024-12-13"
+      },
+      "location": "",
+      "image": "christmas-crisis-in-mistletoe-mesa.jpg",
+      "image_width": "900",
+      "image_height": "1600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "christmas-crisis-in-mistletoe-mesa--dec-14-2024",
+      "reference_slug": "christmas-crisis-in-mistletoe-mesa--dec-13-2024",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-12-14",
+        "end": "2024-12-14"
+      }
+    },
+    {
+      "slug": "christmas-crisis-in-mistletoe-mesa--dec-15-2024",
+      "reference_slug": "christmas-crisis-in-mistletoe-mesa--dec-13-2024",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2024-12-15",
+        "end": "2024-12-15"
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "ensemble-sangineto-on-tour-from-italy--dec-7-2024",
