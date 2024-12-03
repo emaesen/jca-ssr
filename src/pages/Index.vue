@@ -13,9 +13,23 @@
       <g-link to="/about/members/" class="link-membership">Become a JCA member!</g-link>
     </p>
 
+    <section v-animate-on-intersection>
+      <p class="accent center"
+        v-if="showAccentedSection"
+      >
+        It’s GIVING SEASON at the JCA!<br class="spacer">
+        Please consider supporting our grass-roots efforts.
+        Your dollars will be transformed into concerts, films, theatre and visual arts.<br class="spacer"><span class="donate-button"><button-donate/></span>
+        These funds will also support JCA Outreach into Siskiyou County public schools by offering workshops and performances by international artists.<br class="spacer">
+        Our members and donors help keep us sustainable and we are most grateful.<br class="spacer">
+        THANK YOU!
+      </p>
+    </section>
     <event-list :showSummary="true"/>
 
     <organization-schema-script/>
+
+
 
     <section v-animate-on-intersection>
       <div class="feature"
@@ -162,6 +176,13 @@ export default {
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
+    },
+    showAccentedSection() {
+      const now = new Date();
+      const eventDate = new Date("2024-12-31T22:00");
+      return (
+        (now.getTime() - eventDate.getTime()) <= 0
+      );
     }
   }
 };
@@ -197,6 +218,13 @@ img.slide {
   vertical-align: bottom;
 }
 
+.accent {
+  border: 2px solid #725427;
+  padding: 1em;
+  border-radius: 10px;
+  margin-top:3em;
+  color: #f9d9aa;
+}
 .container-carousel {
   min-height: 150px;
   margin: 2em 1em 1em 1em;
