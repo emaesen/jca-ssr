@@ -7,7 +7,9 @@
       v-if="showModal"
       @close="closeModal"
     >
-      <donate-section/>
+      <div class="center">
+        <donate-section/>
+      </div>
     </modal>
 
   </div>

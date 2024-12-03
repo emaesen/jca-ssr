@@ -6,13 +6,15 @@
         <br>
         TAX-DEDUCTIBLE DONATIONS can be made to<br>
         Jefferson Center for the Arts (JCA)<br>
-        via <link-outbound to="https://www.zeffy.com/en-US/donation-form/jca-donation">Zeffy</link-outbound> (preferred) or alternatively via <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">PayPal</link-outbound>,<br>
+        via <link-outbound to="https://www.zeffy.com/en-US/donation-form/jca-donation">Zeffy</link-outbound> (preferred) or alternatively via <link-outbound to="https://account.venmo.com/u/JCAMtShasta">Venmo</link-outbound> or <link-outbound to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5J6TL8C94YE2&source=url">PayPal</link-outbound>,<br>
         or you may send a check to:<br>
         JCA<br>
         PO BOX 714<br>
         MT SHASTA, CA 96067<br>
         <br>
-        Thank you! 
+        Thank you!<br>
+        <br>
+        <jca-venmo-qrcode/>
       </p>
     </section>
 
@@ -21,12 +23,14 @@
 
 <script>
 import LinkOutbound from '@/components/LinkOutbound.vue';
+import JcaVenmoQrcode from '@/components/JcaVenmoQrcode.vue';
 
 export default {
   name: 'DonateSection',
   mixins: [],
   components: {
     LinkOutbound,
+    JcaVenmoQrcode,
   },
 }
 </script>
