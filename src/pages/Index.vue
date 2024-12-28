@@ -164,6 +164,8 @@ export default {
   },
   data() {
     return {
+      featuredEventEndDate: "2024-10-12",
+      accentedSectionEndDate: "2024-12-27",
     }
   },
   computed: {
@@ -172,14 +174,14 @@ export default {
     },
     showFeaturedEvent() {
       const now = new Date();
-      const eventDate = new Date("2024-10-12T22:00");
+      const eventDate = new Date(this.featuredEventEndDate + "T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
     },
     showAccentedSection() {
       const now = new Date();
-      const eventDate = new Date("2024-12-31T22:00");
+      const eventDate = new Date(this.accentedSectionEndDate + "T22:00");
       return (
         (now.getTime() - eventDate.getTime()) <= 0
       );
