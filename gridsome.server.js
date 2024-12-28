@@ -46,8 +46,9 @@ module.exports = function (api) {
     const comingsoonJson = await require('./src/data/comingsoon.json');
     const today = (new Date()).setHours(0, 0, 0, 0);
     for(let item of comingsoonJson.events){
+      const ph = item.is_placeholder ? "placeholder " : ""
       comingsoonCollection.addNode(item)
-      console.log(">>> coming soon event loaded: " + item.title);
+      console.log(">>> coming soon " + ph + "event loaded: " + item.title);
     }
   })
 
