@@ -3,7 +3,7 @@
   {
     "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic|movie",
     "type": "performance|class|workshop|lecture|exhibition|benefit|gathering|presentation",
-    "slug": "dashed-title--mmm-dd-2024",
+    "slug": "dashed-title--mmm-dd-2025",
     "title": "",
     "performer": "",
     "description": "",
@@ -19,8 +19,8 @@
       "end": ""
     },
     "date":{
-      "start": "2024-mm-dd",
-      "end": "2024-mm-dd"
+      "start": "2025-mm-dd",
+      "end": "2025-mm-dd"
     },
     "location": "",
     "image": "",
@@ -87,6 +87,106 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "mark-hummel-blues-survivors-w-junior-watson--feb-01-2025",
+      "title": "Mark Hummel Blues Survivors w/ Junior Watson",
+      "performer": "Mark Hummel Blues Survivors, Junior Watson",
+      "description": "Grammy Award Nominee and Winner of two Blues Music Awards, Mark Hummel started playing harmonica in 1970 and is considered one of the premier blues harmonica players of his generation.",
+      "details": "#Mark Hummel Blues Survivors# [Mark Hummel](https://www.markhummel.com/) started the Blues Survivors in 1976 with Mississippi Johnny Waters in Berkeley, CA. The band has changed personnel a few times since those early years but continues to be a straight up blues and roots outfit.\n\nPast band members have included Sue Foley, Rusty Zinn, Anthony Paule, Chris Masterson, Randy Bermudes & June Core (Charlie Musselwhite’s rhythm section), Bob Welsh (Elvin Bishop and The Fabulous Thunderbirds), Jimi Bott, Ronnie James Weber, Derrick “D’Mar” Martin (Rick Estrin and the Nightcats) as well as dozens more who started with Hummel. These days some of these same players continue to appear with Mark along with younger players like Pete Fazzini, Tony Delgado andr Niko Hernandez.\n\nThe Blues Survivors have been touring since 1984 across the US and the globe. Mark’s reputation of maintaining a first class band has made them one of the busiest bands on the planet, thanks to fiery harp blowing, guitar prowess and a wide ranging repertoire.\n\nMark is the recipient of two Blues Music Awards, a Grammy nomination and has thirty albums to his credit.\n\n\n“Hummel, a specialist in West Coast Blues, knows a thing or two about about how to please an audience”\n~ New Yorker\n\n“Hummel plays the harmonica with the fat, full sound that made Little Walter sound almost like a saxophonist rather than a harp man”\n~ Chicago Sun-Times\n\n“Mark Hummel is a Harmonica Virtuoso. He is one of a handful of the Best Players ever on the Instrument.”\n~ Blues Revue Magazine The Original Blues Survivors circa 1979",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "mark-hummel-blues-survivors-w-junior-watson",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2025-02-01",
+        "end": "2025-02-01"
+      },
+      "location": "",
+      "image": "mark-hummel.jpg",
+      "image_width": "800",
+      "image_height": "460",
+      "stream": "",
+      "youtube": "_Q9uuiQ8faA",
+      "youtube2": "R-jJzg5_j14",
+      "youtube3": "fad_PBusTv0",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-clements-brothers--jan-21-2025",
+      "title": "The Clements Brothers",
+      "performer": "The Clements Brothers, Mike Harmon",
+      "description": "JCA is proud to welcome back The Clements Brothers! Last season, their amazing harmonies and musicality had Mt Shasta begging for more! So we are honored to welcome them back once again to the JCA. The Clements Brothers, George (guitar) and Charles (bass), combine their love of music in a rich blend of harmony and melody with original songwriting and instrumental skill.",
+      "details": "#The Clements Brothers# [The Clements Brothers](https://www.theclementsbrothers.com/) are George and Charles Clements, identical twins from New England. They’ve been playing and writing music together for as long as they can remember and ‘The Clements Brothers’ marks their first project together since playing in the internationally touring grass-roots band, ‘The Lonely Heartstring Band’ with whom they put out two albums on Rounder Records. With roots, rock, bluegrass, jazz, and classical influences, George (on guitar) and Charles (on bass) aim to capture their singer-songwriter sensibilities in a unique blended voice, at once enthralling and intimate, groovy and serene. They are joined by drummer Mike Harmon, who joined the band after an impromptu late night set at the Ossipee Music festival, and adds his unique roots-conscious musicality to the group's evolving sound.  The trio is a fusion of each member's unique musical journey, and the result is music all its own, filled with vocal harmonies, instrumental virtuosity, and a genuine love of song.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudents/Seniors $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-clements-brothers-cqnhs5pd",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-01-21",
+        "end": "2025-01-21"
+      },
+      "location": "",
+      "image": "clements-brothers.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "stream": "",
+      "youtube": "tu5_eByt0-Y",
+      "youtube2": "sUUPPm2Y-GU",
+      "youtube3": "37ppJdcgQ44",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",
