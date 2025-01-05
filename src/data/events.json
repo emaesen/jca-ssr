@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "gordie-tentrees-and-jaxon-haldane--may-7-2025",
+      "title": "Gordie Tentrees & Jaxon Haldane",
+      "performer": "Gordie Tentrees, Jaxon Haldane",
+      "description": "Gordie Tentrees has just returned from Nashville TN recording his new duo record with long time friend and musical cohort Jaxon Haldane.",
+      "details": "#Gordie Tentrees & Jaxon Haldane# [Gordie & Jaxon](https://www.tentrees.ca/) recently recorded a new duo record in Nashville TN with Australian Nashville based acclaimed producer Nash Chambers (Paul Kelly, Kasey Chambers, Archie Roach) which featured Shawn Fichter (Drums) - Peter Frampton, Tim McGraw, Steve Mackey (Bass) - Dolly Parton, Wallflowers and special guests Trey Hensley (Grammy Nominee & IBMA Guitar player of the year) and Charlie McCoy (Harmonica) Elvis, Bob Dylan. It is set for release April 22- 2025 worldwide!\n\n“Organic & holistic folk, this is the wild sound of freedom and the freedom to fly”\n~ Midwest Record, USA\n\n2023 International Acoustic Music Award (IAMA) winners Gordie Tentrees (Yukon) and Jaxon Haldane (Manitoba) met in 2005 (Fred Eaglesmith Picnic, Ontario) and swapped records before hitting the road with disparate musical aspirations. Gordie performed over 3000 concerts around the world, often touring as Eaglesmith’s opening act, learning about the music business, and leveraging his previous experience in the boxing ring (3x Golden Glove champ). Tentrees also toured with James Cotten, Mary Gauthier, Kelly Joe Phelps, Steve Poltz, and Ray Wylie Hubbard, to name a few. Jaxon was meanwhile tearing up stages from Churchill to Belfast (D.Rangers bandleader/banjo player), producing records for his indie label (Dollartone), and touring with the likes of Petunia, The Sadies, Jon Spencer, and Romi Mayes. His close relationship with lifelong musical hero and mentor Willie P. Bennett led to Haldane recording Willie’s last record, Sharpen The Plow, just prior to Bennett’s passing in 2008. Haldane founded the Willie P. Bennett Legacy site to pay tribute to his deceased friend. Interestingly, Bennett and Eaglesmith spent 25 years performing and touring, setting an example of camaraderie and excellence that still guides the way for Tentrees and Haldane. ",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →\n",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "gordie-tentrees-and-jaxon-haldane-82uuyakx",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2025-05-07",
+        "end": "2025-05-07"
+      },
+      "location": "",
+      "image": "gordie-tentrees-and-jaxon-haldane.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "vx8ZJ47ZgLI",
+      "youtube2": "33c4e4jSwno",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "mark-hummel-blues-survivors-w-junior-watson--feb-01-2025",
       "title": "Mark Hummel Blues Survivors w/ Junior Watson",
       "performer": "Mark Hummel Blues Survivors, Junior Watson",
