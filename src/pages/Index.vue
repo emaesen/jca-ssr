@@ -35,9 +35,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>JCA World Music Festival 2024</h2>
+        <h2>JCA Calendar Jan-Feb-Mar 2025</h2>
         <div class="center">
-          <g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-oct-12-2024" title="click to view info about the JCA World Music Festival">
+          <!--g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-oct-12-2024" title="click to view info about the JCA World Music Festival"-->
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -46,14 +46,14 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/jca-world-music-festival-2024-extended.jpg" alt="JCA World Music Festival 2024" class="hero-img"/>
+            <g-image src="/img/jca-calendar-2025-jan-feb-mar.jpg" alt="JCA Calendar Jan Feb Mar 2025" class="hero-img"/>
             <!--
             <div class="center">
               Mark Your Calendars For Summer Fun!<br>
               BIG THANKS to Sandi and Tim Belton of Springhill Nursery and Gardens for their generous donation of plants and trees to beautify the JCA Field and outdoor space.
             </div>
             -->
-          </g-link>
+          <!--/g-link-->
         </div>
       </div>
 
@@ -164,7 +164,7 @@ export default {
   },
   data() {
     return {
-      featuredEventEndDate: "2024-10-12",
+      featuredEventEndDate: "2025-03-30",
       accentedSectionEndDate: "2024-12-27",
     }
   },

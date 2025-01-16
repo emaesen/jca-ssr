@@ -104,6 +104,106 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "kyran-daniel--mar-15-2025",
+      "title": "Kyran Daniel - Encore Performance",
+      "performer": "Kyran Daniel",
+      "description": "Jefferson Center for the Arts is honored to welcome back Australian guitar virtuoso KYRAN DANIEL for an ENCORE PERFORMANCE after his stunning set at the JCA World Music Festival last fall. ",
+      "details": "#Kyran Daniel# Guitarist, Composer, Producer and Musical Director, [Kyran Daniel](https://www.kyrandaniel.com/) began his career performing alongside Grammy Nominee Tommy Emmanuel on stages spanning the globe. His debut album ‘Per Se’ became a highly influential work in the acoustic guitar world, opening the door to his attendance of the prestigious Berklee College of Music studying under the greatest songwriting & production professors in contemporary music.\n\nFollowing his time at Berklee, Kyran focussed on the roles of songwriter & producer for a cohort of Australian artists including G Flip, Gretta Ray, and Kingswood. His diverse musical palette and superlative musicianship saw him fast become one of Australia’s finest studio talents, and a go-to for artists & labels domestically & abroad, his work garnering millions of worldwide streams, and credits including Gretta Ray’s ARIA Nominated Album ‘Begin To Look Around’ (EMI), and G Flip’s #1 ARIA Charting Album ‘Drummer’ (4x ARIA Nominated). Meanwhile his work on stage as Session Guitarist & Musical Director for the likes of Kingswood was presented on international tours and radio & television broadcasts across the globe.\n\n2022 saw Kyran return to his most authentic musical form as a solo artist, with a triumphant return to European and American stages alongside mentor Tommy Emmanuel, followed by a relentless tour schedule of solo concerts across Australia, Europe, and the USA, re-introducing him as one of the greatest solo guitar players on the planet. Kyran is currently completing his renaissance solo album entitled ‘Like The Night Itself’, drawing upon rich global influences, alchemised into emotive compositions, cinematic soundscapes, and virtuosic performances from the heart.\n\n\n‘I knew at that time he would be an incredible force in music…he was always received with thunderous applause and standing ovations…’\n~ Tommy Emmanuel AM\n‘likely the most influential acoustic guitar composer of his generation … publicly unsung, his pieces have shaped the progression of the art form since his emergence onto the world stage, only growing stronger through his dormancy … we’re excited to see what this master of the guitar presents in his renaissance’",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "kyran-daniel",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2025-03-15",
+        "end": "2025-03-15"
+      },
+      "location": "",
+      "image": "kyran-daniel.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "RKBGou4EQUQ",
+      "youtube2": "0FCNVZIei1M",
+      "youtube3": "rZtjLYKePZ4",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "whiskey-gulch-valentines-party--feb-14-2025",
+      "title": "Whiskey Gulch - Valentines Party",
+      "performer": "Whiskey Gulch",
+      "description": "Fantastic local bluegrass band is a comin to the JCA for a special Valenines day concert. Bring your sweetie or yourself and your dancing shoes! This is gonna be FUN!",
+      "details": "#Whiskey Gulch# With the quintessential bluegrass instrumentation of fiddle, banjo, mandolin, acoustic guitar, and upright bass, [Whiskey Gulch](https://www.facebook.com/people/Whiskey-Gulch/100063892338857/) delivers blistering instrumentals, highly crafted arrangements, and soul-shattering harmonies. California's northernmost bluegrass band is composed of five uniquely talented musicians, all with a common yearning for that perfect sound created by acoustic instruments and human voices. Hailing from the scattered faraway realms of Siskiyou County, each bandmate contributes a unique style and perspective to the group. Diverse musical backgrounds including jazz, classical, folk, and punk rock combine into the lively, fun, intricate and precise sound of Whiskey Gulch.\n\nButcher, baker, and banjo picker **Jake Stapley** has a mastery of many instruments and a deep background in jazz music as a pianist and drummer.\n**Sam Cuenca** (mandolin) is always the first to call if you need a sideman for a gig.  He excels at vocal harmonies and wild mandolin solos, and plays the most perfect bass lines.\n**Kevin Andras** (guitar) is known for wearing out his musical friends with marathon jams.  With tireless fingers and a deep catalog of songs to sing, he keeps it going 'til the sun comes up.\n**Tristan Behm** (bass), widely known for his Sundown Poaching, holds down the groove and contributes his fine voice to the “Pretty Boys” vocal section of the group.\n**Julie May** (fiddle) has been playing since she was a little kid, touring the country with the Fiddle Kids and competing in fiddle contests.  She brings to the group a deep understanding of rhythm and melody.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "whiskey-gulch-valentines-party",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-02-14",
+        "end": "2025-02-14"
+      },
+      "location": "",
+      "image": "whiskey-gulch.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "IHmN2QAISRg",
+      "youtube2": "nouGHIlAwxg",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "gordie-tentrees-and-jaxon-haldane--may-7-2025",
       "title": "Gordie Tentrees & Jaxon Haldane",
       "performer": "Gordie Tentrees, Jaxon Haldane",

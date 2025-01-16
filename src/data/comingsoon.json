@@ -29,18 +29,200 @@
       "is_placeholder": true
     },
     {
-      "title": "Christmas Crisis in Mistletoe Mesa",
-      "description": "MSCT's Holiday Show",
+      "title": "Grassomoxoa Bluegrass Grateful Dead & beyond",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-03-21",
+        "end": "2025-03-21"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "A weekend with Joe Craven",
+      "description": "",
       "note": "",
       "time":{
         "start": "",
         "end": ""
       },
       "date":{
-        "start": "2024-12-13",
-        "end": "2024-12-15"
+        "start": "2025-03-29",
+        "end": "2025-03-30"
       },
-      "is_placeholder": true
+      "is_placeholder": false
+    },
+    {
+      "title": "First Friday Comedy",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-04-04",
+        "end": "2025-04-04"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Jazz Night with Eptás, Wendy James & Dave Reynolds",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-04-05",
+        "end": "2025-04-05"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Scottish Fish",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-04-10",
+        "end": "2025-04-10"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Tadaima & Shasta Taiko weekend",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-04-25",
+        "end": "2025-04-27"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Andrew Finn Magill",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-04-29",
+        "end": "2025-04-29"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Gordie Tentrees & Jaxon Haldane",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-05-07",
+        "end": "2025-05-07"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "First Friday Comedy Night",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-05-02",
+        "end": "2025-05-02"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Starwater & Sol Sound Journey",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-05-03",
+        "end": "2025-05-03"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Poetry Open Mic",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-05-09",
+        "end": "2025-05-09"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Tanahill Weavers",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-05-18",
+        "end": "2025-05-18"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Claude Bourbon",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-06-20",
+        "end": "2025-06-20"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "First Friday Comedy Night",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "20:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-06-06",
+        "end": "2025-06-06"
+      },
+      "is_placeholder": false
     }
   ]
 }
