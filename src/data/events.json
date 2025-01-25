@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "grassomoxoa-bluegrass-grateful-dead-spring-equinox-party--mar-21-2025",
+      "title": "Grassomoxoa - Bluegrass Grateful Dead Spring Equinox Party",
+      "performer": "Grassomoxoa",
+      "description": "Grassomoxoa is four piece bluegrass band playing the music of the Grateful Dead and beyond. This is the Welcome Spring Equinox Party!",
+      "details": "[Grassomoxoa on Facebook](https://www.facebook.com/grassomoxoa/)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "grassomoxoa-bluegrass-grateful-dead-spring-equinox-party",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2025-03-21",
+        "end": "2025-03-21"
+      },
+      "location": "",
+      "image": "grassomoxoa.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "NqnPAllj5ko",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "kyran-daniel--mar-15-2025",
       "title": "Kyran Daniel - Encore Performance",
       "performer": "Kyran Daniel",
