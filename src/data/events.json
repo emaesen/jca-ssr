@@ -10,7 +10,7 @@
     "details": "#header# info",
     "note": "",
     "series": "",
-    "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 8 and under FREE →",
+    "price": "General Admission $30 at venue / $25 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 8 and under FREE →",
     "price_note": "",
     "ticket": "",
     "humanitix": "",
@@ -87,6 +87,188 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-hattie-and-joe-show--mar-29-2025",
+      "title": "The Hattie & Joe Show - Concert",
+      "performer": "Hattie & Joe Craven",
+      "description": "It's a rootsy, jazzy, poppy, bluesy, worldly, folkie musical terrain covering lots of ground with twists and turns at every mile marker. It's originals and reimagined music spanning the last 100 years and it's all delivered to your musical doorstep by stunning 24 year old vocalist Hattie Craven and her award winning multi-instrumentalist, improvologist-wingnut father Joe Craven.",
+      "details": "#Hattie & Joe# Hatty & Joe are vocalist Hattie Craven and her award winning multi-instrumentalist, improvologist-wingnut father Joe Craven. This family affair has created a celebration of music making by finding common ground between different generations with differing musical tastes and sensibilities. They curate their art, family style, while awakening themselves, and us, to new possibilities as the Cravens bring their love of music to a multi-generational table and audience. They have presented to schools and library programs, house concerts, clubs, theaters and nationally known music festivals.\n\n**Hattie**, in addition to being a seasoned actor in community theater, has built a reputation as one of the finest young, if not youngest, performers on the stages of numerous nationally noted music festivals from coast to coast… and all to standing ovations.\n\n**Joe** is a creativity educator, former museum curator, camp director, poet/storyteller, fashion insultant, coast to coast music festival emcee (notably Delfest, Telluride Bluegrass, Live Oak & Grand Targhee) and recipient of the 2009 Folk Alliance Far-West Performer of the Year. He’s made music with many things and many folks – from Grateful Dead guitarist Jerry Garcia, whirled artist David Lindley and harmonica wizard Howard Levy, to 7 years with banjo fusionist Alison Brown and 17 years with mandolinist David Grisman.\n\nHattie’s singing and sparkling presence for young hearted people of all ages on and off the stage, along with her father’s good humor and instrumental prowess on a variety of conventional and odd ball instruments make this a captivating and memorable show. ",
+      "note": "",
+      "series": "Joe Craven Weekend",
+      "price": "General Admission $30 at venue / $20 adv online →",
+      "price_note": "Adv online: Concert and both workshops $60 per person. Concert and One workshop $50 per person. Concert only $20.",
+      "ticket": "",
+      "humanitix": "joe-craven-weekend-concert-and-workshop-tix",
+      "time":{
+        "start": "19:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-03-29",
+        "end": "2025-03-29"
+      },
+      "location": "",
+      "image": "hattie-and-joe-craven-2.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "stream": "",
+      "youtube": "QwyjP-2Uinw",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "joe-craven-songetry-workshop--mar-29-2025",
+      "reference_slug": "the-hattie-and-joe-show--mar-29-2025",
+      "title": "Joe Craven's “Songetry; Poem to Song” - Workshop",
+      "price": "General Admission $40 at venue / $30 adv online →",
+      "description": "A song writing workshop with Joe Craven.",
+      "details": "Join us for an E-ticket ride upon the pursuit of possibility. You’ll be asked to write a poem to share, jumpstarting a song in 5 minutes! The goal is learning how to write in timed creative movement and spontaneity - while your inner critic is tucked away in the trunk! You won't be able to prepare for what we'll be creating, so just get ready to have fun and be surprised with what you and your friends’ ideas create under pressure. Joe will give you a recipe on how to cradle these poetic puppies in a variety of musical landscapes to explore and connect the intention of words to music.\n\nJoe’s “Songetry” connects something most of us have already done (writing a poem). Joe will then provide a template with ideas to move it to song. As many of us know, poems, whether rhyming or not, can tell a story in an accessible form of metered rhythm. We all possess the ability to write such stories and that is the grist for the mill of songwriting. This can bring surprising and often magical kick starts to new compositions to finish at home. Have a notebook and pen or, if you’re proficient at typing, your keyboard or smart phone will do.\n\n**Joe** is a creativity educator, former museum curator, camp director, poet/storyteller, fashion insultant, coast to coast music festival emcee (notably Delfest, Telluride Bluegrass, Live Oak & Grand Targhee) and recipient of the 2009 Folk Alliance Far-West Performer of the Year. He’s made music with many things and many folks – from Grateful Dead guitarist Jerry Garcia, whirled artist David Lindley and harmonica wizard Howard Levy, to 7 years with banjo fusionist Alison Brown and 17 years with mandolinist David Grisman.\n\n**Hattie**, in addition to being a seasoned actor in community theater, has built a reputation as one of the finest young, if not youngest, performers on the stages of numerous nationally noted music festivals from coast to coast… and all to standing ovations.",
+      "time":{
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "date":{
+        "start": "2025-03-29",
+        "end": "2025-03-29"
+      }
+    },
+    {
+      "slug": "hattie-and-joe-everybody-sings-workshop--mar-30-2025",
+      "reference_slug": "the-hattie-and-joe-show--mar-29-2025",
+      "title": "Singing Joyfully, Soulfully and Spontaneously! with Hattie & Joe Craven - Workshop",
+      "price": "General Admission $40 at venue / $30 adv online →",
+      "description": "A singing workshop with Hattie & Joe Craven.",
+      "details": "Your voice is the most portable, versatile, amazing musical instrument you'll never buy! ANYONE can do creative things with their voice when the right person is there to show them and thousands of people can tell you that Joe Craven is one of those people! He will awaken your voice to new possibilities quickly and in very fun ways so you can find greater confidence in music making and add greater expression to your singing of a song or scatting melodies right in the moment. Show up “empty handed and open minded” as Joe and his daughter Hattie will help release your creativity in a super supportive way. They will deepen our connection to spontaneity, movement and seeing the value of not being attached to the outcome when letting your creative juices flow. This is not an ability-based class; anyone can do what the Cravens will bring to this workshop! They connect creativity to what you already do and moves you forward from there. You’ll think differently about sound, fearlessness, and yourself!\n\n**Joe** is a creativity educator, former museum curator, camp director, poet/storyteller, fashion insultant, coast to coast music festival emcee (notably Delfest, Telluride Bluegrass, Live Oak & Grand Targhee) and recipient of the 2009 Folk Alliance Far-West Performer of the Year. He’s made music with many things and many folks – from Grateful Dead guitarist Jerry Garcia, whirled artist David Lindley and harmonica wizard Howard Levy, to 7 years with banjo fusionist Alison Brown and 17 years with mandolinist David Grisman.\n\n**Hattie**, in addition to being a seasoned actor in community theater, has built a reputation as one of the finest young, if not youngest, performers on the stages of numerous nationally noted music festivals from coast to coast… and all to standing ovations.",
+      "time":{
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "date":{
+        "start": "2025-03-30",
+        "end": "2025-03-30"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "eptas-seven-piece-jazz-ensemble-with-special-guests-wendy-james-and-dave-reynolds--apr-5-2025",
+      "title": "Eptás - Seven Piece Jazz Ensemble with special guests Wendy James & Dave Reynolds",
+      "performer": "Eptás, Wendy James, Dave Reynolds",
+      "description": "Jazz Night with Eptás, a dynamic seven-piece jazz ensemble, with special guests Wendy James & Dave Reynolds.",
+      "details": "#Eptás# [Eptás](https://itermusic.com/eptas/) is a dynamic seven-piece ensemble made up of four horns, piano, bass, and drums offering your listening audience a broad range of music and sound. This group brings together some of the finest players in the Rogue Valley including *Joe Balestreri* (trumpet), *Bob Rawlings* (tenor sax), *Chris Pearson* (baritone sax), *John Mazzei* (keyboards), *Tarik Ragab* (bass), and *Eric Pollard* (drums). Led by trumpeter/composer/arranger *Peter Anastos*, the band tackles challenging material, elevates the bar, and performs with precision which translates to an enjoyable experience for the audience.\n\nEmmy award winning Broadway performer *Wendy James* opens the show with local legend *Dave Reynolds* on piano.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "eptas-seven-piece-jazz-ensemble-with-special-guests-wendy-james-and-dave-reynolds",
+      "time":{
+        "start": "20:00",
+        "end": "22:15"
+      },
+      "date":{
+        "start": "2025-04-05",
+        "end": "2025-04-05"
+      },
+      "location": "",
+      "image": "eptas.jpg",
+      "image_width": "800",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "zwW0wbWxy1Y",
+      "youtube2": "o11KrADWkj0",
+      "youtube3": "gqnlO4ALysc",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "starwater-and-sol-sound-journey--may-3-2025",
+      "title": "Starwater & Sol Sound Journey",
+      "performer": "Starwater & Sol",
+      "description": "Join Bodhi Starwater and Christopher Sol Parnell for a mesmerizing journey of sound.",
+      "details": "Join *Bodhi Starwater* and *Christopher Sol Parnell* for a mesmerizing journey of sound – a harmonic attunement that soothes the body, mind and spirit guiding you to a timeless sanctuary of inner peace, connection and realignment with your true nature.\n\n(this will be a seated event)",
+      "note": "",
+      "series": "",
+      "price": "General Admission $33 at venue / $27 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "starwater-and-sol-sound-journey",
+      "time":{
+        "start": "20:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2025-05-03",
+        "end": "2025-05-03"
+      },
+      "location": "",
+      "image": "starwater-and-sol-sound-journey.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",

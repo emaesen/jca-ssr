@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "A weekend with Joe Craven",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-03-29",
-        "end": "2025-03-30"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "First Friday Comedy",
       "description": "",
       "note": "",
@@ -53,20 +39,6 @@
       "date":{
         "start": "2025-04-04",
         "end": "2025-04-04"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Jazz Night with Eptás, Wendy James & Dave Reynolds",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-04-05",
-        "end": "2025-04-05"
       },
       "is_placeholder": false
     },
@@ -99,20 +71,6 @@
       "is_placeholder": false
     },
     {
-      "title": "Gordie Tentrees & Jaxon Haldane",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "19:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-05-07",
-        "end": "2025-05-07"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "First Friday Comedy Night",
       "description": "",
       "note": "",
@@ -123,20 +81,6 @@
       "date":{
         "start": "2025-05-02",
         "end": "2025-05-02"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Starwater & Sol Sound Journey",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-05-03",
-        "end": "2025-05-03"
       },
       "is_placeholder": false
     },
