@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "First Friday Comedy",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-04-04",
-        "end": "2025-04-04"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Tadaima & Shasta Taiko weekend",
       "description": "",
       "note": "",

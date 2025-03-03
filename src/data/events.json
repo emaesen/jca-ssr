@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night--apr-4-2025",
+      "title": "JCA Comedy Night - April 4th",
+      "performer": "Pete Nelson, Franco Tevini, Alice Lopez, Leah Tamara",
+      "description": "JCA Presents COMEDY NIGHT with Franco Tevini, Alice Lopez and Leah Tamara, hosted by Pete Nelson.",
+      "details": "**Alice Lopez** is an up and coming comic based in Sonoma County, who’s been turning heads in her recent time on the scene. Her jokes are as clever as a GPS asking you to make a left turn, but uncharted territory is where you’re headed. Her realistic, dry playful charm will keep you guessing what she’ll say next.\n\nWith a decade of experience, **Franco Tevini** has made a name for himself performing digestible bits of surreal, elevated slice-of-life comedy. A lifelong theater actor and improv comic, Franco’s character work and knack for storytelling has endeared his stand-up to audiences near and far. He has featured on shows all across the West Coast and beyond at such venues as Cobb’s Comedy Club, The Comedy Spot Sacramento, and The New York Comedy Club\n\n**Leah Tamara** is a Humboldt County Comedian that is sure to capture your heart and attention. Her writing translates to the stage in the funniest ways and you'll be convinced she's going to be famous some day. She has great clean and blue comedy. Stick around for her but then be sure to get others to know about her!\n\n**Pete Nelson** has a lot of dad jokes, one liners, and puns. You'll be left wondering how some of his ideas were conceived as they are just so nutty you'll wonder what he's on. Pete has been featured in the Wall Street Journal, he produces multiple comedy festivals, and he's been doing comedy for around ten years.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jca-comedy-night-april-4th",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-04-04",
+        "end": "2025-04-04"
+      },
+      "location": "",
+      "image": "jca-comedy-night-20250404.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "the-hattie-and-joe-show--mar-29-2025",
@@ -398,8 +448,8 @@
       "ticket": "",
       "humanitix": "kyran-daniel",
       "time":{
-        "start": "19:00",
-        "end": "21:00"
+        "start": "19:30",
+        "end": "21:30"
       },
       "date":{
         "start": "2025-03-15",
