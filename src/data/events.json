@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "andrew-finn-magill--apr-29-2025",
+      "title": "Andrew Finn Magill",
+      "performer": "Andrew Finn Magill",
+      "description": "Violin-led quartet reimaging the music of Ireland, Brazil and Malawi.",
+      "details": "#Andrew Finn Magill# North Carolina violinist/fiddler [Andrew Finn Magill](https://andrewfinnmagill.com/) is a Fulbright Fellow, a South Arts Emerging Traditional Artist, a North Carolina Arts Council Fellow, an All- Ireland Fiddle finalist, and a Ropeadope Records recording artist. He has been featured on MTV-U, PBS, and multiple times on NPR. His 2016 album, *Roots*, debuted at number #46 on the folk DJ charts and he has released six albums since.\n\nHis newest recording, *The Polaris Project*, is an ambitious album of ten original pieces written for an electric jazz quartet which synthesize Magill’s years living and working as a musician in Ireland, Malawi, Ghana, Brazil and the Southern U.S. The band features world-class musicians Justin Stanton of the Grammy-winning Snarky Puppy, bassist Ethan Jodziewicz (Sierra Hull, Molly Tuttle) and drummer Justin Watt of the Glen Miller Orchestra, with special guests, Malawian music icon Peter Mawanga and Rising Appalachia’s Leah Song. The recording is sched- uled for a 2023 release.\n\nFinn has received acclaim from some of the foremost jazz violinists on the planet, including Downbeat’s No.1 Ris- ing Star of the violin, Christian Howes, Snarky Puppy’s Zach Brock, who says Magill displays “effortless virtuosity” and Berklee College’s Matt Glaser who calls him “an extraordinary violin virtuoso.”",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "andrew-finn-magill",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2025-04-29",
+        "end": "2025-04-29"
+      },
+      "location": "",
+      "image": "andrew-finn-magill.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "mKJz1qb0hWc",
+      "youtube2": "UObY913FuqQ",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "tadaima-in-concert--apr-25-2025",
       "title": "Tadaima - In Concert",
       "performer": "Tadaima",
