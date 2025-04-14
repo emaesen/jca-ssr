@@ -105,10 +105,10 @@
       "category": "music",
       "type": "performance",
       "slug": "andrew-finn-magill--apr-29-2025",
-      "title": "Andrew Finn Magill",
-      "performer": "Andrew Finn Magill",
-      "description": "Violin-led quartet reimaging the music of Ireland, Brazil and Malawi.",
-      "details": "#Andrew Finn Magill# North Carolina violinist/fiddler [Andrew Finn Magill](https://andrewfinnmagill.com/) is a Fulbright Fellow, a South Arts Emerging Traditional Artist, a North Carolina Arts Council Fellow, an All- Ireland Fiddle finalist, and a Ropeadope Records recording artist. He has been featured on MTV-U, PBS, and multiple times on NPR. His 2016 album, *Roots*, debuted at number #46 on the folk DJ charts and he has released six albums since.\n\nHis newest recording, *The Polaris Project*, is an ambitious album of ten original pieces written for an electric jazz quartet which synthesize Magill’s years living and working as a musician in Ireland, Malawi, Ghana, Brazil and the Southern U.S. The band features world-class musicians Justin Stanton of the Grammy-winning Snarky Puppy, bassist Ethan Jodziewicz (Sierra Hull, Molly Tuttle) and drummer Justin Watt of the Glen Miller Orchestra, with special guests, Malawian music icon Peter Mawanga and Rising Appalachia’s Leah Song. The recording is sched- uled for a 2023 release.\n\nFinn has received acclaim from some of the foremost jazz violinists on the planet, including Downbeat’s No.1 Ris- ing Star of the violin, Christian Howes, Snarky Puppy’s Zach Brock, who says Magill displays “effortless virtuosity” and Berklee College’s Matt Glaser who calls him “an extraordinary violin virtuoso.”",
+      "title": "Traditional Irish music, Murray, Magill & Alderson",
+      "performer": "Alan Murray, Andrew Finn Magill, Isaac Alderson",
+      "description": "Pure drop traditional Irish music played by three of the premier players of their generation: Solas’ Alan Murray, multiple All-Ireland winner Isaac Alderson and award-winning fiddler Andrew Finn Magill.",
+      "details": "#Andrew Finn Magill# From a family steeped in Irish music, [Andrew Finn Magill](https://www.andrewfinnmagill.com/) is a Fulbright fellow, North Carolina Arts Council Fellow, and award-winning composer. He has been featured on PBS with John Doyle, toured France with Open the Door for Three, and is a 2024 semifinalist at the Seifert Jazz Violin competition in Krakow, Poland.\n\n#Alan Murray# Scottish guitar & bouzouki-player Alan Murray is one of the most in-demand accompanists in Irish music and has performed at Denmark’s Tønder Festival, Milwaukee Irish Fest and Celtic Connections. Alan has shared the stage with such artists as Karan Casey, Niall and Cillian Vallely, Eileen Ivers and Scotland’s Battlefield Band. In 2020, the two musicians released their debut album “Murray & Magill” exclusively on Bandcamp.\n\n#Isaac Alderson# In 2002, at the age of 19, Isaac Alderson won the senior All-Ireland championship titles on Irish flute, whistle and uilleann pipes. He has toured and recorded as a member of several well-known bands and ensembles including Eileen Ivers, Comas, Ensemble Galilei, Runa and is a founding member of The Yanks. Isaac has worked on two Broadway musicals: Sting’s The Last Ship, and Come From Away, and in 2014-2015 he played in the iconic show Riverdance on its 20th anniversary three-month tour of China.",
       "note": "",
       "series": "",
       "price": "General Admission $25 at venue / $20 adv online →",
@@ -124,12 +124,12 @@
         "end": "2025-04-29"
       },
       "location": "",
-      "image": "andrew-finn-magill.jpg",
+      "image": "murray-magill-alderson.jpg",
       "image_width": "800",
       "image_height": "600",
       "stream": "",
-      "youtube": "mKJz1qb0hWc",
-      "youtube2": "UObY913FuqQ",
+      "youtube": "OBJ_eGNPdKA",
+      "youtube2": "ZHpFm_iheuA",
       "youtube3": "",
       "flag": {
         "show_registration_form": false,
@@ -326,6 +326,7 @@
     {
       "slug": "joe-craven-songetry-workshop--mar-29-2025",
       "reference_slug": "the-hattie-and-joe-show--mar-29-2025",
+      "type": "workshop",
       "title": "Joe Craven's “Songetry; Poem to Song” - Workshop",
       "price": "General Admission $40 at venue / $30 adv online →",
       "description": "A song writing workshop with Joe Craven.",
@@ -342,6 +343,7 @@
     {
       "slug": "hattie-and-joe-everybody-sings-workshop--mar-30-2025",
       "reference_slug": "the-hattie-and-joe-show--mar-29-2025",
+      "type": "workshop",
       "title": "Singing Joyfully, Soulfully and Spontaneously! with Hattie & Joe Craven - Workshop",
       "price": "General Admission $40 at venue / $30 adv online →",
       "description": "A singing workshop with Hattie & Joe Craven.",
@@ -349,6 +351,28 @@
       "time":{
         "start": "16:00",
         "end": "17:30"
+      },
+      "date":{
+        "start": "2025-03-30",
+        "end": "2025-03-30"
+      }
+    },
+    {
+      "slug": "hattie-and-joe-everybody-sings-family-workshop--mar-30-2025",
+      "reference_slug": "the-hattie-and-joe-show--mar-29-2025",
+      "type": "workshop",
+      "title": "My family makes music! with Hattie & Joe Craven - Workshop",
+      "price": "FREE",
+      "price_note": "",
+      "description": "A FREE family fun event! Show up “empty handed and open minded” as Joe and his daughter Hattie will help release your creativity in a super supportive way. They will deepen our connection to spontaneity, movement and seeing the value of not being attached to the outcome when letting your creative juices flow.",
+      "details": "Anyone can do creative things with their voice when the right person is there to show them and thousands of people can tell you that Joe Craven is one of those people!\n\nMusical instruments are welcome!",
+      "humanitix": "",
+      "image": "craven-family-workshop.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "time":{
+        "start": "14:00",
+        "end": "15:30"
       },
       "date":{
         "start": "2025-03-30",
@@ -690,7 +714,7 @@
         "is_outdoors": false,
         "is_postponed": false,
         "is_canceled": false,
-        "is_excluded": false,
+        "is_excluded": true,
         "is_free": false
       },
       "stamp": "",
