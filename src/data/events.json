@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "jca-comedy-night--may-2-2025",
+      "title": "JCA Comedy Night - Six Hilarious Comics!",
+      "performer": "Johnny Cat, Conor Fitzgerald, Jeff Jones, Jonathon Zadok, Amber Pace, Sam Borquez",
+      "description": "JCA Presents COMEDY NIGHT with Johnny Cat, Conor Fitzgerald, Jeff Jones, Jonathon Zadok, Amber Pace and Sam Borquez.",
+      "details": "",
+      "note": "",
+      "series": "First Fridays Comedy Show",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "frist-friday-comedy-night-six-hilarious-comics",
+      "time":{
+        "start": "20:00",
+        "end": "23:00"
+      },
+      "date":{
+        "start": "2025-05-02",
+        "end": "2025-05-02"
+      },
+      "location": "",
+      "image": "jca-comedy-night-20250502.jpg",
+      "image_width": "704",
+      "image_height": "1000",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "andrew-finn-magill--apr-29-2025",

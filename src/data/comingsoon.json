@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "First Friday Comedy Night",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-05-02",
-        "end": "2025-05-02"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Poetry Open Mic",
       "description": "",
       "note": "",
