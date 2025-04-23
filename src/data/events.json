@@ -102,6 +102,156 @@
       }
     },
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "raf-and-pi-in-the-soup--may-31-2025",
+      "title": "Raf & Pi - In The Soup",
+      "performer": "Pía Nicoletti",
+      "description": "Thought provoking solo woman performance art from Spain... Physical theatre, dance, aerials. Live artcraft projections.",
+      "details": "𝜋𝑟2 is a one-woman performance developed and performed by Pía Nicoletti, a 2023 graduate of Dell'Arte International's Professional Training Program. The performance utilizes physical theater, dance, aerials, music, and crafts as core elements of expression, with live projections and a focus on emotions and universal themes. The show explores the journey through rebirth, maturity, darkness, and healing, with a focus on the balance between joy, present moment awareness, and self-care.\n\n With visceral roots, it comes almost necessarily, to play, to have fun, to embrace emotions through creation and to let ourselves flow through the process.\n\nPhysical theater, dance, aerials, music and crafts are the core of expression in this speechless performance, where emotions and art itself create a universal language.\n\nWitness 4 vital processes that a person goes through, part of a possible infinitely expanding spiral. A journey through Rebirth, Maturity, Darkness and Healing will create beliefs rooted in time, expectations, routines, distractions, anxiety, sadness. All them balanced by joy, inhabit the present, conscious breathing, self-care, gratitude.\n\nWhat unites us as humanity?\n\nWhat separates us from our present? What generates my well-being? And sadness, and happiness?\n\nIsn't everything equally necessary?\n\nThis is a play for reflection, inspiration, compromise, self-awareness or just simple entertainment, you decide.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →\nStudent/Senior $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "raf-and-pi-in-the-soup",
+      "time":{
+        "start": "20:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2025-05-31",
+        "end": "2025-05-31"
+      },
+      "location": "",
+      "image": "raf-and-pi.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "open-mic",
+      "type": "gathering",
+      "slug": "jca-poetry-open-mic--may-9-2025",
+      "title": "JCA Poetry Open Mic",
+      "performer": "",
+      "description": "Live poetry performances. Open Mic. Sign ups begin at 7. Merch table for published poets. Snacks and refreshments. All Ages welcome.",
+      "details": "",
+      "note": "",
+      "series": "Open Mic",
+      "price": "FREE",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2025-05-09",
+        "end": "2025-05-09"
+      },
+      "location": "",
+      "image": "open-mic-20250509.jpg",
+      "image_width": "800",
+      "image_height": "1038",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "the-tannahill-weavers-direct-from-scotland--may-18-2025",
+      "title": "The Tannahill Weavers - Direct from Scotland",
+      "performer": "The Tannahill Weavers",
+      "description": "JCA presents The Tannahill Weavers, one of Scotland's premiere traditional bands.",
+      "details": "[The Tannahill Weavers](https://tannahillweavers.com/) are one of Scotland's premiere traditional bands.\nTheir diverse repertoire spans the centuries, with fire driven instruments, topical songs, and original ballads.\nThese versatile musicians have received worldwide accolades over the years for their exuberant performances and outstanding recording efforts that seemingly can't be bettered - yet continue to do just that!\n\n“…the group has found an especially eloquent mixture of the old and the new.”\n~ Stephen Holden, New York Times\n\n“…the Tannies are the best that Scotland can aspire to (and believe me, that is THE BEST).”\n~ The Living Tradition",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "the-tannahill-weavers-direct-from-scotland",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2025-05-18",
+        "end": "2025-05-18"
+      },
+      "location": "",
+      "image": "the-tannahill-weavers.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "s0Zip-N-WM0",
+      "youtube2": "O_uCtdMec7Q",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "comedy",
       "type": "performance",
       "slug": "jca-comedy-night--may-2-2025",
@@ -110,7 +260,7 @@
       "description": "JCA Presents COMEDY NIGHT with Johnny Cat, Conor Fitzgerald, Jeff Jones, Jonathon Zadok, Amber Pace and Sam Borquez.",
       "details": "",
       "note": "",
-      "series": "First Fridays Comedy Show",
+      "series": "First Fridays Comedy Night",
       "price": "General Admission $20 at venue / $15 adv online →",
       "price_note": "",
       "ticket": "",
