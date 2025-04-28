@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "music",
+      "type": "performance",
+      "slug": "ned-evett-king-of-the-fretless-glass-guitar--may-21-2025",
+      "title": "Ned Evett - King of the Fretless Glass Guitar",
+      "performer": "Ned Evett",
+      "description": "The JCA is proud to welcome Ned Evett to Mount Shasta before he goes out on his European tour opening for Joe Satriani and Steve Vai!",
+      "details": "The son of an English professor and an opera singer, [Ned Evett](https://www.nedevett.com/) is one of the world’s foremost fretless guitarists, creating music that both celebrates and transcends the novelty of his instrument. He is also an accomplished visual artist, animator, and author.\n\n“The world’s first fretless guitar rockstar”\n~Guitar Player Magazine\n\n“Ned Evett is a monster player/writer/performer. I’ve had him on tour as a solo act, as well as with his different band lineups, and he always puts on a great performance. He has a good time with the audience, as he uses his unique personality to guide them through his music and his one-of-a-kind guitar style.”\n~Joe Satriani",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "ned-evett-king-of-the-fretless-glass-guitar",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-05-21",
+        "end": "2025-05-21"
+      },
+      "location": "",
+      "image": "ned-evett.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "fmu9NCczcLw",
+      "youtube2": "H5Zu0-EVYeI",
+      "youtube3": "S7z1UtagxiE",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "americosmos--may-27-2025",
+      "title": "Americosmos",
+      "performer": "Matt Venuti",
+      "description": "Matt Venuti is a multi-instrumentalist/singer-songwriter and national touring artist known for creating soul-stirring acoustic and electronic music with innovative instruments that he was among the very first to explore. His AmeriCosmos multimedia  performance includes an evocative live music soundtrack for stunning original visuals captured by Matt himself, as well as an excursion into Space, courtesy of NASA and the Webb Telescope. ",
+      "details": "Award-winning multi-instrumentalist [Matt Venuti](https://mattvenuti.com/) creates a live soundtrack for breathtaking footage of nature that he filmed throughout the US, and while Artist in residence in some of our National Parks. At an opportune time, the footage ascends into Space, and a cosmic journey ensues, enhanced by NASA and Webb telescope imagery. Featuring an array of rare electronic and acoustic instruments that Matt was among the first to explore, AmeriCosmos has enraptured audiences nationwide in theaters, planetariums, art centers and a diverse range of venues. In summary, AmeriCosmos is an immersive and awe-inspiring live music and visual voyage through the heart of nature, the depth of sound and the vastness of space.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "americosmos",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2025-05-27",
+        "end": "2025-05-27"
+      },
+      "location": "",
+      "image": "matt-venuti.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "RULTi9moNt4",
+      "youtube2": "WlOFGauFpko",
+      "youtube3": "n4qG2mb-MSs",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "theater",
       "type": "performance",
       "slug": "raf-and-pi-in-the-soup--may-31-2025",
