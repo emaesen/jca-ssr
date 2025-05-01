@@ -103,6 +103,56 @@
     },
     {
       "category": "music",
+      "type": "benefit",
+      "slug": "sundown-poachers-big-summer-fundraiser--jun-6-2025",
+      "title": "Sundown Poachers-JCA Big Summer Fundraiser for Mt Shasta Childrens Theatre",
+      "performer": "Sundown Poachers",
+      "description": "Please join JCA's big fundraiser for the Mt Shasta Childrens Theatre Scholarship Fund, featuring the Sundown Poachers. We are selling Raffle tickets as well!",
+      "details": "STOKED FOR THE POACHERS!!!\n\n ![Sundown Poachers](sundown-poachers-m.jpg)Based in the mountains of Siskiyou County, California, the [Sundown Poachers](https://www.sundownpoachers.com/), are lead by front men Johnny Callahan (guitar, bass, lead vocals) and Tristan Behm (guitar, bass, lead vocals), with Kyle Uwekoolani on lead guitar, and John Bowman on drums. They formed in early 2008 and began to shape a sound that fans have best described as “Folka-Tripda-Chronic.”\n\nIt’s northern California, folk-rock, blues-groove grown from the fertile soil of the last hundred years of American music. These guys can take you from front porch pickin’ to back porch trippin’ in the space of one song, spinning stories of life in the hills and on the road. Their songs are original and real, created together from their broad mix of experiences, and influenced by musical outlaws from today and all of our yesterdays.\n\nFor the Sundown Poachers the heart of the music lies in the energy of the live experience. There is a connection that is created in the moment, between themselves and with the audience, no two performances are ever the same. Using a combination of true musical talent, showmanship, heart, and humor, they create shows that are unique but appeal to a broad audience. So if you’re looking for a foot stompin’ good time, come out and kick up some dust with the Sundown Poachers.\n\n\n\n ![Raffle Tickets](mt-shasta-childrens-theatre-raffle-m.jpg) #RAFFLE TICKETS# We are selling [raffle tickets](https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle), with over $2000 in prizes!",
+      "note": "Pre-show party at 6 PM",
+      "series": "",
+      "price": "General Admission $45 at venue / $35 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "sundown-poachers-big-summer-fundraiser",
+      "time":{
+        "start": "19:30",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-06-06",
+        "end": "2025-06-06"
+      },
+      "location": "",
+      "image": "jca-fundraiser-20250606.jpg",
+      "image_width": "900",
+      "image_height": "743",
+      "stream": "",
+      "youtube": "bkyzo9o5xY0",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "performance",
       "slug": "ned-evett-king-of-the-fretless-glass-guitar--may-21-2025",
       "title": "Ned Evett - King of the Fretless Glass Guitar",
@@ -1013,7 +1063,7 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false,
+        "is_canceled": true,
         "is_excluded": true,
         "is_free": false
       },
