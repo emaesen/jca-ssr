@@ -25,6 +25,7 @@
         THANK YOU!
       </p>
     </section>
+    
     <event-list :showSummary="true"/>
 
     <organization-schema-script/>
@@ -35,9 +36,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>JCA Calendar Jan-Feb-Mar 2025</h2>
+        <h2>JCA Fundraiser for Mt Shasta Childrens Theatre</h2>
         <div class="center">
-          <!--g-link to="/events/music/jca-world-music-festival-passport--sep-19-to-oct-12-2024" title="click to view info about the JCA World Music Festival"-->
+          <g-link to="/events/music/sundown-poachers-big-summer-fundraiser--jun-6-2025" title="click to view info about the JCA Fundraiser">
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -46,14 +47,27 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/jca-calendar-2025-jan-feb-mar.jpg" alt="JCA Calendar Jan Feb Mar 2025" class="hero-img"/>
+            <g-image src="/img/event/jca-fundraiser-20250606.jpg" alt="JCA Fundraiser for Mt Shasta Childrens Theatre" class="hero-img"/>
             <!--
             <div class="center">
               Mark Your Calendars For Summer Fun!<br>
               BIG THANKS to Sandi and Tim Belton of Springhill Nursery and Gardens for their generous donation of plants and trees to beautify the JCA Field and outdoor space.
             </div>
             -->
-          <!--/g-link-->
+          </g-link>
+
+          
+            <div class="center xemph spacious">
+              We are selling RAFFLE tickets<br>
+              with over $2000 in prizes!<br>
+              Click the image below to purchase raffle tickets!<br>
+
+              <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
+                <g-image src="/img/mt-shasta-childrens-theatre-raffle.jpg" alt="Mt Shasta Childrens Theatre raffle" class="sub-hero-img"/>
+              </link-outbound>
+            </div>
+
+
         </div>
       </div>
 
@@ -164,7 +178,7 @@ export default {
   },
   data() {
     return {
-      featuredEventEndDate: "2025-03-30",
+      featuredEventEndDate: "2025-06-06",
       accentedSectionEndDate: "2024-12-27",
     }
   },
@@ -202,6 +216,10 @@ export default {
 }
 .hero-img {
   max-width: 100%;
+}
+.sub-hero-img {
+  max-width: 63%;
+  margin-top: 2em;
 }
 img.banner_lg {
   width: 100%;

@@ -304,6 +304,11 @@ footer {
   font-variant: small-caps;
   font-size: 117%;
 }
+.xemph {
+  font-variant: small-caps;
+  font-weight: 800;
+  font-size: 136%;
+}
 .deemph {
   font-size: 90%;
   color: fade(@color_text_body,70%);
