@@ -269,7 +269,7 @@ export default {
       showMessagePreview: false,
       isSubmitDone: false,
       showModal: false,
-      emailTo: "info@jeffersoncenterforthearts.com",
+      emailTo: "theJCA@yahoo.com",
       first_name: null,
       last_name: null,
       street: null,

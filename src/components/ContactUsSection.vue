@@ -86,7 +86,7 @@ export default {
     return {
       isSubmitDone: false,
       showModal: false,
-      emailTo: "info@jeffersoncenterforthearts.com",
+      emailTo: "theJCA@yahoo.com",
       name: null,
       message: null
     }

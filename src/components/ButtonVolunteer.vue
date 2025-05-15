@@ -47,7 +47,7 @@ export default {
   },
   data() {
     return {
-      emailTo: "info@jeffersoncenterforthearts.com",
+      emailTo: "theJCA@yahoo.com",
       showModal: false,
     }
   },
