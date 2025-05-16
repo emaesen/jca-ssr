@@ -29,8 +29,8 @@
       "is_placeholder": true
     },
     {
-      "title": "The Secret Garden MSCT spring play",
-      "description": "",
+      "title": "The Secret Garden",
+      "description": "Mt Shasta Childrens Theatre Spring Play",
       "note": "",
       "time":{
         "start": "19:00",
@@ -43,8 +43,8 @@
       "is_placeholder": false
     },
     {
-      "title": "The Secret Garden MSCT spring play",
-      "description": "",
+      "title": "The Secret Garden",
+      "description": "Mt Shasta Childrens Theatre Spring Play",
       "note": "",
       "time":{
         "start": "15:00",
@@ -57,8 +57,8 @@
       "is_placeholder": false
     },
     {
-      "title": "Around the World in Dance - COS Theatre",
-      "description": "",
+      "title": "Dance Around the World",
+      "description": "Shasta Studios Year End Recital- COS Kenneth Ford Theatre",
       "note": "",
       "time":{
         "start": "14:00",
@@ -71,8 +71,8 @@
       "is_placeholder": false
     },
     {
-      "title": "Around the World in Dance - COS Theatre",
-      "description": "",
+      "title": "Dance Around the World",
+      "description": "Shasta Studios Year End Recital- COS Kenneth Ford Theatre",
       "note": "",
       "time":{
         "start": "19:00",
@@ -81,20 +81,6 @@
       "date":{
         "start": "2025-06-21",
         "end": "2025-06-21"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "New Age Phonograph",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-27",
-        "end": "2025-06-27"
       },
       "is_placeholder": false
     },
@@ -110,7 +96,7 @@
         "start": "2025-08-27",
         "end": "2025-08-27"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Salinas Road",
@@ -124,7 +110,7 @@
         "start": "2025-08-24",
         "end": "2025-08-24"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "John Mambira Band",
