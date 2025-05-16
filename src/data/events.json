@@ -103,6 +103,56 @@
     },
     {
       "category": "music",
+      "type": "performance",
+      "slug": "ashleigh-flynn-and-the-riveters-w-danger-kitty--jun-29-2025",
+      "title": "Ashleigh Flynn & The Riveters w/ Danger Kitty",
+      "performer": "Ashleigh Flynn and The Riveters, Danger Kitty",
+      "description": "JCA presents Ashleigh Flynn & The Riveters, together with Danger Kitty.",
+      "details": "#Ashleigh Flynn and The Riveters#  [Ashleigh Flynn and The Riveters](https://www.ashleighflynnandtheriveters.com/) have built a sound that recalls the honky tonk and roots rock traditions from decades ago, keeping it fresh with mostly original compositions. These Oregonians, along with a few female-led bands in the Bay Area and a larger handful of artists in LA, comprise a hotshit, west-coast core of women musicians delivering twangers and bangers far removed from the compromised country pop you see/hear on prime-time award shows. If you’re not already familiar with that rootsier sound, go get a copy of Good Morning, Sunshine, and lean in.\n\n#Danger Kitty# ![Danger Kitty](danger-kitty-m.jpg) [Danger Kitty Music](https://dangerkittymusic.com/) (DKM) is an indie sensation, weaving a sonic tapestry of rock, funk and Americana that blends raw energy and toe tappin' funk with soulful melodies. Hailing from Northern California, this dynamic quartet delivers a musical journey that captivates audiences with its fearless spirit and authentic expression. With influences ranging from classic rock icons and jazz greats, to funk, blues and modern indie innovators, Danger Kitty crafts a sound that is both timeless and refreshingly original. Prepare to be transported into a world where ever riff and lyric tells a story, inviting you to join the adventure that is Danger Kitty.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $320 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "ashleigh-flynn-and-the-riveters-w-danger-kitty",
+      "time":{
+        "start": "19:30",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-06-29",
+        "end": "2025-06-29"
+      },
+      "location": "",
+      "image": "ashleigh-flynn-and-the-riveters.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "cH9jOm8_cBQ",
+      "youtube2": "9SFSPy2jIzw",
+      "youtube3": "lO2NAvw_TuM",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "benefit",
       "slug": "sundown-poachers-big-summer-fundraiser--jun-6-2025",
       "title": "Sundown Poachers-JCA Big Summer Fundraiser for Mt Shasta Childrens Theatre",

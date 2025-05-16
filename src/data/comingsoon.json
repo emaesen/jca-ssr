@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "JCA benefit BBQ dinner w/ Humboldt Comedy & The Sundown Poachers",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "18:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-06",
-        "end": "2025-06-06"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "The Secret Garden MSCT spring play",
       "description": "",
       "note": "",
@@ -67,20 +53,6 @@
       "date":{
         "start": "2025-06-14",
         "end": "2025-06-14"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Claude Bourbon",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "19:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-20",
-        "end": "2025-06-20"
       },
       "is_placeholder": false
     },
@@ -127,20 +99,6 @@
       "is_placeholder": false
     },
     {
-      "title": "Ashleigh Flynn & The Riveters",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "19:30",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-29",
-        "end": "2025-06-29"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Object Heavy",
       "description": "",
       "note": "",
@@ -152,7 +110,7 @@
         "start": "2025-08-27",
         "end": "2025-08-27"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Salinas Road",
@@ -166,7 +124,7 @@
         "start": "2025-08-24",
         "end": "2025-08-24"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "John Mambira Band",
@@ -180,7 +138,7 @@
         "start": "2025-09-12",
         "end": "2025-09-12"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Ramana Viera",
@@ -194,7 +152,7 @@
         "start": "2025-09-13",
         "end": "2025-09-13"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Beaucoup Chapeaux",
@@ -208,7 +166,7 @@
         "start": "2025-09-14",
         "end": "2025-09-14"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Rita Sahai",
@@ -222,7 +180,7 @@
         "start": "2025-09-19",
         "end": "2025-09-19"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "tbd",
@@ -236,7 +194,7 @@
         "start": "2025-09-20",
         "end": "2025-09-20"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Cello Joe",
@@ -250,7 +208,7 @@
         "start": "2025-09-21",
         "end": "2025-09-21"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Masons Children",
@@ -264,7 +222,7 @@
         "start": "2025-10-18",
         "end": "2025-10-18"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Day of the Dead Masquerade Ball w/ Kangarilla",
@@ -278,7 +236,7 @@
         "start": "2025-11-01",
         "end": "2025-11-01"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     },
     {
       "title": "Blü Egyptian",
@@ -292,7 +250,7 @@
         "start": "2025-11-08",
         "end": "2025-11-08"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     }
   ]
 }
