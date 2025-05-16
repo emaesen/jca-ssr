@@ -6,10 +6,14 @@
     <cite class="center byline">Mount Shasta's Premier Nonprofit Educational Center for Music and the Performing Arts!</cite>
 
     <p class="spacious">
-      JCA is Mount Shasta's premier nonprofit arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.<br class="spacer">
-      The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.<br class="spacer">
-      The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.<br class="spacer">
-      Jefferson Center for the Arts is Mount Shasta's own community arts and culture center.<br class="spacer">
+      JCA is Mount Shasta's premier nonprofit arts education venue incorporating the natural beauty of the area for the purpose of improving social, economic and cultural assets.
+      <br><span class="xbr"></span>
+      The JCA is a regional hub for Live Music, Theatre and Visual Arts for local residents and tourists alike.
+      <br><span class="xbr"></span>
+      The gardens of the JCA are growing to host a permaculture learning center, arts playground and local nature trail.
+      <br><span class="xbr"></span>
+      Jefferson Center for the Arts is Mount Shasta's own community arts and culture center.
+      <br><span class="xbr"></span>
       <g-link to="/about/members/" class="link-membership">Become a JCA member!</g-link>
     </p>
 
@@ -17,15 +21,20 @@
       <p class="accent center"
         v-if="showAccentedSection"
       >
-        It’s GIVING SEASON at the JCA!<br class="spacer">
+        It’s GIVING SEASON at the JCA!
+        <br><span class="xbr"></span>
         Please consider supporting our grass-roots efforts.
-        Your dollars will be transformed into concerts, films, theatre and visual arts.<br class="spacer"><span class="donate-button"><button-donate/></span>
-        These funds will also support JCA Outreach into Siskiyou County public schools by offering workshops and performances by international artists.<br class="spacer">
-        Our members and donors help keep us sustainable and we are most grateful.<br class="spacer">
+        Your dollars will be transformed into concerts, films, theatre and visual arts.
+        <br><span class="xbr"></span>
+        <span class="donate-button"><button-donate/></span>
+        These funds will also support JCA Outreach into Siskiyou County public schools by offering workshops and performances by international artists.
+        <br><span class="xbr"></span>
+        Our members and donors help keep us sustainable and we are most grateful.
+        <br><span class="xbr"></span>
         THANK YOU!
       </p>
     </section>
-    
+
     <event-list :showSummary="true"/>
 
     <organization-schema-script/>
@@ -60,6 +69,7 @@
             <div class="center xemph spacious">
               We are selling RAFFLE tickets<br>
               with over $2000 in prizes!<br>
+              <span class="xbr"></span>
               Click the image below to purchase raffle tickets!<br>
 
               <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
@@ -94,12 +104,12 @@
       <h2>Get involved!</h2>
 
       <p>
-        <span class="emph">We are excited to open our doors to live performances!</span><br class="spacer">
-        <br>
+        <span class="emph">We are excited to open our doors to live performances!</span>
+        <br><span class="xbr"></span>
         <span class="donate-button"><button-donate/></span>
         <!--We are currently raising money to build a beautiful proscenium stage in the venue space. If you would like to help make that happen, check out the donate information by clicking on the Donate button. -->
-        The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Your donations are tax deductible.<br>
-        <br>
+        The JCA is a 501(c)(3) nonprofit organization which relies on community support to continue offering its art education programs and performances. Your donations are tax deductible.
+        <br><span class="xbr"></span>
         Stay in the loop by signing up for our <a href="#subscribe">mailing list</a>! We are booking new shows every week and want to share all of our exciting news with you!
       </p>
 

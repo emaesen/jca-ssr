@@ -333,6 +333,10 @@ br.spacer {
     display: block;
     margin-bottom: 0.5em;
 }
+span.xbr {
+  margin-bottom: 0.5em;
+  display: block;
+}
 .spacious {
   margin-top: 3em;
   margin-bottom: 2em;

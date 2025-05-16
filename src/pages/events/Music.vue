@@ -5,11 +5,14 @@
     <p>
      <g-image class="img-category" src="/img/temp/tadas-mikuckis-hbnH0ILjUZE-unsplash.jpg" alt="music category"/>
       Jefferson Center for the Arts hosts an eclectic mix of musical genres including…
-      Classical, Jazz, Americana, Blues, Folk and other acoustic musical styles.<br class="spacer">
+      Classical, Jazz, Americana, Blues, Folk and other acoustic musical styles.
+      <br><span class="xbr"></span>
 
-      With only 60 seats, the JCA brings you up close and personal to the music.<br class="spacer">
+      With only 60 seats, the JCA brings you up close and personal to the music.
+      <br><span class="xbr"></span>
 
-      The community will often be able to meet the artists in a workshop setting or Q&amp;A before/after each show.<br class="spacer">
+      The community will often be able to meet the artists in a workshop setting or Q&amp;A before/after each show.
+      <br><span class="xbr"></span>
 
       Our programming caters to you… the community. 
       So, please <g-link to="/contact">drop us a line</g-link> with your suggestions!

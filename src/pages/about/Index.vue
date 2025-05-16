@@ -71,9 +71,12 @@
         </div>
         <div class="column right">
           <div class="webmaster_bio">
-            When I first saw the signs of an art center taking form in my neighborhood, I felt compelled to volunteer my services to design, develop and maintain the JCA website.<br class="spacer">
-            I am a Mount Shasta <link-outbound to="https://mountshastasoundhealing.com/">sound healer</link-outbound> and <link-outbound to="https://mountshastaphotographyart.com/">photographer</link-outbound>.<br class="spacer">
-            After a career in physics and software development, I now devote my time to assist individuals in realizing their true potential.<br class="spacer">
+            When I first saw the signs of an art center taking form in my neighborhood, I felt compelled to volunteer my services to design, develop and maintain the JCA website.
+            <br><span class="xbr"></span>
+            I am a Mount Shasta <link-outbound to="https://mountshastasoundhealing.com/">sound healer</link-outbound> and <link-outbound to="https://mountshastaphotographyart.com/">photographer</link-outbound>.
+            <br><span class="xbr"></span>
+            After a career in physics and software development, I now devote my time to assist individuals in realizing their true potential.
+            <br><span class="xbr"></span>
             From an early age I have been aware of the multi-dimensionality of my being and found refuge in the Stillness Within. I now use sound to help others enter that state of harmony and peace. My sound sessions have been referred to as “galactic shamanism” and “celestial initiation”.
             
           </div>

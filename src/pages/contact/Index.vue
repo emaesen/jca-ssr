@@ -4,7 +4,7 @@
 
     <section v-animate-on-intersection>
       <h2>Different ways to reach us</h2>
-      Communicate with the JCA on social media:<br class="spacer">
+      Communicate with the JCA on social media:
        <ul>
         <li class="anima__slide-in-from-left del1">
           the 
@@ -16,7 +16,7 @@
         </li>
       </ul>
       <br>
-      Contact Wendy James at JCA:<br class="spacer">
+      Contact Wendy James at JCA:
       <ul>
         <li class="anima__slide-in-from-left del1">
           by phone at <a href="tel:+15309188383">(530) 918-8383</a>

@@ -14,14 +14,18 @@
       <h2>Volunteers:</h2>
       <p>
         <span class="emph">Please <g-link to="/contact">contact Wendy</g-link> if you are interested in volunteering at the JCA.</span>
-        We can always use more help with fund-raising, grant writing, painting, design and the like.<br class="spacer">
-        It takes a village…<br class="spacer">
+        We can always use more help with fund-raising, grant writing, painting, design and the like.
+        <br><span class="xbr"></span>
+        It takes a village…
+        <br><span class="xbr"></span>
         Lets make some MAGIC!
       </p>
       <h4>…Volunteers for events</h4>
       <p>
-        We also ask for <span class="emph">volunteers for each event</span>, folks to run the door, concessions etc.<br class="spacer">
-        Volunteers get free admission to the event, food, drink and lots of love!<br class="spacer">
+        We also ask for <span class="emph">volunteers for each event</span>, folks to run the door, concessions etc.
+        <br><span class="xbr"></span>
+        Volunteers get free admission to the event, food, drink and lots of love!
+        <br><span class="xbr"></span>
         Click on the "I'd like to volunteer!" button in any of the <g-link to="/events">event listings</g-link> to send an email to Wendy if you are interested in volunteering for that particular event.
       </p>
     </section>

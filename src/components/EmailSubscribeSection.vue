@@ -12,10 +12,12 @@
           <g-image src="/img/jca-logo-lg-opt.png" alt="JCA logo" class="logo_lg anima__flicker-subtle anima__-pause-on-hover"/>
         </p>
         <p class="ls-inner ls-inner-text">
-          Subscribe to our mailing list to receive the latest events and updates from our team.<br class="spacer">
-          <br/>
-          We respect your privacy and will not sell or share your personal information.<br class="spacer">
-          <br/>
+          Subscribe to our mailing list to receive the latest events and updates from our team.
+          <br>
+          <br>
+          We respect your privacy and will not sell or share your personal information.
+          <br>
+          <br>
           <span class="deemph">You can unsubscribe at any time by clicking the link in the footer of our emails.</span>
         </p>
       </div>
