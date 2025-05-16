@@ -78,12 +78,6 @@ export default {
   .classes-feature .icon-Outbound{
     display:none;
   }
-  .event_price_wrapper {
-    margin:0!important;
-  }
-  .event_presenter {
-    margin-bottom:1em!important;
-  }
   .classes-feature-img {
     float:right;
     margin: 3em 0 .5em 1em;

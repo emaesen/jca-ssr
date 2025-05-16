@@ -113,7 +113,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 150px;
+  max-width: 250px;
 }
 button {
   margin:.5em;

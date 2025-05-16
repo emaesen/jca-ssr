@@ -120,7 +120,7 @@
           </div>
 
           <div 
-            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed)" class="event_price_wrapper"
+            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed) && (event.humanitix || event.ticket || event.price_note)" class="event_price_wrapper"
           >
             <div class="event_price" :class="{event_price_no_ticket:!event.humanitix}">
               <span v-html="eventPrice"/>
@@ -605,10 +605,10 @@ img.summary_image {
   max-width: 100px;
 }
 .summary_description {
-  font-size: 70%;
+  font-size: 80%;
   color: #e9b761b7;
   flex: 6;
-  margin-top: 1em;
+  margin: 1em 0 .5em;
 }
 .summary_series {
   font-family: @font_family_cursive, cursive;
@@ -655,7 +655,7 @@ h4 {
 .event_performer,
 .event_presenter {
   color: @color-secondary-1-1;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .event_note {
   opacity: 0.9;
@@ -731,6 +731,9 @@ h4 {
 .event_youtube {
   margin-top: 2em;
   font-size: 90%;
+}
+.event_desc_details {
+  margin-bottom: 4em;
 }
 .event_note {
   margin: 1em 0;
