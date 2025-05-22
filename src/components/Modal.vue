@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style lang="less">
+@import '../assets/variab.less';
 .modal-base {
   position: fixed;
   top: 0;
@@ -71,10 +72,14 @@ export default {
   text-shadow: none;
   h2,h3,h4,h5 {
     margin: 1em 0;
-    color: #0227ca;
+    color:rgb(10, 34, 141);
+    font-weight: 700;
   }
   a {
-    color: #a33030;
+    color:rgb(1, 129, 76);
+  }
+  button {
+    background-color: @color_bg;
   }
   cite {
     margin: 0 1em;

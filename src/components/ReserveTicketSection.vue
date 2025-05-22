@@ -76,38 +76,27 @@
 
 
     <div v-if="isSubmitDone" class="thanks anima__zoom">
-      <h4>Thank you!!</h4>
-      <p>
-        <span class="action-required">You're almost done!</span><br>
-        Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)<br>
-        <span class="action-required">You must send the email in order to complete this action.</span>
-      </p>
-      <p>
-        Re-directing to your email program ensures:
-      </p>
-      <ol>
-        <li>JCA gets a valid email address to reply to,</li>
-        <li>you have the option to add a personal note,</li>
-        <li>you get to keep a copy of your reservation message,</li>
-        <li>and… it adds a hurdle for those pesky spam bots.</li>
-      </ol>
+      <h4>Thank you</h4>
+      
+      <message-email-action/>
 
       <hr class="spacious"/>
 
-      <p>
-        If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
-      </p>
-      <cite>
-        <div class="message" v-html="emailSubject"/>
-        <div class="message" v-html="formattedEmailMessage"/>
-      </cite>
-    </div>
+      <message-email-alternative
+        :emailTo="emailTo"
+        :emailSubject="emailSubject"
+        :emailMessage="formattedEmailMessage"
+      ></message-email-alternative>
 
+    </div>
+    
   </div>
 </template>
 
 <script>
 import Modal from '@/components/Modal.vue';
+import MessageEmailAction from '@/components/MessageEmailAction.vue';
+import MessageEmailAlternative from '@/components/MessageEmailAlternative.vue';
 
 import date from '@/mixins/date.js'
 
@@ -116,6 +105,8 @@ export default {
   mixins: [date],
   components: {
     Modal,
+    MessageEmailAction,
+    MessageEmailAlternative,
   },
   props: {
     event: {
@@ -190,13 +181,6 @@ export default {
 .reservation_form {
   color: #111;
   text-shadow: none;
-  h2,h3,h4,h5 {
-    margin: 1em 0;
-    color: #3a0000;
-  }
-  a {
-    color: #3b5998;
-  }
   cite {
     margin: 0 1em;
     color: #333;

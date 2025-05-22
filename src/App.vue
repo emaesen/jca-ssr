@@ -324,11 +324,6 @@ footer {
   }
   margin: 2em 0 0 0;
 }
-.action-required {
-  color:rgb(150, 17, 17);
-  font-weight: 700;
-  font-size: 110%;
-}
 .spacer {
   vertical-align: text-top;
   line-height: 1.7em;

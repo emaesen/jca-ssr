@@ -46,31 +46,18 @@
       @close="closeModal"
     >
       <div class="thanks">
-        <h2>Thank you!!</h2>
-        <p>
-          <span class="action-required">You're almost done!</span><br>
-          Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)<br>
-          <span class="action-required">You must send the email in order to complete this action.</span>
-        </p>
-        <p>
-          Re-directing to your email program ensures:
-        </p>
-        <ol>
-          <li>JCA gets a valid email address to reply to,</li>
-          <li>you have the option to add attachments,</li>
-          <li>you get to keep a copy of your send message,</li>
-          <li>and… it adds a hurdle for those pesky spam bots.</li>
-        </ol>
+        <h2>Thank you</h2>
+
+        <message-email-action/>
         
         <hr class="spacious"/>
+        
+        <message-email-alternative
+          :emailTo="emailTo"
+          :emailSubject="emailSubject"
+          :emailMessage="formattedEmailMessage"
+        ></message-email-alternative>
 
-         <p>
-          If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
-        </p>
-        <cite>
-          <div class="message" v-html="emailSubject"/>
-          <div class="message" v-html="formattedEmailMessage"/>
-        </cite>
       </div>
     </modal>
   </div>
@@ -78,11 +65,15 @@
 
 <script>
 import Modal from '@/components/Modal.vue';
+import MessageEmailAction from '@/components/MessageEmailAction.vue';
+import MessageEmailAlternative from '@/components/MessageEmailAlternative.vue';
 
 export default {
   name: 'FormContactUs',
   components: {
     Modal,
+    MessageEmailAction,
+    MessageEmailAlternative,
   },
   data() {
     return {
