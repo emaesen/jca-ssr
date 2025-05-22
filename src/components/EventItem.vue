@@ -137,6 +137,18 @@
               <span v-html="eventPriceNote"/>
             </div>
 
+            <div class="reserve_ticket">
+            <!-- alternative ticket reservation by email -->
+              OR alternatively please reserve a ticket for the adv price via email: 
+              <button-reserve-ticket
+                :event="event" 
+                class="button_reserve_ticket"
+              ></button-reserve-ticket>
+              <span class="reserve_ticket_note">
+                Only when you either buy or reserve a ticket do we know whether or not the artist has an audience to play for!
+              </span>
+            </div>
+
             <!-- registration button -->
             <button-register
               v-if="event.flag && event.flag.show_registration_form"
@@ -311,6 +323,7 @@
 import CategoryIcon from '@/components/CategoryIcon.vue';
 import EventTicket from '@/components/EventTicket.vue';
 import ButtonVolunteer from '@/components/ButtonVolunteer.vue';
+import ButtonReserveTicket from '@/components/ButtonReserveTicket.vue';
 import ButtonRegister from '@/components/ButtonRegister.vue';
 import EventSchemaScript from '@/components/EventSchemaScript.vue';
 import PostalAddress from '@/components/PostalAddress.vue';
@@ -335,6 +348,7 @@ export default {
     CategoryIcon,
     EventTicket,
     ButtonVolunteer,
+    ButtonReserveTicket,
     ButtonRegister,
     EventSchemaScript,
     PostalAddress,
@@ -758,6 +772,18 @@ h4 {
 }
 .button_volunteer {
   margin: 2em 0;
+}
+.reserve_ticket {
+  margin: 2em 0;
+}
+.button_reserve_ticket {
+  margin-top: .2em;
+}
+.reserve_ticket_note {
+  display: inline-block;
+  color: #8adafd;
+  font-size: 60%;
+  margin-left: 1em;
 }
 .button_register {
   display: inline;

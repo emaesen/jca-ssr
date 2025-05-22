@@ -49,7 +49,7 @@
         <div class="__comingsoon-events">
           <div
               v-for="(evt, index) in filteredComingSoonEvents" 
-              :key="evt.title">
+              :key="index + evt.title">
             <comingsoon-item 
               :event="evt"
               class="anima__slide-in-from-left event-summary-item"
