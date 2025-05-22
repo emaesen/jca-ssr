@@ -156,7 +156,8 @@
               class="button_register"
             ></button-register>
           </div>
-          <div class="event_desc">
+
+          <div v-if="isClass" class="event_desc">
             <div v-html="description"/>
           </div>
 
@@ -187,6 +188,9 @@
       <!-- atPageLevel event description details -->
       <div v-if="atPageLevel">
 
+        <div class="event_desc">
+          <div v-html="description"/>
+        </div>
 
         <!-- atPageLevel description details -->
         <div 
@@ -286,9 +290,14 @@
       </div>
 
       <div v-if="!atPageLevel && eventPageUrl && (descriptionDetails || event.stream || event.youtube)" class="viewmore">
-        <g-link :to="eventPageUrl">
-          View more...
-        </g-link>
+        <div class="event_desc">
+          <div v-html="description"/>
+        </div>
+        <div class="spacious">
+          <g-link :to="eventPageUrl">
+            View more...
+          </g-link>
+        </div>
       </div>
 
       <!-- volunteer button -->
@@ -305,7 +314,7 @@
         {{event.series}}
       </div>
 
-      <div class="jca">
+      <div v-if="atPageLevel && !isClass" class="jca">
         <postal-address/>
       </div>
 
@@ -382,6 +391,10 @@ export default {
   mounted () {
   },
   computed: {
+    isClass() {
+      // if the event doesn't have a slug then it's a class
+      return !this.event.slug
+    },
     eventPageUrl() {
       return this.event.slug ? "/events/" + (this.event.category || "g") + "/" + this.event.slug : "";
     },

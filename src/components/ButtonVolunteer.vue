@@ -11,10 +11,21 @@
       <div class="thanks">
         <h2>Thank you!!</h2>
         <p>
-          Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)
+          <span class="action-required">You're almost done!</span><br>
+          Your email program should open, allowing you to send a prepared email message from your current address. (Check outside your browser…)<br>
+          <span class="action-required">You must send the email in order to complete this action.</span>
         </p>
+        <p>
+          Re-directing to your email program ensures:
+        </p>
+        <ol>
+          <li>JCA gets a valid email address to reply to,</li>
+          <li>you have the option to add a personal note,</li>
+          <li>you get to keep a copy of your reservation message,</li>
+          <li>and… it adds a hurdle for those pesky spam bots.</li>
+        </ol>
 
-        <hr/>
+        <hr class="spacious"/>
         
         <p>
           If you are not able to send a message through this method, you can contact JCA directly at <a :href="'mailto:' + emailTo">{{ emailTo }}</a> and copy-and-paste the following prepared subject and message:
