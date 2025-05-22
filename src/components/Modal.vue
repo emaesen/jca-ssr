@@ -56,9 +56,8 @@ export default {
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  background-color: #040A28;
   background-color: #040A28cc;
   z-index: 9999;
   animation-iteration-count: 1,1;
@@ -67,7 +66,7 @@ export default {
 .modal {
   box-sizing: border-box;
   width: 90%;
-  margin: 0;
+  margin: 5em 0 0 0;
   color: rgba(18, 18, 18, 0.9);
   text-shadow: none;
   h2,h3,h4,h5 {
