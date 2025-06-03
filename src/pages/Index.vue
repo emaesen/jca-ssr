@@ -65,18 +65,32 @@
             -->
           </g-link>
 
-          
-            <div class="center xemph spacious">
-              We are selling RAFFLE tickets<br>
-              with over $2000 in prizes!<br>
-              <span class="xbr"></span>
-              Click the image below to purchase raffle tickets!<br>
+          <div class="spacious">
+            If you cant make the fundraising event, you can still <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">purchase raffle tickets</link-outbound>!<br>
+            Your support can send a young actor to Broadway Camp this year!<br>
+            <span class="xbr"></span>
+            Thank you for supporting the ARTS!!!
+          </div>
+          <div class="center xemph spacious">
+            We are selling RAFFLE tickets<br>
+            with over $2000 in prizes!<br>
+            <span class="xbr"></span>
+            Click the image below to purchase raffle tickets!<br>
 
-              <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
-                <g-image src="/img/mt-shasta-childrens-theatre-raffle.jpg" alt="Mt Shasta Childrens Theatre raffle" class="sub-hero-img"/>
-              </link-outbound>
-            </div>
+            <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
+              <g-image src="/img/mt-shasta-childrens-theatre-raffle.jpg" alt="Mt Shasta Childrens Theatre raffle" class="sub-hero-img"/>
+            </link-outbound><br>
 
+            <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
+              <g-image src="/img/jca-raffle-prizes.jpg" alt="raflle prizes" class="sub-hero-img"/>
+            </link-outbound>
+
+          </div>
+
+          <div>
+
+
+          </div>
 
         </div>
       </div>
@@ -275,6 +289,9 @@ img.slide {
   .container-carousel {
     min-height: 150px;
     margin: 2em 0 0 0;
+  }
+  .sub-hero-img {
+    max-width: 90%;
   }
 }
 </style>
