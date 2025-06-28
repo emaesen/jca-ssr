@@ -29,76 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "The Secret Garden",
-      "description": "Mt Shasta Childrens Theatre Spring Play",
-      "note": "",
-      "time":{
-        "start": "19:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-13",
-        "end": "2025-06-13"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "The Secret Garden",
-      "description": "Mt Shasta Childrens Theatre Spring Play",
-      "note": "",
-      "time":{
-        "start": "15:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-14",
-        "end": "2025-06-14"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Dance Around the World",
-      "description": "Shasta Studios Year End Recital- COS Kenneth Ford Theatre",
-      "note": "",
-      "time":{
-        "start": "14:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-21",
-        "end": "2025-06-21"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Dance Around the World",
-      "description": "Shasta Studios Year End Recital- COS Kenneth Ford Theatre",
-      "note": "",
-      "time":{
-        "start": "19:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-06-21",
-        "end": "2025-06-21"
-      },
-      "is_placeholder": false
-    },
-    {
-      "title": "Object Heavy",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-08-27",
-        "end": "2025-08-27"
-      },
-      "is_placeholder": true
-    },
-    {
       "title": "Salinas Road",
       "description": "",
       "note": "",
@@ -110,7 +40,7 @@
         "start": "2025-08-24",
         "end": "2025-08-24"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "John Mambira Band",
@@ -124,7 +54,7 @@
         "start": "2025-09-12",
         "end": "2025-09-12"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Ramana Viera",
@@ -138,7 +68,7 @@
         "start": "2025-09-13",
         "end": "2025-09-13"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Beaucoup Chapeaux",
@@ -152,7 +82,7 @@
         "start": "2025-09-14",
         "end": "2025-09-14"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Rita Sahai",
@@ -166,7 +96,7 @@
         "start": "2025-09-19",
         "end": "2025-09-19"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "tbd",
@@ -180,7 +110,7 @@
         "start": "2025-09-20",
         "end": "2025-09-20"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Cello Joe",
@@ -194,7 +124,7 @@
         "start": "2025-09-21",
         "end": "2025-09-21"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Masons Children",
@@ -208,7 +138,7 @@
         "start": "2025-10-18",
         "end": "2025-10-18"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Day of the Dead Masquerade Ball w/ Kangarilla",
@@ -222,7 +152,7 @@
         "start": "2025-11-01",
         "end": "2025-11-01"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     },
     {
       "title": "Blü Egyptian",
@@ -236,7 +166,7 @@
         "start": "2025-11-08",
         "end": "2025-11-08"
       },
-      "is_placeholder": true
+      "is_placeholder": false
     }
   ]
 }
