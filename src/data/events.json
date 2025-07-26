@@ -102,6 +102,146 @@
       }
     },
     {
+      "category": "theater",
+      "type": "performance",
+      "slug": "msct-little-shop-of-horrors--aug-1-2025-7pm",
+      "title": "Little Shop of Horrors",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents Little Shop of Horrors, the 12th annual broadway camp production.",
+      "details": "Popcorn, drinks and sweet treats available at all the shows. Doors open 30 minutes before showtime.\nGet there early to get a good seat. Space is limited.\nTickets only available at the door.\nOur local youth  have been working soooo hard to create these magical performances.\nHope to see you there!",
+      "note": "",
+      "series": "Broadway Camp Jr",
+      "price": "General Admission $10 at venue\nKids 12 and under FREE",
+      "price_note": "Tickets only available at the door",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-08-01",
+        "end": "2025-08-01"
+      },
+      "location": "",
+      "image": "msct-little-shop-of-horrors.jpg",
+      "image_width": "927",
+      "image_height": "1200",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "msct-pirates-the-musical--aug-2-2025-2pm",
+      "reference_slug": "msct-little-shop-of-horrors--aug-1-2025-7pm",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-08-02",
+        "end": "2025-08-02"
+      }
+    },
+    {
+      "slug": "msct-pirates-the-musical--aug-2-2025-7pm",
+      "reference_slug": "msct-little-shop-of-horrors--aug-1-2025-7pm",
+      "date":{
+        "start": "2025-08-02",
+        "end": "2025-08-02"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "msct-pirates-the-musical--jul-25-2025-7pm",
+      "title": "Pirates! The Musical",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Arrr! Don’t be missin’ this grand spectacle, matey! Twelve o’ the finest young buccaneers of song and stage in all o’ Siskiyou County be takin’ the deck! Last chance to catch the show — final sails be hoistin’ tonight at 2 bells and 7 bells",
+      "details": "![pirates](msct-pirates-the-musical2-m.jpg) Popcorn, drinks and sweet treats available at all the shows. Doors open 30 minutes before showtime.\nGet there early to get a good seat. Space is limited.\nTickets only available at the door.\nOur local youth  have been working soooo hard to create these magical performances.\nHope to see you there!",
+      "note": "",
+      "series": "Broadway Camp Jr",
+      "price": "General Admission $10 at venue\nKids 12 and under FREE",
+      "price_note": "Tickets only available at the door",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-07-25",
+        "end": "2025-07-25"
+      },
+      "location": "",
+      "image": "msct-pirates-the-musical.jpg",
+      "image_width": "927",
+      "image_height": "1200",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "msct-pirates-the-musical--jul-26-2025-2pm",
+      "reference_slug": "msct-pirates-the-musical--jul-25-2025-7pm",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-07-26",
+        "end": "2025-07-26"
+      }
+    },
+    {
+      "slug": "msct-pirates-the-musical--jul-26-2025-7pm",
+      "reference_slug": "msct-pirates-the-musical--jul-25-2025-7pm",
+      "date":{
+        "start": "2025-07-26",
+        "end": "2025-07-26"
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "ashleigh-flynn-and-the-riveters-w-danger-kitty--jun-29-2025",
