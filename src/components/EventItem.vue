@@ -137,7 +137,7 @@
               <span v-html="eventPriceNote"/>
             </div>
 
-            <div class="reserve_ticket">
+            <div class="reserve_ticket" v-if="event.ticket || event.humanitix">
             <!-- alternative ticket reservation by email -->
               OR alternatively please reserve a ticket for the adv price via email: 
               <button-reserve-ticket
