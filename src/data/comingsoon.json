@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "Salinas Road",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "18:30",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-08-24",
-        "end": "2025-08-24"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "John Mambira Band",
       "description": "JCA World Music Festival",
       "note": "",
