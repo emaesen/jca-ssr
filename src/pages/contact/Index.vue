@@ -4,6 +4,7 @@
 
     <section v-animate-on-intersection>
       <h2>Different ways to reach us</h2>
+      <!--
       Communicate with the JCA on social media:
        <ul>
         <li class="anima__slide-in-from-left del1">
@@ -16,6 +17,7 @@
         </li>
       </ul>
       <br>
+      -->
       Contact Wendy James at JCA:
       <ul>
         <li class="anima__slide-in-from-left del1">
