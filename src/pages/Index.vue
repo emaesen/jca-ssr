@@ -21,17 +21,17 @@
       <p class="accent center"
         v-if="showAccentedSection"
       >
-        It’s GIVING SEASON at the JCA!
+        <span class="emph">A Note From Wendy...</span>
         <br><span class="xbr"></span>
-        Please consider supporting our grass-roots efforts.
-        Your dollars will be transformed into concerts, films, theatre and visual arts.
+        <quote>
+        “As the director of Jefferson Center for the Arts, one of my goals in creating the Center was to enrich the community through arts and culture, crossing bridges, and creating a deeper world understanding. The <strong><g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025">JCA World Music Festival<g-link></strong> is not only a dream of mine, it is a way of life. I aim to bring communities together through the arts. I am honored to be able to host these amazing artists at the foot of our beautiful mountain, Mount Shasta. I urge you to buy a <g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025">6-show passport</g-link> and immerse yourself into the music from around the world, supporting not only the artists themselves, but you'll also be helping create a better and deeper understanding of our humanity. Music brings us together, and the JCA World Music Festival is just a two-weekend snippet into infinite realms of cross-cultural musical expression and integration.”
         <br><span class="xbr"></span>
-        <span class="donate-button"><button-donate/></span>
-        These funds will also support JCA Outreach into Siskiyou County public schools by offering workshops and performances by international artists.
+        I hope you'll join us.
         <br><span class="xbr"></span>
-        Our members and donors help keep us sustainable and we are most grateful.
+        xo Wendy James
         <br><span class="xbr"></span>
-        THANK YOU!
+        JCA Director
+        </quote>
       </p>
     </section>
 
@@ -45,9 +45,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>JCA Fundraiser for Mt Shasta Childrens Theatre</h2>
+        <h2>JCA World Music Festival 2025</h2>
         <div class="center">
-          <g-link to="/events/music/sundown-poachers-big-summer-fundraiser--jun-6-2025" title="click to view info about the JCA Fundraiser">
+          <g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025" title="click to view info about the JCA World Music Festival 2025">
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -56,41 +56,14 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/event/jca-fundraiser-20250606.jpg" alt="JCA Fundraiser for Mt Shasta Childrens Theatre" class="hero-img"/>
+            <g-image src="/img/event/jca-world-music-festival-2025.jpg" alt="JCA World Music Festival 2025" class="hero-img"/>
             <!--
             <div class="center">
-              Mark Your Calendars For Summer Fun!<br>
-              BIG THANKS to Sandi and Tim Belton of Springhill Nursery and Gardens for their generous donation of plants and trees to beautify the JCA Field and outdoor space.
+              note text...
             </div>
             -->
           </g-link>
 
-          <div class="spacious">
-            If you cant make the fundraising event, you can still <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">purchase raffle tickets</link-outbound>!<br>
-            Your support can send a young actor to Broadway Camp this year!<br>
-            <span class="xbr"></span>
-            Thank you for supporting the ARTS!!!
-          </div>
-          <div class="center xemph spacious">
-            We are selling RAFFLE tickets<br>
-            with over $2000 in prizes!<br>
-            <span class="xbr"></span>
-            Click the image below to purchase raffle tickets!<br>
-
-            <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
-              <g-image src="/img/mt-shasta-childrens-theatre-raffle.jpg" alt="Mt Shasta Childrens Theatre raffle" class="sub-hero-img"/>
-            </link-outbound><br>
-
-            <link-outbound to="https://www.zeffy.com/en-US/ticketing/mt-shasta-childrens-theatre-scholarship-fund-raffle">
-              <g-image src="/img/jca-raffle-prizes.jpg" alt="raflle prizes" class="sub-hero-img"/>
-            </link-outbound>
-
-          </div>
-
-          <div>
-
-
-          </div>
 
         </div>
       </div>
@@ -202,8 +175,8 @@ export default {
   },
   data() {
     return {
-      featuredEventEndDate: "2025-06-06",
-      accentedSectionEndDate: "2024-12-27",
+      featuredEventEndDate: "2025-09-21",
+      accentedSectionEndDate: "2025-09-13",
     }
   },
   computed: {
