@@ -3,13 +3,13 @@
     <h3>JCA's weekly classes:</h3>
 
     <p>
-      Please visit our sister site <link-outbound to="//shastastudios.net/">Shasta Studios</link-outbound> School of Theatrical Dance to register and for information about additional classes.
+      Please visit our sister site <link-outbound to="//shastastudios.net/">Shasta Studios</link-outbound> School of Theatrical Dance for the most up-to-date information, to register and for information about additional classes at other locations.
     </p>
 
     <p class="spacious">
       <span class="deemph">Note: Shasta Studios gives classes at three different locations.</span><br>
       <br>
-      Classes at the JCA location for the 2023-2024 season:
+      Classes at the JCA location for the 2025-2026 season:
     </p>
 
     <week-schedule :classes="classes"/>
