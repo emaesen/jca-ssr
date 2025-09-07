@@ -101,7 +101,106 @@
         "note": ""
       }
     },
-
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "scott-pemberton-and-o-theory--sep-26-2025",
+      "title": "Scott Pemberton & O Theory",
+      "performer": "Scott Pemberton & O Theory",
+      "description": "He’s back! After a sold out show last season Scott Pemberton and O Theory return to the JCA! With his wild approach to the guitar and nimble funky band he is immediately recognizable and undeniably original.",
+      "details": "#Scott Pemberton# [Scott Pemberton’s](https://www.scottpemberton.com/) sound is much like the vibe of his native Portland:  freaky, fun and just the right amount of weird. The best way to categorize his music is with the moniker “Timber Rock”. Scott naturally applies his own lens/stamp to the sounds of the Pacific North West, the region he has always called home. The deep jazz, NW rock/grunge, blues roots and the west coast funk. It’s all there, and often all in the same song. Listeners are finding this honest, original and to-the-point music refreshing and fun.\n\nThe response to Scott’s music has made him an emerging force on the festival circuit, placed him at &num;1 in Portland’s pop charts, &num;4 on Bilboards “Tastmakers” chart and has generated notice from the press:\n“The Bruce Lee of Rock and Roll” –Tahoe Onstage\n“A modern day Jimi Hendrix” –Chico Enterprise\n“It’s not every day we get to see a real, live guitar god in action.” -Fly Magazine (Pennsylvania)\n“A wildly creative virtuoso.” -Jambase.com\n“Stand out artist at this year’s High Sierra Music Festival” –Relix Magazine.\n“At a festival FULL of guitarists (Safeway Water Front Blues Festival), none played like Pemberton or was as fun to watch” -The Oregonian\n\nThe mastery of his guitar playing combined with the fun recklessness of his songwriting show that the rules of songwriting and playing the guitar no longer exist for him. Scott plays with the uninhibited joy and intensity of someone who recognizes that every time we make music is an honor and a gift.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "scott-pemberton-and-o-theory",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-09-26",
+        "end": "2025-09-26"
+      },
+      "location": "",
+      "image": "scott-pemberton.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "lgMHwWKZo80",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "mission-blue--oct-11-2025",
+      "title": "Mission Blue",
+      "performer": "Mission Blue",
+      "description": "Mission Blue will be serving up two sets of hard-driving, heart-felt bluegrass. Dont miss it!",
+      "details": "#Mission Blue# [Mission Blue](https://www.missionblue.net) delivers today's traditional bluegrass featuring a special brand of harmony singing, strong drive, and old time picking. A deep well of tradition informs Mission Blue’s sets – one can expect songs from the The Stanley Brothers, Larry Sparks, Bill Monroe, Flatt & Scruggs, Mac Martin and Red Allen, as well as bluegrass innovators such as J.D. Crowe and The New South, Hot Rize, Southern Blend and The Johnson Mountain Boys. They also salt each set with reinterpretations of older country hits, folk songs and ballads.  ",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "mission-blue",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-10-11",
+        "end": "2025-10-11"
+      },
+      "location": "",
+      "image": "mission-blue.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "-0gcIeapW54",
+      "youtube2": "SFaeEVP0IRM",
+      "youtube3": "cUYCaY0d870",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
     {
       "category": "music",
       "type": "festival",
