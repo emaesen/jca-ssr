@@ -120,7 +120,7 @@
           </div>
 
           <div 
-            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed) && (event.humanitix || event.ticket || event.price_note)" class="event_price_wrapper"
+            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed) && (event.humanitix || event.ticket || event.price || event.price_note)" class="event_price_wrapper"
           >
             <div class="event_price" :class="{event_price_no_ticket:!event.humanitix}">
               <span v-html="eventPrice"/>
