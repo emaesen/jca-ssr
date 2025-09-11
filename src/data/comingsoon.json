@@ -43,20 +43,6 @@
       "is_placeholder": false
     },
     {
-      "title": "Day of the Dead Masquerade Ball w/ Kangarilla",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-11-01",
-        "end": "2025-11-01"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Blü Egyptian",
       "description": "",
       "note": "",
@@ -67,6 +53,20 @@
       "date":{
         "start": "2025-11-08",
         "end": "2025-11-08"
+      },
+      "is_placeholder": false
+    },
+    {
+      "title": "Honey of the Heart",
+      "description": "",
+      "note": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-11-15",
+        "end": "2025-11-15"
       },
       "is_placeholder": false
     }

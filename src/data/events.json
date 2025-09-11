@@ -102,6 +102,56 @@
       }
     },
     {
+      "category": "fest",
+      "type": "gathering",
+      "slug": "day-of-the-dead-community-celebration-with-kangarilla--nov-1-2025",
+      "title": "Day of the Dead Community Celebration w/ Kangarilla",
+      "performer": "Kangarilla",
+      "description": "Great Drinks! Costume Contest! Special Snacks! Community Ofrenda. Bring a photo and offering for the altar, candles provided. ALL AGES welcome.",
+      "details": "Jefferson Center for the Arts invites all ages to come join in their day of the dead community celebration on November 1. KANGARILLA fantastic local rock band will headline the event, potluck dinner at 6 PM. Concert starts at 7. Bring a photo or photos of your loved ones who have passed on…along with an offering for the community ofrenda. Flowers, sugar skulls and battery operated candles are welcome. Cash prizes for best costume. Beer, wine, sodas and sweet treats available for purchase. This is a free all ages event!\n\n[Facebook event invite](https://www.facebook.com/events/s/day-of-the-dead-community-cele/1680580375971968/)",
+      "note": "",
+      "series": "",
+      "price": "FREE event",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "18:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-11-01",
+        "end": "2025-11-01"
+      },
+      "location": "",
+      "image": "day-of-the-dead-community-celebration-2025.jpg",
+      "image_width": "582",
+      "image_height": "960",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": true
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "scott-pemberton-and-o-theory--sep-26-2025",
