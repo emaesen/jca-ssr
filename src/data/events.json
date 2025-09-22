@@ -1,55 +1,55 @@
 {
   "schema":
-  {
-    "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic|movie",
-    "type": "performance|class|workshop|lecture|exhibition|benefit|gathering|presentation",
-    "slug": "dashed-title--mmm-dd-2025",
-    "title": "",
-    "performer": "",
-    "description": "",
-    "details": "#header# info",
-    "note": "",
-    "series": "",
-    "price": "General Admission $30 at venue / $25 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 8 and under FREE →",
-    "price_note": "",
-    "ticket": "",
-    "humanitix": "",
-    "time":{
-      "start": "hh:mm",
-      "end": ""
+    {
+      "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic|movie",
+      "type": "performance|class|workshop|lecture|exhibition|benefit|gathering|presentation",
+      "slug": "dashed-title--mmm-dd-2025",
+      "title": "",
+      "performer": "",
+      "description": "",
+      "details": "#header# info",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →\nStudent/Senior $20 at venue / $15 adv online →\nKids 8 and under FREE →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "hh:mm",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-mm-dd",
+        "end": "2025-mm-dd"
+      },
+      "location": "",
+      "image": "",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
     },
-    "date":{
-      "start": "2025-mm-dd",
-      "end": "2025-mm-dd"
-    },
-    "location": "",
-    "image": "",
-    "image_width": "800",
-    "image_height": "600",
-    "stream": "",
-    "youtube": "",
-    "youtube2": "",
-    "youtube3": "",
-    "flag": {
-      "show_registration_form": false,
-      "is_outdoors": false,
-      "is_postponed": false,
-      "is_canceled": false,
-      "is_excluded": false,
-      "is_free": false
-    },
-    "stamp": "",
-    "stamp_summary": "",
-    "sponsor_text": "",
-    "sponsor_image": "",
-    "reference_slug": "",
-    "all_access_pass": {
-      "link": "",
-      "expires": "",
-      "text": "",
-      "note": ""
-    }
-  },
   "events":[
     {
       "category": "music",
@@ -87,6 +87,56 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": true,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "masons-children--oct-18-2025",
+      "title": "Mason’s Children",
+      "performer": "Mason’s Children",
+      "description": "Mason’s Children is an up and coming Grateful Dead loving groove machine. Come check them out!",
+      "details": "**Now is the time of returning**\n[Mason’s Children](http://masonschildren.org/) is unlike your average rock group. They bring to stage more than just recreations of our favorite Dead tunes… they embody the authentic 1960’s flower child vibration.\nMembers met on the road, touring Dead and Company and Bob Weir and the Wolf Bros and gained a following by playing at Shakedown lots before and after each show.\nThey are also known for their impromptu Haight street shows, where they set up plugged in on the corner of Haight & Ashbury playing an entire two set show, revitalizing Haight of its summer of love era life.\nMason’s Children has a zest and passion for the Grateful Dead that shines thru their playing. They are adversed in all eras of the Grateful Dead but tend to perform with the 1960’s and 70’s chapter.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "masons-children",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-10-18",
+        "end": "2025-10-18"
+      },
+      "location": "",
+      "image": "masons-children.jpg",
+      "image_width": "800",
+      "image_height": "534",
+      "stream": "<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2084809131&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/masons-children' title='Masons Children' target='_blank' style='color: #cccccc; text-decoration: none;'>Masons Children</a> · <a href='https://soundcloud.com/masons-children/big-boy-pete-4' title='Big Boy Pete &gt;' target='_blank' style='color: #cccccc; text-decoration: none;'>Big Boy Pete &gt;</a></div>",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
         "is_free": false
       },
       "stamp": "",
@@ -271,7 +321,7 @@
       },
       "date":{
         "start": "2025-09-12",
-        "end": "2025-09-12"
+        "end": "2025-09-13"
       },
       "location": "",
       "image": "jca-world-music-festival-2025.jpg",
