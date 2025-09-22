@@ -45,9 +45,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>JCA World Music Festival 2025</h2>
+        <h2>Day of the Dead Community Celebration w/ Kangarilla</h2>
         <div class="center">
-          <g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025" title="click to view info about the JCA World Music Festival 2025">
+          <g-link to="/events/fest/day-of-the-dead-community-celebration-with-kangarilla--nov-1-2025" title="click to view info about the Day of the Dead Community Celebration w/ Kangarilla">
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -56,7 +56,7 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/event/jca-world-music-festival-2025.jpg" alt="JCA World Music Festival 2025" class="hero-img"/>
+            <g-image src="/img/event/day-of-the-dead-community-celebration-2025.jpg" alt="Day of the Dead Community Celebration w/ Kangarilla" class="hero-img"/>
             <!--
             <div class="center">
               note text...
@@ -175,7 +175,7 @@ export default {
   },
   data() {
     return {
-      featuredEventEndDate: "2025-09-21",
+      featuredEventEndDate: "2025-11-01",
       accentedSectionEndDate: "2025-09-13",
     }
   },
