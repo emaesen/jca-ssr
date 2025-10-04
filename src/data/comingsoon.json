@@ -29,20 +29,6 @@
       "is_placeholder": true
     },
     {
-      "title": "Blü Egyptian",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "20:00",
-        "end": ""
-      },
-      "date":{
-        "start": "2025-11-08",
-        "end": "2025-11-08"
-      },
-      "is_placeholder": false
-    },
-    {
       "title": "Honey of the Heart",
       "description": "",
       "note": "",
@@ -54,7 +40,7 @@
         "start": "2025-11-15",
         "end": "2025-11-15"
       },
-      "is_placeholder": false
+      "is_placeholder": true
     }
   ]
 }

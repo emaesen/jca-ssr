@@ -104,6 +104,166 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "honey-of-the-heart-special-afternoon-concert--nov-15-2025",
+      "title": "Honey of the Heart - Special Afternoon Concert",
+      "performer": "Honey of the Heart",
+      "description": "This dynamic duo brings an ambrosial mix of soul, folk, funk, roots, mad guitar skills, looping, soaring harmonies, sexy, soaring melody & vocals, polyrhythmic percussion & beat boxing, positive vibes, message and presence.",
+      "details": "Justin Ancheta and Maren Metke have musical nectar flowing through their veins. The dynamic Grass Valley duo are the driving force behind a project that is even sweeter than it sounds. [Honey of the Heart](https://honeyoftheheart.com/) is an ambrosial mix of musical interpretations influenced by folk, soul, jazz and world/flamenco styles. Built upon a repertoire of uplifting original material, they join together with other phenomenal musicians to create in an organic state of symbiosis. Many of their songs come forth like ancient incantations, casting angelic spells on all in their path. Honey of the Heart weaves soaring harmonies and hypnotic polyrhythms into an alchemical semblance of groove intended for dancing, rejoicing and blissful recalibration.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "honey-of-the-heart-special-afternoon-concert",
+      "time":{
+        "start": "16:30",
+        "end": "18:30"
+      },
+      "date":{
+        "start": "2025-11-15",
+        "end": "2025-11-15"
+      },
+      "location": "",
+      "image": "honey-of-the-heart.jpg",
+      "image_width": "800",
+      "image_height": "662",
+      "stream": "",
+      "youtube": "KeD6RVfkzzQ",
+      "youtube2": "2tooC_1g7XU",
+      "youtube3": "bz_F_oxRgH0",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "blue-egyptian-tribute-to-the-police--nov-8-2025",
+      "title": "Blü Egyptian - Tribute to the Police",
+      "performer": "Blü Egyptian",
+      "description": "Blü Egyptian creates an explosive fusion of bluegrass, funk, EDM, reggae and rock for the ultimate dance party!",
+      "details": "[Blü Egyptian](https://www.bluegyptianband.com/) are an exhilarating young quartet based in Northern California, who are pioneering the genre Prog-Jam. This catchy breed of Funk, Latin, Reggae, Bluegrass and Rock n' Roll has swept up the entire West Coast in a dance frenzy. Since 2020, Blü Egyptian has played almost 500 shows, opening for national touring acts while creating a buzz at countless festivals. Since the release of their third studio album Chantress of Amun (2024), they have been reaching audiences far and wide creating a demand for this unique original music that carries the spirit of so many legends while redefining them. Brace yourself for the ever-evolving experience that is Blü Egyptian.\n\n“Blü Egyptian emerges as a DIY collective determined to stand up for what they believe in—hosting the most intense dance party known to humankind.”\n~ Gratefulweb.com",
+      "note": "",
+      "series": "",
+      "price": "General Admission $20 at venue / $15 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "blue-egyptian-tribute-to-the-police",
+      "time":{
+        "start": "20:00",
+        "end": "22:00"
+      },
+      "date":{
+        "start": "2025-11-08",
+        "end": "2025-11-08"
+      },
+      "location": "",
+      "image": "blu-egyptian.jpg",
+      "image_width": "720",
+      "image_height": "720",
+      "stream": "",
+      "youtube": "VXtUlPX1hao",
+      "youtube2": "X7xuqJDR95c",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "eptas-jazz-night--1--oct-24-2025",
+      "title": "Eptás Jazz Night - 1st show",
+      "performer": "Eptás",
+      "description": "JCA is proud to welcome back EPTÁS after their fabulous concert last spring with Wendy James and Dave Reynolds. Jazz lovers will have the option of one or two shows this time, 7pm or 830pm with a discount price for attending both!",
+      "details": "[Eptás](https://itermusic.com/eptas/) is a dynamic seven-piece ensemble made up of four horns, piano, bass, and drums based out of Ashland, Oregon.\nPeter Anastos trumpet\nRandy Scherer trumpet\nBob Rawlings tenor sax\nDaryl Fjeldheim baritone sax\nJohn Mazze piano\nTarik Ragab bass\nEric Pollard drums\nLed by trumpeter/composer/arranger Peter Anastos, this group will perform the music of Duke Ellington, Freddie Hubbard, John Coltrane, The Beatles, Miles Davis, The Allman Bros, Count Basie plus original compositions.",
+      "note": "First concert show of the night",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "Both concert shows: $40",
+      "ticket": "",
+      "humanitix": "eptas-jazz-night",
+      "time":{
+        "start": "19:00",
+        "end": "20:00"
+      },
+      "date":{
+        "start": "2025-10-24",
+        "end": "2025-10-24"
+      },
+      "location": "",
+      "image": "eptas.jpg",
+      "image_width": "800",
+      "image_height": "450",
+      "stream": "",
+      "youtube": "zwW0wbWxy1Y",
+      "youtube2": "o11KrADWkj0",
+      "youtube3": "gqnlO4ALysc",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "eptas-jazz-night--2--oct-24-2025",
+      "reference_slug": "eptas-jazz-night--1--oct-24-2025",
+      "title": "Eptás Jazz Night - 2nd show",
+      "note": "Second concert show of the night",
+      "time":{
+        "start": "20:30",
+        "end": "21:30"
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "masons-children--oct-18-2025",
       "title": "Mason’s Children",
       "performer": "Mason’s Children",
@@ -157,8 +317,8 @@
       "slug": "day-of-the-dead-community-celebration-with-kangarilla--nov-1-2025",
       "title": "Day of the Dead Community Celebration w/ Kangarilla",
       "performer": "Kangarilla",
-      "description": "Great Drinks! Costume Contest! Special Snacks! Community Ofrenda. Bring a photo and offering for the altar, candles provided. ALL AGES welcome.",
-      "details": "Jefferson Center for the Arts invites all ages to come join in their day of the dead community celebration on November 1. KANGARILLA fantastic local rock band will headline the event, potluck dinner at 6 PM. Concert starts at 7. Bring a photo or photos of your loved ones who have passed on…along with an offering for the community ofrenda. Flowers, sugar skulls and battery operated candles are welcome. Cash prizes for best costume. Beer, wine, sodas and sweet treats available for purchase. This is a free all ages event!\n\n[Facebook event invite](https://www.facebook.com/events/s/day-of-the-dead-community-cele/1680580375971968/)",
+      "description": "FREE event! Great Drinks! Costume Contest! Special Snacks! Community Ofrenda. Bring a photo and offering for the altar, candles provided. ALL AGES welcome.",
+      "details": "[Facebook event invite](https://www.facebook.com/events/1680580375971968/)\n\nJefferson Center for the Arts invites all ages to come join in their day of the dead community celebration on November 1.\n\nGathering at 6, Ofrenda Building and educational presentation at 6:30, pot luck, face painting, crafters and more. KANGARILLA starts at 7:30.\n\n KANGARILLA fantastic local rock band will headline the event.\n\nBring a photo or photos of your loved ones who have passed on… along with an offering for the community ofrenda.\nFlowers, sugar skulls and battery operated candles are welcome.\nCash prizes for best costume.\nBeer, wine, sodas and sweet treats available for purchase.\n\nThis is a FREE ALL AGES event!",
       "note": "",
       "series": "",
       "price": "FREE event",
@@ -651,11 +811,6 @@
         "note": "25% DISCOUNT for all 6 events of the JCA World Music Festival 2025"
       }
     },
-
-
-
-
-
     {
       "category": "music",
       "type": "performance",
