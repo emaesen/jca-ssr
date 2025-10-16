@@ -103,6 +103,106 @@
     },
     {
       "category": "music",
+      "type": "gathering",
+      "slug": "community-christmas-singalong--dec-20-2025",
+      "title": "Community Christmas Singalong",
+      "performer": "Laura Berryhill, Anton Mizerak, Alyssa Narum & Tim Kovatch",
+      "description": "Please join us for a community Christmas singalong.",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "$10 - $20 suggested donation",
+      "price_note": "Tickets available at the door only. No one turned away.",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-12-20",
+        "end": "2025-12-20"
+      },
+      "location": "",
+      "image": "christmas-singalong-2025.jpg",
+      "image_width": "800",
+      "image_height": "1035",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "parvati-ecstatic-kirtan--nov-21-2025",
+      "title": "Parvati Ecstatic Kirtan",
+      "performer": "Alyssa Narum, Laura Berryhill & Anton Mizerak",
+      "description": "Sanskrit chanting with tabla & harmonium.",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "$15 - $25 suggested donation",
+      "price_note": "Tickets available at the door only.",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "19:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-11-21",
+        "end": "2025-11-21"
+      },
+      "location": "",
+      "image": "parvati-kirtan.jpg",
+      "image_width": "800",
+      "image_height": "1035",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
       "type": "performance",
       "slug": "honey-of-the-heart-special-afternoon-concert--nov-15-2025",
       "title": "Honey of the Heart - Special Afternoon Concert",
@@ -426,8 +526,8 @@
       "ticket": "",
       "humanitix": "mission-blue",
       "time":{
-        "start": "20:00",
-        "end": "22:00"
+        "start": "19:00",
+        "end": "21:00"
       },
       "date":{
         "start": "2025-10-11",
