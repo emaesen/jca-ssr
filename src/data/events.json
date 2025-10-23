@@ -307,7 +307,7 @@
       "slug": "eptas-jazz-night--1--oct-24-2025",
       "title": "Eptás Jazz Night - 1st show",
       "performer": "Eptás",
-      "description": "JCA is proud to welcome back EPTÁS after their fabulous concert last spring with Wendy James and Dave Reynolds. Jazz lovers will have the option of one or two shows this time, 7pm or 830pm with a discount price for attending both!",
+      "description": "JCA is proud to welcome back EPTÁS after their fabulous concert last spring with Wendy James and Dave Reynolds. Jazz lovers will have the option of one or two shows this time, 7pm or 8:30pm with a discount price for attending both!",
       "details": "[Eptás](https://itermusic.com/eptas/) is a dynamic seven-piece ensemble made up of four horns, piano, bass, and drums based out of Ashland, Oregon.\nPeter Anastos trumpet\nRandy Scherer trumpet\nBob Rawlings tenor sax\nDaryl Fjeldheim baritone sax\nJohn Mazze piano\nTarik Ragab bass\nEric Pollard drums\nLed by trumpeter/composer/arranger Peter Anastos, this group will perform the music of Duke Ellington, Freddie Hubbard, John Coltrane, The Beatles, Miles Davis, The Allman Bros, Count Basie plus original compositions.",
       "note": "First concert show of the night",
       "series": "",
@@ -335,7 +335,7 @@
         "show_registration_form": false,
         "is_outdoors": false,
         "is_postponed": false,
-        "is_canceled": false,
+        "is_canceled": true,
         "is_excluded": false,
         "is_free": false
       },
