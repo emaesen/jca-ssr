@@ -8,6 +8,7 @@
         </h2>
         
         <div class="__events">
+          <event-notice v-show="!noEvents"/>
           <div
               v-for="(evt, index) in filteredEvents" 
               :key="evt.slug">
@@ -87,6 +88,7 @@
       </div>
 
       <div v-if="!noEvents" class="event-list">
+        <event-notice/>
         <div
             v-for="(evt, index) in filteredEvents" 
             :key="evt.slug">
@@ -184,6 +186,7 @@ import EventItem from '@/components/EventItem';
 import ComingsoonItem from '@/components/ComingsoonItem';
 import EmailSubscribeSection from '@/components/EmailSubscribeSection';
 import LinkOutbound from '@/components/LinkOutbound';
+import EventNotice from '@/components/EventNotice';
 
 import date from '@/mixins/date.js';
 import animateOnIntersection from '@/mixins/animate-on-intersection.js';
@@ -196,6 +199,7 @@ export default {
     ComingsoonItem,
     EmailSubscribeSection,
     LinkOutbound,
+    EventNotice,
   },
   props: {
     category: {
