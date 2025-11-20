@@ -102,6 +102,106 @@
       }
     },
     {
+      "category": "fest",
+      "type": "gathering",
+      "slug": "magical-masquerade--dec-31-2025",
+      "title": "Magical Masquerade",
+      "performer": "DJ Vee Shanti & Miguel Mesa",
+      "description": "Magical Masquerade New Years Party Dec 31, 2025 from 8pm to 1am with DJ Vee Shanti and Miguel Mesa. Tickets are $33 per person or $55 per couple. Dress 2 impress!",
+      "details": "Jefferson Center for the Arts is proud to welcome one and all to the MAGICAL MASQUERADE - NEW YEARS CELEBRATION\n\nLets welcome 2026 with a fabulous evening of magic, mystery, and some fantastic music.\n\nDance the night away and celebrate the ball dropping across the nation at 9, 10, and 11pm. At midnight, enjoy a champagne toast and some fun surprises!\n\n21 and over please.\n\nCostume contest at 11pm.\n\nDelicious cocktails and magical mocktails, charming charcuterie, blazing fire pit, and great vibes for all.",
+      "note": "21 and over",
+      "series": "",
+      "price": "$33 per person or $55 per couple adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "magical-masquerade",
+      "time":{
+        "start": "20:00",
+        "end": "01:00"
+      },
+      "date":{
+        "start": "2025-12-31",
+        "end": "2026-01-01"
+      },
+      "location": "",
+      "image": "masquerade.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "dj-sandhu-headlines-the-jca-comedy-night--dec-5-2025",
+      "title": "DJ Sandhu Headlines the JCA Comedy Night!",
+      "performer": "DJ Sandhu",
+      "description": "A night of FABULOUS COMEDY with headliner DJ SANDHU from Standup NBC.",
+      "details": "[DJ Sandhu - Comedian](https://www.yugarproductions.com/comedy/dj-sandhu.php). “Buried deep within the most luxuriant beard in comedy lives DJ Sandhu’s silver tongue just aching to get out and spread its diabolical thoughts. From Sacramento, CA, Sandhu decided to break his parents’ hearts by sharing his absurd opinions with strangers rather than going to med school like a responsible, well-adjusted adult. From the World Series of Comedy to the Edinburgh Fringe Festival and everywhere in between, Sandhu has worked with some of the industry’s legends including Sinbad, Russell Peters, Theo Von, John Witherspoon, Big Jay Oakerson, and Steve Byrne…all of which leave his mother incredibly disappointed that he didn’t choose a better life path.”\n~Peter Nelson",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "dj-sandhu-headlines-the-jca-comedy-night",
+      "time":{
+        "start": "19:30",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2025-12-05",
+        "end": "2025-12-05"
+      },
+      "location": "",
+      "image": "dj-sandhu.jpg",
+      "image_width": "696",
+      "image_height": "696",
+      "stream": "",
+      "youtube": "yNWn179XlJ8",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
       "category": "music",
       "type": "gathering",
       "slug": "community-christmas-singalong--dec-20-2025",
