@@ -102,31 +102,31 @@
       }
     },
     {
-      "category": "fest",
-      "type": "gathering",
-      "slug": "magical-masquerade--dec-31-2025",
-      "title": "Magical Masquerade",
-      "performer": "DJ Vee Shanti & Miguel Mesa",
-      "description": "Magical Masquerade New Years Party Dec 31, 2025 from 8pm to 1am with DJ Vee Shanti and Miguel Mesa. Tickets are $33 per person or $55 per couple. Dress 2 impress!",
-      "details": "Jefferson Center for the Arts is proud to welcome one and all to the MAGICAL MASQUERADE - NEW YEARS CELEBRATION\n\nLets welcome 2026 with a fabulous evening of magic, mystery, and some fantastic music.\n\nDance the night away and celebrate the ball dropping across the nation at 9, 10, and 11pm. At midnight, enjoy a champagne toast and some fun surprises!\n\n21 and over please.\n\nCostume contest at 11pm.\n\nDelicious cocktails and magical mocktails, charming charcuterie, blazing fire pit, and great vibes for all.",
-      "note": "21 and over",
+      "category": "music",
+      "type": "performance",
+      "slug": "parvati-ecstatic-kirtan--dec-10-2025",
+      "title": "Parvati Ecstatic Kirtan",
+      "performer": "Alyssa Narum, Laura Berryhill & Anton Mizerak",
+      "description": "Sanskrit chanting with tabla & harmonium. With Anton Mizerak, Laura Berryhill & Alyssa Narum.",
+      "details": "Info: (530) 356-7386",
+      "note": "",
       "series": "",
-      "price": "$33 per person or $55 per couple adv online →",
-      "price_note": "",
+      "price": "$15 - $25 suggested donation",
+      "price_note": "Tickets available at the door only.",
       "ticket": "",
-      "humanitix": "magical-masquerade",
+      "humanitix": "",
       "time":{
-        "start": "20:00",
-        "end": "01:00"
+        "start": "19:00",
+        "end": ""
       },
       "date":{
-        "start": "2025-12-31",
-        "end": "2026-01-01"
+        "start": "2025-12-10",
+        "end": "2025-12-10"
       },
       "location": "",
-      "image": "masquerade.jpg",
+      "image": "parvati-kirtan-20251210.jpg",
       "image_width": "800",
-      "image_height": "600",
+      "image_height": "1035",
       "stream": "",
       "youtube": "",
       "youtube2": "",
@@ -152,12 +152,194 @@
       }
     },
     {
+      "category": "open-mic",
+      "type": "benefit",
+      "slug": "giving-tuesday-open-mic--dec-2-2025",
+      "title": "Giving Tuesday Party & Community Open Mic",
+      "performer": "",
+      "description": "Come help support the arts in our community! All are welcome! Complimentary drinks and savories. Sign ups begin at 5. Everyone gets 5-10 minutes on the mic!",
+      "details": "Fund raising party for the JCA and open mic.",
+      "note": "",
+      "series": "",
+      "price": "FREE event",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "17:00",
+        "end": "20:00"
+      },
+      "date":{
+        "start": "2025-12-02",
+        "end": "2025-12-02"
+      },
+      "location": "",
+      "image": "open-mic-20251202.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "fest",
+      "type": "gathering",
+      "slug": "magical-masquerade--dec-31-2025",
+      "title": "Magical Masquerade",
+      "performer": "DJ Vee Shanti & Miguel Mesa",
+      "description": "Magical Masquerade New Years Party Dec 31, 2025 from 8pm to 1am with DJ Vee Shanti and Miguel Mesa. Tickets are $33 per person or $55 per couple. Dress 2 impress!",
+      "details": "Jefferson Center for the Arts is proud to welcome one and all to the MAGICAL MASQUERADE - NEW YEARS CELEBRATION\n\nLets welcome 2026 with a fabulous evening of magic, mystery, and some fantastic music.\n\nDance the night away and celebrate the ball dropping across the nation at 9, 10, and 11pm. At midnight, enjoy a champagne toast and some fun surprises!\n\n21 and over please.\n\nCostume contest at 11pm.\n\nDelicious cocktails and magical mocktails, charming charcuterie, blazing fire pit, and great vibes for all.",
+      "note": "21 and over",
+      "series": "",
+      "price": "$33 per person or $55 per couple adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "magical-masquerade",
+      "time":{
+        "start": "20:00",
+        "end": "01:00"
+      },
+      "date":{
+        "start": "2025-12-31",
+        "end": "2026-01-01"
+      },
+      "location": "",
+      "image": "new-years-eve-2025.jpg",
+      "image_width": "800",
+      "image_height": "1240",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "title": "The Littlest Christmas Tree",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents The Littlest Christmas Tree. With songs, jokes and other musical fun!",
+      "details": "",
+      "note": "",
+      "series": "",
+      "price": "General Admission $10 at venue\nKids 12 and under FREE",
+      "price_note": "Tickets only available at the door",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-12-12",
+        "end": "2025-12-12"
+      },
+      "location": "",
+      "image": "holiday-show-20251212.jpg",
+      "image_width": "800",
+      "image_height": "1036",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "msct-the-littlest-christmas-tree--dec-12-2025-6pm",
+      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "time":{
+        "start": "18:00",
+        "end": ""
+      }
+    },
+    {
+      "slug": "msct-the-littlest-christmas-tree--dec-13-2025-2pm",
+      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-12-13",
+        "end": "2025-12-13"
+      }
+    },
+    {
+      "slug": "msct-the-littlest-christmas-tree--dec-13-2025-6pm",
+      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "time":{
+        "start": "18:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2025-12-13",
+        "end": "2025-12-13"
+      }
+    },
+    {
       "category": "comedy",
       "type": "performance",
       "slug": "dj-sandhu-headlines-the-jca-comedy-night--dec-5-2025",
       "title": "DJ Sandhu Headlines the JCA Comedy Night!",
-      "performer": "DJ Sandhu",
-      "description": "A night of FABULOUS COMEDY with headliner DJ SANDHU from Standup NBC.",
+      "performer": "DJ Sandhu, David J Rodriguez, Mishee McGee",
+      "description": "A night of FABULOUS COMEDY with headliner DJ SANDHU from Standup NBC. With David J Rodriguez and Mishee McGee.",
       "details": "[DJ Sandhu - Comedian](https://www.yugarproductions.com/comedy/dj-sandhu.php). “Buried deep within the most luxuriant beard in comedy lives DJ Sandhu’s silver tongue just aching to get out and spread its diabolical thoughts. From Sacramento, CA, Sandhu decided to break his parents’ hearts by sharing his absurd opinions with strangers rather than going to med school like a responsible, well-adjusted adult. From the World Series of Comedy to the Edinburgh Fringe Festival and everywhere in between, Sandhu has worked with some of the industry’s legends including Sinbad, Russell Peters, Theo Von, John Witherspoon, Big Jay Oakerson, and Steve Byrne…all of which leave his mother incredibly disappointed that he didn’t choose a better life path.”\n~Peter Nelson",
       "note": "",
       "series": "",
@@ -174,9 +356,9 @@
         "end": "2025-12-05"
       },
       "location": "",
-      "image": "dj-sandhu.jpg",
-      "image_width": "696",
-      "image_height": "696",
+      "image": "comedy-night-20251205.jpg",
+      "image_width": "800",
+      "image_height": "1132",
       "stream": "",
       "youtube": "yNWn179XlJ8",
       "youtube2": "",
