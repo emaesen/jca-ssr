@@ -21,17 +21,18 @@
       <p class="accent center"
         v-if="showAccentedSection"
       >
-        <span class="emph">A Note From Wendy...</span>
+        Tuesday December 2nd is <span class="emph">Giving Tuesday</span>. We hope to see you at the JCA anytime between 5-8 PM!
         <br><span class="xbr"></span>
-        <quote>
-        “As the director of Jefferson Center for the Arts, one of my goals in creating the Center was to enrich the community through arts and culture, crossing bridges, and creating a deeper world understanding. The <strong><g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025">JCA World Music Festival</g-link></strong> is not only a dream of mine, it is a way of life. I aim to bring communities together through the arts. I am honored to be able to host these amazing artists at the foot of our beautiful mountain, Mount Shasta. I urge you to buy a <g-link to="/events/music/jca-world-music-festival-passport--sep-12-to-sep-21-2025">6-show passport</g-link> and immerse yourself into the music from around the world, supporting not only the artists themselves, but you'll also be helping create a better and deeper understanding of our humanity. Music brings us together, and the JCA World Music Festival is just a two-weekend snippet into infinite realms of cross-cultural musical expression and integration.”
+        Enjoy a glass of wine and some local acts!<br>
+        Enter our raffle for lots of great prizes!<br>
+        We will be gratefully accepting donations for Giving Tuesday as well as membership upgrades.<br>
+        Come by the membership table, sign up and receive 2 free New Years tickets to our Magical Masquerade! as well as 2 for 1 passes to JCA Comedy Night on Friday Dec 5th!
         <br><span class="xbr"></span>
-        I hope you'll join us.
-        <br><span class="xbr"></span>
-        xo Wendy James
-        <br><span class="xbr"></span>
-        JCA Director
-        </quote>
+        <button class="action">
+          <link-outbound to="https://www.zeffy.com/en-US/donation-form/support-jefferson-center-for-the-arts-this-giving-tuesday">
+            Make a Giving Tuesday Donation
+          </link-outbound>
+        </button>
       </p>
     </section>
 
@@ -176,7 +177,7 @@ export default {
   data() {
     return {
       featuredEventEndDate: "2025-11-01",
-      accentedSectionEndDate: "2025-09-13",
+      accentedSectionEndDate: "2025-12-05",
     }
   },
   computed: {
