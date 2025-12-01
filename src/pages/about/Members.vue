@@ -32,10 +32,13 @@
       <div class="details anima__slide-in-from-left"  v-animate-on-intersection>
         A monthly donation of just $10 will keep the lights on!
         <br><span class="xbr"></span>
-        A monthly donation of $25 will keep the lights on, the doors open and programming alive!
+        A monthly donation of $25 gets you 6 free tickets per year! It will keep the lights on, the doors open and programming alive!
         <br><span class="xbr"></span>
-        A monthly donation of $50 or more will enable the JCA to bring in more top-notch acts, offer scholarships to aspiring young artists and REALLY MAKE A DIFFERENCE to the organization.
-        <br><span class="xbr"></span>Help our hometown cultural heroes!<br>
+        A monthly donation of $50 or more gets you 12 free tickets per year! It will enable the JCA to bring in more top-notch acts, offer scholarships to aspiring young artists and REALLY MAKE A DIFFERENCE to the organization.
+        <br><span class="xbr"></span>
+        All members receive arly access to all events.
+        <br><span class="xbr"></span>
+        Help our hometown cultural heroes!<br>
         <br>
         Jefferson Center for the Arts is a 501 c-3 CA Non-Profit Organization. 
         <br><span class="xbr"></span>
@@ -43,7 +46,7 @@
       </div>
 
       <div class="center poster"  v-animate-on-intersection>
-        <g-image src="/img/jca-become-a-member.jpg" alt="Become a JCA member" class="hero-img"/>
+        <g-image src="/img/membership-poster-dec-2025.jpg" alt="Become a JCA member" class="hero-img"/>
       </div>
     </div>
 

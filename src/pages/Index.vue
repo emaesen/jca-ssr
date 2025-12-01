@@ -46,9 +46,9 @@
       <div class="feature"
         v-if="showFeaturedEvent"
       >
-        <h2>Day of the Dead Community Celebration w/ Kangarilla</h2>
+        <h2>December 2025 - January 2026</h2>
         <div class="center">
-          <g-link to="/events/fest/day-of-the-dead-community-celebration-with-kangarilla--nov-1-2025" title="click to view info about the Day of the Dead Community Celebration w/ Kangarilla">
+          <!--g-link to="/events/fest/day-of-the-dead-community-celebration-with-kangarilla--nov-1-2025" title="click to view info about the Day of the Dead Community Celebration w/ Kangarilla"-->
             <!--video 
               class="hero-video anima__zoom" 
               autoplay playsinline muted loop 
@@ -57,13 +57,13 @@
               <source src="/video/christmas-carol-auditions-800p30-45vs-vp8.webm" type="video/webm;codecs=vp9">
               <source src="/video/christmas-carol-auditions-800p30-22vs-h264.mp4" type="video/mp4">
             </video-->
-            <g-image src="/img/event/day-of-the-dead-community-celebration-2025.jpg" alt="Day of the Dead Community Celebration w/ Kangarilla" class="hero-img"/>
+            <g-image src="/img/jca-winter-25-26.jpg" alt="Day of the Dead Community Celebration w/ Kangarilla" class="hero-img"/>
             <!--
             <div class="center">
               note text...
             </div>
             -->
-          </g-link>
+          <!--/g-link-->
 
 
         </div>
@@ -114,7 +114,7 @@
 
       <p class="center poster">
         <g-link to="/about/members/" class="link-membership">
-          <g-image src="/img/jca-become-a-member.jpg" alt="Become a JCA member" class="hero-img"/><br>
+          <g-image src="/img/membership-poster-dec-2025.jpg" alt="Become a JCA member" class="hero-img"/><br>
           Become a JCA member!
         </g-link>
       </p>
@@ -176,7 +176,7 @@ export default {
   },
   data() {
     return {
-      featuredEventEndDate: "2025-11-01",
+      featuredEventEndDate: "2026-01-31",
       accentedSectionEndDate: "2025-12-05",
     }
   },

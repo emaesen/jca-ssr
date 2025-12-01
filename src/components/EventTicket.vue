@@ -59,7 +59,7 @@ export default {
   },
   computed: {
     ticketAction() {
-      let action = "Buy"
+      let action = "Buy adv"
       if (this.isFreeEvent) {
         action = "Get"
       }
