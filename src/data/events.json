@@ -3,7 +3,7 @@
     {
       "category": "music|visual-arts|theater|fest|festival|summit|comedy|open-mic|movie",
       "type": "performance|class|workshop|lecture|exhibition|benefit|gathering|presentation",
-      "slug": "dashed-title--mmm-dd-2025",
+      "slug": "dashed-title--mmm-dd-2026",
       "title": "",
       "performer": "",
       "description": "",
@@ -19,8 +19,8 @@
         "end": ""
       },
       "date":{
-        "start": "2025-mm-dd",
-        "end": "2025-mm-dd"
+        "start": "2026-mm-dd",
+        "end": "2026-mm-dd"
       },
       "location": "",
       "image": "",
@@ -104,6 +104,106 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "gareth-pearson--jan-31-2026",
+      "title": "Gareth Pearson",
+      "performer": "Gareth Pearson",
+      "description": "Often dubbed “The Welsh Tornado”, GARETH PEARSON has earned international acclaim on the guitar. An absolutely brilliant musician. Not to be missed!",
+      "details": "Often dubbed “The Welsh Tornado”, [Gareth Pearson](https://www.garethpearson.com) has earned international acclaim for his breathtaking blend of fingerstyle pyrotechnics, explosive lead runs, and dazzling showmanship. His performances deliver not only jaw-dropping technical skill but also warmth, wit, and a deep connection with his audience.\n\nGareth’s playing spans a wide spectrum of genres—country, folk, classical, pop, rock, jazz, swing, bluegrass—woven together with his own intricate and emotive original compositions. His arrangements are as innovative as they are moving, establishing him as one of today’s most exciting acoustic musicians.\n\nHe has shared stages with icons including Ray Davies (The Kinks), John Renbourn, Southside Johnny, Jan Akkerman, Andy McKee, and his mentor Tommy Emmanuel, who has described Gareth as a force of nature on the guitar.\n\nRooted in influences such as Chet Atkins, Merle Travis, Jerry Reed, and Tommy Emmanuel, Gareth has carved out a style uniquely his own—equal parts inspiring, entertaining, and unforgettable. His stage presence, sprinkled with off-the-cuff humor, elevates his concerts into truly memorable experiences.\n\nPraise for Gareth Pearson:\n“Gareth is fast becoming one of the world’s most renowned instrumental guitarists”\n~Adam Walton (BBC Radio Wales)\n“I really respect Gareth’s abilities. He’s a great young man and a great ambassador for the acoustic guitar”\n~Tommy Emmanuel",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "gareth-pearson",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2026-01-31",
+        "end": "2026-01-31"
+      },
+      "location": "",
+      "image": "gareth-pearson.jpg",
+      "image_width": "800",
+      "image_height": "800",
+      "stream": "",
+      "youtube": "TjL1yB_yrwA",
+      "youtube2": "vMADCwWxJq0",
+      "youtube3": "9podvQDFC_Y",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
+      "slug": "jason-dea-west--jan-14-2026",
+      "title": "Jason Dea West",
+      "performer": "Jason Dea West & the Siskiyou Crest",
+      "description": "JASON DEA WEST and THE SISKIYOU CREST with JULIA FRYLING. The JCA is so excited to host this fabulous band. Adv tickets highly recommended!",
+      "details": "[Jason Dea West](https://jasondeawest.com/) is an American troubadour who sings what he lives and lives what he sings. Wests’ poignant lyrics are brilliantly blended with vintage country, folk and blues, and timely sensibilities. From epic guitar and harmonica instrumentals to humorous song as story, Jason never strays very far from the anarchic punk-folk roots of his beloved former band Barefoot Surrender and his celebrated current band Intuitive Compass.\n\nJason’s younger days as a busker and freight train hopper fostered his keen sense of road-inspired American musical history. Jason toured extensively with guest musicians and bands throughout the lower 48 States and Alaska, appearing in barn dances and taverns, theaters and music festivals, the circus and vaudeville circuits, on radio and in film. He has shared the stage with the likes of Lost Dog Street Band, The Resonant Rogues, Larry And His Flask, Hot Damn Scandal countless others.\n\nDea West has worked with several renowned recording engineers, including Scot Hackwith, Dennis Dragon, Dan Emery and Steven Hart, producing several studio albums and a recent live “Magnolia Session” via Anti-Corp Records of Nashville, TN which placed #15 on the Billboard Bluegrass charts in October 2020.  In 2021 West began work on two new EPs, one “Lost Camp Dreams”, with Scott Hackwith at Cassette LA which is officially available December  30th of 2021, the second EP to be released later in ‘22 shall remain mysterious until further notice.\n\nJason belongs to the wild lands and what is left of the American countryside…\n\n“He’s The Troubadours Troubadour”\n~Paul Weir of Flam Chen ",
+      "note": "",
+      "series": "",
+      "price": "General Admission $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "jason-dea-west",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2026-01-14",
+        "end": "2026-01-14"
+      },
+      "location": "",
+      "image": "jason-dea-west.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "ckAZctOLGNs",
+      "youtube2": "5WWfy-cUpBo",
+      "youtube3": "3N9l5_48atc",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "parvati-ecstatic-kirtan--dec-10-2025",
       "title": "Parvati Ecstatic Kirtan",
       "performer": "Alyssa Narum, Laura Berryhill & Anton Mizerak",
@@ -111,8 +211,8 @@
       "details": "Info: (530) 356-7386",
       "note": "",
       "series": "",
-      "price": "$15 - $25 suggested donation",
-      "price_note": "Tickets available at the door only.",
+      "price": "$15 - $25 suggested donation.\nTickets available at the door only.",
+      "price_note": "",
       "ticket": "",
       "humanitix": "",
       "time":{
@@ -158,7 +258,7 @@
       "title": "Giving Tuesday Party & Community Open Mic",
       "performer": "",
       "description": "Come help support the arts in our community! All are welcome! Complimentary drinks and savories. Sign ups begin at 5. Everyone gets 5-10 minutes on the mic!",
-      "details": "Fund raising party for the JCA and open mic.\n\n[Make a Giving Tuesday Donation here!](https://www.zeffy.com/en-US/donation-form/support-jefferson-center-for-the-arts-this-giving-tuesday)\n\n*Hope to see you on Tuesday!*\nAnytime between 5-8.\nEnjoy a glass of wine and some local acts!\nEnter our raffle for lots of great prizes!\nWe will be gratefully be accepting donations for Giving Tuesday as well as membership upgrades.\nCome by the membership table, sign up and receive 2 free New Years tickets to our Magical Masquerade! as well as 2 for 1 passes to JCA Comedy Night on Friday Dec 5th!",
+      "details": "Fund raising party for the JCA and open mic.\n\n[Make a Giving Tuesday Donation here!](https://www.zeffy.com/en-US/donation-form/support-jefferson-center-for-the-arts-this-giving-tuesday)\n\n*Hope to see you on Tuesday!*\nAnytime between 5-8.\nEnjoy a glass of wine and some local acts!\nEnter our raffle for lots of great prizes!\nWe will be gratefully accepting donations for Giving Tuesday as well as membership upgrades.\nCome by the membership table, sign up and receive 2 free New Years tickets to our Magical Masquerade! as well as 2 for 1 passes to JCA Comedy Night on Friday Dec 5th!",
       "note": "",
       "series": "",
       "price": "FREE event",
@@ -261,8 +361,8 @@
       "details": "",
       "note": "",
       "series": "",
-      "price": "General Admission $10 at venue\nKids 12 and under FREE",
-      "price_note": "Tickets only available at the door",
+      "price": "General Admission $10\nKids 12 and under FREE\nTickets available at the door only.",
+      "price_note": "",
       "ticket": "",
       "humanitix": "",
       "time":{
@@ -393,7 +493,7 @@
       "details": "",
       "note": "",
       "series": "",
-      "price": "$10 - $20 suggested donation",
+      "price": "$10 - $20 suggested donation.\nTickets available at the door only.",
       "price_note": "Tickets available at the door only. No one turned away.",
       "ticket": "",
       "humanitix": "",
