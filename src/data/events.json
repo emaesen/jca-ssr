@@ -354,7 +354,7 @@
     {
       "category": "theater",
       "type": "performance",
-      "slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "slug": "msct-the-littlest-christmas-tree--dec-12-2025-6pm",
       "title": "The Littlest Christmas Tree",
       "performer": "Mt Shasta Childrens Theatre",
       "description": "Mt Shasta Childrens Theatre presents The Littlest Christmas Tree. With songs, jokes and other musical fun!",
@@ -366,7 +366,7 @@
       "ticket": "",
       "humanitix": "",
       "time":{
-        "start": "14:00",
+        "start": "18:00",
         "end": ""
       },
       "date":{
@@ -402,16 +402,8 @@
       }
     },
     {
-      "slug": "msct-the-littlest-christmas-tree--dec-12-2025-6pm",
-      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
-      "time":{
-        "start": "18:00",
-        "end": ""
-      }
-    },
-    {
       "slug": "msct-the-littlest-christmas-tree--dec-13-2025-2pm",
-      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-6pm",
       "time":{
         "start": "14:00",
         "end": ""
@@ -423,7 +415,7 @@
     },
     {
       "slug": "msct-the-littlest-christmas-tree--dec-13-2025-6pm",
-      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-2pm",
+      "reference_slug": "msct-the-littlest-christmas-tree--dec-12-2025-6pm",
       "time":{
         "start": "18:00",
         "end": ""

@@ -177,7 +177,7 @@ export default {
   data() {
     return {
       featuredEventEndDate: "2026-01-31",
-      accentedSectionEndDate: "2025-12-05",
+      accentedSectionEndDate: "2025-12-04",
     }
   },
   computed: {
