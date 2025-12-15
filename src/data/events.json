@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "alice-di-micele--feb-28-2026",
+      "title": "Alice Di Micele",
+      "performer": "Alice Di Micele",
+      "description": "The JCA is honored to welcome back the fabulous Americana/Folk artist and composer Alice Di Micele. Sliding Scale $20-$50. Space is Limited. Adv tix recommended.",
+      "details": "[Alice Di Micele](https://www.alicedimicele.com/) is an Americana/Folk artist, rooted in the natural world, using the earth as her primary source of inspiration, threading its essence into her music. Alice’s connection to nature has created a deep bond with her listeners over the decades, gifting people a safe space to express their emotions and heal in the process. Throughout her career, she has released a staggering 18 albums, including her latest works ‘Reverse the Flow’ (2025), ‘Every Seed We Plant’ (2022) and ‘Interpretations: Vol 1’ (2024) building a dedicated fanbase along the way.\n\nAlice Di Micele weaves a rich tapestry of sounds, from the early days of her folk-inspired songs, through to the sensual influences of jazz and soul, and the energetic pulse of funk and rock. Her kaleidoscopic soundscape is grounded by her warm, magnetic vocals. From rich deep tones to impressive high notes, and gorgeous Joni Mitchell-esque vibrato inflexions, Alice’s vocals stretch over five octaves, giving her voice both power and intimacy.",
+      "note": "",
+      "series": "",
+      "price": "General Admission Sliding Scale $20-$50 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "alice-dimicele",
+      "time":{
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2026-02-28",
+        "end": "2026-02-28"
+      },
+      "location": "",
+      "image": "alice-di-micele.jpg",
+      "image_width": "800",
+      "image_height": "533",
+      "stream": "",
+      "youtube": "5Yo9o2lIpVE",
+      "youtube2": "82Obo3DIkFw",
+      "youtube3": "B1Z4OQ7pvZk",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "gareth-pearson--jan-31-2026",
       "title": "Gareth Pearson",
       "performer": "Gareth Pearson",
