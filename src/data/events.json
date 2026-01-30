@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "rachel-sumner-and-traveling-light--mar-4-2026",
+      "title": "Rachel Sumner & Traveling Light",
+      "performer": "Rachel Sumner & Traveling Light",
+      "description": "2025 TELLURIDE BLUEGRASS BAND WINNERS! Come out for a night of smart, thoughtful music and excellent artistry!",
+      "details": "[Rachel Sumner & Traveling Light](https://rachelsumnermusic.com/) are a Boston-based string band making music that blends folk tradition with feminist storytelling, poetic detail, and just enough grit. At the center is Sumner’s songwriting—rooted in history, myth, and personal reckoning—carried by close harmonies, upright bass, acoustic guitar, and fiddle. The trio features Kat Wallace on fiddle and vocals and Mike Siegel on upright bass and vocals, whose playing brings both tension and tenderness to the sound.\n\nTheir sound is spare and intimate, sometimes eerie, sometimes sweet, always intentional. They call it Femericana—sharp-edged Americana with a splash of feminine rage.\n\nSumner has performed at the Library of Congress, where five of her original songs are now archived, and was a 2024 winner of the Kerrville New Folk competition. Her song “Radium Girls (Curie Eleison)” struck a nerve—streamed over 300,000 times and picked up by dancers, theater directors, and deep listeners who saw themselves in its story. It’s been tattooed on arms, sung in audition rooms, and carried into classrooms and protests. The kind of song people hold onto.\n\nRachel Sumner & Traveling Light has toured coast to coast, bringing their spellbinding live show to listening rooms, libraries, farms, and festivals across the country. They've appeared at Grey Fox Bluegrass Festival, Earl Scruggs Festival, IBMA, and legendary folk listening rooms like Caffé Lena and Club Passim, where their shows have become a staple of the Boston folk scene.\n\nTheir latest release, *The Traveling Light Sessions*, reimagines Sumner’s studio album *Heartless Things*—recorded live around one microphone with no overdubs. Just the way they play it.",
+      "note": "",
+      "series": "",
+      "price": "General Admission $25 at venue / $20 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "rachel-sumner-and-traveling-light",
+      "time":{
+        "start": "19:30",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2026-03-04",
+        "end": "2026-03-04"
+      },
+      "location": "",
+      "image": "rachel-sumner.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "8LH88fGZagc",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "alice-di-micele--feb-28-2026",
       "title": "Alice Di Micele",
       "performer": "Alice Di Micele",
