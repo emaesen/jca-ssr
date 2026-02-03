@@ -102,6 +102,82 @@
       }
     },
     {
+      "category": "comedy",
+      "type": "performance",
+      "slug": "mt-shasta-comedy-festival--mar-6-2026",
+      "title": "Mt Shasta Comedy Festival - day 1",
+      "performer": "",
+      "description": "Three days of world class comedy in beautiful Mount Shasta, California!",
+      "details": "![festival schedule](jca-comedy-festival-mar-2026-schedule.jpg) #Friday# 6:30\nHeadliner: Rodney Norman\nFeature: Quinn Fitzgerald, Denise Vasquez & Clint Hudson\nHost: Nick Meier\n\n8:30\nHeadliner: Josh Means\nFeature: Kylie Doesitall, Steph Tuttle, Jamar Pitts & Andrew Helfrich\nHost: Sam Mallett\n\n11:15\nHeadliner: Marc Maple\nFeature: Dakota Fry, Empowered Alex, Kaylene Black, Kaitlyn Johnson & Anthony Lloyd\nHost: Bijan Zaighami #Saturday# 2:00\nHeadliner: Dan McGowan\nFeature: David Rodriguez, Empowered Alex, Kaylene Black, Dakota Fry & Marc Maple\nHost: Anthony Lloyd\n\n4:00\n*Comedy Writing Class* with host Josh Means\n\n6:30\nHeadliner: Rodney Norman\nFeature: Nick Meier, Freeway Farrell, Amy Thompson, Kaitlyn Johnson & Denise Vasquez\nHost: Bijan Zaighami\n\n8:30\nHeadliner: Quinn Fitzgerald\nFeature: Jamar Pitts, Josh Means, Kylie Doesitall, Steph Tuttle & Amy Thompson\nHost: Sam Mallett\n\n11:15\n*Afterparty at Gold Room Saloon* - 903 S. Mt Shasta Blvd\n #Sunday# 4:00\nHeadliner: Jamar Pitts\nFeature: Clint Hudson, Dakota Fry, Nick Meier & Steph Tuttle\nHost: Anthony Lloyd\n\n6:30\nHeadliner: Nick Meier\nFeature: Freeway Farrell, Amy Thompson, Pete Nelson, Andrew Helfrich, Kaitlyn Johnson & Bijan Zaighami\nHost: Clint Hudson\n",
+      "note": "",
+      "series": "Mt Shasta Comedy Festival",
+      "price": "Three-day pass $60 adv online →\nSingle day $30 at venue / $25 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "mt-shasta-comedy-festival",
+      "time":{
+        "start": "18:30",
+        "end": ""
+      },
+      "date":{
+        "start": "2026-03-06",
+        "end": "2026-03-06"
+      },
+      "location": "",
+      "image": "jca-comedy-festival-mar-2026.jpg",
+      "image_width": "800",
+      "image_height": "400",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "mt-shasta-comedy-festival--mar-7-2026",
+      "reference_slug": "mt-shasta-comedy-festival--mar-6-2026",
+      "title": "Mt Shasta Comedy Festival - day 2",
+      "time":{
+        "start": "14:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2026-03-07",
+        "end": "2026-03-07"
+      }
+    },
+    {
+      "slug": "mt-shasta-comedy-festival--mar-8-2026",
+      "reference_slug": "mt-shasta-comedy-festival--mar-6-2026",
+      "title": "Mt Shasta Comedy Festival - day 3",
+      "time":{
+        "start": "16:00",
+        "end": ""
+      },
+      "date":{
+        "start": "2026-03-08",
+        "end": "2026-03-08"
+      }
+    },
+    {
       "category": "music",
       "type": "performance",
       "slug": "rachel-sumner-and-traveling-light--mar-4-2026",

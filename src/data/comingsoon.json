@@ -41,20 +41,6 @@
         "end": "2026-02-25"
       },
       "is_placeholder": false
-    },
-    {
-      "title": "Mt Shasta Comedy Festival",
-      "description": "",
-      "note": "",
-      "time":{
-        "start": "",
-        "end": ""
-      },
-      "date":{
-        "start": "2026-03-06",
-        "end": "2026-03-08"
-      },
-      "is_placeholder": false
     }
   ]
 }
