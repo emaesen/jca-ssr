@@ -24,5 +24,10 @@
   border-radius: 10px;
   margin-bottom:1em;
   font-size:90%;
+  background-color: #333333aa;
+  color: #fcf6edee;
+}
+.event-notice .deemph {
+  color: #fcf6eda1;
 }
 </style>
