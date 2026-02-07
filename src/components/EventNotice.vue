@@ -6,7 +6,7 @@
     We've been off to an AMAZING start in 2026 with two sold out shows Jason Dea West and Gareth Pearson.<br>
     We have a new outdoor fire pit and some yummy new offerings at the bar. Come see us!
     <br><span class="xbr"></span>
-    RESERVATIONS NOW AVAILABLE FOR ALL SHOWS
+    <span class="emph">RESERVATIONS AVAILABLE FOR ALL SHOWS</span>
     <br><span class="xbr"></span>
     If you know you want to come (but are hesitant to buy an advance ticket online) reserve a ticket for the adv price via email and pay at the venue.
     Given that shows might sell out, we want to make sure you can get yourself a ticket!
