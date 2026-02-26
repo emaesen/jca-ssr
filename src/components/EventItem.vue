@@ -103,6 +103,9 @@
             <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
               {{ event.stamp }}
             </div>
+            <div v-if="event.stamp_summary" class="event_stamp event_stamp_summary mini_stamp anima__zoom">
+              {{ event.stamp_summary }}
+            </div>
           </div>
 
           <div v-if="!isWeeklyRecurring" class="event_date">
@@ -566,7 +569,7 @@ export default {
   position: absolute;
   left: 30px;
   font-size: 200%;
-  background-color: #700;
+  background-color: rgba(119, 0, 0, 0.72);
   border: 2px solid #f00;
   border-radius: 10px;
   opacity: .85;
@@ -594,9 +597,12 @@ export default {
   left: 20px;
 }
 .details_container .event_stamp {
-  left: -70px;
+  left: -3em;
   font-size: 130%;
   max-width: 100%;
+}
+.details_container .event_stamp_summary {
+  top:2em;
 }
 .summary-container {
   .event_stamp,
