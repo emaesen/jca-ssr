@@ -107,7 +107,7 @@
       "slug": "deady-bears-benefit-for-bob-weir-s-furthur-foundation--mar-14-2026",
       "title": "Deady Bears - Grateful Dead Tribute Band",
       "performer": "Deady Bears",
-      "description": "Come on out and DAAAANCE!  DEADY BEARS brings an evening of Grateful Dead tunes to the JCA for One night only!",
+      "description": "Come on out and DAAAANCE!  DEADY BEARS brings an evening of Grateful Dead tunes to the JCA for One night only! A portion of proceeds to benefit Bob Weir’s Furthur Foundation.",
       "details": "The [Deady Bears](https://www.facebook.com/thedeadybears/) is a Mount Shasta, California-based Grateful Dead tribute band. Continuously evolving since 2016, they bring joy, peace and love and strive for the authentic sound, musicianship and energy to honor the Grateful Dead in every song they play. The Deady Bears are emotionally charged and deliver powerful renditions and bring their own unique spin and uplifting versions to the best of the Grateful Dead classics. A commitment to expressing the original spirit of the music, to the improvisational “jam” style and with tight vocal harmonies, brings an authentic vibe to every performance.\n\nThe Deady Bears are: Rusty Miller-vocals and guitar, Kevin Andras-vocals and guitar, Richard Lucas-vocals and bass, Christian Heilman-drums, and Richard Karst-vocals and keyboard.",
       "note": "Doors open at 6:30pm",
       "series": "",
@@ -212,6 +212,9 @@
       "date":{
         "start": "2026-03-07",
         "end": "2026-03-07"
+      },
+      "flag": {
+        "is_excluded": true
       }
     },
     {
@@ -225,6 +228,9 @@
       "date":{
         "start": "2026-03-08",
         "end": "2026-03-08"
+      },
+      "flag": {
+        "is_excluded": true
       }
     },
     {
