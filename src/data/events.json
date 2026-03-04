@@ -104,6 +104,56 @@
     {
       "category": "music",
       "type": "performance",
+      "slug": "starwater-and-sol--apr-25-2026",
+      "title": "Starwater & Sol",
+      "performer": "Starwater & Sol",
+      "description": "Starwater and Sol invite you to a beautiful evening of quantum soundscapes.",
+      "details": "[Starwater & Sol](https://starwaterandsol.com/)\nAn evening to gather together in Community as these two extraordinary artists/Sound magicians blend ancient tones, modern vibrations, and intuitive wisdom, forming a dynamic partnership that invites deep connection and inner alignment.\n\nUnited by a deep connection through sound, *Bodhi Starwater* and *Christopher Sol Parnell* create immersive, transformational journeys that transcend boundaries and take the listener into a deep and relaxing healing space. Their work weaves primordial acoustic instruments and ethereal soundscapes into a natural tapestry that bridges earth and sky.\n\nWith over 40 years of experience as a sound healer and musician, *Bodhi* blends the ancient wisdom of South American sound healing traditions with his extensive music training. His mastery of diverse instruments, combined with his intuitive artistry, creates deep, transformative resonance that reaches the soul.\n\nDrawing on over a decade of experience in sound healing, *Christopher* channels the raw power of the didgeridoo and the radiant tones of the hand pan to create transformative sonic journeys. His mastery of these instruments taps into the earth’s elemental energy, bridging the physical and spiritual realms.\n\nTogether they merge ancient tones, modern frequencies, and intuitive wisdom. Their music is not performance but invocation—a mythic remembering.",
+      "note": "",
+      "series": "",
+      "price": "General Admission Sliding Scale $28-$34 adv online →",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "starwater-and-sol",
+      "time":{
+        "start": "19:30",
+        "end": "21:00"
+      },
+      "date":{
+        "start": "2026-04-25",
+        "end": "2026-04-25"
+      },
+      "location": "",
+      "image": "starwater-and-sol.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=394379450/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/' seamless><a href='https://starwaterandsol.bandcamp.com/album/sonic-travelers'>Sonic Travelers by Starwater &amp; Sol</a></iframe>",
+      "youtube": "SXSfOIXuMoI",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "category": "music",
+      "type": "performance",
       "slug": "deady-bears-benefit-for-bob-weir-s-furthur-foundation--mar-14-2026",
       "title": "Deady Bears - Grateful Dead Tribute Band",
       "performer": "Deady Bears",
