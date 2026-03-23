@@ -151,6 +151,17 @@
                 Only when you either buy or reserve a ticket do we know whether or not the artist has an audience to play for!
               </span>
             </div>
+            <div class="reserve_ticket" v-if="event.flag && event.flag.has_tickets_at_venue_only">
+            <!-- alternative ticket reservation by email -->
+              Please reserve your tickets via email: 
+              <button-reserve-ticket
+                :event="event" 
+                class="button_reserve_ticket"
+              ></button-reserve-ticket>
+              <span class="reserve_ticket_note">
+                Likely to sell out! First come first serve!
+              </span>
+            </div>
 
             <!-- registration button -->
             <button-register

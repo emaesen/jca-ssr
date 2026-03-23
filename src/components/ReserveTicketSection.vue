@@ -2,7 +2,7 @@
   <div class="reservation_form">
 
     <h3>
-      <slot>Ticket reservation for<br/>‘{{event.title}}’<br/>on {{date}}</slot>
+      <slot>Ticket reservation for<br/>‘{{event.title}}’<br/>on {{date}} ({{time}})</slot>
     </h3>
 
     <div v-if="!isSubmitDone">
@@ -134,18 +134,29 @@ export default {
       if (this.event.date.end && this.event.date.end !== this.event.date.start) {
         text += " - " + this.formattedDate(this.event.date.end, opts);
       }
-      return text.replace(/,/g, "");
+      return text;
+    },
+    time() {
+      if (!this.event.time || !this.event.time.start) {
+        return "";
+      }
+      let opts = {ampm:true,short:true};
+      let text = this.formattedTime(this.event.time.start, opts);
+      if (this.event.time.end) {
+        text = this.formattedTimeRange(this.event.time.start, this.event.time.end, opts);
+      }
+      return text;
     },
     disableSubmit() {
       return !(this.name && this.nr_tickets) || this.isSubmitDone;
     },
     emailSubject() {
-      return "☛JCA Ticket Reservation☚ for '" + this.event.title + "' on " + this.date;
+      return "☛JCA Ticket Reservation☚ for '" + this.event.title + "' on " + this.date + " (" + this.time + ")";
     },
     emailMessage() {
       return "Hi Wendy,\n\n"
         + "☛I'd like to reserve tickets for\n'" + this.event.title 
-        + "' on " + this.date 
+        + "' on " + this.date  + " (" + this.time + ")"
         + "\nat Jefferson Center for the Arts.\n\n" 
         + "☛My name: \n" + this.name + "\n\n"
         + "☛Number of tickets:\n" + this.nr_tickets + "\n\n"

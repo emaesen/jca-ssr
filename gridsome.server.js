@@ -89,6 +89,7 @@ module.exports = function (api) {
             youtube3
             flag {
               show_registration_form
+              has_tickets_at_venue_only
               is_outdoors
               is_postponed
               is_canceled
