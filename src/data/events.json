@@ -83,6 +83,7 @@
       "youtube3": "",
       "flag": {
         "show_registration_form": false,
+        "has_tickets_at_venue_only": false,
         "is_outdoors": true,
         "is_postponed": false,
         "is_canceled": false,
@@ -99,6 +100,77 @@
         "expires": "",
         "text": "",
         "note": ""
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
+      "slug": "epic-the-musical--mar-27-2026",
+      "title": "EPIC the Musical",
+      "performer": "Mt Shasta Children’s Theatre",
+      "description": "JCA is proud to present EPIC the Musical, performed by Mt Shasta Children’s Theatre.",
+      "details": "Mt Shasta Children’s Theatre and Jefferson Center for the Arts is proud to present a collaborative theatrical experience which showcases 22 of the finest young actors and singers in Siskiyou County. Epic the musical —a retelling of Homers’ Odessey, was created and composed by Jorge Rivera -Herrans. It became an international internet sensation over the past several years inspiring artists to create animatics, live action portrayals of EPIC material, fan merch and a long list of die hard fans. Due to the subject matter, the EPIC experience is catered to teens and adults. Proceeds will benefit the composer and the MSCT Scholarship Fund. Reservations are HiGHLY recommended. Email Wendy at thejca@yahoo.com to reserve your seat. Suggested donation $15-$35 at the door. First come first serve served seating runtime 3 hours 10 minutes. It is indeed EPIC!",
+      "note": "",
+      "series": "",
+      "price": "$15 - $35 suggested donation.\nTickets available at the door only.",
+      "price_note": "Reservations highly recommended. Tickets are going fast!",
+      "ticket": "",
+      "humanitix": "",
+      "time":{
+        "start": "18:00",
+        "end": "21:30"
+      },
+      "date":{
+        "start": "2026-03-27",
+        "end": "2026-03-27"
+      },
+      "location": "",
+      "image": "epic-the-musical.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "has_tickets_at_venue_only": true,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "epic-the-musical--mar-28-2026",
+      "reference_slug": "epic-the-musical--mar-27-2026",
+      "date":{
+        "start": "2026-03-28",
+        "end": "2026-03-28"
+      }
+    },
+    {
+      "slug": "epic-the-musical--mar-29-2026",
+      "reference_slug": "epic-the-musical--mar-27-2026",
+      "time":{
+        "start": "14:00",
+        "end": "17:30"
+      },
+      "date":{
+        "start": "2026-03-29",
+        "end": "2026-03-29"
       }
     },
     {
