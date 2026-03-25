@@ -7,6 +7,9 @@
       <div v-if="event.flag && event.flag.is_postponed && !(event.flag.is_canceled) && !event.stamp" class="postponed_stamp mini_stamp anima__zoom">
         POSTPONED
       </div>
+      <div v-if="event.flag && event.flag.is_soldout && !(event.flag.is_canceled) && !event.stamp" class="soldout_stamp mini_stamp anima__zoom">
+        SOLD OUT
+      </div>
       <div v-if="event.stamp_summary || event.stamp" class="event_stamp mini_stamp anima__zoom">
         {{ event.stamp_summary || event.stamp }}
       </div>
@@ -100,6 +103,9 @@
             <div v-if="event.flag && event.flag.is_postponed &&!event.flag.is_canceled && !event.stamp" class="postponed_stamp anima__zoom">
               POSTPONED
             </div>
+            <div v-if="event.flag && event.flag.is_soldout &&!event.flag.is_canceled && !event.stamp" class="soldout_stamp anima__zoom">
+              SOLD OUT
+            </div>
             <div v-if="event.stamp" class="event_stamp mini_stamp anima__zoom">
               {{ event.stamp }}
             </div>
@@ -123,7 +129,7 @@
           </div>
 
           <div 
-            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed) && (event.humanitix || event.ticket || event.price || event.price_note)" class="event_price_wrapper"
+            v-if="!isPastEvent && !(event.flag && event.flag.is_canceled) && !(event.flag && event.flag.is_postponed)  && !(event.flag && event.flag.is_soldout) && (event.humanitix || event.ticket || event.price || event.price_note)" class="event_price_wrapper"
           >
             <div class="event_price" :class="{event_price_no_ticket:!event.humanitix}">
               <span v-html="eventPrice"/>
@@ -575,7 +581,8 @@ export default {
 }
 .event_stamp, 
 .canceled_stamp,
-.postponed_stamp {
+.postponed_stamp,
+.soldout_stamp {
   color: #f00;
   position: absolute;
   left: 30px;
@@ -589,6 +596,11 @@ export default {
   transform-origin: top right;
   animation-delay: 1.5s;
   z-index: 1;
+}
+.soldout_stamp {
+  color: rgb(0, 255, 64);
+  background-color: rgba(14, 119, 0, 0.72);
+  border: 2px solid rgb(0, 255, 0);
 }
 .mini_stamp {
   font-size: 150%;

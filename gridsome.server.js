@@ -94,6 +94,7 @@ module.exports = function (api) {
               is_postponed
               is_canceled
               is_free
+              is_soldout
             }
             stamp
             stamp_summary
