@@ -32,11 +32,13 @@
       "youtube3": "",
       "flag": {
         "show_registration_form": false,
+        "has_tickets_at_venue_only": false,
         "is_outdoors": false,
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": false,
-        "is_free": false
+        "is_free": false,
+        "is_soldout": true
       },
       "stamp": "",
       "stamp_summary": "",
@@ -139,7 +141,8 @@
         "is_postponed": false,
         "is_canceled": false,
         "is_excluded": false,
-        "is_free": false
+        "is_free": false,
+        "is_soldout": true
       },
       "stamp": "",
       "stamp_summary": "",
@@ -159,6 +162,10 @@
       "date":{
         "start": "2026-03-28",
         "end": "2026-03-28"
+      },
+      "flag": {
+        "has_tickets_at_venue_only": true,
+        "is_soldout": false
       }
     },
     {
@@ -171,6 +178,10 @@
       "date":{
         "start": "2026-03-29",
         "end": "2026-03-29"
+      },
+      "flag": {
+        "has_tickets_at_venue_only": true,
+        "is_soldout": false
       }
     },
     {
