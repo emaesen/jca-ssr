@@ -44,9 +44,9 @@
 
 
     <section v-animate-on-intersection>
-      <h2>Website design and performance</h2>
+      <h2>Website design</h2>
       <p>
-        For comments about –or issues with– this website, please contact <a :href="mailtoWebmaster">Edward Maesen</a>.
+        JCA website design, development and maintenance provided by <link-outbound to="https://mountshastasoundhealing.com/">Edward Maesen</link-outbound>.
       </p>
     </section>
 
