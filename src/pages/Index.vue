@@ -21,6 +21,11 @@
       <p class="accent center"
         v-if="showAccentedSection"
       >
+        <span class="emph">The JCA is currently on hiatus.</span>
+        <br><span class="xbr"></span>We are excited to be opening in a new location this winter.
+        <br><span class="xbr"></span>Please stay in touch!
+        <br><span class="xbr"></span>We’re very excited to welcome the community to our new and much improved venue.
+        <!--
         Tuesday December 2nd is <span class="emph">Giving Tuesday</span>. We hope to see you at the JCA anytime between 5-8 PM!
         <br><span class="xbr"></span>
         Enjoy a glass of wine and some local acts!<br>
@@ -33,6 +38,7 @@
             Make a Giving Tuesday Donation
           </link-outbound>
         </button>
+        -->
       </p>
     </section>
 
@@ -76,10 +82,15 @@
       >
         <carousel :nav-buttons="true" :autoplay-speed="5400" :speed="2700" fade pause-on-hover pause-on-dots-hover autoplay>
           <g-image class="slide" src="/img/jca-banner.png" alt="JCA banner"/>
+          <g-image class="slide" src="/img/carousel/jca-slide-1.jpg" alt="JCA slide 1"/>
           <g-image class="slide" src="/img/carousel/jca-music-1.jpg" alt="JCA music sample 1"/>
+          <g-image class="slide" src="/img/carousel/jca-slide-2.jpg" alt="JCA slide 2"/>
           <g-image class="slide" src="/img/carousel/jca-comedy-1.jpg" alt="JCA comedy sample"/>
+          <g-image class="slide" src="/img/carousel/jca-slide-3.jpg" alt="JCA slide 3"/>
           <g-image class="slide" src="/img/carousel/jca-music-2.jpg" alt="JCA music sample 2"/>
+          <g-image class="slide" src="/img/carousel/jca-slide-4.jpg" alt="JCA slide 4"/>
           <g-image class="slide" src="/img/carousel/jca-theater-1.jpg" alt="JCA theater sample"/>
+          <g-image class="slide" src="/img/carousel/jca-slide-5.jpg" alt="JCA slide 5"/>
           <g-image class="slide" src="/img/carousel/jca-music-3.jpg" alt="JCA music sample 3"/>
           <template slot="prevButton"><i class="icon-Backward action"></i></template>
           <template slot="nextButton"><i class="icon-Forward action"></i></template>
@@ -177,7 +188,7 @@ export default {
   data() {
     return {
       featuredEventEndDate: "2026-01-31",
-      accentedSectionEndDate: "2025-12-04",
+      accentedSectionEndDate: "2027-12-04",
     }
   },
   computed: {
