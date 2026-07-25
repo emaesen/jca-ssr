@@ -107,6 +107,78 @@
     {
       "category": "theater",
       "type": "performance",
+      "slug": "msct-footloose--aug-6-2026-7pm",
+      "title": "Footloose!",
+      "performer": "Mt Shasta Childrens Theatre",
+      "description": "Mt Shasta Childrens Theatre presents Footloose!, the 13th annual broadway camp production. LOCATION: RAD Learning Center, 954 N Old Stage Rd, Mount Shasta",
+      "details": "FOOTLOOSE! The Musical Youth Edition marks the 13th annual production of Broadway Camp in Mt Shasta. Kids ages 9-16 put together a full scale Broadway show in just four weeks. The outcome is always nothing short of spectacular!\n\nThree shows only Thursday August 6 7pm, Friday August 7 7pm and the final show on Sunday August 9th at 3pm.\n\nKids 12 and under are free.\n\nBring your own chair if you can as there are only 50 seats available at the venue.\n\nThank you for supporting the arts and the talented youth of Siskiyou county!",
+      "note": "",
+      "series": "Broadway Camp Jr",
+      "price": "General Admission $20 at venue / $15 adv online →\nKids 12 and under FREE",
+      "price_note": "",
+      "ticket": "",
+      "humanitix": "footloose-msct-s-12th-annual-broadway-camp-production",
+      "time":{
+        "start": "19:00",
+        "end": "20:30"
+      },
+      "date":{
+        "start": "2026-08-06",
+        "end": "2026-08-06"
+      },
+      "location": "MSCT Pop Up Theatre - RAD Learning Center, 954 N Old Stage Rd, Mount Shasta",
+      "image": "msct-footloose.jpg",
+      "image_width": "800",
+      "image_height": "600",
+      "stream": "",
+      "youtube": "",
+      "youtube2": "",
+      "youtube3": "",
+      "flag": {
+        "show_registration_form": false,
+        "has_tickets_at_venue_only": false,
+        "is_outdoors": false,
+        "is_postponed": false,
+        "is_canceled": false,
+        "is_excluded": false,
+        "is_free": false,
+        "is_soldout": false
+      },
+      "stamp": "",
+      "stamp_summary": "",
+      "sponsor_text": "",
+      "sponsor_image": "",
+      "reference_slug": "",
+      "all_access_pass": {
+        "link": "",
+        "expires": "",
+        "text": "",
+        "note": ""
+      }
+    },
+    {
+      "slug": "msct-footloose--aug-7-2025-7pm",
+      "reference_slug": "msct-footloose--aug-6-2026-7pm",
+      "date":{
+        "start": "2026-08-07",
+        "end": "2026-08-07"
+      }
+    },
+    {
+      "slug": "msct-footloose--aug-9-2025-3pm",
+      "reference_slug": "msct-footloose--aug-6-2026-7pm",
+      "time":{
+        "start": "15:00",
+        "end": "16:30"
+      },
+      "date":{
+        "start": "2026-08-09",
+        "end": "2026-08-09"
+      }
+    },
+    {
+      "category": "theater",
+      "type": "performance",
       "slug": "epic-the-musical--mar-27-2026",
       "title": "EPIC the Musical",
       "performer": "Mt Shasta Children’s Theatre",
